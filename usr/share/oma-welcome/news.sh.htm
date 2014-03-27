@@ -18,8 +18,22 @@ cat << EOF
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src="html5.js"></script>
+		<script src="js/html5shiv.js"></script>
+		<script type="text/javascript" src="js/FeedEk.js"></script>
+		<link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/moment-with-langs.min.js"></script>
+		<script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#divRssBlog').FeedEk({
+                FeedUrl: 'http://blog.openmandriva.org/en/feed/',
+                MaxCount: 5,
+                DescCharacterLimit: 200
+            });
+            
+		});
+
+		</script>
 	</head>
 <body>
 
@@ -28,16 +42,18 @@ cat << EOF
 		<ul class="container">
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
-			<li><a href="apps.sh.htm">$menuconfigure</a></li>
+			<li><a href="conf.sh.htm">$menuconfigure</a></li>
+			<li><a href="apps.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
 	</nav>
 <!-- Home -->
-	<div class="articles">
-	  <p class="titlePage"> $descapresentation</p>
-	  
-				
+	<div class="wrapper">
+		 <article class="articles">
+			<h1 class="titlePage">News</h1>
+			<div id="divRssBlog"></div>
+		 </article>
 	</div>
 	
 	

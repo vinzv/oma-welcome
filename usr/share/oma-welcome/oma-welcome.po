@@ -28,7 +28,7 @@ msgstr ""
 
 #: translation:12
 msgid "Configure"
-msgstr ""
+msgstr "Configure"
 
 #: translation:13
 msgid "Contribute"
@@ -39,7 +39,7 @@ msgid "About"
 msgstr ""
 
 #: translation:15
-msgid "OpenMandriva Lx is an exciting free Desktop Operating System that aims to cater to and interest first time and advanced users alike. It has the breadth and depth of an advanced system but is designed to be simple and straightforward in use.Lx comes from a 100% community-driven association that believes in the values of free software & collaboration and whose founding values are development, equality, co-operation, openness, freedom, group achievement, independence, and solidarity."
+msgid "Welcome OpenMandriva, made ​​this example to show how we let the tool. On this screen, some information about the Association, require content "
 msgstr "OpenMandriva Lx is an exciting free Desktop Operating System that aims to cater to and interest first time and advanced users alike. It has the breadth and depth of an advanced system but is designed to be simple and straightforward in use.Lx comes from a 100% community-driven association that believes in the values of free software & collaboration and whose founding values are development, equality, co-operation, openness, freedom, group achievement, independence, and solidarity."
 
 #: translation:17
@@ -52,7 +52,7 @@ msgstr ""
 
 #: translation:20
 msgid "Configure"
-msgstr ""
+msgstr "Configure"
 
 #: translation:21
 msgid "Graphics"

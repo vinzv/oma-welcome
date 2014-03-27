@@ -40,19 +40,14 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$cabecalho03 $(lsb_release -d | cut -d":" -f2)</p>
+		<p class="titlePage">$cabecalho01 $(lsb_release -d | cut -d":" -f2)
+		$cabecalho02 </p>
 		<br/>
-		<div id='cssmenu'>
-		    <ul>
-		     <li><a href='apps.sh.htm'><span>$menuappsoffice</span></a></li>
-			 <li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
-			 <li><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
-			 <li><a href='apps-utilitarios.sh.htm'><span>$menuappsutility</span></a></li>
-			 <li><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
-		    </ul>
-		    <br/>
-		</div>
 		<ul id="item-list">
+			<li>
+				<a class="title" href=./apps/abrir-drakconnect.run><img src="/usr/share/icons/networking_configuration_section.png" /></a>
+				<p><span><a class="title" href="./apps/abrir-drakconnect.run">$titleconfiglan </a></span><br/> $descconfiglan </p>
+			</li>
 			<li>
 				<a href=./apps/abrir-drakrpm-edit-media.run><img src="/usr/share/icons/packaging_section.png" /></a>
 				<p><span><a class="title" href=./apps/abrir-drakrpm-edit-media.run>$titleeditmedia </a></span><br/>
@@ -74,17 +69,13 @@ cat << EOF
 				$descconfigboot</p>
 			</li>
 			<li>
-				<a class="title" href=./apps/abrir-drakconnect.run><img src="/usr/share/icons/networking_configuration_section.png" /></a>
-				<p><span><a class="title" href="./apps/abrir-drakconnect.run">$titleconfiglan </a></span><br/> $descconfiglan </p>
-			</li>
-			<li>
 				<a class="title" href=./apps/abrir-drakconf.run><img src="/usr/share/icons/drakconf.png" /></a>
 				<p><span><a class="title" href=./apps/abrir-drakconf.run>$titleomcc</a></span><br/>$descomcc</p>
 			</li>
 		</ul>
 	</div> 
 	<div id="rodape">
-	<a href="community.sh.htm" class="button">$next</a>
+	<a href="apps.sh.htm" class="button">$next</a>
 	</div>
 </body>
 EOF

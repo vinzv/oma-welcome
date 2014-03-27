@@ -2,7 +2,8 @@
 source translation
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=oma-welcome 
+export TEXTDOMAIN=oma-welcome
+
 cat << EOF
 <html>
 <!--
@@ -20,8 +21,14 @@ cat << EOF
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src="html5.js"></script>
+		<script src="js/html5shiv.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
+		<style>
+		@font-face {
+		  font-family: "GoodTimes";
+		  src: url(css/font/good-times.ttf) format("truetype");
+		}
+		</style>
 	</head>
 <body>
 <!-- Nav -->
@@ -29,21 +36,30 @@ cat << EOF
 		<ul class="container">
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
-			<li><a href="apps.sh.htm">$menuconfigure</a></li>
+			<li><a href="conf.sh.htm">$menuconfigure</a></li>
+			<li><a href="apps.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
 	</nav>
 <!-- Home -->
-<div class="logo">
-    <img src="images/oma-logo.png"/>
-</div>
 	<div class="wrapper">
+		<div class="logo">
+			<img src="images/oma-2014.png"/>
+		</div>
 		 <article class="articles">
-			<h1 class="titlePage"> $hi, <strong> $USER</strong></h1>
-			<p class="titlePage">$text</p>				
-			</div>			
-		</article>
+			<h1 class="titlePage"> $title </h1>
+			<p>$hi, <span class="username"> $USER</span>, </p>
+			<p>$text</p>
+		 </article>
+		 <br/><br/>
+		 <article class="articles">
+			<p>
+				$you_are_using <span class="bold">$(lsb_release -d | cut -d":" -f2)</span> codename$(lsb_release -c | cut -d":" -f2)
+				$with_kernel $(uname -r) 
+				$arch $(uname -i).
+			</p>
+		 </article>
 	</div>
 	<div id="rodape">
 	  <a href="news.sh.htm" class="button">$next</a>
