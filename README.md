@@ -1,4 +1,93 @@
 oma-welcome
 ===========
 
-OpenMandriva Lx Welcome Page
+This is the om-welcome - Welcome OpenMandriva
+
+designed to introduce new users to the OpenMandriva distro and
+also integrate common tasks for post-installation distro
+
+Text, images and applications are not official this app will be added as soon as the
+team workshop OpenMandriva Association amend and approve.
+
+requires the following dependencies:
+
+- python-qt4-webkit
+- web.py http://webpy.org/
+- bigbashview https://github.com/thor27/bigbashview/
+
+bigbashview is integrated with scripts om-welcome
+
+##### Installing Dependencies
+to install python-qt4-webkit, we can use urpmi:
+```sh
+urpmi python-qt4-webkit
+```
+
+##### Installing web.py
+* download the latest web.py build from GitHub (https://github.com/webpy/webpy)
+* setup web.py with following command as root:
+```sh
+python setup.py install
+``` 
+
+##### Directory Structures
+your files are:
+```
+bigbashview.py
+client.py
+server.py
+bbv/
+    globals.py
+    globals.pyc
+    __init__.py
+    __init__.pyc
+    main.py
+    main.pyc
+    server/
+    ui/
+    img/
+```
+
+if you package it separately om-welcome requires changes to the running script.
+
+##### Running OMA-Welcome
+you can run the oma-welcome for debugging, with following command:
+```sh
+python bigbashview.py -s 960x600 -c index.sh.htm
+```
+
+#####translations
+* inside the folder ```usr/share/oma-welcome/ ```
+* there is a file called translation, all texts om-welcome are it is from it that will 
+* generate the translation files
+* format it is as follows
+```variavel=$"text that will be shown in the om-welcome"```
+
+with the command
+```sh
+bash --dump-po-strings translation > oma-welcome.pot
+```
+
+oma-welcome.pot is the translation file.
+
+the bigbashview uses html, css and js to create the layout, if you want to make any changes or improvements
+just edit the files with the format. sh.htm, and style.css that is inside the css folder.
+files with the. scripts are run that will be read as if they were running through the terminal.
+
+to execute a command within the html files (sh.htm) using the following command:
+```sh
+$(command to be executed)
+```
+
+example: 
+```
+     $(lsb_release -d | cut -d":" -f2) #shows the name of the Linux distribution
+```      
+ 
+#####Some known issues
+ 
+* Asking password every transaction as root
+* if run as root (su -c "./om-welcome") the konversation not run 100%
+* kdialog messages can not translate them
+* checkbox still does not work, under development
+* the icon om-welcome.desktop was created to run om-welcome in ~/.config/autostart/ or other local, it exec to /usr/bin/om-welcome
