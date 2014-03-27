@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "steam*"; then
+	  kdialog --title $"OpenMandriva"  --msgbox  $" Steam are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi steam; 
+		if rpm -qa |grep "steam*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Steam successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $"Steam not installed.";
+		fi
+	    else
+		gurpmi steam;
+		if rpm -qa |grep "steam*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Steam successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $"Steam not installed.";
+		fi
+	    fi
+    fi

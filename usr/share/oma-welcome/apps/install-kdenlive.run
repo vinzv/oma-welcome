@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which kdenlive; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi kdenlive; 
+		if which kdenlive; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive not installed.";
+		fi
+	    else
+		gurpmi kdenlive;
+		if which kdenlive; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive not installed.";
+		fi
+	    fi
+    fi

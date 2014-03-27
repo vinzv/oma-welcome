@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "tuxpaint*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi tuxpaint; 
+		if which tuxpaint; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint not installed.";
+		fi
+	    else
+		gurpmi tuxpaint;
+		if which tuxpaint; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint not installed.";
+		fi
+	    fi
+    fi

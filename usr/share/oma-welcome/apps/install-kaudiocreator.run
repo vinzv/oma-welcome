@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which kaudiocreator; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi kaudiocreator; 
+		if which kaudiocreator; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator not installed.";
+		fi
+	    else
+		gurpmi kaudiocreator;
+		if which kaudiocreator; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator not installed.";
+		fi
+	    fi
+    fi

@@ -1,0 +1,2 @@
+#!/bin/bash
+ mv ~/.config/autostart/om-welcome.desktop ~/DESENVOLVIMENTO/bigbashview-omawelcome/share/oma-welcome/apps/

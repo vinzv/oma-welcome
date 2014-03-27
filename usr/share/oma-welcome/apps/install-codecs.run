@@ -1,0 +1,20 @@
+#!/bin/bash
+if rpm -qa |grep "faad2_2*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Codecs are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi libfaad2_2 gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad gstreamer0.10-plugins-good libdvdcss; 
+		if rpm -qa |grep "faad2_2*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs not installed.";
+		fi
+	    else
+		gurpmi lib64faad2_2 gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad gstreamer0.10-plugins-good lib64dvdcss2; 
+		if rpm -qa |grep "faad2_2*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs not installed.";
+		fi
+	    fi
+    fi

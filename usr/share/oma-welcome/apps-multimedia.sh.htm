@@ -1,0 +1,95 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>Welcome to OpenMandriva</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="html5.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+<body>
+EOF
+cat << EOF
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="news.sh.htm">$menunews</a></li>
+			<li><a href="apps.sh.htm">$menuconfigure</a></li>
+			<li><a href="community.sh.htm">$menucontribute</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
+		</ul>
+	</nav>
+
+<!-- Home -->
+	<div class="wrapper">			
+		<div id="container">	
+		<h1 class="titlePage">$cabecalho03 $(lsb_release -d | cut -d":" -f2) $cabecalho04</h1>
+		<br/>
+		<div id='cssmenu'>
+		    <ul>
+			 <li><a href='apps.sh.htm'><span>$menuappsconfig</span></a></li>
+			 <li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
+			 <li class='active'><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
+			 <li><a href='apps-utilitarios.sh.htm'><span>$menuappsutility</span></a></li>
+			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li>
+		    </ul>
+		    <br/>
+		</div>
+		<ul id="item-list">
+			<li>
+				<a href=./apps/install-codecs.run><img src="images/codec.png" /></a>
+				<p><span><a class="title" href=./apps/install-codecs.run>$titlecodecs</a></span><br/>$desccodecs</p>
+			</li>
+			<li>
+				<a class="title" href=./apps/install-audacity.run><img src="/usr/share/icons/rosa/apps/72/audacity.svg" />
+				<p><span><a class="title" href=./apps/install-audacity.run>$titleaudacity</a></span><br/>$descaudacity</p>
+			</li>
+			<li>
+				<a class="title" href=./apps/install-kdenlive.run><img src="/usr/share/icons/rosa/apps/128/kdenlive.svg" /></a>
+				<p><span><a class="title" href=./apps/install-kdenlive.run>$titlekdenlive</a></span><br/>$desckdenlive</span></p>
+			</li>
+			
+			<li>
+				<a class="title" href=./apps/install-devede.run><img src="images/devede.png" /></a>
+				<p><span><a class="title" href="./apps/install-devede.run">$titledevede </a></span><br/>$descdevede</p>
+			</li>
+			<li>
+				<a class="title" href=./apps/install-adobe-flash.run><img src="images/flash.png" />
+				<p><span><a class="title" href=./apps/install-adobe-flash.run>$titleflash</a></span><br/>$descflash</p>
+			</li>
+			<li>
+				<a class="title" href=./apps/install-kaudiocreator.run><img src="images/kaudiocreator.png" />
+				<p><span><a class="title" href=./apps/install-kaudiocreator.run>$titlekaudiocreator</a></span>$desckaudiocreator<br/></p>
+			</li>	
+			<li>
+				<a class="title" href=./apps/install-xvidcap.run><img src="images/xvidcap.png" />
+				<p><span><a class="title" href=./apps/install-xvidcap.run>$titlexvidcap</a></span><br/>$descxvidcap<br/><br/><br/></p>
+			</li>
+			<li>
+				<a class="title" href="./apps/abrir-rpmdrake.run"><img src="images/rpmdrake.png" />
+				<p><span><a class="title" href="./apps/abrir-rpmdrake.run">$titlerpmdrake</a></span><br/>$descrpmdrake</p>
+			</li>
+		</ul>
+	</div> 
+	<div id="rodape">
+	<a href="community.sh.htm" class="button">$next</a>
+	</div>
+</body>
+EOF
+</html>

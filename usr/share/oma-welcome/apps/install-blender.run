@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if rpm -qa |grep "blender*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Blender are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi blender; 
+		if which blender; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Blender not installed.";
+		fi
+	    else
+		gurpmi blender;
+		if which blender; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Blender not installed.";
+		fi
+	    fi
+    fi

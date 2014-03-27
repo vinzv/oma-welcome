@@ -1,0 +1,18 @@
+#!/bin/bash
+
+	    if [ "$(uname -m)" = "i686" ]; then
+		 
+		kdesu gurpmi java-1.7.0-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so /usr/lib/mozilla/plugins/javaplugin_oji.so
+		if rpm -qa |grep "java-1.7.0-openjdk*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK not installed.";
+		fi
+	    else
+		kdesu gurpmi java-1.7.0-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so.x86_64 /usr/lib64/mozilla/plugins/javaplugin_oji.so
+		if rpm -qa |grep "java-1.7.0-openjdk*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK not installed.";
+		fi
+	    fi
