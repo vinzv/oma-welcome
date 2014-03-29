@@ -35,67 +35,65 @@ cat << EOF
 		</ul>
 	</nav>
 <!-- Home -->
-	<div class="articles">
-	 	<br/>
-		<h1 class="titleh1"> $titlecommunity </h1>
-		<p class="titlePage"> $desccommunity </p> 
+	<div class="wrapper">			
+		<div id="container">
+				<p class="titlePage"> $desccommunity </p>
+				<ul id="item-list">
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/knewsticker.png" /></a>
+						<p><span><a class="title" href=./apps/open-forum.run>$titleforum </a></span><br/>
+						$descforum<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/preferences-desktop-locale.png" /></a>
+						<p><span><a class="title" href=./apps/open-wiki-translation.run>$titletranslation </a></span><br/>
+						$desctranslation<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
+						<p><span><a class="title" href=./apps/open-wiki-cooker.run>$titlecooker </a></span><br/>
+						$desccooker<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/preferences-desktop-color.png" /></a>
+						<p><span><a class="title" href=./apps/open-wiki-artwork.run>$titleartwork </a></span><br/>
+						$descartwork<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/internet-mail.png" /></a>
+						<p><span><a class="title" href=./apps/open-mainlisting.run>$titlemainlisting </a></span><br/>
+						$descmainlisting<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/kbugbuster.png" /></a>
+						<p><span><a class="title" href=./apps/open-bugzilla.run>$titleqa </a></span><br/>
+						$descqa<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/konversation.png" /></a>
+						<p><span><a class="title" href=./apps/open-konversation.run>$titleirc </a></span><br/>
+						$descirc<br/></p>
+					</li>
+					<li>
+						<a href=./apps/open-wiki-cooker.run><img src="images/Chwido200.png" /></a>
+						<p><span><a class="title" href=./apps/open-donation.run>$titledonation </a></span><br/>
+						$descdonation<br/></p>
+					</li>
+					
+					
+				</ul>
+		</div> 
+	</div> 	
+		
+		
+		<div class="nostartauto">
+		<span>
+		<form action="nostart.run" method="post">
+		<input id="check" type="checkbox" name="start" value="yes">$nostarwithoma </spam>
+		<div>
+		<div id="rodape">
+		<a href="execute close$" class="button">$endapp</a>
 		</div>
-		<ul id="item-list">
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-forum.run>$titleforum </a></span><br/>
-				$descforum<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-wiki-translation.run>$titletranslation </a></span><br/>
-				$desctranslation<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-wiki-cooker.run>$titlecooker </a></span><br/>
-				$desccooker<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-wiki-artwork.run>$titleartwork </a></span><br/>
-				$descartwork<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-mainlisting.run>$titlemainlisting </a></span><br/>
-				$descmainlisting<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-bugzilla.run>$titleqa </a></span><br/>
-				$descqa<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-konversation.run>$titleirc </a></span><br/>
-				$descirc<br/></p>
-			</li>
-			<li>
-				<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" /></a>
-				<p><span><a class="title" href=./apps/open-donation.run>$titledonation </a></span><br/>
-				$descdonation<br/></p>
-			</li>
-			
-			
-		</ul>
-	</div>
-				
-	
-	
-	<div class="nostartauto">
-	<span>
-	<form action="nostart.run" method="post">
-	<input id="check" type="checkbox" name="start" value="yes">$nostarwithoma </spam>
-	<div>
-	<div id="rodape">
-	<a href="execute close$" class="button">$endapp</a>
-	</div>
 </body>
 	
 </html>

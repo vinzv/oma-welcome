@@ -65,7 +65,7 @@ a:hover {
 				color:#5555ff;
 			}
 			.titlePage{
-			    font-size: 20px;
+			    font-size: 16px;
 			    font-family: "GoodTimes", "Ubuntu", "Droid Sans", Sans;
 			    color: #003399;
 			    margin-bottom: 10px;
@@ -489,4 +489,9 @@ a:hover {
 .divRssBlog
 {
 	margin-left:60px;
+}
+
+.blue 
+{
+	color: #003399;
 }
