@@ -81,9 +81,9 @@ descskype=$"This package does not contain any program files as the Skype license
 
 
 #translation of community.sh.htm
-titlecommunity=$"How coloboare with OpenMandriva Linux"
-desccommunity=$"So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways. By: "
-titleforum=$"Forum"
+titlecommunity=$"How coloborate with OpenMandriva Linux"
+desccommunity=$"So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways by: "
+titleforum=$"Forums"
 descforum=$"becoming a member of our forums, answering questions and helping others on the forums"
 titletranslation=$"Translating"
 desctranslation=$"translating blog posts, wiki pages, aplications and stuff"
@@ -95,7 +95,7 @@ titlemainlisting=$"Mainlisting"
 descmainlisting=$"Join in the discussion list of OpenMandriva"
 titleqa=$"Report Bug"
 descqa=$"Search, report and solved in openmandriva"
-titleirc=$"Join in the irc channel"
+titleirc=$"Join in the IRC channel"
 descirc=$"The openmandriva-cooker is main irc channel of OpenMandriva Linux, but other teams have your channel "
 titledonation=$"Donation"
 descdonation=$"If you like OpenMandriva and appreciate our work, you can give us your love and care by donating your time or money. "
@@ -108,9 +108,9 @@ noinstalled=$"not installed"
 
 #About.sh.htm
 about=$"About this program"
-license=$"this software is under  GNU General Public License version 2 (GPLv2)"
-dependency=$" This software use, python-qt4-webkit, web.py, bigbashview "
-bugs=$"Bugs, suggestions and improvimments send to issues.openmandriva.org"
+license=$"this software is under licensed GNU General Public License version 2 (GPLv2)."
+dependency=$" This software use python-qt4-webkit, web.py, and bigbashview."
+bugs=$"Bugs, suggestions and improvements, please send to issues.openmandriva.org"
 
 #Additional
 you_are_using=$"You are using"
