@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "wesnoth*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi wesnoth; 
+		if rpm -qa |grep "wesnoth*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth not installed.";
+		fi
+	    else
+		gurpmi wesnoth; 
+		if rpm -qa |grep "wesnoth*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth not installed.";
+		fi
+	    fi
+    fi

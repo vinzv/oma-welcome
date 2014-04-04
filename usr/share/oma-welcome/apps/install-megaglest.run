@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "megaglest*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" megaglest are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi megaglest; 
+		if rpm -qa |grep "megaglest*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" megaglest successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" megaglest not installed.";
+		fi
+	    else
+		gurpmi megaglest; 
+		if rpm -qa |grep "megaglest*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" megaglest successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" megaglest not installed.";
+		fi
+	    fi
+    fi
