@@ -118,3 +118,6 @@ with_kernel=$"with kernel"
 arch=$"architecture"
 menuapps=$"Application"
 menuappsgaming=$"Gaming"
+
+titlekvpnc=$"KVPNc"
+descskvpnc=$"KDE frontend to various VPN clients"
