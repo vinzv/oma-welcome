@@ -44,7 +44,7 @@ a:hover {
 			box-shadow: inset 0px 0px 20px #ccc;
 			overflow: hidden;
 			font-size: 12px;
-			min-height: 150px;
+			min-height: 120px;
 		}
 				
 		#item-list li img {
@@ -494,4 +494,9 @@ a:hover {
 .blue 
 {
 	color: #003399;
+}
+
+img.alignleft 
+{
+	float: left;
 }

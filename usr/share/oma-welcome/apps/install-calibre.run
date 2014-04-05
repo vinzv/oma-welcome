@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "calibre*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" calibre are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi calibre; 
+		if rpm -qa |grep "calibre*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" calibre successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" calibre not installed.";
+		fi
+	    else
+		gurpmi calibre; 
+		if rpm -qa |grep "calibre*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" calibre successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" calibre not installed.";
+		fi
+	    fi
+    fi

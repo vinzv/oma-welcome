@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "gnucash*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" gnucash are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi gnucash; 
+		if rpm -qa |grep "gnucash*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash not installed.";
+		fi
+	    else
+		gurpmi gnucash; 
+		if rpm -qa |grep "gnucash*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash not installed.";
+		fi
+	    fi
+    fi
