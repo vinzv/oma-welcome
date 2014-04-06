@@ -1,6 +1,13 @@
 #!/bin/bash
 source translation
 #Translation
+
+if [ $autostart -eq 0 ]; then
+	startenabled=$" checked='1' ";
+else
+	startenabled=$" ";
+fi
+
 cat << EOF
 <html>
 <!--
@@ -88,8 +95,7 @@ cat << EOF
 		
 		<div class="nostartauto">
 		<span>
-		<form action="nostart.run" method="post">
-		<input id="check" type="checkbox" name="start" value="yes">$nostarwithoma </spam>
+		<input id="check" type="checkbox" name="start"  >$nostarwithoma $startenabled</spam>
 		<div>
 		<div id="rodape">
 		<a href="execute close$" class="button">$endapp</a>

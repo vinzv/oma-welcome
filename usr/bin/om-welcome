@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.oma-welcome
 
 #Configure and install dependencies for OpenMandriva 2014
 #this file is use for development of om-welcome
@@ -9,6 +10,33 @@ if rpm -qa |grep "python-qt4*"; then
       if [ -e "/usr/lib/python2.7/site-packages/web.py-0.37-py2.7.egg-info" ]; then
 	  clear;
 	  
+	  #read if autostart?
+	  if [ $autostart -eq 1 ]; then
+		
+		if [ -e "~/.config/autostart/oma-welcome.desktop" ]; then
+			clear;
+		else		
+			#write the shortcut file if true
+			echo "[Desktop Entry]
+			GenericName=Welcome to OpenMandriva
+			Name=om-welcome
+			Exec=/usr/bin/om-welcome
+			X-KDE-StartupNotify=true
+			X-KDE-HasTempFileOption=true
+			Icon=openmandriva
+			Type=Application
+			Terminal=false
+			Categories=Qt;KDE;
+			" > ~/.config/autostart/oma-welcome.desktop;
+		fi
+		
+	  else
+		
+		#remove the shortcut file
+		rm -f ~/.config/autostart/oma-welcome.desktop;
+	  
+	  fi
+
 	  #enter in the local files, require the changes for the official installation local
 	  cd ../share/oma-welcome/
 	  python bigbashview.py -s 1024x600 -c index.sh.htm 2> /dev/null;
