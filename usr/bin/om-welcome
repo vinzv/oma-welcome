@@ -38,15 +38,12 @@ if rpm -qa |grep "python-qt4*"; then
 	  fi
 
 	  #enter in the local files, require the changes for the official installation local
-	  cd ../share/oma-welcome/
-	  python bigbashview.py -s 1024x600 -c index.sh.htm 2> /dev/null;
+	  python /usr/share/oma-welcome/bigbashview.py -s 1024x600 -c /usr/share/oma-welcome/index.sh.htm 2> /dev/null;
       else
 	  #install web.py for the local use
 	  kdesu easy_install web.py
 	  urpmi python-qt4;       
-	  cd ..
-	  cd share/oma-welcome/
-	  python bigbashview.py -s 1024x600 -c index.sh.htm 2> /dev/null;
+	  python /usr/share/oma-welcome/bigbashview.py -s 1024x600 -c /usr/share/oma-welcome/index.sh.htm 2> /dev/null;
       fi
 fi
 
