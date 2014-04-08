@@ -1,7 +1,7 @@
 om-welcome
 ===========
 
-This is the om-welcome - Welcome OpenMandriva
+This is the om-welcome - Welcome to OpenMandriva
 
 designed to introduce new users to the OpenMandriva distro and
 also integrate common tasks for post-installation distro
@@ -50,7 +50,7 @@ bbv/
 
 if you package it separately om-welcome requires changes to the running script.
 
-##### Running OMA-Welcome
+##### Running OM-Welcome
 you can run the om-welcome for debugging, with following command:
 ```sh
 python bigbashview.py -s 960x600 -c index.sh.htm
