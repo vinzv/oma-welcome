@@ -1,12 +1,8 @@
 #!/bin/bash
 source /usr/share/oma-welcome/translation
-#Translation
+source ~/.oma-welcome
 
-if [ $autostart -eq 0 ]; then
-	startenabled=$" checked='1' ";
-else
-	startenabled=$" ";
-fi
+#Translation
 
 cat << EOF
 <html>
@@ -95,7 +91,23 @@ cat << EOF
 		
 		<div class="nostartauto">
 		<span>
-		<input id="check" type="checkbox" name="start"  >$nostarwithoma $startenabled</spam>
+EOF
+
+if [ $autostart -eq 0 ]; then
+
+cat << EOF
+	<input id="check" type="checkbox" name="start" checked="1" >$nostarwithoma</span>	
+EOF
+	
+else
+
+cat << EOF
+	<input id="check" type="checkbox" name="start" s>$nostarwithoma</span>	
+EOF
+
+fi
+
+cat << EOF
 		<div>
 		<div id="rodape">
 		<a href="execute close$" class="button">$endapp</a>
@@ -103,3 +115,4 @@ cat << EOF
 </body>
 	
 </html>
+EOF
