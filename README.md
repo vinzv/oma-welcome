@@ -1,4 +1,4 @@
-oma-welcome
+om-welcome
 ===========
 
 This is the om-welcome - Welcome OpenMandriva
@@ -51,13 +51,13 @@ bbv/
 if you package it separately om-welcome requires changes to the running script.
 
 ##### Running OMA-Welcome
-you can run the oma-welcome for debugging, with following command:
+you can run the om-welcome for debugging, with following command:
 ```sh
 python bigbashview.py -s 960x600 -c index.sh.htm
 ```
 
 #####translations
-* inside the folder ```usr/share/oma-welcome/ ```
+* inside the folder ```usr/share/om-welcome/ ```
 * there is a file called translation, all texts om-welcome are it is from it that will 
 * generate the translation files
 * format it is as follows
@@ -65,10 +65,10 @@ python bigbashview.py -s 960x600 -c index.sh.htm
 
 with the command
 ```sh
-bash --dump-po-strings translation > oma-welcome.pot
+bash --dump-po-strings translation > om-welcome.pot
 ```
 
-oma-welcome.pot is the translation file.
+om-welcome.pot is the translation file.
 
 the bigbashview uses html, css and js to create the layout, if you want to make any changes or improvements
 just edit the files with the format. sh.htm, and style.css that is inside the css folder.
