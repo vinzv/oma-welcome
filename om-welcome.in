@@ -24,7 +24,7 @@ if [ $autostart -eq 1 ]; then
 		X-KDE-HasTempFileOption=true
 		Icon=openmandriva
 		Type=Application
-		Terminal=false
+		Terminal=true
 		Categories=Qt;KDE;
 		" > ~/.config/autostart/oma-welcome.desktop;
 	fi

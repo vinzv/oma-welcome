@@ -6,5 +6,5 @@ X-KDE-StartupNotify=true
 X-KDE-HasTempFileOption=true
 Icon=openmandriva
 Type=Application
-Terminal=false
+Terminal=true
 Categories=Qt;KDE;

@@ -4,14 +4,14 @@
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi xvidcap; 
-		if which xvidcap then
+		if which xvidcap; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed.";
 		    else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap not installed.";
 		fi
 	    else
 		gurpmi xvidcap;
-		if which xvidcap then
+		if which xvidcap; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed.";
 		    else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap not installed.";

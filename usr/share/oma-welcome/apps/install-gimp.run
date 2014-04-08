@@ -1,18 +1,18 @@
 #!/bin/bash
 
-    if rpm -qa |grep "gimp*"; then 
+    if rpm -qa |grep "^gimp"; then 
       kdialog --title $"OpenMandriva"  --msgbox  $" Gimp are already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi gimp; 
-		if rpm -qa |grep "gimp*"; then
+		if rpm -qa |grep "^gimp"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp successfully installed.";
 		    else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp not installed.";
 		fi
 	    else
 		gurpmi gimp; 
-		if rpm -qa |grep "gimp*"; then
+		if rpm -qa |grep "^gimp"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp successfully installed.";
 		    else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp not installed.";

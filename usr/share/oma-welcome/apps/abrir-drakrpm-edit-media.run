@@ -1,2 +1,8 @@
-drakrpm-edit-media
-kdesu xterm ./apps/enable-32bits
+#!/bin/bash
+ if [ "$(uname -m)" = "i686" ]; then
+		drakrpm-edit-media
+		fi
+	    else
+		drakrpm-edit-media
+		kdesu xterm ./apps/enable-32bits
+		fi
