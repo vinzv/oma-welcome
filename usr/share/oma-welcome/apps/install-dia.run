@@ -1,6 +1,6 @@
 #!/bin/bash
 
-    if rpm -qa |grep "dia*"; then 
+    if [ -e '/usr/bin/dia' ]; then 
       kdialog --title $"OpenMandriva"  --msgbox  $" dia are already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
