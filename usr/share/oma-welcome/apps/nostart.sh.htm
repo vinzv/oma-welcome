@@ -3,11 +3,4 @@ echo 'autostart=0' > ~/.oma-welcome;
 
 if [ -e "~/.config/autostart/oma-welcome.desktop" ]; then
 	rm -f ~/.config/autostart/oma-welcome.desktop;
-
-cat << EOF
-<script type="text/javascript">
-	alert("OpenMandriva Lx Welcome autostart have been disabled.");
-</script>
-EOF
-
 fi

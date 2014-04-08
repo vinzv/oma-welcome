@@ -31,7 +31,7 @@ cat << EOF
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
-			<li><a href="apps.sh.htm">$menuapps</a></li>
+			<li><a href="apps-office.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
@@ -43,19 +43,19 @@ cat << EOF
 		<h1 class="titlePage">$cabecalho03 $(lsb_release -d | cut -d":" -f2) $cabecalho04</h1>
 		<br/>
 		<div id='cssmenu'>
-		    <ul>
-		     <li><a href='apps.sh.htm'><span>$menuappsoffice</span></a></li>
+		      <ul>
+			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li> 
 			 <li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
 			 <li><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
-			 <li><a href='apps-utilitarios.sh.htm'><span>$menuappsutility</span></a></li>
-			 <li><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
+			 <li><a href='apps-utility.sh.htm'><span>$menuappsutility</span></a></li>
+			 <li class='active'><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
 		    </ul>
 		    <br/>
 		</div>
 		<ul id="item-list">
 			<li>
 				<p><a class="title" href=./apps/install-0ad.run><img src="images/0ad.png" class="alignleft"/>
-				<span><a class="title" href=./apps/install-java.run>$title0ad</a></span><br/>$desc0ad</p>
+				<span><a class="title" href=./apps/install-0ad.run>$title0ad</a></span><br/>$desc0ad</p>
 			</li>
 			<li>
 				<p><a class="title" href=./apps/install-steam.run><img src="images/steam.png" class="alignleft"/></a>

@@ -1,5 +1,5 @@
 #!/bin/bash
-source /usr/share/oma-welcome/translation
+source translation
 #Translation
 cat << EOF
 <html>
@@ -31,7 +31,7 @@ cat << EOF
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
-			<li><a href="apps.sh.htm">$menuapps</a></li>
+			<li><a href="apps-office.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
@@ -44,47 +44,39 @@ cat << EOF
 		<br/>
 		<div id='cssmenu'>
 		    <ul>
-		     <li><a href='apps.sh.htm'><span>$menuappsoffice</span></a></li>
+			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li> 
 			 <li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
-			 <li><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
-			 <li><a href='apps-utilitarios.sh.htm'><span>$menuappsutility</span></a></li>
+			 <li class='active'><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
+			 <li><a href='apps-utility.sh.htm'><span>$menuappsutility</span></a></li>
 			 <li><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
 		    </ul>
-		    <br/>
+		<br/>    
 		</div>
 		<ul id="item-list">
 			<li>
-				<p><a href=./apps/install-codecs.run><img src="images/codec.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/install-codecs.run>$titlecodecs</a></span><br/>$desccodecs</p>
+				<p><a href=./apps/install-codecs.run><img src="images/codec.png" class="alignleft" />
+				<span><a class="title" href=./apps/install-codecs.run>$titlecodecs</br></a></span>$desccodecs</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/install-audacity.run><img src="/usr/share/icons/rosa/apps/72/audacity.svg" class="alignleft"/>
-				<span><a class="title" href=./apps/install-audacity.run>$titleaudacity</a></span><br/>$descaudacity</p>
+				<a class="title" href=./apps/install-audacity.run><img src="/usr/share/icons/rosa/apps/72/audacity.svg" class="alignleft"/>
+				<span><a class="title" href=./apps/install-audacity.run>$titleaudacity</br></a></span>$descaudacity</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/install-kdenlive.run><img src="/usr/share/icons/rosa/apps/128/kdenlive.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/install-kdenlive.run>$titlekdenlive</a></span><br/>$desckdenlive</span></p>
+				<a class="title" href=./apps/install-kdenlive.run><img src="/usr/share/icons/rosa/apps/128/kdenlive.svg" class="alignleft"/>
+				<span><a class="title" href=./apps/install-kdenlive.run>$titlekdenlive</br></a></span>$desckdenlive</span></p>
 			</li>
 			
 			<li>
-				<p><a class="title" href=./apps/install-devede.run><img src="images/devede.png" class="alignleft"/></a>
-				<span><a class="title" href="./apps/install-devede.run">$titledevede </a></span><br/>$descdevede</p>
+				<a class="title" href=./apps/install-devede.run><img src="images/devede.png" class="alignleft"/>
+				<span><a class="title" href="./apps/install-devede.run">$titledevede</br></a></span>$descdevede</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/install-adobe-flash.run><img src="images/flash.png" class="alignleft"/>
-				<span><a class="title" href=./apps/install-adobe-flash.run>$titleflash</a></span><br/>$descflash</p>
+				<a class="title" href=./apps/install-xvidcap.run><img src="images/xvidcap.png" class="alignleft"/>
+				<span><a class="title" href=./apps/install-xvidcap.run>$titlexvidcap</br></a></span>$descxvidcap</br></p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/install-kaudiocreator.run><img src="images/kaudiocreator.png" class="alignleft"/>
-				<span><a class="title" href=./apps/install-kaudiocreator.run>$titlekaudiocreator</a></span><br/>$desckaudiocreator</p>
-			</li>	
-			<li>
-				<p><a class="title" href=./apps/install-xvidcap.run><img src="images/xvidcap.png" class="alignleft"/>
-				<span><a class="title" href=./apps/install-xvidcap.run>$titlexvidcap</a></span><br/>$descxvidcap<br/><br/><br/></p>
-			</li>
-			<li>
-				<p><a class="title" href="./apps/abrir-rpmdrake.run"><img src="images/rpmdrake.png" class="alignleft"/>
-				<span><a class="title" href="./apps/abrir-rpmdrake.run">$titlerpmdrake</a></span><br/>$descrpmdrake</p>
+				<a class="title" href="./apps/abrir-rpmdrake.run"><img src="images/rpmdrake.png" class="alignleft"/>
+				<span><a class="title" href="./apps/abrir-rpmdrake.run">$titlerpmdrake</br></a></span>$descrpmdrake</p>
 			</li>
 		</ul>
 	</div> 

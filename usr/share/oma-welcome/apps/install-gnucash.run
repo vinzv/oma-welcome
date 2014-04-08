@@ -1,21 +1,21 @@
 #!/bin/bash
 
     if rpm -qa |grep "gnucash*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" gnucash are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Gnucash are already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi gnucash; 
 		if rpm -qa |grep "gnucash*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash successfully installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Gnucash successfully installed.";
 		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash not installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Gnucash not installed.";
 		fi
 	    else
-		gurpmi gnucash; 
+		gurpmi gnucash;
 		if rpm -qa |grep "gnucash*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash successfully installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Gnucash successfully installed.";
 		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" gnucash not installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Gnucash not installed.";
 		fi
 	    fi
     fi

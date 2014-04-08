@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
     if rpm -qa |grep "java-1.7.0-openjdk*"; then
       kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK are already installed.";
 	else 

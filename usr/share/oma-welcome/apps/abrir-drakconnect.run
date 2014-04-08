@@ -11,3 +11,4 @@ if ! ping -c 3 www.openmandriva.org ; then
     echo
 fi
 exit
+

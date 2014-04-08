@@ -1,5 +1,5 @@
 #!/bin/bash
-source /usr/share/oma-welcome/translation
+source translation
 #Translation
 cat << EOF
 <html>
@@ -31,7 +31,7 @@ cat << EOF
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
-			<li><a href="apps.sh.htm">$menuapps</a></li>
+			<li><a href="apps-office.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
@@ -45,37 +45,37 @@ cat << EOF
 		<br/>
 		<ul id="item-list">
 			<li>
-				<p><a class="title" href=./apps/abrir-drakconnect.run><img src="/usr/share/icons/networking_configuration_section.png" class="alignleft"/></a>
-				<span><a class="title" href="./apps/abrir-drakconnect.run">$titleconfiglan </a></span><br/> $descconfiglan </p>
+				<a href=./apps/abrir-drakconnect.run><img src="/usr/share/icons/networking_configuration_section.png" /></a>
+				<p><span><a class="title" href="./apps/abrir-drakconnect.run">$titleconfiglan </a></span><br/> $descconfiglan </p>
 			</li>
 			<li>
-				<p><a href=./apps/abrir-drakrpm-edit-media.run><img src="/usr/share/icons/packaging_section.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/abrir-drakrpm-edit-media.run>$titleeditmedia </a></span><br/>
-				$descaddmedia <br/>.</p>
+				<a href=./apps/abrir-drakrpm-edit-media.run><img src="/usr/share/icons/packaging_section.png" /></a>
+				<p><span><a class="title" href=./apps/abrir-drakrpm-edit-media.run>$titleeditmedia </a></span><br/>
+				$descaddmedia. <br/><br/><br/></p>
 			</li>
 			<li>
-				<p><a href=./apps/abrir-drakrpm-update.run><img src="/usr/share/icons/mandrivaupdate.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/abrir-drakrpm-update.run>$titleupdate $(lsb_release -d | cut -d":" -f2)</a></span><br/>
-				$descupdate</p>
+				<a href=./apps/abrir-drakrpm-update.run><img src="/usr/share/icons/mandrivaupdate.png" /></a>
+				<p><span><a class="title" href=./apps/abrir-drakrpm-update.run>$titleupdate $(lsb_release -d | cut -d":" -f2)</a></span><br/>
+				$descupdate.<br/><br/></p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/abrir-xfdrake.run><img src="/usr/share/icons/hardware_configuration_section.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/abrir-xfdrake.run>$titlexfdrake</a></span><br/>
-				$descxfdrake<br/> <br/><br/></span></p>
+				<a class="title" href=./apps/abrir-xfdrake.run><img src="/usr/share/icons/hardware_configuration_section.png" /></a>
+				<p><span><a class="title" href=./apps/abrir-xfdrake.run>$titlexfdrake</a></span><br/>
+				$descxfdrake. <br/><br/></span></p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/abrir-drakboot.run><img src="/usr/share/icons/boot_init_section.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/abrir-drakboot.run>$titleconfigboot</a></span><br/>
-				$descconfigboot</p>
+				<a class="title" href=./apps/abrir-drakprint.run><img src="/usr/share/icons/large/printing_section.png" /></a>
+				<p><span><a class="title" href=./apps/abrir-drakprint.run>$titleconfigprint</a></span><br/>
+				$descconfigprint</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/abrir-drakconf.run><img src="/usr/share/icons/drakconf.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/abrir-drakconf.run>$titleomcc</a></span><br/>$descomcc</p>
+				<a class="title" href=./apps/abrir-drakconf.run><img src="/usr/share/icons/drakconf.png" /></a>
+				<p><span><a class="title" href=./apps/abrir-drakconf.run>$titleomcc</a></span><br/>$descomcc</p>
 			</li>
 		</ul>
 	</div> 
 	<div id="rodape">
-	<a href="apps.sh.htm" class="button">$next</a>
+	<a href="apps-office.sh.htm" class="button">$next</a>
 	</div>
 </body>
 EOF

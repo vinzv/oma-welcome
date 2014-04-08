@@ -1,9 +1,6 @@
 #!/bin/bash
-source /usr/share/oma-welcome/translation
-source ~/.oma-welcome
-
+source translation
 #Translation
-
 cat << EOF
 <html>
 <!--
@@ -32,7 +29,7 @@ cat << EOF
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
-			<li><a href="apps.sh.htm">$menuapps</a></li>
+			<li><a href="apps-office.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
@@ -43,71 +40,63 @@ cat << EOF
 				<p class="titlePage"> $desccommunity </p>
 				<ul id="item-list">
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/knewsticker.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-forum.run>$titleforum </a></span><br/>
+						<a href=./apps/open-forum.run><img src="images/knewsticker.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-forum.run>$titleforum<br/> </a></span>
 						$descforum<br/></p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/preferences-desktop-locale.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-wiki-translation.run>$titletranslation </a></span><br/>
-						$desctranslation<br/></p>
+						<a href=./apps/open-wiki-translation.run><img src="images/preferences-desktop-locale.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-wiki-translation.run>$titletranslation <br/></a></span>
+						$desctranslation</p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-wiki-cooker.run>$titlecooker </a></span><br/>
-						$desccooker<br/></p>
+						<a href=./apps/open-wiki-cooker.run><img src="images/oma-logo.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-wiki-cooker.run>$titlecooker<br/> </a></span>
+						$desccooker</p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/preferences-desktop-color.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-wiki-artwork.run>$titleartwork </a></span><br/>
-						$descartwork<br/></p>
+						<a href=./apps/open-wiki-artwork.run><img src="images/preferences-desktop-color.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-wiki-artwork.run>$titleartwork<br/> </a></span>
+						$descartwork</p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/internet-mail.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-mainlisting.run>$titlemainlisting </a></span><br/>
-						$descmainlisting<br/></p>
+						<a href=./apps/open-mainlisting.run><img src="images/internet-mail.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-mainlisting.run>$titlemainlisting<br/> </a></span>
+						$descmainlisting</p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/kbugbuster.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-bugzilla.run>$titleqa </a></span><br/>
-						$descqa<br/></p>
+						<a href=./apps/open-bugzilla.run><img src="images/kbugbuster.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-bugzilla.run>$titleqa <br/></a></span>
+						$descqa</p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/konversation.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-konversation.run>$titleirc </a></span><br/>
-						$descirc<br/></p>
+						<a href=./apps/open-konversation.run><img src="images/konversation.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-konversation.run>$titleirc <br/></a></span>
+						$descirc</p>
 					</li>
 					<li>
-						<p><a href=./apps/open-wiki-cooker.run><img src="images/Chwido200.png" class="alignleft"/></a>
-						<span><a class="title" href=./apps/open-donation.run>$titledonation </a></span><br/>
-						$descdonation<br/></p>
+						<a href=./apps/open-donation.run><img src="images/Chwido200.png" class="alignleft"/></a>
+						<span><a class="title" href=./apps/open-donation.run>$titledonation <br/></a></span>
+						$descdonation</p>
 					</li>
 					
 					
 				</ul>
 		</div> 
 	</div> 	
-		
+	<script type="text/javascript">
+// From: http://www.webdeveloper.com/forum/showthread.php?t=242793
+
+function OpenWindow(info) {
+  window.open(info,'WinName','height=400,width=600,resizable=yes,scrollbars=yes');
+}
+</script>	
 		
 		<div class="nostartauto">
 		<span>
-EOF
-
-if [ $autostart -eq 0 ]; then
-
-cat << EOF
-	<input id="check" type="checkbox" name="start" checked="1" >$nostarwithoma</span>	
-EOF
-	
-else
-
-cat << EOF
-	<input id="check" type="checkbox" name="start" s>$nostarwithoma</span>	
-EOF
-
-fi
-
-cat << EOF
+<!-- 		<form action="" method="post"> -->
+		 <input type="checkbox" value="./apps/nostart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+		 $nostarwithoma </spam>
 		<div>
 		<div id="rodape">
 		<a href="execute close$" class="button">$endapp</a>
@@ -115,4 +104,3 @@ cat << EOF
 </body>
 	
 </html>
-EOF

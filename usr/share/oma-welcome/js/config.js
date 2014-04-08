@@ -45,14 +45,4 @@ jQuery(function() {
 			}
 		});
 
-		jQuery('#check').change(function() {
-		   if($(this).is(":checked")) {
-		      //'checked' event code
-		      jQuery("#check").load("./apps/nostart.sh.htm");
-		      return;
-		   }
-		   //'unchecked' event code
-		   jQuery("#check").load("./apps/makestart.sh.htm");
-		});
-
 });
