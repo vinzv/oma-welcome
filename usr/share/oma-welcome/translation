@@ -4,7 +4,7 @@
 #index.sh.htm
 #Locale
 export TEXTDOMAINDIR="/usr/share/locale" 
-export TEXTDOMAIN=omawelcome
+export TEXTDOMAIN=om-welcome
 hi=$"Hi"
 title=$"Welcome to OpenMandriva"
 menuindex=$"Welcome"
