@@ -1,3 +1,7 @@
 #!/bin/bash
-rm -f ~/.config/autostart/oma-welcome.desktop;
+echo 'autostart=0' > ~/.oma-welcome;
+
+if [ -e "~/.config/autostart/oma-welcome.desktop" ]; then
+	rm -f ~/.config/autostart/oma-welcome.desktop;
+fi
 kdialog --title $"OpenMandriva"  --msgbox  $" The om-welcome will not initialize with the system";
