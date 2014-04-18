@@ -38,9 +38,85 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">
 		 <article class="articles">
-			<h1 class="titlePage">News</h1>
-			<div id="divRssBlog"></div>
+			<h1 class="titlePage">New Features and Major Changes</h1>
+			<p>This is the second release under the OpenMandriva Association! Codename for this release is <span class="username">Phosphorus</span>. Over the course of the past year we've tried to evolve the way you use your desktop with us. Here are some of the things we've done for 2014.0:</p>
 		 </article>
+		 <div class="logo">
+				<img src="images/tux.png"/>
+		 </div>
+		 <article class="articles">
+			<h1 class="titlePage">Kernel 3.11.8 NRJ-QL</h1>
+			<p>
+			OpenMandriva Lx features new kernel called <span class="username">NRJ</span> as for energy!. With the "NRJ" configs the CPU and RCU are configured with full Pre-emption enabled and in full Boost mode, while the "QL" mode adds the CK1 and BFQ patchsets which combine to provide further optimisations, including better CPU load scheduling (BFS) and improved disk I/O scheduling (BFQ), Improved memory managment is present with the provision of UKSM and TOI for better suspension and hibernate functionality, each designed with desktop system performance and responsiveness in mind. Some very recent USB patches that partially correct a misinterpretation of the USB standard will improve device compatibility and also ensure that devices re-awake properly after suspend or hibernate. NFS has also received some attention with patches that will give faster start up of the nfs services.
+			</p>
+		 </article>
+		 <div class="logoleft">
+				<img src="images/kde4.png"/>
+		 </div>
+		 <article class="articles">
+			<h1 class="titlePage">KDE 4.12.4</h1>
+			<p>
+			KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment.
+The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!.
+			</p>
+			<p>
+			This release includes an updated Plasma Workspaces 4.11.8. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others
+			</p>
+		 </article>
+		 <div class="logo">
+				<img src="images/libreoffice.png"/>
+		 </div>
+		 <article class="articles">
+			<h1 class="titlePage">LibreOffice 4.2.3</h1>
+			<p>
+			LibreOffice 4.2.3 is the newest version available and it’s also a Final (Stable) release, which means you can rely on it not crashing and compromising your precious data. As usual, there are a lot of minor improvements for the office suite, and most of them are internal fixes that are not all that visible for the regular users, but some of them are actually interesting.
+			</p>
+		 </article>
+		 <article class="articles">
+			<h1 class="titlePage">EFI Boot</h1>
+			<p>
+			This is the first release of OpenMandriva Lx that incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on the majority of machines with installation your mileage will vary. Please file bug reports at issues.openmandriva.org
+			</p>
+		</article>
+		<div class="logoleft" style="padding-top: 10px;">
+				<img src="images/drakconf.png"/>
+		 </div>
+		 <article class="articles">
+			<h1 class="titlePage">OpenMandriva Control Center</h1>
+			<p>
+			We also featured our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>
+			- Software Management<br/>
+			- Hardware<br/>
+			- Network, Internet & Sharing<br/>
+			- Local Disks/Partition Manager<br/>
+			- System Security<br/>
+			- Parental Control<br/>
+			Some changes have been included on this release: Boot configuration features a new application kcm-grub2 which give greater flexibility of choice in boot options. DrakX has been overhauled and now installs the proprietary drivers correctly.
+			</p>
+		 </article>
+		 <div class="logo" style="padding-top: 30px;">
+				<img src="images/medium.png"/>
+		 </div>
+		 <article class="articles">
+			<h1 class="titlePage">Software Medium</h1>
+			<p>
+			<span style="color: #003399; font-weight: bold;">- Contrib</span>: Recently a new contributor to OpenMandriva has placed some interesting packages in our Contrib repository a few examples are xt7-player, the lightest gui for mplayer and Bino which allows you play with 3d movies if you have the technology (Red and Green lensed glasses :) ). The Contrib repository is gradually being updated and rebuilt but this is a major task and will take some time.
+			</p>
+			<p>
+			<span style="color: #003399; font-weight: bold;">- Restricted</span>:This is where non free libraries that aren't installed by default are kept. For example, playing mp4 videos with VLC needs libfaad2_2 which can be installed after having added all set of media. You will also find in this repository some of the famous PLF builds which enable additional functionality to some programs not included in the main release repositories.
+			</p>
+		 </article>
+		 <div class="logoleft">
+				<img src="images/abf.png"/>
+		 </div>
+		 <article class="articles">
+			<h1 class="titlePage">ABF (Automated Build Farm)</h1>
+			<p>
+			All OpenMandriva releases is build under advance platform called ABF. ABF (Automated Build Farm) is distributed environment to build distributions, supporting all steps from managing sourcecode to creating ISO images. Every git repository in ABF is accompanied by tools necessary to manage a project, be it a public project or a private one. ABF is not just a hosting for source code, but a system to build and publish packages. Build your projects for large variety of distributions and hardware platforms in your personal repository!
+			<br/>
+			You can check, signup and contribute to ABF/OpenMandriva Development by <a href="http://abf.io/" class="titlePage">http://abf.io</a>
+			</p>
+		 
 	</div>
 	
 	

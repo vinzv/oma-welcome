@@ -18,7 +18,13 @@ a:hover {
 }
 .logo 	{
 	float:right;
-	margin:30 10 0 0px;
+	margin:10 10 0 0px;
+	padding-left: 10px;
+	}
+
+.logoleft 	{
+	float:left;
+	margin:10 10 0 0px;
 	padding-left: 10px;
 	}
 /*********************************************************************************/
@@ -69,6 +75,7 @@ a:hover {
 			    font-family: "GoodTimes", "Ubuntu", "Droid Sans", Sans;
 			    color: #003399;
 			    margin-bottom: 10px;
+			    padding-top: 10px;
 			}
 			.titleh1{
 			    font-size: 20px;
@@ -341,6 +348,8 @@ a:hover {
 		font-family: "Muli", "Droid Sans", Sans;
 		font-size: 0.95em;
 		line-height: 1.8em;
+		text-align: justify;
+		text-justify: newspaper;
 	}
 		
 .wrapper
