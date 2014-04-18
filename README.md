@@ -1,6 +1,8 @@
 om-welcome
 ===========
 
+version: 0.9.0
+
 This is the om-welcome - Welcome to OpenMandriva
 
 designed to introduce new users to the OpenMandriva distro and
@@ -83,11 +85,3 @@ example:
 ```
      $(lsb_release -d | cut -d":" -f2) #shows the name of the Linux distribution
 ```      
- 
-#####Some known issues
- 
-* Asking password every transaction as root
-* if run as root (su -c "./om-welcome") the konversation not run 100%
-* kdialog messages can not translate them
-* checkbox still does not work, under development
-* the icon om-welcome.desktop was created to run om-welcome in ~/.config/autostart/ or other local, it exec to /usr/bin/om-welcome
