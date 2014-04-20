@@ -18,12 +18,7 @@ cat << EOF
 	<head>
 		<title>$title</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/html5shiv.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
 		<style>
 		@font-face {
@@ -47,17 +42,17 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">
 		<div class="logo">
-			<img src="images/oma-2014.png"/>
+			<img src="images/oma-2014.png" style="padding-top: 60px;"/>
 		</div>
 		 <article class="articles">
 			<h1 class="titlePage"> $title </h1>
 			<p>$hi, <span class="username"> $USER</span>, </p>
 			<p>$text</p>
 		 </article>
-		 <br/><br/>
+		 <br/>
 		 <article class="articles">
 			<p>
-				$you_are_using <span class="bold">$(lsb_release -d | cut -d":" -f2)</span> codename$(lsb_release -c | cut -d":" -f2)
+				$you_are_using <span class="bold">$(lsb_release -d | cut -d":" -f2)</span> codename <span class="bold">$(lsb_release -c | cut -d":" -f2)</span>
 				$with_kernel $(uname -r) 
 				$arch $(uname -i).
 			</p>

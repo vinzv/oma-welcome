@@ -16,9 +16,6 @@ cat << EOF
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="html5.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
 		
 	</head>
@@ -40,8 +37,7 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<h1 class="titlePage">$cabecalho03 $(lsb_release -d | cut -d":" -f2) $cabecalho04</h1>
-		<br/>
+		<p class="titlePage">$cabecalho03 $(lsb_release -d | cut -d":" -f2) $cabecalho04</p>
 		<div id='cssmenu'>
 		      <ul>
 			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li> 
