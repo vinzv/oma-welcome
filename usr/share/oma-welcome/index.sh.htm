@@ -1,5 +1,7 @@
 #!/bin/bash
 source translation
+source ~/.oma-welcome
+
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=oma-welcome
@@ -61,6 +63,31 @@ cat << EOF
 			</p>
 		 </article>
 	</div>
+EOF
+
+if [ $autostart -eq 1 ]; then
+
+cat << EOF
+		<div class="nostartauto">
+		<span>
+		 <input type="checkbox" value="./apps/nostart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+		 $nostarwithoma </span>
+	<div>
+EOF
+
+else
+	
+cat << EOF
+		<div class="nostartauto">
+		<span>
+		 <input type="checkbox" value="./apps/makestart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+		 $makestartwithoma </span>
+	<div>
+EOF
+
+fi
+
+cat << EOF
 	<div id="rodape">
 	  <a href="news.sh.htm" class="button">$next</a>
 	</div>

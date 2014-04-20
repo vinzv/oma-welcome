@@ -110,6 +110,7 @@ descirc=$"The openmandriva-cooker is main irc channel of OpenMandriva Linux, but
 titledonation=$"Donation"
 descdonation=$"If you like OpenMandriva and appreciate our work, you can give us your love and care by donating your time or money. "
 nostarwithoma=$"No start oma-welcome with system"
+makestartwithoma=$"Make oma-welcome start with system"
 endapp=$"Finish"
 
 #translation of install-scribus
