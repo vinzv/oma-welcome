@@ -7,7 +7,7 @@ body {
 margin-top:3em;
 background:url(images/bg.png) #e7e7e7;
 font-family:'Droid Sans', sans-serif;
-width:700px;
+width:750px;
 }
 
 a {
@@ -43,7 +43,7 @@ padding:0;
 
 #item-list li {
 display:inline-block;
-width:180px;
+width:230px;
 vertical-align:top;
 background:rgba(255,255,255,0.4);
 border-radius:5px;
@@ -58,13 +58,13 @@ padding:10px;
 #item-list li img {
 display:inline-block;
 vertical-align:top;
-width:30px;
+width:48px;
 margin-right:.5em;
 }
 
 #item-list li p {
 display:inline-block;
-width:180px;
+width:230px;
 margin:0;
 padding:0;
 }
@@ -326,9 +326,9 @@ text-justify:newspaper;
 .wrapper {
 text-align:center;
 background:url(images/background_blue.png) #e0e6e8 no-repeat;
-min-width:700px;
-height: 350px;
-padding:1em 1.8em 2em 1.7em;
+min-width:830px;
+height: 380px;
+padding:10px 10px 10px 10px;
 }
 
 .wrapper p {
@@ -337,7 +337,7 @@ text-align:left;
 
 .container {
 display:block;
-width:700px;
+width:750px;
 margin:0 auto;
 }
 

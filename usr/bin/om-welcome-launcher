@@ -13,6 +13,6 @@ source ~/.oma-welcome
 if [ $autostart -eq 1 ]; then
 
 	cd /usr/share/oma-welcome/;
-	python bigbashview.py -s 759x450 -c index.sh.htm 2> /dev/null;
+	python bigbashview.py -s 850x450 -c index.sh.htm 2> /dev/null;
 		
 fi
