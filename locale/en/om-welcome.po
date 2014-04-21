@@ -3,12 +3,13 @@ msgstr ""
 "Project-Id-Version: om-welcome\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: alisson oliveira <alisson@linukiss.com>\n"
-"Language-Team: i10n OpenMandriva <i10n@openmandriva.org>\n"
+"Last-Translator: alisson <alisson@linukiss.com>\n"
+"Language-Team: Alisson <i10n@openmandriva.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: English\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: translation:8
 msgid "Hi"
@@ -49,99 +50,103 @@ msgid ""
 "group achievement, independence, and solidarity."
 msgstr ""
 
-#: translation:17
+#: translation:16
+msgid "In a few steps, we will guide you in setting OpenMandriva"
+msgstr ""
+
+#: translation:18
 msgid ""
 "in this page, is apresentated to you, the news features of OpenMandriva "
 "Linux -- page under construction"
 msgstr ""
 
-#: translation:19
+#: translation:20
 msgid "Next"
 msgstr ""
 
-#: translation:20
+#: translation:21
 msgid "Settings"
 msgstr ""
 
-#: translation:21
+#: translation:22
 msgid "Graphics"
 msgstr ""
 
-#: translation:22
+#: translation:23
 msgid "Multimedia"
 msgstr ""
 
-#: translation:23
+#: translation:24
 msgid "Utility"
 msgstr ""
 
-#: translation:24
+#: translation:25
 msgid "Office"
 msgstr ""
 
-#: translation:25
+#: translation:26
 msgid "Before installing the applications on"
 msgstr ""
 
-#: translation:26
+#: translation:27
 msgid ""
-" you should make some settings, to access various applications, after that "
+"you should make some settings, to access various applications, after that "
 "click on the menus below to install some applications."
 msgstr ""
 
-#: translation:27
+#: translation:28
 msgid "Install some extra applications to"
 msgstr ""
 
-#: translation:28
+#: translation:29
 msgid "to install click the application icon."
 msgstr ""
 
-#: translation:29
-msgid "Add medias"
+#: translation:30
+msgid "Add media"
 msgstr ""
 
-#: translation:30
+#: translation:31
 msgid ""
 "The media or repositories are where the system searches for installed "
 "packages. After installing Openmandriva, you must configure repositories for "
 "installing other applications and to keep the system updated"
 msgstr ""
 
-#: translation:31
+#: translation:32
 msgid "Update of"
 msgstr ""
 
-#: translation:32
+#: translation:33
 msgid ""
 "We must always keep the system updates on day to receive the latest "
 "enhancements, bug fixes and stability in the system, Whenever there is a new "
 "update, the system will warn you with a message in the notification area."
 msgstr ""
 
-#: translation:33
+#: translation:34
 msgid "Configure the drive video."
 msgstr ""
 
-#: translation:34
+#: translation:35
 msgid ""
 "Set your video card, installed the latest drive by changing the resolution, "
 "enabling support 3D hardware acceleration, and multiple monitors."
 msgstr ""
 
-#: translation:35
+#: translation:36
 msgid "Configure your printer"
 msgstr ""
 
-#: translation:36
+#: translation:37
 msgid "Add your printer HP, EPSON etc in OpenMandriva"
 msgstr ""
 
-#: translation:37
+#: translation:38
 msgid "Configure the system boot"
 msgstr ""
 
-#: translation:38
+#: translation:39
 msgid ""
 "During installation OpenMandriva Lx 2014.0 ja detect all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
@@ -149,11 +154,11 @@ msgid ""
 "you're using the tool."
 msgstr ""
 
-#: translation:39
+#: translation:40
 msgid "Configure the Network"
 msgstr ""
 
-#: translation:40
+#: translation:41
 msgid ""
 "The OpenMandriva Lx 2014.0 comes with support for various network drivers, "
 "but depending on your network configuration is nescessário make some "
@@ -161,11 +166,11 @@ msgid ""
 "OpenMandriva Lx 2014.0 use the tool drakconnect ."
 msgstr ""
 
-#: translation:41
+#: translation:42
 msgid "OpenMandriva Control Center"
 msgstr ""
 
-#: translation:42
+#: translation:43
 msgid ""
 "In OpenMandriva Lx 2014.0 all the tools settings are available in an "
 "application, the drakconf, it you realize all your system settings, the "
@@ -173,31 +178,31 @@ msgid ""
 "shares and folders, security , disk partitioning and more."
 msgstr ""
 
-#: translation:44
+#: translation:45
 msgid "Gimp"
 msgstr ""
 
-#: translation:45
+#: translation:46
 msgid ""
 "Create, edit your images in a professional way with this powerful Open "
 "Source tool."
 msgstr ""
 
-#: translation:46
+#: translation:47
 msgid "Inkscape"
 msgstr ""
 
-#: translation:47
+#: translation:48
 msgid ""
 "A powerful, open source vector drawing tool, whether you are an illustrator, "
 "designer, designer of websites or just  who needs to create vector images."
 msgstr ""
 
-#: translation:48
+#: translation:49
 msgid "Blender"
 msgstr ""
 
-#: translation:49
+#: translation:50
 msgid ""
 "Modeling software, offering a unique approach to the world of three "
 "dimensions. Blender can be used to create TV commercials, to make technical "
@@ -205,11 +210,11 @@ msgid ""
 "animations for games."
 msgstr ""
 
-#: translation:50
+#: translation:51
 msgid "Scribus"
 msgstr ""
 
-#: translation:51
+#: translation:52
 msgid ""
 "Scribus is a desktop layout program Open Source page for the purpose of "
 "producing documents in PDF and Postscript. Scribus supports professional "
@@ -217,11 +222,11 @@ msgid ""
 "Postscript import and export and creation of color separations."
 msgstr ""
 
-#: translation:52
+#: translation:53
 msgid "Tuxpaint"
 msgstr ""
 
-#: translation:53
+#: translation:54
 msgid ""
 "Tux Paint is a perfect time to encourage children's creativity using simple "
 "tools, drawings on the computer education program. It provides a simple, yet "
@@ -229,118 +234,118 @@ msgid ""
 "a tool of 'magic', for special effects."
 msgstr ""
 
-#: translation:54
+#: translation:55
 msgid "Install additional applications with rpmdrake"
 msgstr ""
 
-#: translation:55
+#: translation:56
 msgid ""
 "Find and install more than 20,000 applications available in the repositories "
 "OpenMandriva. Manage all applications installed on your computer, update, "
 "desisntale, applications, find the tool you need to accomplish your tasks."
 msgstr ""
 
-#: translation:57
+#: translation:58
 msgid "Codecs"
 msgstr ""
 
-#: translation:58
+#: translation:59
 msgid ""
 "Necessary codecs to run audio and video files in various formats. Some file "
 "formats are proprietary and restricted in some countries."
 msgstr ""
 
-#: translation:59
+#: translation:60
 msgid "Audacity"
 msgstr ""
 
-#: translation:60
+#: translation:61
 msgid ""
 "In addition to letting you record sounds directly from within the program, "
 "it imports many sound file formats, including WAV, AIFF, MP3 and Ogg/Vorbis."
 msgstr ""
 
-#: translation:61
+#: translation:62
 msgid "Kdenlive"
 msgstr ""
 
-#: translation:62
+#: translation:63
 msgid ""
 "Kdenlive is a non-linear video editor for KDE. It Relies on a separate "
 "renderer,  to handle it's rendering. Kdenlive supports multi track editing."
 msgstr ""
 
-#: translation:63
+#: translation:64
 msgid "Devede"
 msgstr ""
 
-#: translation:64
+#: translation:65
 msgid "Create a DVD with their videos are simple and feature-rich tool."
 msgstr ""
 
-#: translation:65
+#: translation:66
 msgid "Flash Player"
 msgstr ""
 
-#: translation:66
+#: translation:67
 msgid ""
 "Play games and flash videos on the internet, with this player from Adobe."
 msgstr ""
 
-#: translation:67
+#: translation:68
 msgid "Kaudiocreator"
 msgstr ""
 
-#: translation:68
+#: translation:69
 msgid ""
 "Backup your CDs with KDE tool is, preventing them from scratch and you lose "
 "your songs."
 msgstr ""
 
-#: translation:69
+#: translation:70
 msgid "Xvidcap"
 msgstr ""
 
-#: translation:70
+#: translation:71
 msgid ""
 "xvidcap is a screen capture enabling you to capture videos off your X-Window "
 "desktop for illustration or documentation purposes. It is Intended to be a "
 "standards-based alternative to tools like Lotus ScreenCam."
 msgstr ""
 
-#: translation:72
+#: translation:73
 msgid "OpenJDK"
 msgstr ""
 
-#: translation:73
+#: translation:74
 msgid ""
 "Install and configure the OpenJDK to be used to access websites and services "
 "in Java"
 msgstr ""
 
-#: translation:74
+#: translation:75
 msgid "Steam"
 msgstr ""
 
-#: translation:75
+#: translation:76
 msgid "Launcher for the Valve's Steam software distribution service."
 msgstr ""
 
-#: translation:76
+#: translation:77
 msgid "Wine"
 msgstr ""
 
-#: translation:77
+#: translation:78
 msgid ""
 "Wine is a program which allows running Microsoft Windows programs (including "
 "DOS, Windows 3.x and Win32 executables) on Unix."
 msgstr ""
 
-#: translation:78
+#: translation:79
 msgid "Skype"
 msgstr ""
 
-#: translation:79
+#: translation:80
 msgid ""
 "This package does not contain any program files as the Skype license does "
 "not allow distribution. By installing this package you will download and "
@@ -349,237 +354,248 @@ msgid ""
 "Removing this package will uninstall Skype from your system."
 msgstr ""
 
-#: translation:81
+#: translation:82
 msgid "Calibre"
 msgstr ""
 
-#: translation:82
+#: translation:83
 msgid "You can convert and manage your e-Book with Calibre."
 msgstr ""
 
-#: translation:83
+#: translation:84
 msgid "Unrar"
 msgstr ""
 
-#: translation:84
+#: translation:85
 msgid ""
 "Open and create unrar files is tool will be executed by the ark, the "
 "official compactor OpenMandriva"
 msgstr ""
 
-#: translation:85
+#: translation:86
 msgid "Dia"
 msgstr ""
 
-#: translation:86
+#: translation:87
 msgid "Easy to create Diagram documents with Dia."
 msgstr ""
 
-#: translation:87
+#: translation:88
 msgid "GNUCash"
 msgstr ""
 
-#: translation:88
+#: translation:89
 msgid "Manage and tracks your finances with GNUCash."
 msgstr ""
 
-#: translation:89
+#: translation:90
 msgid "Semantik"
 msgstr ""
 
-#: translation:90
+#: translation:91
 msgid "Mindmapping and brainstorming tools."
 msgstr ""
 
-#: translation:91
+#: translation:92
 msgid "Kraft"
 msgstr ""
 
-#: translation:92
+#: translation:93
 msgid "Manages your Office Documents with Kraft."
 msgstr ""
 
-#: translation:94
+#: translation:95
 msgid "How coloborate with OpenMandriva Linux"
 msgstr ""
 
-#: translation:95
+#: translation:96
 msgid ""
 "So you really like OpenMandriva Lx and are eager to help? You can contribute "
 "in various ways by: "
 msgstr ""
 
-#: translation:96
+#: translation:97
 msgid "Forums"
 msgstr ""
 
-#: translation:97
+#: translation:98
 msgid ""
 "becoming a member of our forums, answering questions and helping others on "
 "the forums"
 msgstr ""
 
-#: translation:98
+#: translation:99
 msgid "Translating"
 msgstr ""
 
-#: translation:99
+#: translation:100
 msgid "translating blog posts, wiki pages, aplications and stuff"
 msgstr ""
 
-#: translation:100
+#: translation:101
 msgid "Join in the development of OpenMandriva"
 msgstr ""
 
-#: translation:101
+#: translation:102
 msgid ""
 "Cooker is the development distribution for OpenMandriva. It reflects the "
 "current progress of work among all lines, and is considered a moving and "
 "unstable target. "
 msgstr ""
 
-#: translation:102
+#: translation:103
 msgid "Artwork"
 msgstr ""
 
-#: translation:103
+#: translation:104
 msgid "Use your talent for create new artwork for OpenMandriva"
 msgstr ""
 
-#: translation:104
+#: translation:105
 msgid "Mainlisting"
 msgstr ""
 
-#: translation:105
+#: translation:106
 msgid "Join in the discussion list of OpenMandriva"
 msgstr ""
 
-#: translation:106
+#: translation:107
 msgid "Report Bug"
 msgstr ""
 
-#: translation:107
+#: translation:108
 msgid "Search, report and solved in openmandriva"
 msgstr ""
 
-#: translation:108
+#: translation:109
 msgid "Join in the IRC channel"
 msgstr ""
 
-#: translation:109
+#: translation:110
 msgid ""
 "The openmandriva-cooker is main irc channel of OpenMandriva Linux, but other "
 "teams have your channel "
 msgstr ""
 
-#: translation:110
+#: translation:111
 msgid "Donation"
 msgstr ""
 
-#: translation:111
+#: translation:112
 msgid ""
 "If you like OpenMandriva and appreciate our work, you can give us your love "
 "and care by donating your time or money. "
 msgstr ""
 
-#: translation:112
+#: translation:113
+msgid "Manual of OpenMandriva"
+msgstr ""
+
+#: translation:114
+msgid ""
+"This manual is intended to be a simple step by step guide for the "
+"installation and configuration of the newly installed Openmandriva Lx "
+"installation."
+msgstr ""
+
+#: translation:115
 msgid "No start oma-welcome with system"
 msgstr ""
 
-#: translation:113
+#: translation:116
 msgid "Finish"
 msgstr ""
 
-#: translation:116
+#: translation:119
 msgid " are already installed"
 msgstr ""
 
-#: translation:117
+#: translation:120
 msgid "not installed"
 msgstr ""
 
-#: translation:120
+#: translation:123
 msgid "About this program"
 msgstr ""
 
-#: translation:121
+#: translation:124
 msgid ""
 "this software is under licensed GNU General Public License version 2 (GPLv2)."
 msgstr ""
 
-#: translation:122
+#: translation:125
 msgid " This software use python-qt4-webkit, web.py, and bigbashview."
 msgstr ""
 
-#: translation:123
+#: translation:126
 msgid ""
 "Bugs, suggestions and improvements, please send to issues.openmandriva.org"
 msgstr ""
 
-#: translation:126
+#: translation:129
 msgid "You are using"
 msgstr ""
 
-#: translation:127
+#: translation:130
 msgid "with kernel"
 msgstr ""
 
-#: translation:128
+#: translation:131
 msgid "architecture"
 msgstr ""
 
-#: translation:129
+#: translation:132
 msgid "Application"
 msgstr ""
 
-#: translation:130
+#: translation:133
 msgid "Gaming"
 msgstr ""
 
-#: translation:132
+#: translation:135
 msgid "KVPNc"
 msgstr ""
 
-#: translation:133
+#: translation:136
 msgid "KDE frontend to various VPN clients"
 msgstr ""
 
-#: translation:134
+#: translation:137
 msgid "0ad"
 msgstr ""
 
-#: translation:135
+#: translation:138
 msgid "Cross-Platform RTS Game of Ancient Warfare​"
 msgstr ""
 
-#: translation:136
+#: translation:139
 msgid "MegaGlest"
 msgstr ""
 
-#: translation:137
+#: translation:140
 msgid "Open Source 3d real time strategy game"
 msgstr ""
 
-#: translation:138
+#: translation:141
 msgid "Wesnoth"
 msgstr ""
 
-#: translation:139
+#: translation:142
 msgid "Fantasy turn-based strategy game"
 msgstr ""
 
-#: translation:140
+#: translation:143
 msgid "FligtGear"
 msgstr ""
 
-#: translation:141
+#: translation:144
 msgid "FlightGear Flight Simulator for Linux"
 msgstr ""
 
-#: translation:142
+#: translation:145
 msgid "TORCS"
 msgstr ""
 
-#: translation:143
+#: translation:146
 msgid "The Open Racing Car Simulator"
 msgstr ""
