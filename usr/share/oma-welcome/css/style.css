@@ -5,7 +5,13 @@ padding:0;
 
 body {
 margin-top:3em;
-background:url(images/bg.png) #e7e7e7;
+background: -moz-linear-gradient(left, rgba(169,216,229,1) 0%, rgba(136,198,215,0.5) 41%, rgba(138,199,214,0.48) 43%, rgba(192,216,195,0.48) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,216,229,1)), color-stop(41%, rgba(136,198,215,0.5)), color-stop(43%, rgba(138,199,214,0.48)), color-stop(100%, rgba(192,216,195,0.48)));
+background: -webkit-linear-gradient(left, rgba(169,216,229,1) 0%, rgba(136,198,215,0.5) 41%, rgba(138,199,214,0.48) 43%, rgba(192,216,195,0.48) 100%);
+background: -o-linear-gradient(left, rgba(169,216,229,1) 0%, rgba(136,198,215,0.5) 41%, rgba(138,199,214,0.48) 43%, rgba(192,216,195,0.48) 100%);
+background: -ms-linear-gradient(left, rgba(169,216,229,1) 0%, rgba(136,198,215,0.5) 41%, rgba(138,199,214,0.48) 43%, rgba(192,216,195,0.48) 100%);
+background: linear-gradient(to right, rgba(169,216,229,1) 0%, rgba(136,198,215,0.5) 41%, rgba(138,199,214,0.48) 43%, rgba(192,216,195,0.48) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9d8e5', endColorstr='#c0d8c3', GradientType=1 );
 font-family:'Droid Sans', sans-serif;
 width:750px;
 }
@@ -316,16 +322,16 @@ margin-top:.35em;
 }
 
 .articles p {
-font-family:Muli, "Droid Sans", Sans;
+font-family:"Droid Sans", Sans;
 font-size:.95em;
-line-height:1.8em;
+line-height:1.4em;
 text-align:justify;
 text-justify:newspaper;
 }
 
 .wrapper {
+background: url(images/background_blue.png) no-repeat;
 text-align:center;
-background:url(images/background_blue.png) #e0e6e8 no-repeat;
 min-width:830px;
 height: 380px;
 padding:10px 10px 10px 10px;
