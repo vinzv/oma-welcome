@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which bino; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi bino; 
+		if which bino; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player not installed.";
+		fi
+	    else
+		gurpmi bino;
+		if which bino; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player not installed.";
+		fi
+	    fi
+    fi

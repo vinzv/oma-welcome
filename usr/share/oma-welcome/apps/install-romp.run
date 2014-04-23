@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which rosa-media-player; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" ROSA Media Player are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi rosa-media-player; 
+		if which rosa-media-player; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" ROSA Media Player successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" ROSA Media Player not installed.";
+		fi
+	    else
+		gurpmi rosa-media-player;
+		if which rosa-media-player; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" ROSA Media Player successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" ROSA Media Playernot installed.";
+		fi
+	    fi
+    fi
