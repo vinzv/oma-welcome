@@ -169,6 +169,12 @@ titleflightgear=$"FligtGear"
 descflightgear=$"FlightGear Flight Simulator for Linux"
 titletorcs=$"TORCS"
 desctorcs=$"The Open Racing Car Simulator"
+titlefilezilla=$"Filezilla"
+descfilezilla=$"FileZilla is a powerful, free file management tool for FTP access to your Web site's server"
+titlevirtualbox=$"Virtualbox"
+descvirtualbox=$"An easy virtualization software package for x86 and AMD64/Intel64-based computers."
+titleclamtk=$"ClamTk"
+descclamtk=$"A graphical frontend for ClamAV Antivirus"
 
 #News.sh.htm
 newfeature=$"New Features and Major Changes"

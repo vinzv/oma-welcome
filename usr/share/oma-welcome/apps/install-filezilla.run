@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which filezilla; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi filezilla; 
+		if which filezilla; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla not installed.";
+		fi
+	    else
+		gurpmi filezilla;
+		if which filezilla; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla not installed.";
+		fi
+	    fi
+    fi

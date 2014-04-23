@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which clamtk; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" ClamTk are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi clamtk; 
+		if which clamtk; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" ClamTk successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" ClamTk not installed.";
+		fi
+	    else
+		gurpmi clamtk;
+		if which clamtk; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" ClamTk successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" ClamTk not installed.";
+		fi
+	    fi
+    fi
