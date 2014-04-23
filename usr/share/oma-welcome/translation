@@ -106,9 +106,16 @@ descdia=$"Easy to create Diagram documents with Dia."
 titlegnucash=$"GNUCash"
 descgnucash=$"Manage and track your finances with GNUCash."
 titlesemantik=$"Semantik"
-descsemantik=$"A mindmapping and brainstorming tool."
+descsemantik=$"A mindmapping and brainstorming tool"
 titlekraft=$"Kraft"
 desckraft=$"Manage your office documents with Kraft."
+titlezim=$"Zim"
+desczim=$"A free and open source desktop wiki and outliner.​"
+titlepoedit=$"Poedit"
+descpoedit=$"Poedit is cross-platform gettext catalogs (.po files) editor."
+titlehomebank=$"Homebank"
+deschomebank=$"Free easy personal accounting for all​"
+
 
 #translation of community.sh.htm
 titlecommunity=$"How to collaborate with OpenMandriva Linux"

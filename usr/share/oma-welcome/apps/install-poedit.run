@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which poedit; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Poedit are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi poedit; 
+		if which poedit; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Poedit successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Poedit not installed.";
+		fi
+	    else
+		gurpmi poedit;
+		if which poedit; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Poedit successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Poedit not installed.";
+		fi
+	    fi
+    fi
