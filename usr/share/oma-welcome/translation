@@ -41,6 +41,10 @@ titleconfiglan=$"Configure the network"
 descconfiglan=$"OpenMandriva Lx comes with support for various network drivers, but depending on your network configuration is necessary make some settings, configuring static IP, PPPoE, 3G etc"
 titleomcc=$"OpenMandriva Control Center"
 descomcc=$"All the tools settings are available in drakconf, including system settings, network sharing, security, disk partitioning and more."
+titlechangeicons=$"Configure Desktop Icons"
+descchangeicons=$"Change or configure your desktop icons or install your favorite icons";
+titlescreensaver=$"Configure Screensaver"
+descscreensaver=$"Configure or change your desktop screensaver"
 
 #translations of apps-graphics.sh.htm
 titlegimg=$"Gimp"
@@ -55,6 +59,8 @@ titletuxpaint=$"Tuxpaint"
 desctuxpaint=$"TuxPaint is a perfect mate to encourage children's creativity using simple tools, drawings on the computer"
 titlerpmdrake=$"Install additional applications with rpmdrake"
 descrpmdrake=$"Find and install more than 20,000 applications available in the repositories"
+titlechangethemes=$"Desktop Themes"
+descchangethemes=$"Change or install your favorite KDE themes"
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
