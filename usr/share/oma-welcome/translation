@@ -3,7 +3,7 @@
 #texts to be translated
 #index.sh.htm
 #Locale
-export TEXTDOMAINDIR="/usr/share/locale" 
+export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=om-welcome
 hi=$"Hi"
 title=$"Welcome to OpenMandriva"
@@ -24,7 +24,7 @@ menuappsmultimedia=$"Multimedia"
 menuappsutility=$"Utility"
 menuappsgaming=$"Games"
 cabecalho01=$"Before installing the applications on"
-cabecalho02=$" you should make some settings, to access various applications, after that click on the menus below to install some applications."
+cabecalho02=$"you should make some settings, to access various applications, after that click on the menus below to install some applications."
 cabecalho03=$"Install some extra applications to"
 cabecalho04=$"to install click the application icon."
 titleeditmedia=$"Add Media"
@@ -143,7 +143,7 @@ makestartwithoma=$"Make oma-welcome start with system"
 endapp=$"Finish"
 
 #translation of install-scribus
-installed=$" are already installed"
+installed=$"are already installed"
 noinstalled=$"not installed"
 
 #About.sh.htm
