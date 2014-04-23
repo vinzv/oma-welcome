@@ -336,9 +336,10 @@ text-justify:newspaper;
 .wrapper {
 background: url(images/background_tree.png) no-repeat;
 text-align:center;
-min-width:830px;
-height: 400px;
+min-width:820px;
+min-height:400px;
 padding:10px 10px 10px 10px;
+margin-top:-10px;
 }
 
 .wrapper p {
