@@ -330,10 +330,10 @@ text-justify:newspaper;
 }
 
 .wrapper {
-background: url(images/background_blue.png) no-repeat;
+background: url(images/background_tree.png) no-repeat;
 text-align:center;
 min-width:830px;
-height: 380px;
+height: 400px;
 padding:10px 10px 10px 10px;
 }
 
