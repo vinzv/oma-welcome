@@ -61,6 +61,12 @@ titlerpmdrake=$"Install additional applications with rpmdrake"
 descrpmdrake=$"Find and install more than 20,000 applications available in the repositories"
 titlechangethemes=$"Desktop Themes"
 descchangethemes=$"Change or install your favorite KDE themes"
+titlefotoxx=$"Fotoxx"
+descfotoxx=$"Edit image files from a digital camera. Includes color & contrast enhancement, red-eye removal, noise removal, HDR and panorama image compositing,"
+titlepixelize=$"Pixelize"
+descpixelize=$"Pixelize is a program that will use many scaled down images to try to duplicate, as closely as possible, another image."
+titlelibrecad=$"LibreCAD"
+desclibrecad=$"LibreCAD is a Qt4 application to design 2D cad drawing based on the community edition of QCad."
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
