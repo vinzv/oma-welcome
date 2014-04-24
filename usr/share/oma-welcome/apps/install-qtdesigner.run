@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which qt4-designer; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Qt4-Designer are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi qt4-designer; 
+		if which qt4-designer; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt4-Designer successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt4-Designer not installed.";
+		fi
+	    else
+		gurpmi qt4-designer;
+		if which qt4-designer; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt4-Designer successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt4-Designer not installed.";
+		fi
+	    fi
+    fi
