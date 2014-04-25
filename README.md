@@ -1,7 +1,7 @@
 om-welcome
 ===========
 
-version: 0.9.8
+version: 1.0.0
 
 This is the om-welcome - Welcome to OpenMandriva
 
