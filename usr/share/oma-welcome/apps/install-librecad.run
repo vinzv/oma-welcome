@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which librecad; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi librecad; 
+		if which librecad; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD not installed.";
+		fi
+	    else
+		gurpmi librecad;
+		if which librecad; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD not installed.";
+		fi
+	    fi
+    fi

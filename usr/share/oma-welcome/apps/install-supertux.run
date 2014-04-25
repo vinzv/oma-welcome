@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    if rpm -qa |grep "supertux*"; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Supertux are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi supertux; 
+		if rpm -qa |grep "supertux*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Supertux successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Supertux not installed.";
+		fi
+	    else
+		gurpmi supertux; 
+		if rpm -qa |grep "supertux*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Supertux successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Supertux not installed.";
+		fi
+	    fi
+    fi

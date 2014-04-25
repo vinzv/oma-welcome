@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which gcc; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi gcc gcc-c++ autoconf make task-c-devel task-c++-devel; 
+		if which gcc; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  not installed.";
+		fi
+	    else
+		gurpmi gcc gcc-c++ autoconf make task-c-devel task-c++-devel;
+		if which gcc; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  not installed.";
+		fi
+	    fi
+    fi

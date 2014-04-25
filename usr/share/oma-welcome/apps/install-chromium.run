@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which chromium-browser; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi chromium-browser; 
+		if which chromium-browser; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser not installed.";
+		fi
+	    else
+		gurpmi chromium-browser;
+		if which chromium-browser; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser not installed.";
+		fi
+	    fi
+    fi

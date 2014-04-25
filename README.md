@@ -1,15 +1,12 @@
 om-welcome
 ===========
 
-version: 0.9.5
+version: 1.0.0
 
 This is the om-welcome - Welcome to OpenMandriva
 
 designed to introduce new users to the OpenMandriva distro and
-also integrate common tasks for post-installation distro
-
-Text, images and applications are not official this app will be added as soon as the
-team workshop OpenMandriva Association amend and approve.
+also integrate common tasks for post-installation distro.
 
 requires the following dependencies:
 
@@ -31,6 +28,11 @@ urpmi python-qt4-webkit
 ```sh
 python setup.py install
 ``` 
+
+or just use urpmi:
+```sh
+urpmi python-webpy
+```
 
 ##### Directory Structures
 your files are:

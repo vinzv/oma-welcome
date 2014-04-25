@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which pidgin; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi pidgin; 
+		if which pidgin; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger not installed.";
+		fi
+	    else
+		gurpmi pidgin;
+		if which pidgin; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger not installed.";
+		fi
+	    fi
+    fi

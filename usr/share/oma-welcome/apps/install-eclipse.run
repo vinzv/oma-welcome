@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which eclipse; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi eclipse-platform; 
+		if which eclipse; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE not installed.";
+		fi
+	    else
+		gurpmi eclipse-platform;
+		if which eclipse; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE not installed.";
+		fi
+	    fi
+    fi

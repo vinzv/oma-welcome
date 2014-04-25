@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which grsync; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" GRsync are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi grsync; 
+		if which grsync; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync not installed.";
+		fi
+	    else
+		gurpmi grsync;
+		if which grsync; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync not installed.";
+		fi
+	    fi
+    fi
