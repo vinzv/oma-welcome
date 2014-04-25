@@ -1,0 +1,24 @@
+#! /bin/bash
+
+ref=$(kdialog --title "Dowload Maxthon Browser" --progressbar "(starting up)" 1)
+
+qdbus $ref Set org.kde.kdialog.ProgressDialog maximum 5
+qdbus $ref Set org.kde.kdialog.ProgressDialog value 0
+qdbus $ref setLabelText "downloading rpm files..."
+wget http://dl.maxthon.com/linux/rpm/x86_64/packages/maxthon-browser-stable-1.0.0.10-1.x86_64.rpm -o /tmp/maxthon.rpm
+qdbus $ref Set org.kde.kdialog.ProgressDialog value 1
+qdbus $ref setLabelText "examining..."
+if [ -e /tmp/maxthon.rpm ]; then
+	qdbus $ref Set org.kde.kdialog.ProgressDialog value 2
+	qdbus $ref setLabelText "installing"
+	gurpmi /tmp/maxthon.rpm
+	qdbus $ref Set org.kde.kdialog.ProgressDialog value 3
+	qdbus $ref setLabelText "done"
+	sleep 1
+	qdbus $ref close
+else
+	qdbus $ref Set org.kde.kdialog.ProgressDialog value 0
+	qdbus $ref setLabelText "error"
+	sleep 1
+	qdbus $ref close
+fi
