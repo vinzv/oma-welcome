@@ -1,8 +1,22 @@
 #!/bin/bash
 
-if [ "$(uname -m)" = "i686" ]; then
-		cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -;
-else
-		cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-fi
-kdialog --title $"OpenMandriva"  --msgbox  $" You can run Dropbox daemon with ~/.dropbox-dist/dropboxd command or create autostart script.";
+
+    if which kfilebox; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi kfilebox; 
+		if which kfilebox; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) not installed.";
+		fi
+	    else
+		gurpmi kfilebox;
+		if which kfilebox; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) not installed.";
+		fi
+	    fi
+    fi
