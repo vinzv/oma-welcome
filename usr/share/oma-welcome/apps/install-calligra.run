@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+    if which calligra; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi calligra; 
+		if which calligra; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite not installed.";
+		fi
+	    else
+		gurpmi calligra;
+		if which calligra; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite not installed.";
+		fi
+	    fi
+    fi
