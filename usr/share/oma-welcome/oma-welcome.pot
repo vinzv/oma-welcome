@@ -50,10 +50,10 @@ msgstr ""
 msgid "Internet"
 msgstr ""
 #: translation:28
-msgid "Before installing the applications on"
+msgid "Click on the menus below to configure your"
 msgstr ""
 #: translation:29
-msgid "you should make some settings, to access various applications, after that click on the menus below to install some applications."
+msgid "network drivers, software medium, video drivers, desktop theme, icons, screensavers, printer drivers, etc."
 msgstr ""
 #: translation:30
 msgid "Install some extra applications to"
@@ -71,19 +71,19 @@ msgstr ""
 msgid "Update of"
 msgstr ""
 #: translation:35
-msgid "We must always keep the system updates on day to receive the latest enhancements, bug fixes and stability in the system"
+msgid "To get the latest bug fixes and enhancements for your system you should update it on daily basis. This will enhance the stability of the installation"
 msgstr ""
 #: translation:36
-msgid "Configure the drive video"
+msgid "Configure the video drivers"
 msgstr ""
 #: translation:37
-msgid "Set your video card, install the latest drivers, change resolution, enable 3D hardware acceleration etc"
+msgid "Configure your video card, install latest drivers, change resolution, enable 3D hardware acceleration, etc"
 msgstr ""
 #: translation:38
 msgid "Configure your printer"
 msgstr ""
 #: translation:39
-msgid "Add drivers and configure your printer like HP, EPSON etc in OpenMandriva"
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
 msgstr ""
 #: translation:40
 msgid "Configure the system boot"
@@ -95,13 +95,13 @@ msgstr ""
 msgid "Configure the network"
 msgstr ""
 #: translation:43
-msgid "OpenMandriva Lx comes with support for various network drivers, but depending on your network configuration is necessary make some settings, configuring static IP, PPPoE, 3G etc"
+msgid "OpenMandriva Lx comes with support for various network drivers, but depending on your network configuration it may be necessary to change some settings, such as configuring static IP, PPPoE, 3G, etc"
 msgstr ""
 #: translation:44
 msgid "OpenMandriva Control Center"
 msgstr ""
 #: translation:45
-msgid "All the tools settings are available in drakconf, including system settings, network sharing, security, disk partitioning and more."
+msgid "All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
 msgstr ""
 #: translation:46
 msgid "Configure Desktop Icons"
@@ -125,13 +125,13 @@ msgstr ""
 msgid "Inkscape"
 msgstr ""
 #: translation:55
-msgid "A powerful, open source vector drawing tool, for an illustrator or designer"
+msgid "A powerful, open source vector drawing tool, for illustrators and designers"
 msgstr ""
 #: translation:56
 msgid "Blender"
 msgstr ""
 #: translation:57
-msgid "Modeling software, offering a unique approach to the world of three dimensions."
+msgid "Modeling software that offers a unique approach to the world of three dimensions"
 msgstr ""
 #: translation:58
 msgid "Scribus"
@@ -185,13 +185,13 @@ msgstr ""
 msgid "Audacity"
 msgstr ""
 #: translation:77
-msgid "Edit, record and import many sound file formats, like WAV, AIFF, MP3 and Ogg/Vorbis."
+msgid "Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and Ogg/Vorbis"
 msgstr ""
 #: translation:78
 msgid "Kdenlive"
 msgstr ""
 #: translation:79
-msgid "Kdenlive is a non-linear video editor for KDE who relies on a separate renderer, and supports multi track editing."
+msgid "Kdenlive is a non-linear video editor for KDE that relies on a separate renderer and supports multi-track editing"
 msgstr ""
 #: translation:80
 msgid "Devede"
@@ -209,7 +209,7 @@ msgstr ""
 msgid "Kaudiocreator"
 msgstr ""
 #: translation:85
-msgid "Backup your CDs with KDE tool is, preventing them from scratch and you lose your songs."
+msgid "Backup your CDs using this KDE tool and avoid losing your songs to scratches"
 msgstr ""
 #: translation:86
 msgid "SMPlayer"
@@ -221,7 +221,7 @@ msgstr ""
 msgid "ROSA Media Player"
 msgstr ""
 #: translation:89
-msgid "Watch various video formats, support DVD menu, IPTV and Youtube Video and also capture video and audio from desktop"
+msgid "Watch various video formats, IPTV and YouTube videos; capture video and audio from your desktop"
 msgstr ""
 #: translation:90
 msgid "Miro Player"
@@ -245,13 +245,13 @@ msgstr ""
 msgid "Steam"
 msgstr ""
 #: translation:99
-msgid "Launcher for the Valve's Steam software distribution service."
+msgid "Launcher for the Valve's Steam game distribution service."
 msgstr ""
 #: translation:100
 msgid "Wine"
 msgstr ""
 #: translation:101
-msgid "Wine is a program which allows running Microsoft Windows programs (including DOS, Windows 3.x and Win32 executables) on Unix."
+msgid "Wine allows you to run many Microsoft Windows programs on Linux"
 msgstr ""
 #: translation:102
 msgid "Skype"
@@ -269,13 +269,13 @@ msgstr ""
 msgid "Unrar"
 msgstr ""
 #: translation:109
-msgid "Open and create rar files with Ark, the default archive manager of OpenMandriva Lx"
+msgid "Open and create RAR files with Ark, the default archive manager in OpenMandriva Lx"
 msgstr ""
 #: translation:110
 msgid "Dia"
 msgstr ""
 #: translation:111
-msgid "Easy to create Diagram documents with Dia."
+msgid "Dia is a program to draw structured diagrams."
 msgstr ""
 #: translation:112
 msgid "Calligra"
@@ -314,22 +314,22 @@ msgstr ""
 msgid "Free easy personal accounting for all​"
 msgstr ""
 #: translation:127
-msgid "How to collaborate with OpenMandriva Linux"
+msgid "How to contribute to OpenMandriva"
 msgstr ""
 #: translation:128
-msgid "So do you really like OpenMandriva Lx and are eager to help? You can contribute in various ways:"
+msgid "So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways:"
 msgstr ""
 #: translation:129
 msgid "Manual"
 msgstr ""
 #: translation:130
-msgid "Improve a simple step by step guide for the installation and configuration of the newly installed OpenMandriva Lx"
+msgid "Help improve a simple step-by-step guide for installing and configuring OpenMandriva Lx"
 msgstr ""
 #: translation:131
 msgid "Forums"
 msgstr ""
 #: translation:132
-msgid "Become a member of our forums, answer questions and help others on the forums"
+msgid "Become a member at our forums, answer questions and help others"
 msgstr ""
 #: translation:133
 msgid "Translating"
@@ -341,31 +341,31 @@ msgstr ""
 msgid "Join in the development of OpenMandriva Lx"
 msgstr ""
 #: translation:136
-msgid "Cooker is the development distribution for OpenMandriva"
+msgid "Cooker is the development branch of OpenMandriva Lx"
 msgstr ""
 #: translation:137
 msgid "Artwork"
 msgstr ""
 #: translation:138
-msgid "Use your talent for create new artwork for OpenMandriva Lx"
+msgid "Use your talent to create new artwork for OpenMandriva Lx"
 msgstr ""
 #: translation:139
 msgid "Mailing list"
 msgstr ""
 #: translation:140
-msgid "Join in the discussion list of OpenMandriva"
+msgid "Join the discussion list of OpenMandriva"
 msgstr ""
 #: translation:141
 msgid "Report Bug"
 msgstr ""
 #: translation:142
-msgid "Search, report and solve bugs in OpenMandriva Lx"
+msgid "Search, report and fix bugs (issues?) in OpenMandriva Lx"
 msgstr ""
 #: translation:143
 msgid "Join in the IRC channel"
 msgstr ""
 #: translation:144
-msgid "The openmandriva-cooker is main IRC channel of OpenMandriva Lx"
+msgid "openmandriva-cooker is OpenMandriva's main IRC channel"
 msgstr ""
 #: translation:145
 msgid "Donation"
@@ -374,10 +374,10 @@ msgstr ""
 msgid "You can give us your love and care by donating your time or money to OpenMandriva Lx"
 msgstr ""
 #: translation:147
-msgid "No start oma-welcome with system"
+msgid "Do not start oma-welcome on login"
 msgstr ""
 #: translation:148
-msgid "Make oma-welcome start with system"
+msgid "Make oma-welcome start on login"
 msgstr ""
 #: translation:149
 msgid "Finish"
@@ -398,7 +398,7 @@ msgstr ""
 msgid "It uses python-qt4-webkit, web.py, and bigbashview."
 msgstr ""
 #: translation:159
-msgid "For bugs, suggestions and improvements, please send to "
+msgid "For bugs, suggestions and improvements, please head to "
 msgstr ""
 #: translation:162
 msgid "You are using"
@@ -479,7 +479,7 @@ msgstr ""
 msgid "New Features and Major Changes"
 msgstr ""
 #: translation:191
-msgid "This is the second release under the OpenMandriva Association! Codename for this release is <span class='username'>Phosphorus</span>. Over the course of the past year we've tried to evolve the way you use your desktop with us. Here are some of the things we've done for 2014.0:"
+msgid "This is the second release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for 2014.0:"
 msgstr ""
 #: translation:192
 msgid "Control Center"
@@ -488,20 +488,20 @@ msgstr ""
 msgid "Fresh Packages"
 msgstr ""
 #: translation:194
-msgid "Some fresh packages has been included into this release such as: Homerun Kicker as default menu launcher, Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 28, Systemd 208 and brand new Firewalld."
+msgid "Some fresh packages included with this release include Homerun Kicker (default menu launcher), Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 28, Systemd 208 and the brand new Firewalld."
 msgstr ""
 #: translation:195
-msgid "OpenMandriva Lx features new kernel called <span class='username'>NRJ</span> as for energy!. With the 'NRJ' configs the CPU and RCU are configured with full Pre-emption enabled and in full Boost mode, while the QL mode adds the CK1 and BFQ patchsets which combine to provide further optimisations, including better CPU load scheduling (BFS) and improved disk I/O scheduling (BFQ), Improved memory managment is present with the provision of UKSM and TOI for better suspension and hibernate functionality, each designed with desktop system performance and responsiveness in mind. Please see https://wiki.openmandriva.org/en/Kernel for more information"
+msgid "OpenMandriva Lx features a new kernel called <span class='username'>NRJ</span> (pronounced energy!). With NRJ configs., the CPU and RCU are configured with full pre-emption enabled and in full Boost mode, while the QL mode adds the CK1 and BFQ patchsets which combine to provide further optimisations, including better CPU load scheduling (BFS) and improved disk I/O scheduling (BFQ), Improved memory managment is present with the provision of UKSM and TOI for better suspension and hibernate functionality, each designed with desktop system performance and responsiveness in mind. Please see <a href='./apps/open-kernel-wiki.run' >https://wiki.openmandriva.org/en/Kernel</a> for more information"
 msgstr ""
 #: translation:196
 msgid "KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.11.8. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
 msgstr ""
 #: translation:197
-msgid "LibreOffice 4.2.4 is the newest version available and it is also a Final (Stable) release, which means you can rely on it not crashing and compromising your precious data. As usual, there are a lot of minor improvements for the office suite, and most of them are internal fixes that are not all that visible for the regular users, but some of them are actually interesting."
+msgid "LibreOffice 4.2.3 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 msgstr ""
 #: translation:198
 msgid ""
-"We also featured our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>\n"
+"Also featured is our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>\n"
 "- Software Management<br/>\n"
 "- Hardware<br/>\n"
 "- Network, Internet & Sharing<br/>\n"
@@ -510,10 +510,10 @@ msgid ""
 "- Parental Control<br/>"
 msgstr ""
 #: translation:205
-msgid "This is the first release of OpenMandriva Lx that incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on the majority of machines with installation your mileage will vary. Please file bug reports at issues.openmandriva.org"
+msgid "This is the first release of OpenMandriva Lx that incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run'>issues.openmandriva.org</a>"
 msgstr ""
 #: translation:206
-msgid "All OpenMandriva releases is build under advance platform called ABF. ABF (Automated Build Farm) is distributed environment to build distributions, supporting all steps from managing sourcecode to creating ISO images. ABF is not just a hosting for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva Development by <a href='./apps/open-abf.run' class='titlePage'>http://abf.io</a>"
+msgid "All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' class='titlePage'>http://abf.io</a>"
 msgstr ""
 #: translation:209
 msgid "C/C++ Compilers Suite "
