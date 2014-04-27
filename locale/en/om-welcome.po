@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: Luthfi Emka <panahbiru@gmail.com>\n"
 "Language-Team: OM Workshop Team <om-workshop@ml.openmandriva.org>\n"
+"Language: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: English\n"
 
 #: translation:8
 msgid "Hi"
@@ -92,7 +92,7 @@ msgstr ""
 #: translation:29
 msgid ""
 "network drivers, software medium, video drivers, desktop theme, icons, "
-"screensavers, printer drivers, etc."
+"printer drivers, remove unused packages etc."
 msgstr ""
 
 #: translation:30
@@ -182,11 +182,13 @@ msgid "Change or configure your desktop icons or install your favorite icons"
 msgstr ""
 
 #: translation:48
-msgid "Configure Screensaver"
+msgid "Remove Unused Packages"
 msgstr ""
 
 #: translation:49
-msgid "Configure or change your desktop screensaver"
+msgid ""
+"Remove unused packages such as unused localization and unused hardware "
+"packages"
 msgstr ""
 
 #: translation:52
@@ -760,8 +762,8 @@ msgid ""
 "I/O scheduling (BFQ), Improved memory managment is present with the "
 "provision of UKSM and TOI for better suspension and hibernate functionality, "
 "each designed with desktop system performance and responsiveness in mind. "
-"Please see <a href='./apps/open-kernel-wiki.run' >https://wiki.openmandriva."
-"org/en/Kernel</a> for more information"
+"Please see <a href='./apps/open-kernel-wiki.run' class='blue'>https://wiki."
+"openmandriva.org/en/Kernel</a> for more information"
 msgstr ""
 
 #: translation:196
@@ -805,7 +807,8 @@ msgid ""
 "support for EFI booting. We have only been able to perform limited testing "
 "on this feature and would welcome feedback on user experience. It should be "
 "possible to boot the live system on majority of machines. Please file bug "
-"reports at <a href='./apps/open-bugzilla.run'>issues.openmandriva.org</a>"
+"reports at <a href='./apps/open-bugzilla.run' class='blue'>issues."
+"openmandriva.org</a>"
 msgstr ""
 
 #: translation:206
