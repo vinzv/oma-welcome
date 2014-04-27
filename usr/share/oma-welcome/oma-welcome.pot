@@ -53,7 +53,7 @@ msgstr ""
 msgid "Click on the menus below to configure your"
 msgstr ""
 #: translation:29
-msgid "network drivers, software medium, video drivers, desktop theme, icons, screensavers, printer drivers, etc."
+msgid "network drivers, software medium, video drivers, desktop theme, icons, printer drivers, remove unused packages etc."
 msgstr ""
 #: translation:30
 msgid "Install some extra applications to"
@@ -110,10 +110,10 @@ msgstr ""
 msgid "Change or configure your desktop icons or install your favorite icons"
 msgstr ""
 #: translation:48
-msgid "Configure Screensaver"
+msgid "Remove Unused Packages"
 msgstr ""
 #: translation:49
-msgid "Configure or change your desktop screensaver"
+msgid "Remove unused packages such as unused localization and unused hardware packages"
 msgstr ""
 #: translation:52
 msgid "Gimp"
