@@ -1,10 +1,10 @@
 [Desktop Entry]
 GenericName=Welcome to OpenMandriva
-Name=om-welcome
-Exec=/usr/bin/om-welcome-launcher
+Name=Welcome to OpenMandriva
+Exec=/usr/bin/om-welcome
 X-KDE-StartupNotify=true
 X-KDE-HasTempFileOption=true
 Icon=openmandriva
 Type=Application
 Terminal=false
-Categories=Qt;KDE;
+Categories=Qt;KDE;Settings;
