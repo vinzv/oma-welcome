@@ -1,6 +1,6 @@
 NAME=oma-welcome
 VERSION=1.0.3
-TRANSLATIONS=en fr id it pt_BR pt_PT tr
+TRANSLATIONS=de en fr id it pt_BR pt_PT tr
 bindir=/usr/bin
 sysconfdir=/etc
 sharedir=/usr/share
