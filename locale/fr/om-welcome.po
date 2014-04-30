@@ -1,13 +1,14 @@
-# 
+#
 # Translators:
 # jclvanier <jclvanier@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: oma-welcome\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-04-27 15:16+0000\n"
-"Last-Translator: Alisson Oliveira <linukiss@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/oma-welcome/language/fr/)\n"
+"PO-Revision-Date: 2014-04-30 11:21-0300\n"
+"Last-Translator: alisson oliveira <alisson@linukiss.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/oma-welcome/"
+"language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +52,15 @@ msgid ""
 "that believes in the values of free software & collaboration and whose "
 "founding values are development, equality, co-operation, openness, freedom, "
 "group achievement, independence, and solidarity."
-msgstr "OpenMandriva Lx est un passionnant système d'exploitation libre qui vise à satisfaire et à intéresser aussi bien les utilisateurs avancés que les nouveaux. Il a l\"ampleur et la profondeur d'un système avancé, mais est conçu pour être simple et facile à utiliser. OMLx vient d'une association pilotée à 100%  par la communauté, qui croit dans les valeurs du logiciel libre et la collaboration et dont les valeurs fondatrices sont le développement, l'égalité, la coopération, l'ouverture, la liberté, la réussite du groupe, l'indépendance et la solidarité."
+msgstr ""
+"OpenMandriva Lx est un passionnant système d'exploitation libre qui vise à "
+"satisfaire et à intéresser aussi bien les utilisateurs avancés que les "
+"nouveaux. Il a l\"ampleur et la profondeur d'un système avancé, mais est "
+"conçu pour être simple et facile à utiliser. OMLx vient d'une association "
+"pilotée à 100%  par la communauté, qui croit dans les valeurs du logiciel "
+"libre et la collaboration et dont les valeurs fondatrices sont le "
+"développement, l'égalité, la coopération, l'ouverture, la liberté, la "
+"réussite du groupe, l'indépendance et la solidarité."
 
 #: translation:18
 msgid "Next"
@@ -83,21 +92,23 @@ msgstr "Jeux"
 
 #: translation:26
 msgid "Development"
-msgstr ""
+msgstr "Développement"
 
 #: translation:27
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: translation:28
 msgid "Click on the menus below to configure your"
-msgstr ""
+msgstr "Cliquez sur le menus ci-dessous pour configurer vos"
 
 #: translation:29
 msgid ""
 "network drivers, software medium, video drivers, desktop theme, icons, "
 "printer drivers, remove unused packages etc."
 msgstr ""
+"pilotes de cartes réseaux, dépôts de logiciels, thèmes de bureau, icônes, "
+"pilotes d'imprimantes, suppressions de paquets inutilisés, etc."
 
 #: translation:30
 msgid "Install some extra applications to"
@@ -115,7 +126,9 @@ msgstr "Ajouter les média"
 msgid ""
 "After installing OpenMandriva Lx, you can configure repositories to install "
 "other applications and to keep the system updated"
-msgstr "Après l'installation d'OpenMandiva Lx, vous pouvez configurer les dépôts pour installer d'autres applications et maintenir le système à jour."
+msgstr ""
+"Après l'installation d'OpenMandiva Lx, vous pouvez configurer les dépôts "
+"pour installer d'autres applications et maintenir le système à jour."
 
 #: translation:34
 msgid "Update of"
@@ -124,19 +137,23 @@ msgstr "Mise à jour de"
 #: translation:35
 msgid ""
 "To get the latest bug fixes and enhancements for your system you should "
-"update it on daily basis. This will enhance the stability of the "
-"installation"
+"update it on daily basis. This will enhance the stability of the installation"
 msgstr ""
+"Pour obtenir les derniers correctifs de bogues et améliorations pour votre "
+"système, vous devriez le mettre à jour sur quotidiennement. Cela permettra "
+"d'améliorer sa stabilité"
 
 #: translation:36
 msgid "Configure the video drivers"
-msgstr ""
+msgstr "Configurer les pilotes vidéo"
 
 #: translation:37
 msgid ""
-"Configure your video card, install latest drivers, change resolution, enable"
-" 3D hardware acceleration, etc"
+"Configure your video card, install latest drivers, change resolution, enable "
+"3D hardware acceleration, etc"
 msgstr ""
+"Configurer votre carte vidéo, installer les derniers pilotes, changer de "
+"résolution, activer l'accélération matérielle 3D, etc"
 
 #: translation:38
 msgid "Configure your printer"
@@ -144,7 +161,7 @@ msgstr "Configurer votre imprimante"
 
 #: translation:39
 msgid "Configure your printer, add drivers for HP, EPSON, etc"
-msgstr ""
+msgstr "Configurer votre imprimantes, ajouter les plotes HP, EPSON, etc"
 
 #: translation:40
 msgid "Configure the system boot"
@@ -155,7 +172,11 @@ msgid ""
 "During installation OpenMandriva Lx 2014.0 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
-msgstr "Pendant l'installation, OpenMandriva Lx 2014,0 détecte tous les systèmes d'exploitation installés sur votre ordinateur, mais si vous avez besoin de changer l'ordre de démarrage du système ou réparer grub2 manuellement ou ajouter plus tard un autre système d'exploitation"
+msgstr ""
+"Pendant l'installation, OpenMandriva Lx 2014,0 détecte tous les systèmes "
+"d'exploitation installés sur votre ordinateur, mais si vous avez besoin de "
+"changer l'ordre de démarrage du système ou réparer grub2 manuellement ou "
+"ajouter plus tard un autre système d'exploitation"
 
 #: translation:42
 msgid "Configure the network"
@@ -167,6 +188,9 @@ msgid ""
 "depending on your network configuration it may be necessary to change some "
 "settings, such as configuring static IP, PPPoE, 3G, etc"
 msgstr ""
+"OpenMandriva Lx est livré avec le support de divers pilotes réseau, mais en "
+"fonction de la configuration de votre réseau, il peut être nécessaire "
+"d'ajuster certains paramètres comme : IP statique, PPPoE, 3G etc."
 
 #: translation:44
 msgid "OpenMandriva Control Center"
@@ -177,6 +201,9 @@ msgid ""
 "All system tools and settings are available in drakconf, including System "
 "Settings, Network Sharing, Security, Disk Partitioning, and more"
 msgstr ""
+"Tous les outils de paramétrage système sont disponibles dans drakconf, y "
+"compris les paramètres du système, le partage de réseau, la sécurité, le "
+"partitionnement de disque et plus encore"
 
 #: translation:46
 msgid "Configure Desktop Icons"
@@ -184,17 +211,20 @@ msgstr "Configurer les icônes du bureau"
 
 #: translation:47
 msgid "Change or configure your desktop icons or install your favorite icons"
-msgstr "Changer ou configurer vos icônes de bureau ou installer vos icônes favorites"
+msgstr ""
+"Changer ou configurer vos icônes de bureau ou installer vos icônes favorites"
 
 #: translation:48
 msgid "Remove Unused Packages"
-msgstr ""
+msgstr "Supprimer les paquets inutilisés"
 
 #: translation:49
 msgid ""
 "Remove unused packages such as unused localization and unused hardware "
 "packages"
 msgstr ""
+"Supprimer les paquets inutilisés tels que les langages et matériels dont "
+"vous n'avez pas besoin"
 
 #: translation:52
 msgid "Gimp"
@@ -204,7 +234,9 @@ msgstr "Gimp"
 msgid ""
 "Create and edit your images in a professional way with this powerful Open "
 "Source tool."
-msgstr "Créer ou éditer vos images de façon professionnelle avec ce puissant outil open source."
+msgstr ""
+"Créer ou éditer vos images de façon professionnelle avec ce puissant outil "
+"open source."
 
 #: translation:54
 msgid "Inkscape"
@@ -214,6 +246,8 @@ msgstr "Inskape"
 msgid ""
 "A powerful, open source vector drawing tool, for illustrators and designers"
 msgstr ""
+"Un outil de dessin vectoriel puissant et open source pour illustrateur ou "
+"designer"
 
 #: translation:56
 msgid "Blender"
@@ -224,6 +258,8 @@ msgid ""
 "Modeling software that offers a unique approach to the world of three "
 "dimensions"
 msgstr ""
+"Logiciel de modélisation, offrant une approche unique du monde à trois "
+"dimensions"
 
 #: translation:58
 msgid "Scribus"
@@ -233,7 +269,9 @@ msgstr "Scribus"
 msgid ""
 "Scribus is a desktop layout Open Source program for producing documents in "
 "PDF and Postscript"
-msgstr "Scribus est un logiciel de mise en page de bureau open source pour la production de documents en PDF et Postscript"
+msgstr ""
+"Scribus est un logiciel de mise en page de bureau open source pour la "
+"production de documents en PDF et Postscript"
 
 #: translation:60
 msgid "Tuxpaint"
@@ -243,7 +281,9 @@ msgstr "Tuxpaint"
 msgid ""
 "TuxPaint is a perfect mate to encourage children's creativity using simple "
 "tools, drawings on the computer"
-msgstr "TuxPaint est un compagnon idéal pour encourager la créativité des enfants en utilisant des outils simples, pour dessiner sur l'ordinateur"
+msgstr ""
+"TuxPaint est un compagnon idéal pour encourager la créativité des enfants en "
+"utilisant des outils simples, pour dessiner sur l'ordinateur"
 
 #: translation:62
 msgid "Install additional applications with rpmdrake"
@@ -252,7 +292,8 @@ msgstr "Installer des applications supplémentaire avec rpmdrake"
 #: translation:63
 msgid ""
 "Find and install more than 20,000 applications available in the repositories"
-msgstr "Trouver et installer plus de 20 000 applications disponibles dans les dépôts"
+msgstr ""
+"Trouver et installer plus de 20 000 applications disponibles dans les dépôts"
 
 #: translation:64
 msgid "Desktop Themes"
@@ -264,7 +305,7 @@ msgstr "Changer ou installer vos thèmes KDE favoris"
 
 #: translation:66
 msgid "Fotoxx"
-msgstr ""
+msgstr "Fotoxx"
 
 #: translation:67
 msgid ""
@@ -272,20 +313,26 @@ msgid ""
 "enhancement, red-eye removal, noise removal, HDR and panorama image "
 "compositing,"
 msgstr ""
+"Éditer les fichiers d'image à partir d'un appareil photo numérique. Comprend "
+"amélioration des couleurs et du contraste, suppression des yeux rouges, "
+"suppression du bruit, composition d'image panoramique et HDR (Imagerie large-"
+"gamme)"
 
 #: translation:68
 msgid "Pixelize"
-msgstr ""
+msgstr "Pixelize"
 
 #: translation:69
 msgid ""
 "Pixelize is a program that will use many scaled down images to try to "
 "duplicate, as closely as possible, another image."
 msgstr ""
+"Pixelize est un programme qui va utiliser de nombreuses images réduites pour "
+"essayer de reproduire, le plus fidèlement possible, une autre image."
 
 #: translation:70
 msgid "LibreCAD"
-msgstr ""
+msgstr "LibreCAD"
 
 #: translation:71
 msgid ""
@@ -301,7 +348,10 @@ msgstr "Codecs"
 msgid ""
 "Necessary codecs to run audio and video files in various formats. Some file "
 "formats are proprietary and restricted in some countries."
-msgstr "Codecs nécessaires  pour lire des fichiers audio et vidéo dans divers formats. Certains formats sont propriétaires et sont soumis à restrictions dans quelques pays."
+msgstr ""
+"Codecs nécessaires  pour lire des fichiers audio et vidéo dans divers "
+"formats. Certains formats sont propriétaires et sont soumis à restrictions "
+"dans quelques pays."
 
 #: translation:76
 msgid "Audacity"
@@ -329,7 +379,8 @@ msgstr "Devede"
 
 #: translation:81
 msgid "Create a DVD with your videos with this simple and feature-rich tool."
-msgstr "Créer un DVD de vos vidéos avec cet outil simple et riche en fonctionnalités."
+msgstr ""
+"Créer un DVD de vos vidéos avec cet outil simple et riche en fonctionnalités."
 
 #: translation:82
 msgid "Flash Player"
@@ -338,7 +389,8 @@ msgstr "Flash Player"
 #: translation:83
 msgid ""
 "Play games and flash videos on the internet, with this player from Adobe."
-msgstr "Jouer et visionner des vidéos flash sur internet, avec ce player d'Adobe."
+msgstr ""
+"Jouer et visionner des vidéos flash sur internet, avec ce player d'Adobe."
 
 #: translation:84
 msgid "Kaudiocreator"
@@ -357,7 +409,9 @@ msgstr "SMPlayer"
 msgid ""
 "SMPlayer is a graphical front-end for MPlayer, cross-platform and support "
 "various audio/video formats."
-msgstr "MPlayer est une interface graphique pour MPlayer, multi-plateforme et qui supporte différents formats audio / vidéo."
+msgstr ""
+"MPlayer est une interface graphique pour MPlayer, multi-plateforme et qui "
+"supporte différents formats audio / vidéo."
 
 #: translation:88
 msgid "ROSA Media Player"
@@ -377,7 +431,9 @@ msgstr "Miro Player"
 msgid ""
 "Miro is a popular, free, and open internet TV application. It brings video "
 "channels from thousands of sources."
-msgstr "Miro est une application de télévision internet populaire, libre et ouverte. Elle apporte des canaux vidéo depuis des milliers de sources."
+msgstr ""
+"Miro est une application de télévision internet populaire, libre et ouverte. "
+"Elle apporte des canaux vidéo depuis des milliers de sources."
 
 #: translation:92
 msgid "Bino 3D Video Player"
@@ -393,9 +449,11 @@ msgstr "OpenJDK"
 
 #: translation:97
 msgid ""
-"Install and configure the OpenJDK to be used to access websites and services"
-" in Java"
-msgstr "Installer et configurer l'OpenJDK à utiliser pour l'accès aux sites web et les services en Java"
+"Install and configure the OpenJDK to be used to access websites and services "
+"in Java"
+msgstr ""
+"Installer et configurer l'OpenJDK à utiliser pour l'accès aux sites web et "
+"les services en Java"
 
 #: translation:98
 msgid "Steam"
@@ -419,9 +477,12 @@ msgstr "Skype"
 
 #: translation:103
 msgid ""
-"By installing this package you will download and install Skype from "
-"skype.com. You must accept the Skype EULA before using it"
-msgstr "En installant ce pack vous pourrez télécharger et installer Skype depuis skype.com. Vous devez accepter le CLUF (contrat de license utilisateur final) Skype avant de l'utiliser"
+"By installing this package you will download and install Skype from skype."
+"com. You must accept the Skype EULA before using it"
+msgstr ""
+"En installant ce pack vous pourrez télécharger et installer Skype depuis "
+"skype.com. Vous devez accepter le CLUF (contrat de license utilisateur "
+"final) Skype avant de l'utiliser"
 
 #: translation:106
 msgid "Calibre"
@@ -429,7 +490,9 @@ msgstr "Calibre"
 
 #: translation:107
 msgid "You can convert and manage your e-Books collection with Calibre."
-msgstr "Vous pouvez gérer et convertir votre collection de livres électroniques avec Calibre."
+msgstr ""
+"Vous pouvez gérer et convertir votre collection de livres électroniques avec "
+"Calibre."
 
 #: translation:108
 msgid "Unrar"
@@ -487,7 +550,8 @@ msgstr "Poedit"
 
 #: translation:121
 msgid "Poedit is cross-platform gettext catalogs (.po files) editor."
-msgstr "Poedit est un éditeur de catalogues gettext (fichiers .po) multi-plateforme."
+msgstr ""
+"Poedit est un éditeur de catalogues gettext (fichiers .po) multi-plateforme."
 
 #: translation:122
 msgid "Homebank"
@@ -503,8 +567,8 @@ msgstr ""
 
 #: translation:128
 msgid ""
-"So you really like OpenMandriva Lx and are eager to help? You can contribute"
-" in various ways:"
+"So you really like OpenMandriva Lx and are eager to help? You can contribute "
+"in various ways:"
 msgstr ""
 
 #: translation:129
@@ -581,7 +645,9 @@ msgstr "Dons"
 msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
-msgstr "Vous pouvez nous aider en donnant de votre temps ou de l'argent à OpenMandriva Lx"
+msgstr ""
+"Vous pouvez nous aider en donnant de votre temps ou de l'argent à "
+"OpenMandriva Lx"
 
 #: translation:147
 msgid "Do not start oma-welcome on login"
@@ -707,7 +773,9 @@ msgstr "Filezilla"
 msgid ""
 "FileZilla is a powerful, free file management tool for FTP access to your "
 "Web site's server"
-msgstr "FileZilla est un outil de gestion de fichiers puissant, libre d'accès FTP sur le serveur de votre site Web"
+msgstr ""
+"FileZilla est un outil de gestion de fichiers puissant, libre d'accès FTP "
+"sur le serveur de votre site Web"
 
 #: translation:184
 msgid "Virtualbox"
@@ -717,7 +785,9 @@ msgstr "Virtualbox"
 msgid ""
 "An easy virtualization software package for x86 and AMD64/Intel64-based "
 "computers."
-msgstr "Un logiciel de virtualisation facile pour les ordinateurs x86 et AMD64/Intel64"
+msgstr ""
+"Un logiciel de virtualisation facile pour les ordinateurs x86 et AMD64/"
+"Intel64"
 
 #: translation:186
 msgid "GRsync"
@@ -725,8 +795,8 @@ msgstr ""
 
 #: translation:187
 msgid ""
-"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is"
-" to synchronize local directories."
+"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is "
+"to synchronize local directories."
 msgstr ""
 
 #: translation:190
@@ -735,10 +805,10 @@ msgstr "Nouvelles fonctionnalités et modifications majeures"
 
 #: translation:191
 msgid ""
-"This is the second release, codenamed <span "
-"class='username'>Phosphorus</span>, under the OpenMandriva Association! Over"
-" the course of the year past we've tried to evolve the way you use your "
-"desktop. Here are some of the things we've done for 2014.0:"
+"This is the second release, codenamed <span class='username'>Phosphorus</"
+"span>, under the OpenMandriva Association! Over the course of the year past "
+"we've tried to evolve the way you use your desktop. Here are some of the "
+"things we've done for 2014.0:"
 msgstr ""
 
 #: translation:192
@@ -759,23 +829,23 @@ msgstr ""
 
 #: translation:195
 msgid ""
-"OpenMandriva Lx features a new kernel called <span "
-"class='username'>NRJ</span> (pronounced energy!). With NRJ configs., the CPU"
-" and RCU are configured with full pre-emption enabled and in full Boost "
-"mode, while the QL mode adds the CK1 and BFQ patchsets which combine to "
-"provide further optimisations, including better CPU load scheduling (BFS) "
-"and improved disk I/O scheduling (BFQ), Improved memory managment is present"
-" with the provision of UKSM and TOI for better suspension and hibernate "
-"functionality, each designed with desktop system performance and "
-"responsiveness in mind. Please see <a href='./apps/open-kernel-wiki.run' "
-">https://wiki.openmandriva.org/en/Kernel</a> for more information"
+"OpenMandriva Lx features a new kernel called <span class='username'>NRJ</"
+"span> (pronounced energy!). With NRJ configs., the CPU and RCU are "
+"configured with full pre-emption enabled and in full Boost mode, while the "
+"QL mode adds the CK1 and BFQ patchsets which combine to provide further "
+"optimisations, including better CPU load scheduling (BFS) and improved disk "
+"I/O scheduling (BFQ), Improved memory managment is present with the "
+"provision of UKSM and TOI for better suspension and hibernate functionality, "
+"each designed with desktop system performance and responsiveness in mind. "
+"Please see <a href='./apps/open-kernel-wiki.run' class='blue'>https://wiki."
+"openmandriva.org/en/Kernel</a> for more information"
 msgstr ""
 
 #: translation:196
 msgid ""
-"KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all"
-" the tools required to be productive whilst providing a pleasant, functional"
-" environment. The KDE installation included in this release features the "
+"KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all "
+"the tools required to be productive whilst providing a pleasant, functional "
+"environment. The KDE installation included in this release features the "
 "Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This "
 "release includes an updated Plasma Workspaces 4.11.8. Both releases contain "
 "only bugfixes and translation updates, providing a safe and pleasant update "
@@ -783,7 +853,19 @@ msgid ""
 "Personal Information Management suite Kontact, Umbrello UML Modeller, touch "
 "typing application KTouch, web browser Konqueror, file manager Dolphin and "
 "others."
-msgstr "KDE 4.12.4 offre, un bureau propre unifiée pour OpenMandriva Lx. Il a tous les outils nécessaires pour être productif tout en offrant un environnement agréable et fonctionnel. L'installation de KDE incluse dans cette version offre le lanceur Homerun, de nouvelles illustrations attrayantes et le mediacenter plasma ! <br/> Cette version inclut aussi une mise à jour des espaces de travail Plasma 4.11.8. Les deux versions ne contiennent que des corrections de bugs et les mises à jour de la traduction, en fournissant une mise à jour sûr et agréable pour tout le monde. Plus de 20 corrections de bogues enregistrés comprenant des améliorations de la gestion des renseignements personnels (PIM) de Kontact, Umbrello UML Modeler, l'application de dactylographie KTouch, le navigateur web Konqueror, le gestionnaire de fichiers Dolphin et autres."
+msgstr ""
+"KDE 4.12.4 offre, un bureau propre unifiée pour OpenMandriva Lx. Il a tous "
+"les outils nécessaires pour être productif tout en offrant un environnement "
+"agréable et fonctionnel. L'installation de KDE incluse dans cette version "
+"offre le lanceur Homerun, de nouvelles illustrations attrayantes et le "
+"mediacenter plasma ! <br/> Cette version inclut aussi une mise à jour des "
+"espaces de travail Plasma 4.11.8. Les deux versions ne contiennent que des "
+"corrections de bugs et les mises à jour de la traduction, en fournissant une "
+"mise à jour sûr et agréable pour tout le monde. Plus de 20 corrections de "
+"bogues enregistrés comprenant des améliorations de la gestion des "
+"renseignements personnels (PIM) de Kontact, Umbrello UML Modeler, "
+"l'application de dactylographie KTouch, le navigateur web Konqueror, le "
+"gestionnaire de fichiers Dolphin et autres."
 
 #: translation:197
 msgid ""
@@ -796,7 +878,8 @@ msgstr ""
 
 #: translation:198
 msgid ""
-"Also featured is our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>\n"
+"Also featured is our legacy Control Center. OpenMandriva Control Center (aka "
+"drakconf) is a set of tools to help you configure your system for: <br/>\n"
 "- Software Management<br/>\n"
 "- Hardware<br/>\n"
 "- Network, Internet & Sharing<br/>\n"
@@ -811,7 +894,8 @@ msgid ""
 "support for EFI booting. We have only been able to perform limited testing "
 "on this feature and would welcome feedback on user experience. It should be "
 "possible to boot the live system on majority of machines. Please file bug "
-"reports at <a href='./apps/open-bugzilla.run'>issues.openmandriva.org</a>"
+"reports at <a href='./apps/open-bugzilla.run' class='blue'>issues."
+"openmandriva.org</a>"
 msgstr ""
 
 #: translation:206
@@ -820,8 +904,8 @@ msgid ""
 "ABF (Automated Build Farm) is a distributed environment to build "
 "distributions that supports all things from managing the source code to "
 "creating ISO images. ABF is not just a hosting service for source code, but "
-"a system to build and publish packages. You can check, signup and contribute"
-" to ABF/OpenMandriva development at <a href='./apps/open-abf.run' "
+"a system to build and publish packages. You can check, signup and contribute "
+"to ABF/OpenMandriva development at <a href='./apps/open-abf.run' "
 "class='titlePage'>http://abf.io</a>"
 msgstr ""
 
@@ -899,8 +983,8 @@ msgstr ""
 
 #: translation:224
 msgid ""
-"Gambas Almost BASIC, designed to build graphical applications programs using"
-" the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
+"Gambas Almost BASIC, designed to build graphical applications programs using "
+"the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
 msgstr ""
 
 #: translation:227
@@ -957,8 +1041,8 @@ msgstr ""
 
 #: translation:238
 msgid ""
-"Cross-platform, fast, and ready to use web browser with Adblock Plus enabled"
-" by default"
+"Cross-platform, fast, and ready to use web browser with Adblock Plus enabled "
+"by default"
 msgstr ""
 
 #: translation:239
