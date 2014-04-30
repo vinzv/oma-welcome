@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 GenericName=Welcome to OpenMandriva
 Name=Welcome to OpenMandriva
@@ -7,4 +8,4 @@ X-KDE-HasTempFileOption=true
 Icon=openmandriva
 Type=Application
 Terminal=false
-Categories=Qt;KDE;Settings;
+Categories=Qt;KDE;
