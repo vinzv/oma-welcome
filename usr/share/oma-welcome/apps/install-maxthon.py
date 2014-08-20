@@ -19,7 +19,7 @@ class gui(QtGui.QMainWindow):
 
     def callProgram(self):
 		arch = os.uname()[4]
-		version = '1.0.0.10-1'
+		version = '1.0.3.10-1'
 		
 		self.process.start('urpmi --auto -v http://dl.maxthon.com/linux/rpm/' + arch +'/packages/maxthon-browser-stable-' + version + '.' + arch + '.rpm')
 		
