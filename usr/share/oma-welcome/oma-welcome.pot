@@ -491,15 +491,17 @@ msgstr ""
 msgid "Some fresh packages included with this release include Homerun Kicker (default menu launcher), Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 28, Systemd 208 and the brand new Firewalld."
 msgstr ""
 #: translation:195
-msgid "OpenMandriva Lx features a new kernel called <span class='username'>NRJ</span> (pronounced energy!). With NRJ configs., the CPU and RCU are configured with full pre-emption enabled and in full Boost mode, while the QL mode adds the CK1 and BFQ patchsets which combine to provide further optimisations, including better CPU load scheduling (BFS) and improved disk I/O scheduling (BFQ), Improved memory managment is present with the provision of UKSM and TOI for better suspension and hibernate functionality, each designed with desktop system performance and responsiveness in mind. Please see <a href='./apps/open-kernel-wiki.run' class='blue'>https://wiki.openmandriva.org/en/Kernel</a> for more information"
-msgstr ""
-#: translation:196
-msgid "KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.13.3. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
+msgid ""
+"OpenMandriva Lx features a new kernel called NRJQL. NRJ mode adds CPU and RCU full Preemption and Boost mode, QL mode adds patchsets which combine to provide further optimisations, including BFS CPU task scheduler, BFQ disk I/O scheduler, UKSM memory management, TOI for suspension and hibernation, each designed with desktop system performance and responsiveness in mind.<br/>\n"
+"<b>What's New:</b> HT/SMT NICE by default for a better responsiveness and realtime behaviour on all PC with HT (Hyper-Thread), improving performance of foreground applications at the expense of backgound ones. Your desktop/gui/applications will remain fast even if you run folding@home, mprime, seti@home etc. Please see <a href='./apps/open-kernel-wiki.run' class='titlePage'>https://wiki.openmandriva.org/en/Kernel</a> for more information."
 msgstr ""
 #: translation:197
-msgid "LibreOffice 4.3.1 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+msgid "KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.13.3. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
 msgstr ""
 #: translation:198
+msgid "LibreOffice 4.3.1 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+msgstr ""
+#: translation:199
 msgid ""
 "Also featured is our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>\n"
 "- Software Management<br/>\n"
@@ -508,99 +510,99 @@ msgid ""
 "- Local Disks/Partition Manager<br/>\n"
 "- System Security<br/>"
 msgstr ""
-#: translation:204
+#: translation:205
 msgid "This is the first release of OpenMandriva Lx that incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' class='blue'>issues.openmandriva.org</a>"
 msgstr ""
-#: translation:205
+#: translation:206
 msgid "All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' class='titlePage'>http://abf.io</a>"
 msgstr ""
-#: translation:208
+#: translation:209
 msgid "C/C++ Compilers Suite "
 msgstr ""
-#: translation:209
+#: translation:210
 msgid "This is GNU Cross Compiler (GCC) package, including necessary tools for development like gcc-c++, make, autoconf etc."
 msgstr ""
-#: translation:210
+#: translation:211
 msgid "KDevelop"
 msgstr ""
-#: translation:211
+#: translation:212
 msgid "The KDevelop Integrated Development Environment providing a unified interface to programs like gdb, the C/C++ compiler, and make"
 msgstr ""
-#: translation:212
+#: translation:213
 msgid "Geany IDE"
 msgstr ""
-#: translation:213
+#: translation:214
 msgid "Geany is a small C editor using GTK2 with basic features of an integrated development environment."
 msgstr ""
-#: translation:214
+#: translation:215
 msgid "Eclipse IDE"
 msgstr ""
-#: translation:215
+#: translation:216
 msgid "Eclipse IDE contains a base workspace and an extensible plug-in system, mostly used by Java Developers"
 msgstr ""
-#: translation:216
+#: translation:217
 msgid "Qt-Creator"
 msgstr ""
-#: translation:217
+#: translation:218
 msgid "Qt Creator is a lightweight, cross-platform integrated development environment (IDE)"
 msgstr ""
-#: translation:218
+#: translation:219
 msgid "Qt-Designer"
 msgstr ""
-#: translation:219
+#: translation:220
 msgid "The Qt Designer is a visual design tool that makes designing and implementing user interfaces a lot easier"
 msgstr ""
-#: translation:220
+#: translation:221
 msgid "RPM Packaging"
 msgstr ""
-#: translation:221
+#: translation:222
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
 msgstr ""
-#: translation:222
+#: translation:223
 msgid "Gambas IDE"
 msgstr ""
-#: translation:223
+#: translation:224
 msgid "Gambas Almost BASIC, designed to build graphical applications programs using the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
 msgstr ""
-#: translation:226
+#: translation:227
 msgid "Chromium Browser"
 msgstr ""
-#: translation:227
+#: translation:228
 msgid "Chromium serves as a base for Google Chrome, an open-source browser project that aims to build a safer, faster, and more stable"
 msgstr ""
-#: translation:228
+#: translation:229
 msgid "Mozilla Thunderbird"
 msgstr ""
-#: translation:229
+#: translation:230
 msgid "Thunderbird is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier"
 msgstr ""
-#: translation:230
+#: translation:231
 msgid "Pidgin"
 msgstr ""
-#: translation:231
+#: translation:232
 msgid "Pidgin is a graphical, modular instant messaging client capable of using multiple networks at once."
 msgstr ""
-#: translation:232
+#: translation:233
 msgid "Choqok"
 msgstr ""
-#: translation:233
+#: translation:234
 msgid "Choqok is microblogging client for KDE"
 msgstr ""
-#: translation:234
+#: translation:235
 msgid "XTreme Download Manager"
 msgstr ""
-#: translation:235
+#: translation:236
 msgid "Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, resume broken/dead downloads, etc"
 msgstr ""
-#: translation:236
+#: translation:237
 msgid "Maxthon Browser"
 msgstr ""
-#: translation:237
+#: translation:238
 msgid "Cross-platform, fast, and ready to use web browser with Adblock Plus enabled by default"
 msgstr ""
-#: translation:238
+#: translation:239
 msgid "Dropbox"
 msgstr ""
-#: translation:239
+#: translation:240
 msgid "Dropbox is a free service that lets you bring your photos, docs, and videos anywhere and share them easily"
 msgstr ""

@@ -1,7 +1,7 @@
 /*---------------------------------
  *	News slider > Vertical
  *---------------------------------*/			
-.newslider-vertical{width:820px;height:265px;}
+.newslider-vertical{width:820px;height:320px;}
 
 /* Nav */
 .newslider-vertical .sliderkit-nav{width:200px;height:295px;}
@@ -12,8 +12,8 @@
 .newslider-vertical .sliderkit-nav-clip li a:focus{color:#fff;}
 
 /* Panel */
-.newslider-vertical .sliderkit-panels{position:absolute;left:200px;width:780px;height:258px;overflow:hidden;border:1px solid #ccc;}
-.newslider-vertical .sliderkit-panel{left:0;top:0;width:600px;height:238px;padding:10px;background:url(images/bg.png) #e7e7e7;}
+.newslider-vertical .sliderkit-panels{position:absolute;left:200px;width:780px;height:320px;overflow:hidden;border:1px solid #ccc;}
+.newslider-vertical .sliderkit-panel{left:0;top:0;width:600px;height:320px;padding:10px;background:url(images/bg.png) #e7e7e7;}
 
 /* News block */
 .newslider-vertical .sliderkit-news h3,
