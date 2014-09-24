@@ -5,14 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oma-welcome\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-04-30 11:22-0300\n"
-"Last-Translator: alisson oliveira <alisson@linukiss.com>\n"
+"PO-Revision-Date: 2014-09-24 04:04-0500\n"
+"Last-Translator: Luthfi Emka <panahbiru@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/oma-welcome/"
 "language/tr/)\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: translation:8
@@ -165,8 +165,9 @@ msgid "Configure the system boot"
 msgstr "Sistem açılışı yapılandırması"
 
 #: translation:41
+#, fuzzy
 msgid ""
-"During installation OpenMandriva Lx 2014.0 detects all operating systems "
+"During installation OpenMandriva Lx 2014.1 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
@@ -403,8 +404,9 @@ msgid "SMPlayer"
 msgstr "SMPlayer"
 
 #: translation:87
+#, fuzzy
 msgid ""
-"SMPlayer is a graphical front-end for MPlayer, cross-platform and support "
+"SMPlayer is a graphical front-end for MPlayer, cross-platform and supports "
 "various audio/video formats."
 msgstr ""
 "SMPlayer MPlayer için bir grafik arayüzdür. Çok platformludur ve pekçok ses/"
@@ -813,11 +815,12 @@ msgid "New Features and Major Changes"
 msgstr "Yeni özellikler ve önemli değişiklikler"
 
 #: translation:191
+#, fuzzy
 msgid ""
 "This is the second release, codenamed <span class='username'>Phosphorus</"
 "span>, under the OpenMandriva Association! Over the course of the year past "
 "we've tried to evolve the way you use your desktop. Here are some of the "
-"things we've done for 2014.0:"
+"things we've done for 2014.1:"
 msgstr ""
 "Kod adı <span class='username'>Phosphorus</span> olan bu sürüm, OpenMandriva "
 "Derneği tarafından çıkarılan ikinci sürümdür. Geçen yıl boyunca masaüstü "
@@ -869,12 +872,13 @@ msgstr ""
 "run' class='blue'>https://wiki.openmandriva.org/en/Kernel</a>"
 
 #: translation:196
+#, fuzzy
 msgid ""
-"KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all "
+"KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has all "
 "the tools required to be productive whilst providing a pleasant, functional "
 "environment. The KDE installation included in this release features the "
 "Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This "
-"release includes an updated Plasma Workspaces 4.11.8. Both releases contain "
+"release includes an updated Plasma Workspaces 4.13.3. Both releases contain "
 "only bugfixes and translation updates, providing a safe and pleasant update "
 "for everyone. More than 20 recorded bugfixes include improvements to "
 "Personal Information Management suite Kontact, Umbrello UML Modeller, touch "
@@ -893,8 +897,9 @@ msgstr ""
 "diğerlerini kapsamaktadır."
 
 #: translation:197
+#, fuzzy
 msgid ""
-"LibreOffice 4.2.3 is the newest available, Final (Stable) release version, "
+"LibreOffice 4.3.1 is the newest available, Final (Stable) release version, "
 "which means you can rely on it to not crash and compromise your precious "
 "data. As usual, there are a lot of minor improvements, most of which are "
 "internal fixes that are not noticeable by regular users, but some are "
@@ -906,6 +911,7 @@ msgstr ""
 "edilemeyecek ancak aslında oldukça ilginç olan dahili düzeltmelerdir."
 
 #: translation:198
+#, fuzzy
 msgid ""
 "Also featured is our legacy Control Center. OpenMandriva Control Center (aka "
 "drakconf) is a set of tools to help you configure your system for: <br/>\n"
@@ -913,8 +919,7 @@ msgid ""
 "- Hardware<br/>\n"
 "- Network, Internet & Sharing<br/>\n"
 "- Local Disks/Partition Manager<br/>\n"
-"- System Security<br/>\n"
-"- Parental Control<br/>"
+"- System Security<br/>"
 msgstr ""
 "Eski Denetim Merkezi de sunulmaktadır. OpenMandriva Denetim Merkezi "
 "(drakconf olarak bilinen) aşağıdaki konularda sisteminizin "
@@ -926,7 +931,7 @@ msgstr ""
 "- Sistem Güvenliği <br/>\n"
 "- Ebeveyn Denetimi <br/>"
 
-#: translation:205
+#: translation:204
 msgid ""
 "This is the first release of OpenMandriva Lx that incorporates working "
 "support for EFI booting. We have only been able to perform limited testing "
@@ -942,7 +947,7 @@ msgstr ""
 "bildiriniz: <a href='./apps/open-bugzilla.run' class='blue'>issues."
 "openmandriva.org</a>"
 
-#: translation:206
+#: translation:205
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
@@ -960,11 +965,11 @@ msgstr ""
 "OpenMandriva geliştirilmesine katkıda bulunmak için <a href='./apps/open-abf."
 "run' class='titlePage'>http://abf.io</a> adresini kullanabilirsiniz"
 
-#: translation:209
+#: translation:208
 msgid "C/C++ Compilers Suite "
 msgstr "C/C++ Derleyiciler Takımı"
 
-#: translation:210
+#: translation:209
 msgid ""
 "This is GNU Cross Compiler (GCC) package, including necessary tools for "
 "development like gcc-c++, make, autoconf etc."
@@ -972,11 +977,11 @@ msgstr ""
 "Bu GNU Cross Compiler (GCC) derleyici paketidir. gcc-c++, make, autoconf vs. "
 "gibi gerekli araçları kapsar."
 
-#: translation:211
+#: translation:210
 msgid "KDevelop"
 msgstr "KDevelop"
 
-#: translation:212
+#: translation:211
 msgid ""
 "The KDevelop Integrated Development Environment providing a unified "
 "interface to programs like gdb, the C/C++ compiler, and make"
@@ -984,11 +989,11 @@ msgstr ""
 "KDevelop Birleşik Geliştirme Ortamı, gdb, C/C++ derleyici ve make gibi "
 "programların ortak kullanımını sağlayan bir arabirimdir"
 
-#: translation:213
+#: translation:212
 msgid "Geany IDE"
 msgstr "Geany IDE"
 
-#: translation:214
+#: translation:213
 msgid ""
 "Geany is a small C editor using GTK2 with basic features of an integrated "
 "development environment."
@@ -996,11 +1001,11 @@ msgstr ""
 "Geany, GTK2 kullanan birleşik geliştirme ortamının temel unsurları ile küçük "
 "bir C editörüdür."
 
-#: translation:215
+#: translation:214
 msgid "Eclipse IDE"
 msgstr "Eclipse IDE"
 
-#: translation:216
+#: translation:215
 msgid ""
 "Eclipse IDE contains a base workspace and an extensible plug-in system, "
 "mostly used by Java Developers"
@@ -1008,22 +1013,22 @@ msgstr ""
 "Eclipse IDE, temel bir çalışma alanı ve genişletilebilir eklenti sistemine "
 "sahiptir ve genellikle java geliştiricileri tarafından kullanılır"
 
-#: translation:217
+#: translation:216
 msgid "Qt-Creator"
 msgstr "Qt-Creator"
 
-#: translation:218
+#: translation:217
 msgid ""
 "Qt Creator is a lightweight, cross-platform integrated development "
 "environment (IDE)"
 msgstr ""
 "Qt Creator bir hafif ve çok platformlu birleşik geliştirme ortamıdır (IDE)"
 
-#: translation:219
+#: translation:218
 msgid "Qt-Designer"
 msgstr "Qt-Designer"
 
-#: translation:220
+#: translation:219
 msgid ""
 "The Qt Designer is a visual design tool that makes designing and "
 "implementing user interfaces a lot easier"
@@ -1031,19 +1036,19 @@ msgstr ""
 "Qt Designer kullanıcı arabirimlerinin tasarım ve yazılımını çok "
 "kolaylaştıran bir görsel tasarım aracıdır"
 
-#: translation:221
+#: translation:220
 msgid "RPM Packaging"
 msgstr "RPM Paketleme"
 
-#: translation:222
+#: translation:221
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
 msgstr "rpmbuild, rpmlint vs. içeren RPM Paketleme takımı"
 
-#: translation:223
+#: translation:222
 msgid "Gambas IDE"
 msgstr "Gambas IDE"
 
-#: translation:224
+#: translation:223
 msgid ""
 "Gambas Almost BASIC, designed to build graphical applications programs using "
 "the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
@@ -1052,11 +1057,11 @@ msgstr ""
 "bir çalışma ortamında grafiksel uygulamaları tasarlayıp yazmak için "
 "kullanılır"
 
-#: translation:227
+#: translation:226
 msgid "Chromium Browser"
 msgstr "Chromium Tarayıcı"
 
-#: translation:228
+#: translation:227
 msgid ""
 "Chromium serves as a base for Google Chrome, an open-source browser project "
 "that aims to build a safer, faster, and more stable"
@@ -1064,11 +1069,11 @@ msgstr ""
 "Chromium, daha güvenli, daha hızlı ve daha kararlı bir açık kaynak kodlu "
 "tarayıcı projesi olan Google Chrome için taban oluşturur"
 
-#: translation:229
+#: translation:228
 msgid "Mozilla Thunderbird"
 msgstr "Mozilla Thunderbird/Fırtına Kuşu"
 
-#: translation:230
+#: translation:229
 msgid ""
 "Thunderbird is a full-featured email, RSS and newsgroup client that makes "
 "emailing safer, faster and easier"
@@ -1077,11 +1082,11 @@ msgstr ""
 "daha güvenli, daha hızlı ve daha kolay yapan tam özellikli bir posta "
 "uygulamasıdır"
 
-#: translation:231
+#: translation:230
 msgid "Pidgin"
 msgstr "Pidgin"
 
-#: translation:232
+#: translation:231
 msgid ""
 "Pidgin is a graphical, modular instant messaging client capable of using "
 "multiple networks at once."
@@ -1089,19 +1094,19 @@ msgstr ""
 "Pidgin tüm ağları bir yerde kullanabilen grafiksel modüler anında mesajlaşma "
 "istemcisidir"
 
-#: translation:233
+#: translation:232
 msgid "Choqok"
 msgstr "Choqok"
 
-#: translation:234
+#: translation:233
 msgid "Choqok is microblogging client for KDE"
 msgstr "Choqok KDE için bir mikro-blog istemcisidir"
 
-#: translation:235
+#: translation:234
 msgid "XTreme Download Manager"
 msgstr "XTreme İndirme Yöneticisi"
 
-#: translation:236
+#: translation:235
 msgid ""
 "Xtreme Download Manager is a powerful tool to increase download speed up-to "
 "500%, resume broken/dead downloads, etc"
@@ -1109,11 +1114,11 @@ msgstr ""
 "XTreme İndirme Yöneticisi indirme hızını %500 kadar arttırabilen, kopan/"
 "ölmüş bağlantıları yeniden başlatabilen, vs.  güçlü bir araçtır"
 
-#: translation:237
+#: translation:236
 msgid "Maxthon Browser"
 msgstr "Maxthon Tarayıcı"
 
-#: translation:238
+#: translation:237
 msgid ""
 "Cross-platform, fast, and ready to use web browser with Adblock Plus enabled "
 "by default"
@@ -1121,11 +1126,11 @@ msgstr ""
 "Adblock Plus özelliği varsayılan olarak gelen, çok platformlu, hızlı ve "
 "kullanıma hazır internet tarayıcısı"
 
-#: translation:239
+#: translation:238
 msgid "Dropbox"
 msgstr "Dropbox"
 
-#: translation:240
+#: translation:239
 msgid ""
 "Dropbox is a free service that lets you bring your photos, docs, and videos "
 "anywhere and share them easily"

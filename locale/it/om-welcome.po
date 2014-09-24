@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oma-welcome\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-04-30 11:21-0300\n"
-"Last-Translator: alisson oliveira <alisson@linukiss.com>\n"
+"PO-Revision-Date: 2014-09-24 04:03-0500\n"
+"Last-Translator: Luthfi Emka <panahbiru@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/oma-welcome/"
 "language/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: translation:8
@@ -169,8 +169,9 @@ msgid "Configure the system boot"
 msgstr "Configura il boot del sistema"
 
 #: translation:41
+#, fuzzy
 msgid ""
-"During installation OpenMandriva Lx 2014.0 detects all operating systems "
+"During installation OpenMandriva Lx 2014.1 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
@@ -414,8 +415,9 @@ msgid "SMPlayer"
 msgstr "SMPlayer"
 
 #: translation:87
+#, fuzzy
 msgid ""
-"SMPlayer is a graphical front-end for MPlayer, cross-platform and support "
+"SMPlayer is a graphical front-end for MPlayer, cross-platform and supports "
 "various audio/video formats."
 msgstr ""
 "SMPlayer è un frontend grafico per MPlayer, Multi-piattaforma e che supporta "
@@ -826,11 +828,12 @@ msgid "New Features and Major Changes"
 msgstr "Nuove funzionalità e modifiche principali"
 
 #: translation:191
+#, fuzzy
 msgid ""
 "This is the second release, codenamed <span class='username'>Phosphorus</"
 "span>, under the OpenMandriva Association! Over the course of the year past "
 "we've tried to evolve the way you use your desktop. Here are some of the "
-"things we've done for 2014.0:"
+"things we've done for 2014.1:"
 msgstr ""
 "Questa è la seconda release, nome in codice <span class='username'> "
 "Phosphorus </ span>, sotto l'Associazione OpenMandriva! Nel corso dell'anno "
@@ -858,6 +861,7 @@ msgstr ""
 "VLC Player, Mozilla Firefox 28, Systemd 208 e il nuovo Firewalld."
 
 #: translation:195
+#, fuzzy
 msgid ""
 "OpenMandriva Lx features a new kernel called <span class='username'>NRJ</"
 "span> (pronounced energy!). With NRJ configs., the CPU and RCU are "
@@ -867,8 +871,8 @@ msgid ""
 "I/O scheduling (BFQ), Improved memory managment is present with the "
 "provision of UKSM and TOI for better suspension and hibernate functionality, "
 "each designed with desktop system performance and responsiveness in mind. "
-"Please see <a href='./apps/open-kernel-wiki.run' >https://wiki.openmandriva."
-"org/en/Kernel</a> for more information"
+"Please see <a href='./apps/open-kernel-wiki.run' class='blue'>https://wiki."
+"openmandriva.org/en/Kernel</a> for more information"
 msgstr ""
 "OpenMandriva Lx dispone di un nuovo kernel chiamato <span class='username'> "
 "NRJ </ span> (si pronuncia energy!). Con le configurazioni NRJ., La CPU e "
@@ -883,12 +887,13 @@ msgstr ""
 "https://wiki.openmandriva.org/en/Kernel </ a> per ulteriori informazioni"
 
 #: translation:196
+#, fuzzy
 msgid ""
-"KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all "
+"KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has all "
 "the tools required to be productive whilst providing a pleasant, functional "
 "environment. The KDE installation included in this release features the "
 "Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This "
-"release includes an updated Plasma Workspaces 4.11.8. Both releases contain "
+"release includes an updated Plasma Workspaces 4.13.3. Both releases contain "
 "only bugfixes and translation updates, providing a safe and pleasant update "
 "for everyone. More than 20 recorded bugfixes include improvements to "
 "Personal Information Management suite Kontact, Umbrello UML Modeller, touch "
@@ -908,8 +913,9 @@ msgstr ""
 "Konqueror, il file manager Dolphin e altri."
 
 #: translation:197
+#, fuzzy
 msgid ""
-"LibreOffice 4.2.3 is the newest available, Final (Stable) release version, "
+"LibreOffice 4.3.1 is the newest available, Final (Stable) release version, "
 "which means you can rely on it to not crash and compromise your precious "
 "data. As usual, there are a lot of minor improvements, most of which are "
 "internal fixes that are not noticeable by regular users, but some are "
@@ -922,6 +928,7 @@ msgstr ""
 "dagli utenti regolari, ma alcuni sono effettivamente interessanti"
 
 #: translation:198
+#, fuzzy
 msgid ""
 "Also featured is our legacy Control Center. OpenMandriva Control Center (aka "
 "drakconf) is a set of tools to help you configure your system for: <br/>\n"
@@ -929,8 +936,7 @@ msgid ""
 "- Hardware<br/>\n"
 "- Network, Internet & Sharing<br/>\n"
 "- Local Disks/Partition Manager<br/>\n"
-"- System Security<br/>\n"
-"- Parental Control<br/>"
+"- System Security<br/>"
 msgstr ""
 "Abbiamo inoltre caratterizzato il classico Control Center. OpenMandriva "
 "Control Center (aka drakconf) è un insieme di Strumenti che consentono di "
@@ -943,13 +949,15 @@ msgstr ""
 "- Sistema di sicurezza\n"
 "- Parental Control"
 
-#: translation:205
+#: translation:204
+#, fuzzy
 msgid ""
 "This is the first release of OpenMandriva Lx that incorporates working "
 "support for EFI booting. We have only been able to perform limited testing "
 "on this feature and would welcome feedback on user experience. It should be "
 "possible to boot the live system on majority of machines. Please file bug "
-"reports at <a href='./apps/open-bugzilla.run'>issues.openmandriva.org</a>"
+"reports at <a href='./apps/open-bugzilla.run' class='blue'>issues."
+"openmandriva.org</a>"
 msgstr ""
 "Questa è la prima release di OpenMandriva Lx che incorpora un supporto "
 "funzionante per EFI boot. Siamo stati solo in grado di eseguire test "
@@ -958,7 +966,7 @@ msgstr ""
 "maggior parte delle macchine. Si prega di inviare segnalazioni di bug a "
 "issues.openmandriva.org"
 
-#: translation:206
+#: translation:205
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
@@ -977,11 +985,11 @@ msgstr ""
 "Development by <a href='./apps/open-abf.run' class='titlePage'> http://abf."
 "io </ a>"
 
-#: translation:209
+#: translation:208
 msgid "C/C++ Compilers Suite "
 msgstr "Suite compilatori C/C++"
 
-#: translation:210
+#: translation:209
 msgid ""
 "This is GNU Cross Compiler (GCC) package, including necessary tools for "
 "development like gcc-c++, make, autoconf etc."
@@ -989,11 +997,11 @@ msgstr ""
 "Questo è un pacchetto GNU Cross Compilatore (GCC), include gli strumenti "
 "necessari per lo sviluppo, come gcc-c + +, make,  autoconf etc."
 
-#: translation:211
+#: translation:210
 msgid "KDevelop"
 msgstr "KDevelop"
 
-#: translation:212
+#: translation:211
 msgid ""
 "The KDevelop Integrated Development Environment providing a unified "
 "interface to programs like gdb, the C/C++ compiler, and make"
@@ -1001,11 +1009,11 @@ msgstr ""
 "L'ambiente di sviluppo integrato KDevelop che fornisce un'interfaccia "
 "unificata per programmi come gdb, il / compilatore C + + C, e make"
 
-#: translation:213
+#: translation:212
 msgid "Geany IDE"
 msgstr "Geany IDE"
 
-#: translation:214
+#: translation:213
 msgid ""
 "Geany is a small C editor using GTK2 with basic features of an integrated "
 "development environment."
@@ -1013,11 +1021,11 @@ msgstr ""
 "Geany è un piccolo editor di C che usa GTK2 con le caratteristiche di base "
 "di un ambiente di sviluppo integrato."
 
-#: translation:215
+#: translation:214
 msgid "Eclipse IDE"
 msgstr "Eclipse IDE"
 
-#: translation:216
+#: translation:215
 msgid ""
 "Eclipse IDE contains a base workspace and an extensible plug-in system, "
 "mostly used by Java Developers"
@@ -1025,11 +1033,11 @@ msgstr ""
 "Eclipse IDE contiene uno spazio di lavoro di base e un sistema estendibile a "
 "plug-in, per lo più utilizzato da sviluppatori Java"
 
-#: translation:217
+#: translation:216
 msgid "Qt-Creator"
 msgstr "Qt-Creator"
 
-#: translation:218
+#: translation:217
 msgid ""
 "Qt Creator is a lightweight, cross-platform integrated development "
 "environment (IDE)"
@@ -1037,11 +1045,11 @@ msgstr ""
 "Qt Creator è un ambiente di sviluppo integrato (IDE)  leggero e multi-"
 "piattaforma "
 
-#: translation:219
+#: translation:218
 msgid "Qt-Designer"
 msgstr "Qt-Designer"
 
-#: translation:220
+#: translation:219
 msgid ""
 "The Qt Designer is a visual design tool that makes designing and "
 "implementing user interfaces a lot easier"
@@ -1049,19 +1057,19 @@ msgstr ""
 "Il Qt Designer è uno strumento di progettazione visiva che rende la "
 "progettazione e realizzazione di interfacce utente molto più facile"
 
-#: translation:221
+#: translation:220
 msgid "RPM Packaging"
 msgstr "RPM Packaging"
 
-#: translation:222
+#: translation:221
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
 msgstr "Suite di RPM Packaging, tra cui rpmbuild, rpmlint, ecc"
 
-#: translation:223
+#: translation:222
 msgid "Gambas IDE"
 msgstr "Gambas IDE"
 
-#: translation:224
+#: translation:223
 msgid ""
 "Gambas Almost BASIC, designed to build graphical applications programs using "
 "the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
@@ -1069,11 +1077,11 @@ msgstr ""
 "Gambas Almost BASIC, progettato per costruire programmi applicativi grafici "
 "utilizzando il toolkit Qt / GTK + con Visual Basic (TM) come flusso di lavoro"
 
-#: translation:227
+#: translation:226
 msgid "Chromium Browser"
 msgstr "Chromium Browser"
 
-#: translation:228
+#: translation:227
 msgid ""
 "Chromium serves as a base for Google Chrome, an open-source browser project "
 "that aims to build a safer, faster, and more stable"
@@ -1081,11 +1089,11 @@ msgstr ""
 "Chromium serve come base per Google Chrome, un progetto open-source che mira "
 "a costruire un browser più sicuro, più veloce e più stabile"
 
-#: translation:229
+#: translation:228
 msgid "Mozilla Thunderbird"
 msgstr "Mozilla Thunderbird"
 
-#: translation:230
+#: translation:229
 msgid ""
 "Thunderbird is a full-featured email, RSS and newsgroup client that makes "
 "emailing safer, faster and easier"
@@ -1093,11 +1101,11 @@ msgstr ""
 "Thunderbird è un full-optional email, feed RSS e newsgroup client che rende "
 "la gestione dell'email più sicura, più veloce e più facile"
 
-#: translation:231
+#: translation:230
 msgid "Pidgin"
 msgstr "Pidgin"
 
-#: translation:232
+#: translation:231
 msgid ""
 "Pidgin is a graphical, modular instant messaging client capable of using "
 "multiple networks at once."
@@ -1105,19 +1113,19 @@ msgstr ""
 "Pidgin è un client di messaggistica istantanea grafico e modulare in grado "
 "di utilizzare più reti in una sola volta."
 
-#: translation:233
+#: translation:232
 msgid "Choqok"
 msgstr "Choqok"
 
-#: translation:234
+#: translation:233
 msgid "Choqok is microblogging client for KDE"
 msgstr "Choqok è microblogging client per KDE"
 
-#: translation:235
+#: translation:234
 msgid "XTreme Download Manager"
 msgstr "XTreme Download Manager"
 
-#: translation:236
+#: translation:235
 msgid ""
 "Xtreme Download Manager is a powerful tool to increase download speed up-to "
 "500%, resume broken/dead downloads, etc"
@@ -1125,11 +1133,11 @@ msgstr ""
 "Xtreme Download Manager è un potente strumento per aumentare la velocità di "
 "download fino al 500%, riprendere i download interrotti / morti, etc"
 
-#: translation:237
+#: translation:236
 msgid "Maxthon Browser"
 msgstr "Maxthon Browser"
 
-#: translation:238
+#: translation:237
 msgid ""
 "Cross-platform, fast, and ready to use web browser with Adblock Plus enabled "
 "by default"
@@ -1137,11 +1145,11 @@ msgstr ""
 "Browser web Multi-piattaforma, veloce e pronto per l'uso con Adblock Plus "
 "abilitato di default"
 
-#: translation:239
+#: translation:238
 msgid "Dropbox"
 msgstr "Dropbox"
 
-#: translation:240
+#: translation:239
 msgid ""
 "Dropbox is a free service that lets you bring your photos, docs, and videos "
 "anywhere and share them easily"
