@@ -69,10 +69,10 @@ python bigbashview.py -s 960x600 -c index.sh.htm
 
 with the command
 ```sh
-bash --dump-po-strings translation > om-welcome.pot
+bash --dump-po-strings translation > oma-welcome.pot
 ```
 
-om-welcome.pot is the translation file.
+oma-welcome.pot is the translation file.
 
 the bigbashview uses html, css and js to create the layout, if you want to make any changes or improvements
 just edit the files with the format. sh.htm, and style.css that is inside the css folder.
