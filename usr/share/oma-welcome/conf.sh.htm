@@ -28,6 +28,7 @@ cat << EOF
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
+			<li><a href="choosemenuK.sh.htm">Kde menu</a></li>
 			<li><a href="apps-office.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
@@ -37,7 +38,7 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$cabecalho01 $(lsb_release -d | cut -d":" -f2)
+		<p class="titlePage">$cabecalho01 $(head -1 /README |fmt -w 28|head -1)
 		$cabecalho02 </p>
 		<br/>
 		<ul id="item-list">
@@ -84,7 +85,7 @@ cat << EOF
 		</ul>
 	</div> 
 	<div id="rodape">
-	<a href="apps-office.sh.htm" class="button">$next</a>
+	<a href="choosemenuK.sh.htm" class="button">$next</a>
 	</div>
 </body>
 EOF
