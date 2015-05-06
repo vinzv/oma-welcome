@@ -147,7 +147,7 @@ msgstr ""
 
 #: translation:41
 msgid ""
-"During installation OpenMandriva Lx 2014.0 detects all operating systems "
+"During installation OpenMandriva Lx 2014.2 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
@@ -733,7 +733,7 @@ msgid ""
 "This is the second release, codenamed <span class='username'>Phosphorus</"
 "span>, under the OpenMandriva Association! Over the course of the year past "
 "we've tried to evolve the way you use your desktop. Here are some of the "
-"things we've done for 2014.0:"
+"things we've done for 2014.2:"
 msgstr ""
 
 #: translation:192
@@ -768,7 +768,7 @@ msgstr ""
 
 #: translation:196
 msgid ""
-"KDE 4.12.4 provides a clean, unified desktop for OpenMandriva Lx. It has all "
+"KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has all "
 "the tools required to be productive whilst providing a pleasant, functional "
 "environment. The KDE installation included in this release features the "
 "Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This "
@@ -782,7 +782,7 @@ msgstr ""
 
 #: translation:197
 msgid ""
-"LibreOffice 4.2.3 is the newest available, Final (Stable) release version, "
+"LibreOffice 4.4.3 is the newest available, Final (Stable) release version, "
 "which means you can rely on it to not crash and compromise your precious "
 "data. As usual, there are a lot of minor improvements, most of which are "
 "internal fixes that are not noticeable by regular users, but some are "

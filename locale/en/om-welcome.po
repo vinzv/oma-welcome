@@ -147,7 +147,7 @@ msgstr ""
 
 #: translation:41
 msgid ""
-"During installation OpenMandriva Lx 2014.1 detects all operating systems "
+"During installation OpenMandriva Lx 2014.2 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
@@ -733,7 +733,7 @@ msgid ""
 "This is the third release, codenamed <span class='username'>Phosphorus</"
 "span>, under the OpenMandriva Association! Over the course of the year past "
 "we've tried to evolve the way you use your desktop. Here are some of the "
-"things we've done for 2014.1:"
+"things we've done for 2014.2:"
 msgstr ""
 
 #: translation:192
@@ -749,7 +749,7 @@ msgid ""
 "Some fresh packages included with this release include Homerun Kicker "
 "(default menu launcher), Krita (Digital Painting), Kamoso (Webcam Viewer), "
 "Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC "
-"Player, Mozilla Firefox 28, Systemd 208 and the brand new Firewalld."
+"Player, Mozilla Firefox 38, Systemd 208 and the brand new Firewalld."
 msgstr ""
 
 #: translation:195
@@ -785,7 +785,7 @@ msgstr ""
 
 #: translation:198
 msgid ""
-"LibreOffice 4.3.1 is the newest available, Final (Stable) release version, "
+"LibreOffice 4.4.3 is the newest available, Final (Stable) release version, "
 "which means you can rely on it to not crash and compromise your precious "
 "data. As usual, there are a lot of minor improvements, most of which are "
 "internal fixes that are not noticeable by regular users, but some are "

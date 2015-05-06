@@ -89,7 +89,7 @@ msgstr ""
 msgid "Configure the system boot"
 msgstr ""
 #: translation:41
-msgid "During installation OpenMandriva Lx 2014.1 detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
+msgid "During installation OpenMandriva Lx 2014.2 detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
 msgstr ""
 #: translation:42
 msgid "Configure the network"
@@ -479,7 +479,7 @@ msgstr ""
 msgid "New Features and Major Changes"
 msgstr ""
 #: translation:191
-msgid "This is the third release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for 2014.1:"
+msgid "This is the third release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for 2014.2:"
 msgstr ""
 #: translation:192
 msgid "Control Center"
@@ -488,7 +488,7 @@ msgstr ""
 msgid "Fresh Packages"
 msgstr ""
 #: translation:194
-msgid "Some fresh packages included with this release include Homerun Kicker (default menu launcher), Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 28, Systemd 208 and the brand new Firewalld."
+msgid "Some fresh packages included with this release include Homerun Kicker (default menu launcher), Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 38, Systemd 208 and the brand new Firewalld."
 msgstr ""
 #: translation:195
 msgid ""
@@ -496,10 +496,10 @@ msgid ""
 "<b>What's New:</b> HT/SMT NICE enabled by default for a better responsiveness and realtime behaviour on all PC with HT (Hyper-Thread), improving performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. Please see <a href='./apps/open-kernel-wiki.run' class='titlePage'>https://wiki.openmandriva.org/en/Kernel</a> for more information."
 msgstr ""
 #: translation:197
-msgid "KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.13.3. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
+msgid "KDE 4.14.3 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.13.3. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
 msgstr ""
 #: translation:198
-msgid "LibreOffice 4.3.1 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+msgid "LibreOffice 4.4.3 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 msgstr ""
 #: translation:199
 msgid ""
