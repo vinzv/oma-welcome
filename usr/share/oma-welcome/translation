@@ -87,8 +87,6 @@ titlesmplayer=$"SMPlayer"
 descsmplayer=$"SMPlayer is a graphical front-end for MPlayer, cross-platform and supports various audio/video formats."
 titleromp=$"ROSA Media Player"
 descromp=$"Watch various video formats, IPTV and YouTube videos; capture video and audio from your desktop"
-titlemiro=$"Miro Player"
-descmiro=$"Miro is a popular, free, and open internet TV application. It brings video channels from thousands of sources."
 titlebino=$"Bino 3D Video Player"
 descbino=$"Bino is a stereoscopic 3D video player with multi-display support."
 
