@@ -89,6 +89,8 @@ titleromp=$"ROSA Media Player"
 descromp=$"Watch various video formats, IPTV and YouTube videos; capture video and audio from your desktop"
 titlebino=$"Bino 3D Video Player"
 descbino=$"Bino is a stereoscopic 3D video player with multi-display support."
+titleqmmp=$"QMMP Media Player"
+descqmmp=$"A QT based media player similar to Winamp."
 
 #translations of apps-utility.sh.htm
 titleopenjdk=$"OpenJDK"
