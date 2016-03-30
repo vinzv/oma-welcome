@@ -22,11 +22,11 @@ import socket
 import threading
 import inspect
 
-import views
+from . import views
 try:
     from bbv import globals as globaldata
 except ImportError:
-    import globaldata
+    from . import globaldata
 
 class Server(threading.Thread):
     def _get_subclasses(self, classes=None):
@@ -77,10 +77,10 @@ def run_server(ip='127.0.0.1',background=True):
             soc.bind((ip,port))
             soc.close()
             break
-        except socket.error, e:
+        except socket.error as e:
             if e[0] != 98:
                 raise socket.error(e)
-            print 'Port %d already in use, trying next one' %port
+            print('Port %d already in use, trying next one' %port)
     
     globaldata.ADDRESS = lambda: ip
     globaldata.PORT = lambda: port
