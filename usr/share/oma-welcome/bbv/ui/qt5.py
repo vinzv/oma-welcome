@@ -20,9 +20,11 @@
 
 import sys
 import os
-from PyQt4.QtCore import QObject, SIGNAL, QString, QUrl
-from PyQt4.QtGui import QApplication, QIcon
-from PyQt4.QtWebKit import QWebView, QWebSettings
+from PyQt5.QtCore import QObject, pyqtSignal, QUrl
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtGui import QIcon
+from PyQt5.QtWebKitWidgets import QWebView
+from PyQt5.QtWebKit import QWebSettings
 
 from bbv.globals import ICON, DATA_DIR
 from bbv.ui.base import BaseWindow
@@ -33,22 +35,14 @@ class Window(BaseWindow):
         self.app = QApplication(sys.argv)
         self.desktop= QApplication.desktop()
         self.web = QWebView()
-        self.icon = QIcon(QString(ICON))
+        self.icon = QIcon(ICON)
         QWebSettings.setIconDatabasePath(DATA_DIR) 
         #self.web.page().setLinkDelegationPolicy(QWebPage.DelegateAllLinks)
-        
-        QObject.connect(self.web, 
-                        SIGNAL("titleChanged ( const QString &)"),
-                        self.title_changed)
-        QObject.connect(self.web, 
-                        SIGNAL("iconChanged ()"),
-                        self.icon_changed) 
-        QObject.connect(self.web.page(), 
-                        SIGNAL("windowCloseRequested ()"),
-                        self.close_window)
-        QObject.connect(self.web.page(), 
-                        SIGNAL("geometryChangeRequested ( const QRect)"),
-                        self.set_geometry)
+      
+        self.web.titleChanged.connect(self.title_changed)
+	self.web.iconChanged.connect(self.icon_changed)
+	self.web.page().windowCloseRequested.connect(self.close_window)
+	self.web.page().geometryChangeRequested.connect(self.set_geometry)
     
     def show(self,window_state):
         if window_state == "maximized" and not self.web.isMaximized():
