@@ -821,7 +821,7 @@ msgstr ""
 
 #: translation:198
 msgid ""
-"LibreOffice 4.4.3 is the newest available, Final (Stable) release version, "
+"LibreOffice 5.1.1 is the newest available, Final (Stable) release version, "
 "which means you can rely on it to not crash and compromise your precious "
 "data. As usual, there are a lot of minor improvements, most of which are "
 "internal fixes that are not noticeable by regular users, but some are "

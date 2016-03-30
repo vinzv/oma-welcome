@@ -497,7 +497,7 @@ msgstr ""
 msgid "KDE 4.14.3 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.11.14. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
 msgstr ""
 #: translation:197
-msgid "LibreOffice 4.4.3 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+msgid "LibreOffice 5.1.1 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 msgstr ""
 #: translation:198
 msgid ""
