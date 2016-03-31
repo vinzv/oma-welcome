@@ -10,16 +10,16 @@ also integrate common tasks for post-installation distro.
 
 requires the following dependencies:
 
-- python-qt4-webkit
+- python-qt5-webkit
 - web.py http://webpy.org/
 - bigbashview https://github.com/thor27/bigbashview/
 
 bigbashview is integrated with scripts om-welcome
 
 ##### Installing Dependencies
-to install python-qt4-webkit, we can use urpmi:
+to install python-qt5-webkit, we can use urpmi:
 ```sh
-urpmi python-qt4-webkit
+urpmi python-qt5-webkit
 ```
 
 ##### Installing web.py
