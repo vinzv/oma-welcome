@@ -21,7 +21,7 @@ install:
 	chmod -R 755 $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
 	@for l in $(TRANSLATIONS); do \
 	mkdir -p  $(DESTDIR)$(prefix)/$(localedir)/$$l/LC_MESSAGES; \
-	cp -avx locale/$$l/* $(DESTDIR)$(prefix)$(localedir)/$$l/LC_MESSAGES ; \
+	msgcat locale/$$l/om-welcome.po | msgfmt -o $(DESTDIR)$(prefix)$(localedir)/$$l/LC_MESSAGES/om-welcome.mo - ; \
 	done
 
 dist:
