@@ -155,7 +155,7 @@ noinstalled=$"not installed"
 #About.sh.htm
 about=$"About this program"
 license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
-dependency=$"It uses python-qt5-webkit, web.py, and bigbashview."
+dependency=$"It uses python-qt5-webengine, web.py, and bigbashview."
 bugs=$"For bugs, suggestions and improvements, please head to "
 
 #Additional

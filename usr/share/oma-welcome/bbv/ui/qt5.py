@@ -23,8 +23,7 @@ import os
 from PyQt5.QtCore import QObject, pyqtSignal, QUrl
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtGui import QIcon
-from PyQt5.QtWebKitWidgets import QWebView
-from PyQt5.QtWebKit import QWebSettings
+from PyQt5.QtWebEngineWidgets import QWebEngineView, QWebEngineSettings
 
 from bbv.globals import ICON, DATA_DIR
 from bbv.ui.base import BaseWindow
@@ -34,13 +33,12 @@ class Window(BaseWindow):
         self.debug=1
         self.app = QApplication(sys.argv)
         self.desktop= QApplication.desktop()
-        self.web = QWebView()
+        self.web = QWebEngineView()
         self.icon = QIcon(ICON)
-        QWebSettings.setIconDatabasePath(DATA_DIR) 
         #self.web.page().setLinkDelegationPolicy(QWebPage.DelegateAllLinks)
       
         self.web.titleChanged.connect(self.title_changed)
-	self.web.iconChanged.connect(self.icon_changed)
+	self.web.iconUrlChanged.connect(self.icon_changed)
 	self.web.page().windowCloseRequested.connect(self.close_window)
 	self.web.page().geometryChangeRequested.connect(self.set_geometry)
     
@@ -71,8 +69,6 @@ class Window(BaseWindow):
     def icon_changed(self):
         if not self.icon.isNull():
             self.web.setWindowIcon(self.icon)
-        if not self.web.icon().isNull():
-            self.web.setWindowIcon(self.web.icon())
             
     def title_changed(self, title):
         self.web.setWindowTitle(title)
