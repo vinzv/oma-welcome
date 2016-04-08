@@ -22,7 +22,7 @@ import sys
 import os
 import getopt
 import re
-
+import time
 from bbv import globals as globaldata
 from bbv.server.bbv2server import run_server
 
@@ -155,6 +155,7 @@ class Main:
     def run(self, server=True):
         if server:
             run_server()
+            time.sleep(1)
         self.window.set_size(self.width,self.height)
         self.window.show(self.window_state)
         if self.url.find('://') == -1:
