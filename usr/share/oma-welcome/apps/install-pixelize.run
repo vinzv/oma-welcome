@@ -2,7 +2,7 @@
 
 
     if which pixelize; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi pixelize; 

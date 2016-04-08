@@ -2,7 +2,7 @@
 
 
     if which choqok; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Choqok are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Choqok is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi choqok; 

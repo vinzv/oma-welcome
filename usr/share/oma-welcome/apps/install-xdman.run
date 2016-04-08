@@ -2,7 +2,7 @@
 
 
     if which xdman; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi xdman;

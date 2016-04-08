@@ -2,7 +2,7 @@
 
 
     if which kdevelop4; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi kdevelop4; 

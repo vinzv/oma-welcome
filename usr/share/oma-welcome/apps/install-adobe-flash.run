@@ -1,7 +1,7 @@
 #!/bin/bash
 
     if rpm -qa |grep "flash*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi flash-player-plugin flash-player-plugin-kde; 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
     if rpm -qa |grep "^gimp"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Gimp are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Gimp is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi gimp; 

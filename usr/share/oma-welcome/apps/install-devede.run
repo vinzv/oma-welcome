@@ -2,7 +2,7 @@
 
 
     if which devede; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Devede are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Devede is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi devede; 

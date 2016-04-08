@@ -2,7 +2,7 @@
 
 
     if which smplayer; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi smplayer; 

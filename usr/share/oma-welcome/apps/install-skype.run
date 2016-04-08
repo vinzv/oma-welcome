@@ -1,6 +1,6 @@
 #!/bin/bash
     if rpm -qa |grep "skype*"; then 
-	  kdialog --title $"OpenMandriva"  --msgbox  $" Skype are already installed.";
+	  kdialog --title $"OpenMandriva"  --msgbox  $" Skype is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi get-skype; 

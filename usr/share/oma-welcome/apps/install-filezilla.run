@@ -2,7 +2,7 @@
 
 
     if which filezilla; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi filezilla; 

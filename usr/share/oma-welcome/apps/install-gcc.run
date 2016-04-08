@@ -2,7 +2,7 @@
 
 
     if which gcc; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" GCC, GCC-C++ etc.  is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi gcc gcc-c++ autoconf make task-c-devel task-c++-devel; 

@@ -2,7 +2,7 @@
 
 
     if rpm -qa |grep "unrar*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Unrar are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Unrar is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi unrar zip p7zip ncompress; 

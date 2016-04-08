@@ -2,7 +2,7 @@
 
 
     if which geany; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi geany; 

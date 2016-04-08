@@ -2,7 +2,7 @@
 
 
     if rpm -qa |grep "^0ad*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" 0ad are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" 0ad is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi 0ad 

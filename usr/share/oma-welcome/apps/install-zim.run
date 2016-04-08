@@ -2,7 +2,7 @@
 
 
     if which zim; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi zim; 

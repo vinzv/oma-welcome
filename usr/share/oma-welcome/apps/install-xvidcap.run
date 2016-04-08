@@ -1,6 +1,6 @@
 #!/bin/bash
     if rpm -qa |grep "xvidcap*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi xvidcap; 

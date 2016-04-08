@@ -2,7 +2,7 @@
 
 
     if which virtualbox; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi virtualbox; 

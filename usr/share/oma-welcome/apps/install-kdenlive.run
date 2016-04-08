@@ -2,7 +2,7 @@
 
 
     if which kdenlive; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi kdenlive; 

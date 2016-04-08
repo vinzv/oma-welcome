@@ -2,7 +2,7 @@
 
 
     if which calligra; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi calligra; 

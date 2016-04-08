@@ -2,7 +2,7 @@
 
 
     if rpm -qa |grep "java-1.7.0-openjdk*"; then
-      kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		kdesu gurpmi java-1.7.0-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so /usr/lib/mozilla/plugins/javaplugin_oji.so 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
     if rpm -qa |grep "warzone2100*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi warzone2100; 

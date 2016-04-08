@@ -2,7 +2,7 @@
 
 
     if which kaudiocreator; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi kaudiocreator; 

@@ -2,7 +2,7 @@
 
 
     if which fotoxx; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi fotoxx; 

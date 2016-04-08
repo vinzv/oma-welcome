@@ -2,7 +2,7 @@
 
 
     if which pidgin; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi pidgin; 

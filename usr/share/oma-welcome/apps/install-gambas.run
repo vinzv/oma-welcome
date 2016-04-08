@@ -2,7 +2,7 @@
 
 
     if which gambas3; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi gambas3-ide; 

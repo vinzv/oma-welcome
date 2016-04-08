@@ -2,7 +2,7 @@
 
 
     if which chromium-browser; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi chromium-browser; 

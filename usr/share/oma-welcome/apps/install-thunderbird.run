@@ -2,7 +2,7 @@
 
 
     if which thunderbird; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi thunderbird; 

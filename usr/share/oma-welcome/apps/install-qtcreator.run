@@ -2,7 +2,7 @@
 
 
     if which qt-creator; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi qt-creator; 

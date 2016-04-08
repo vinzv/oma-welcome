@@ -2,7 +2,7 @@
 
 
     if which grsync; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" GRsync are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" GRsync is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi grsync; 

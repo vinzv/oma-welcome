@@ -1,7 +1,7 @@
 #!/bin/bash
 
     if rpm -qa |grep "kvpnc*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi kvpnc; 

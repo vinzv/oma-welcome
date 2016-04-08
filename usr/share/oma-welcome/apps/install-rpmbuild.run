@@ -2,7 +2,7 @@
 
 
     if which rpm-build; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite are already installed.";
+      kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite is already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
 		gurpmi rpm-build; 
