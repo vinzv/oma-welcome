@@ -5,14 +5,14 @@
       kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager are already installed.";
 	else 
 	    if [ "$(uname -m)" = "i686" ]; then
-		urpmi  --no-verify-rpm --auto http://abf-downloads.rosalinux.ru/panahbiru_personal/repository/openmandriva2014.0/i586/main/release/xdman-3.0.3-1-omv2014.0.noarch.rpm; 
+		gurpmi xdman;
 		if which xdman; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager successfully installed.";
 		    else
 		kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager not installed.";
 		fi
 	    else
-		urpmi  --no-verify-rpm --auto http://abf-downloads.rosalinux.ru/panahbiru_personal/repository/openmandriva2014.0/x86_64/main/release/xdman-3.0.3-1-omv2014.0.noarch.rpm; 
+		gurpmi xdman;
 		if which xdman; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager successfully installed.";
 		    else
