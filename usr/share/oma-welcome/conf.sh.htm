@@ -37,7 +37,7 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$cabecalho01 $(head -1 /README |cut -d " " -f1-3)
+		<p class="titlePage">$cabecalho01 $(lsb_release -d |cut -d ":" -f2)
 		$cabecalho02 </p>
 		<br/>
 		<ul id="item-list">
@@ -51,8 +51,8 @@ cat << EOF
 				$descaddmedia. <br/><br/><br/></p>
 			</li>
 			<li>
-				<p><a target="hidden" href=./apps/abrir-drakrpm-update.run><img src="/usr/share/icons/mandrivaupdate.png" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/abrir-drakrpm-update.run>$titleupdate $(head -1 /README |cut -d " " -f1-3)</a></span><br/>
+				<p><a target="hidden" href=./apps/abrir-drakrpm-update.run><img src="images/omv_update.png" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/abrir-drakrpm-update.run>$titleupdate $(lsb_release -d | cut -d":" -f2 )</a></span><br/>
 				$descupdate.<br/><br/></p>
 			</li>
 			<li>
@@ -70,7 +70,7 @@ cat << EOF
 				<span><a class="title" target="hidden" href=./apps/abrir-kdethemes.run>$titlechangethemes</a></span><br/>$descchangethemes</p>
 			</li>
 			<li>
-				<p><a class="title" target="hidden" href=./apps/abrir-kdeicons.run><img src="/usr/share/icons/openmandriva.svg" class="alignleft"/></a>
+				<p><a class="title" target="hidden" href=./apps/abrir-kdeicons.run><img src="images/om-logo.png" class="alignleft"/></a>
 				<span><a class="title" target="hidden" href=./apps/abrir-kdeicons.run>$titlechangeicons</a></span><br/>$descchangeicons</p>
 			</li>
 			<li>

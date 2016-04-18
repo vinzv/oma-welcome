@@ -37,7 +37,7 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$cabecalho03 $(head -1 /README |cut -d " " -f1-3) $cabecalho04</p>
+		<p class="titlePage">$cabecalho03 $(lsb_release -d |cut -d":" -f2) $cabecalho04</p>
 		<div id='cssmenu'>
 		    <ul>
 			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li> 
@@ -68,11 +68,11 @@ cat << EOF
 				<span><a class="title" target="hidden" href=./apps/install-bino.run>$titlebino</br></a></span>$descbino</p>
 			</li>
 			<li>
-				<a class="title" target="hidden" href=./apps/install-audacity.run><img src="/usr/share/icons/rosa/64x64/apps/audacity.svg" class="alignleft"/>
+				<a class="title" target="hidden" href=./apps/install-audacity.run><img src="images/audacity.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href=./apps/install-audacity.run>$titleaudacity</br></a></span>$descaudacity</p>
 			</li>
 			<li>
-				<a class="title" target="hidden" href=./apps/install-kdenlive.run><img src="/usr/share/icons/rosa/64x64/apps/kdenlive.svg" class="alignleft"/>
+				<a class="title" target="hidden" href=./apps/install-kdenlive.run><img src="images/kdenlive.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href=./apps/install-kdenlive.run>$titlekdenlive</br></a></span>$desckdenlive</span></p>
 			</li>
                         <li>

@@ -37,7 +37,7 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$cabecalho03 $(head -1 /README |cut -d " " -f1-3) $cabecalho04</p>
+		<p class="titlePage">$cabecalho03 $(lsb_release -d |cut -d":" -f2) $cabecalho04</p>
 		<div id='cssmenu'>
 		    <ul>
 			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li> 
@@ -52,7 +52,7 @@ cat << EOF
 		</div>
 		<ul id="item-list">
 			<li>
-				<p><a target="hidden" href=./apps/install-gimp.run> <img src="/usr/share/icons/rosa/64x64/apps/gimp.svg" class="alignleft"/>
+				<p><a target="hidden" href=./apps/install-gimp.run> <img src="images/gimp.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href=./apps/install-gimp.run>$titlegimg</a></span><br/>$descgimp <br/></p>
 			</li>
 			<li>

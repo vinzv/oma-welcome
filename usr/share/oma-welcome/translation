@@ -171,7 +171,7 @@ titlemegaglest=$"MegaGlest"
 descmegaglest=$"Open Source 3d real time strategy game"
 titlewesnoth=$"Wesnoth"
 descwesnoth=$"Fantasy turn-based strategy game"
-titleflightgear=$"FligtGear"
+titleflightgear=$"FlightGear"
 descflightgear=$"FlightGear Flight Simulator for Linux"
 titletorcs=$"TORCS"
 desctorcs=$"The Open Racing Car Simulator"
@@ -188,12 +188,12 @@ descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its
 
 #News.sh.htm
 newfeature=$"New Features and Major Changes"
-releasepreambule=$"This is the third major release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for OpenMandriva Lx 3:"
+releasepreambule=$"This is the third major release, codenamed <span class='username'>Einsteinium</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for OpenMandriva Lx 3:"
 controlcenter=$"Control Center"
 freshpackages=$"Fresh Packages"
-freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 45, Systemd 229 and the brand new Firewalld."
-kerneldesc=$"OpenMandriva Lx features a new kernel called NRJQL. NRJ mode adds CPU and RCU full Preemption and Boost mode, QL mode adds patchsets which combine to provide further optimisations, including BFS CPU task scheduler, BFQ disk I/O scheduler, UKSM memory management, TOI for suspension and hibernation, each designed with desktop system performance and responsiveness in mind.<br/>
-<b>What's New:</b> HT/SMT NICE enabled by default for a better responsiveness and realtime behaviour on all PC with HT (Hyper-Thread), improving performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. Please see <a href='./apps/open-kernel-wiki.run' class='titlePage'>https://wiki.openmandriva.org/en/Kernel</a> for more information."
+freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), Clementine, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox 45, Systemd 229 and the brand new Firewalld."
+kerneldesc=$"Kernel 4.5.1 is the latest available. OpenMandriva Lx also features a kernel called NRJQL 4.1.18. NRJ mode adds CPU and RCU full Preemption and Boost mode, QL mode adds patchsets which combine to provide further optimisations, including BFS CPU task scheduler, BFQ disk I/O scheduler, UKSM memory management, TOI for suspension and hibernation, each designed with desktop system performance and responsiveness in mind.<br/>
+<b>What's New:</b> HT/SMT NICE enabled by default for a better responsiveness and realtime behaviour on all PC with HT (Hyper-Thread), improving performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. Please see <a href='./apps/open-kernel-wiki.run' target="hidden" class='titlePage'>https://wiki.openmandriva.org/en/Kernel</a> for more information."
 kdedesc=$"KDE Plasma 5.6 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE Frameworks installation included in this release features attractive new artwork and plasma-mediacenter!<br/>This release includes an updated KDE Frameworks 5.20. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
 libreofficedesc=$"LibreOffice 5.1.1 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 drakconfdesc=$"Also featured is our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>
@@ -202,8 +202,8 @@ drakconfdesc=$"Also featured is our legacy Control Center. OpenMandriva Control 
 - Network, Internet & Sharing<br/>
 - Local Disks/Partition Manager<br/>
 - System Security<br/>"
-efibootdesc=$"This is the first release of OpenMandriva Lx that incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' class='blue'>issues.openmandriva.org</a>"
-abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' class='titlePage'>http://abf.openmandriva.org</a>"
+efibootdesc=$"This is release of OpenMandriva Lx incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' target="hidden" class='blue'>issues.openmandriva.org</a>"
+abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="hidden" class='titlePage'>http://abf.openmandriva.org</a>"
 
 #Development.sh.htm
 titlegcc=$"C/C++ Compilers Suite "

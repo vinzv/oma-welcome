@@ -37,7 +37,7 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$cabecalho03 $(head -1 /README |cut -d " " -f1-3)</p>
+		<p class="titlePage">$cabecalho03 $(lsb_release -d |cut -d ":" -f2)</p>
 		<br/>
 		<div id='cssmenu'>
 		    <ul>
