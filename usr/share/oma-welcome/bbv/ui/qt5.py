@@ -38,9 +38,9 @@ class Window(BaseWindow):
         #self.web.page().setLinkDelegationPolicy(QWebPage.DelegateAllLinks)
       
         self.web.titleChanged.connect(self.title_changed)
-	self.web.iconUrlChanged.connect(self.icon_changed)
-	self.web.page().windowCloseRequested.connect(self.close_window)
-	self.web.page().geometryChangeRequested.connect(self.set_geometry)
+        self.web.iconUrlChanged.connect(self.icon_changed)
+        self.web.page().windowCloseRequested.connect(self.close_window)
+        self.web.page().geometryChangeRequested.connect(self.set_geometry)
     
     def show(self,window_state):
         if window_state == "maximized" and not self.web.isMaximized():
