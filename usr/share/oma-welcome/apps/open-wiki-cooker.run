@@ -1,2 +1,2 @@
 #!/bin/bash
-firefox https://wiki.openmandriva.org/en/Cooker
+xdg-open https://wiki.openmandriva.org/en/Cooker

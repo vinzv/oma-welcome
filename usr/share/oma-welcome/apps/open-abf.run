@@ -1,2 +1,2 @@
 #!/bin/bash
-firefox https://abf.openmandriva.org/
+xdg-open https://abf.openmandriva.org/

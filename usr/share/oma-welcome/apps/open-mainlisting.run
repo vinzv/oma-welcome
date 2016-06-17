@@ -1,2 +1,3 @@
 #!/bin/bash
-firefox http://ml.openmandriva.org/mailman/listinfo
+xdg-open http://ml.openmandriva.org/mailman/listinfo
+

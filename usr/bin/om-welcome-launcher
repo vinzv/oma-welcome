@@ -1,16 +1,16 @@
 #!/bin/bash
 
 if [ -e "/home/$USER/.oma-welcome" ]; then
-	clear
+    clear
 else
-	touch ~/.oma-welcome
-	echo 'autostart=1' > ~/.oma-welcome
+    touch ~/.oma-welcome
+    echo 'autostart=1' > ~/.oma-welcome
 fi
 
 source ~/.oma-welcome
 
 #read if autostart?
 if [ "$autostart" -eq 1 ]; then
-	cd /usr/share/oma-welcome/
-	om-welcome -s 870x520 -c -i /usr/share/icons/openmandriva.svg index.sh.htm
+    cd /usr/share/oma-welcome/
+    om-welcome -s 870x520 -c -i /usr/share/icons/openmandriva.svg index.sh.htm
 fi

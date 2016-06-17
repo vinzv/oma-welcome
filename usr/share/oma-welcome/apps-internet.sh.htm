@@ -17,7 +17,7 @@ cat << EOF
 		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
-		
+
 	</head>
 <body>
 EOF
@@ -35,8 +35,8 @@ cat << EOF
 	</nav>
 
 <!-- Home -->
-	<div class="wrapper">			
-		<div id="container">	
+	<div class="wrapper">
+		<div id="container">
 		<p class="titlePage">$cabecalho03 $(lsb_release -d |cut -d":" -f2) $cabecalho04</p>
 		<div id='cssmenu'>
 		    <ul>
@@ -78,17 +78,17 @@ cat << EOF
 			<li>
 				<a class="title" target="hidden" href=./apps/install-skype.run><img src="images/skype.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href=./apps/install-skype.run>$titleskype</a></span><br/>$descskype</p>
- 			</li>	
+ 			</li>
 			<li>
 				<a class="title" target="hidden" href="./apps/install-dropbox.run"><img src="images/dropbox.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href="./apps/install-dropbox.run">$titledropbox </a></span><br/>$descdropbox</p>
-			</li>	
+			</li>
 			<li>
 				<a class="title" target="hidden" href="./apps/abrir-rpmdrake.run"><img src="images/rpmdrake.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href="./apps/abrir-rpmdrake.run">$titlerpmdrake</a></span><br/>$descrpmdrake</p>
 			</li>
 		</ul>
-	</div> 
+	</div>
 	<div id="rodape">
 	<a href="community.sh.htm" class="button">$next</a>
 	</div>

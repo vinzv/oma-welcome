@@ -1,6 +1,21 @@
 [Desktop Entry]
 GenericName=Welcome to OpenMandriva
-Name=om-welcome
+Name=Welcome
+Name[pl]=Witaj
+Name[de]=Herzlich willkommen
+Name[fr]=Bienvenue
+Name[es]=Bienvenido
+Name[id]=Selamat datang
+Name[pt]=Bem vinda
+Name[ru]=Добро пожаловат
+Name[tr]=Hoşgeldiniz
+Name[it]=Benvenuto
+Name[fi]=Tervetuloa
+Name[ar]=أهلا بك
+Name[zh]=歡迎
+Name[ja]=ようこそ
+Name[no]=Velkommen
+Name[se]=Välkommen
 Exec=/usr/bin/om-welcome
 X-KDE-StartupNotify=true
 X-KDE-HasTempFileOption=true
