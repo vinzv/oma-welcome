@@ -1,14 +1,18 @@
 NAME=oma-welcome
-VERSION=1.2.0.4
+VERSION=2.0
 TRANSLATIONS=de en fr id it pt_BR pt_PT tr
 bindir=/usr/bin
 sysconfdir=/etc
 sharedir=/usr/share
 localedir=$(sharedir)/locale
 
-all:
+all: launcher/om-welcome
 
-install:
+launcher/om-welcome: launcher/main.cpp launcher/Page.cpp launcher/Page.h launcher/CMakeLists.txt
+	cd launcher && cmake -G Ninja . -DCMAKE_INSTALL_PREFIX=$(prefix) && ninja
+
+install: launcher/om-welcome
+	cd launcher && DESTDIR=$(DESTDIR) ninja install
 	mkdir -p $(DESTDIR)$(prefix)/$(bindir)
 	mkdir -p $(DESTDIR)$(prefix)/$(sysconfdir)/xdg/autostart
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
