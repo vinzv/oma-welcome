@@ -1,7 +1,7 @@
 om-welcome
 ===========
 
-version: 1.0.5.3
+version: 2.0
 
 This is the om-welcome - Welcome to OpenMandriva
 
@@ -10,46 +10,24 @@ also integrate common tasks for post-installation distro.
 
 requires the following dependencies:
 
-- python-qt5-webkit
-- web.py http://webpy.org/
-- bigbashview https://github.com/thor27/bigbashview/
-
-bigbashview is integrated with scripts om-welcome
+- Qt WebEngineWidgets 5.x
+- Bash
 
 ##### Installing Dependencies
-to install python-qt5-webkit, we can use urpmi:
+Dependencies for running om-welcome should already be installed.
+For building, use
 ```sh
-urpmi python-qt5-webkit
-```
-
-##### Installing web.py
-* download the latest web.py build from GitHub (https://github.com/webpy/webpy)
-* setup web.py with following command as root:
-```sh
-python setup.py install
-``` 
-
-or just use urpmi:
-```sh
-urpmi python-webpy
+urpmi 'cmake(Qt5WebEngineWidgets)'
 ```
 
 ##### Directory Structures
 your files are:
 ```
-bigbashview.py
-client.py
-server.py
-bbv/
-    globals.py
-    globals.pyc
-    __init__.py
-    __init__.pyc
-    main.py
-    main.pyc
-    server/
-    ui/
-    img/
+launcher/
+```
+contains the launcher that takes care of running the bits in
+```
+usr/share/oma-welcome/
 ```
 
 if you package it separately om-welcome requires changes to the running script.
@@ -57,8 +35,11 @@ if you package it separately om-welcome requires changes to the running script.
 ##### Running OM-Welcome
 you can run the om-welcome for debugging, with following command:
 ```sh
-python bigbashview.py -s 960x600 -c index.sh.htm
+om-welcome -s 870x520 index.sh.htm
 ```
+where "-s 870x520" indicates the default window size in pixels (Width x Height).
+You can also use "-i /usr/share/icons/openmandriva.svg" to set the
+application window's icon.
 
 #####translations
 * inside the folder ```usr/share/om-welcome/ ```
