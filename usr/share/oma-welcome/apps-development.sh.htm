@@ -17,7 +17,7 @@ cat << EOF
 		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
-		
+
 	</head>
 <body>
 EOF
@@ -35,8 +35,8 @@ cat << EOF
 	</nav>
 
 <!-- Home -->
-	<div class="wrapper">			
-		<div id="container">	
+	<div class="wrapper">
+		<div id="container">
 		<p class="titlePage">$cabecalho03 $(lsb_release -d |cut -d":" -f2) $cabecalho04</p>
 		<div id='cssmenu'>
 		    <ul>
@@ -62,7 +62,7 @@ cat << EOF
 			<li>
 				<p><a target="hidden" href=./apps/install-geany.run> <img src="images/geany.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href=./apps/install-geany.run>$titlegeany</a></span><br/>$descgeany<br/></p>
-			</li>	
+			</li>
 			<li>
 				<p><a target="hidden" href=./apps/install-eclipse.run> <img src="images/eclipse.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href=./apps/install-eclipse.run>$titleeclipse</a></span><br/>$desceclipse<br/></p>
@@ -88,7 +88,7 @@ cat << EOF
 				<span><a class="title" target="hidden" href="./apps/abrir-rpmdrake.run">$titlerpmdrake</a></span><br/>$descrpmdrake.</p>
 			</li>
 		</ul>
-	</div> 
+	</div>
 	<div id="rodape">
 	<a href="community.sh.htm" class="button">$next</a>
 	</div>

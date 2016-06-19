@@ -1,2 +1,3 @@
 #!/bin/bash
-firefox http://www.openmandriva.org/Donate
+xdg-open http://www.openmandriva.org/Donate
+
