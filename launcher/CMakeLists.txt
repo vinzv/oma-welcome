@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(om-welcome)
+project(om-welcome-launcher)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)

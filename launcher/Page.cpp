@@ -1,6 +1,5 @@
 #include "Page.h"
 #include <QProcess>
-using namespace std;
 
 bool Page::acceptNavigationRequest(QUrl const &url, NavigationType type, bool isMainFrame) {
 	if(url.isLocalFile()) {
@@ -19,7 +18,10 @@ void Page::open(QString file) {
 		p.setWorkingDirectory(file.section('/', 0, -2));
 		p.start("/bin/bash", QStringList() << "-c" << file, QProcess::ReadOnly);
 		p.waitForFinished(60000);
-		setContent(p.readAllStandardOutput().replace("target=\"hidden\" ", ""), "text/html", QUrl("file://" + file));
+		QByteArray page=p.readAllStandardOutput();
+		// Workaround for a difference from the old python based version
+		page.replace("target=\"hidden\" ", "");
+		setHtml(QString::fromLocal8Bit(page), QUrl("file://" + file));
 	} else if(file.endsWith(".run")) {
 		QProcess::startDetached("/bin/bash", QStringList() << "-c" << file);
 	} else
