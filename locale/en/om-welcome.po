@@ -821,7 +821,7 @@ msgid ""
 "creating ISO images. ABF is not just a hosting service for source code, but "
 "a system to build and publish packages. You can check, signup and contribute "
 "to ABF/OpenMandriva development at <a href='./apps/open-abf.run' "
-"class='titlePage'>http://abf.io</a>"
+"class='titlePage'>http://abf.openmandriva.org</a>"
 msgstr ""
 
 #: translation:209

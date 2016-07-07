@@ -513,7 +513,7 @@ msgstr ""
 msgid "This is the first release of OpenMandriva Lx that incorporates working support for EFI booting. We have only been able to perform limited testing on this feature and would welcome feedback on user experience. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' class='blue'>issues.openmandriva.org</a>"
 msgstr ""
 #: translation:206
-msgid "All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' class='titlePage'>http://abf.io</a>"
+msgid "All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' class='titlePage'>http://abf.openmandriva.org</a>"
 msgstr ""
 #: translation:209
 msgid "C/C++ Compilers Suite "
