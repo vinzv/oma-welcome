@@ -89,7 +89,7 @@ msgstr ""
 msgid "Configure the system boot"
 msgstr ""
 #: translation:41
-msgid "During installation OpenMandriva Lx 2014.2 detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
+msgid "During installation OpenMandriva Lx 2014.3 detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
 msgstr ""
 #: translation:42
 msgid "Configure the network"
@@ -479,7 +479,7 @@ msgstr ""
 msgid "New Features and Major Changes"
 msgstr ""
 #: translation:191
-msgid "This is the third release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for 2014.2:"
+msgid "This is the third release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for 2014.3:"
 msgstr ""
 #: translation:192
 msgid "Control Center"

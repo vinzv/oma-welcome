@@ -163,11 +163,11 @@ msgstr "Configurar o arranque do sistema"
 #: translation:41
 #, fuzzy
 msgid ""
-"During installation OpenMandriva Lx 2014.2 detects all operating systems "
+"During installation OpenMandriva Lx 2014.3 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
-"Durante a instalação o OpenMandriva Lx 2014.2 detecta todos os sistemas "
+"Durante a instalação o OpenMandriva Lx 2014.3 detecta todos os sistemas "
 "operativos instalados no seu computador, caso necessite de alterar a ordem "
 "de inicialização do sistema ou reparar o grub2 manualmente ou adicionar "
 "outro sistema operativo"
@@ -769,7 +769,7 @@ msgid ""
 "This is the third release, codenamed <span class='username'>Phosphorus</"
 "span>, under the OpenMandriva Association! Over the course of the year past "
 "we've tried to evolve the way you use your desktop. Here are some of the "
-"things we've done for 2014.2:"
+"things we've done for 2014.3:"
 msgstr ""
 
 #: translation:192

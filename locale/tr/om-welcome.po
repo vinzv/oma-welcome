@@ -167,11 +167,11 @@ msgstr "Sistem açılışı yapılandırması"
 #: translation:41
 #, fuzzy
 msgid ""
-"During installation OpenMandriva Lx 2014.2 detects all operating systems "
+"During installation OpenMandriva Lx 2014.3 detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
-"Kurulum sırasında OpenMandriva Lx 2014.2 sisteminizde kurulu tüm işletim "
+"Kurulum sırasında OpenMandriva Lx 2014.3 sisteminizde kurulu tüm işletim "
 "sistemlerini algılar, eğer açılış sırasını değiştirmek, grub2'yi onarmak "
 "isterseniz, elle veya sonradan başka işletim sistemleri ekleyebilirsiniz"
 
@@ -820,11 +820,11 @@ msgid ""
 "This is the third release, codenamed <span class='username'>Phosphorus</"
 "span>, under the OpenMandriva Association! Over the course of the year past "
 "we've tried to evolve the way you use your desktop. Here are some of the "
-"things we've done for 2014.2:"
+"things we've done for 2014.3:"
 msgstr ""
 "Kod adı <span class='username'>Phosphorus</span> olan bu sürüm, OpenMandriva "
 "Derneği tarafından çıkarılan ikinci sürümdür. Geçen yıl boyunca masaüstü "
-"kullanımını geliştirmek doğrultusunda çalıştık. İşte 2014.2 için "
+"kullanımını geliştirmek doğrultusunda çalıştık. İşte 2014.3 için "
 "yaptıklarımızdan bazıları:"
 
 #: translation:192
