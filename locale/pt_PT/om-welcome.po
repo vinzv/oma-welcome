@@ -697,8 +697,8 @@ msgid "Fantasy turn-based strategy game"
 msgstr "Jogo de fantaia e estratégia por turnos"
 
 #: translation:174
-msgid "FligtGear"
-msgstr "FligtGear"
+msgid "FlightGear"
+msgstr "FlightGear"
 
 #: translation:175
 msgid "FlightGear Flight Simulator for Linux"

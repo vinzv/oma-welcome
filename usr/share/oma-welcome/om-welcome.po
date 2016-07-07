@@ -661,7 +661,7 @@ msgid "Fantasy turn-based strategy game"
 msgstr ""
 
 #: translation:174
-msgid "FligtGear"
+msgid "FlightGear"
 msgstr ""
 
 #: translation:175
