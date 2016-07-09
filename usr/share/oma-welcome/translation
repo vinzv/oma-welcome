@@ -38,7 +38,7 @@ descxfdrake=$"Configure your video card, install latest drivers, change resoluti
 titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
 titleconfigboot=$"Configure the system boot"
-descconfigboot=$"During installation OpenMandriva Lx 2014.3 detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
+descconfigboot=$"During installation OpenMandriva Lx $(head -1 /README |cut -d " " -f1-3) detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
 titleconfiglan=$"Configure the network"
 descconfiglan=$"OpenMandriva Lx comes with support for various network drivers, but depending on your network configuration it may be necessary to change some settings, such as configuring static IP, PPPoE, 3G, etc"
 titleomcc=$"OpenMandriva Control Center"
@@ -188,13 +188,13 @@ descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its
 
 #News.sh.htm
 newfeature=$"New Features and Major Changes"
-releasepreambule=$"This is the third release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for 2014.3:"
+releasepreambule=$"This is the second release, codenamed <span class='username'>Phosphorus</span>, under the OpenMandriva Association. Over the course of the past year we've tried to evolve the way you use your desktop. Here are some of the things we've done for $(head -1 /README |cut -d " " -f1-3):"
 controlcenter=$"Control Center"
 freshpackages=$"Fresh Packages"
 freshpackagedesc=$"Some fresh packages included with this release include Homerun Kicker (default menu launcher), Krita (Digital Painting), Kamoso (Webcam Viewer), Amarok, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox, Systemd 208 and the brand new Firewalld."
 kerneldesc=$"Kernel 4.6 is the latest available series. OpenMandriva Lx also features a kernel called NRJQL (series 4.1). NRJ mode adds CPU and RCU full Preemption and Boost mode, QL mode adds patchsets which combine to provide further optimisations, including BFS CPU task scheduler, BFQ disk I/O scheduler, UKSM memory management, TOI for suspension and hibernation, each designed with desktop system performance and responsiveness in mind.<br/>
 <b>What's New:</b> HT/SMT NICE enabled by default for a better responsiveness and realtime behaviour on all PC with HT (Hyper-Thread), improving performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. Please see <a href='./apps/open-kernel-wiki.run' class='titlePage'>https://wiki.openmandriva.org/en/Kernel</a> for more information."
-kdedesc=$"KDE 4.14.3 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.11.22. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone. More than 20 recorded bugfixes include improvements to Personal Information Management suite Kontact, Umbrello UML Modeller, touch typing application KTouch, web browser Konqueror, file manager Dolphin and others."
+kdedesc=$"KDE 4.14.18 provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. The KDE installation included in this release features the Homerun launcher, attractive new artwork and plasma-mediacenter!<br/>This release includes an updated Plasma Workspaces 4.11.22. Both releases contain only bugfixes and translation updates, providing a safe and pleasant update for everyone."
 libreofficedesc=$"LibreOffice 5.0 is the newest available, Final (Stable) release version, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 drakconfdesc=$"Also featured is our legacy Control Center. OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>
 - Software Management<br/>
