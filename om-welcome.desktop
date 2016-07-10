@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+GenericName=Welcome to OpenMandriva
+Name=Welcome to OpenMandriva
+Exec=/usr/bin/om-welcome-launcher
+X-KDE-StartupNotify=true
+X-KDE-HasTempFileOption=true
+Icon=openmandriva
+Type=Application
+Terminal=false
+Categories=Utility;Qt;KDE;
