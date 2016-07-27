@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: OpenMandriva Linux\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2014-09-26 08:49-0500\n"
-"Last-Translator: Luthfi Emka <panahbiru@gmail.com>\n"
+"Last-Translator: Maik Wagner <maiktapwagner@aol>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/openmandriva-"
 "linux/language/de/)\n"
 "Language: de\n"
@@ -167,7 +167,7 @@ msgid ""
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
-"Während der Installation erkennt OpenMandriva Lx 2014.2 alle auf dem Rechner "
+"Während der Installation erkennt OpenMandriva Lx alle auf dem Rechner "
 "installierten Betriebssysteme, aber wenn die Bootreihenfolge geändert werden "
 "soll oder grub2 manuell repariert bzw. ein neues Betriebssystem hinzugefügt "
 "werden soll"
@@ -341,6 +341,8 @@ msgid ""
 "Necessary codecs to run audio and video files in various formats. Some file "
 "formats are proprietary and restricted in some countries."
 msgstr ""
+"Notwendige Codecs um Audio- und Videodateien in verschieden Formatenabzuspielen."
+"Einige Formate sind proprietät und in einigen Ländern nicht gestattet."
 
 #: translation:76
 msgid "Audacity"
@@ -351,6 +353,8 @@ msgid ""
 "Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and "
 "Ogg/Vorbis"
 msgstr ""
+"Bearbeiten, aufnehmen und importieren von vielen Audiodateiformaten wie WAV, AIFF, MP3 and "
+"Ogg/Vorbis"
 
 #: translation:78
 msgid "Kdenlive"
@@ -361,6 +365,8 @@ msgid ""
 "Kdenlive is a non-linear video editor for KDE that relies on a separate "
 "renderer and supports multi-track editing"
 msgstr ""
+"Kdenlive ist ein nicht-linearer Videoeditor für KDE welcher auf einem "
+"separaten Renderer basiert und Multitrack unterstützt."
 
 #: translation:80
 msgid "Devede"
@@ -368,7 +374,7 @@ msgstr "Devede"
 
 #: translation:81
 msgid "Create a DVD with your videos with this simple and feature-rich tool."
-msgstr ""
+msgstr "Erstellen Sie eine DVD mit Ihren Videos über dieses einfache und umfassende Werkzeug."
 
 #: translation:82
 msgid "Flash Player"
@@ -377,7 +383,7 @@ msgstr "Flash Player"
 #: translation:83
 msgid ""
 "Play games and flash videos on the internet, with this player from Adobe."
-msgstr ""
+msgstr "Spielen Sie Spiele und Flashvideos im Internet mit diesem Abspieler von Adobe."
 
 #: translation:84
 msgid "Kaudiocreator"
@@ -386,7 +392,7 @@ msgstr "Kaudiocreator"
 #: translation:85
 msgid ""
 "Backup your CDs using this KDE tool and avoid losing your songs to scratches"
-msgstr ""
+msgstr "Sichern Sie Ihre CDs mit diesem KDE-Werkzeug und verhinden Sie es aufgrund von Kratzern ihre Musik zu verlieren."
 
 #: translation:86
 msgid "SMPlayer"
@@ -397,16 +403,20 @@ msgid ""
 "SMPlayer is a graphical front-end for MPlayer, cross-platform and supports "
 "various audio/video formats."
 msgstr ""
+"SMPlayer ist eine grafische Oberfläche für MPlayer, cross-platform und unterstützt "
+"verschiedene Audio- und Videoformate"
 
 #: translation:88
 msgid "ROSA Media Player"
-msgstr ""
+msgstr "ROSA Media Player"
 
 #: translation:89
 msgid ""
 "Watch various video formats, IPTV and YouTube videos; capture video and "
 "audio from your desktop"
 msgstr ""
+"Schauen Sie verschiedene Videoformate, IPTV und YouTube videos; nehmen Sie "
+"Video und Audio von Ihrem Desktop auf."
 
 #: translation:90
 msgid "Miro Player"
@@ -417,6 +427,8 @@ msgid ""
 "Miro is a popular, free, and open internet TV application. It brings video "
 "channels from thousands of sources."
 msgstr ""
+"Miro ist ein beliebter, freier und offener Internet TV-Empfänger. Er bietet  "
+"Videokanäle aus Tausenden von Quellen."
 
 #: translation:92
 msgid "Bino 3D Video Player"
@@ -424,7 +436,7 @@ msgstr "Bino 3D Video Player"
 
 #: translation:93
 msgid "Bino is a stereoscopic 3D video player with multi-display support."
-msgstr ""
+msgstr "Bino ist ein stereoskopischer 3D-Videoplayer mit Unterstützung für mehrere Bildschirme."
 
 #: translation:96
 msgid "OpenJDK"
@@ -442,7 +454,7 @@ msgstr "Steam"
 
 #: translation:99
 msgid "Launcher for the Valve's Steam game distribution service."
-msgstr ""
+msgstr "Starter für den Steam Spieleverteildienst von Valve"
 
 #: translation:100
 msgid "Wine"
@@ -450,7 +462,7 @@ msgstr "Wine"
 
 #: translation:101
 msgid "Wine allows you to run many Microsoft Windows programs on Linux"
-msgstr ""
+msgstr "Wine ermöglicht es, viele Microsoft Windowsprogramme auf Linux zu verwenden"
 
 #: translation:102
 msgid "Skype"
@@ -461,6 +473,8 @@ msgid ""
 "By installing this package you will download and install Skype from skype."
 "com. You must accept the Skype EULA before using it"
 msgstr ""
+"Bei der Installation laden Sie Skype von skype.com herunter."
+"Sie müssen vor Nutzung des Programms die Skype EULA akzeptieren"
 
 #: translation:106
 msgid "Calibre"
@@ -536,17 +550,19 @@ msgstr "Homebank"
 
 #: translation:123
 msgid "Free easy personal accounting for all​"
-msgstr ""
+msgstr "Kostenloses, leichtes und persönliches Buchhaltungsprogramm für alle."
 
 #: translation:127
 msgid "How to contribute to OpenMandriva"
-msgstr ""
+msgstr "Wie man zu OpenMandriva beiträgt"
 
 #: translation:128
 msgid ""
 "So you really like OpenMandriva Lx and are eager to help? You can contribute "
 "in various ways:"
 msgstr ""
+"Euch gefällt OpenMandriva Lx und ihr wollt gerne helfen? Ihr könnt "
+"wie folgt beitragen:"
 
 #: translation:129
 msgid "Manual"
@@ -572,7 +588,7 @@ msgstr "Übersetzen"
 
 #: translation:134
 msgid "Translate blog posts, wiki pages, applications and stuffs"
-msgstr "Übersetzen von blogposts, Wikiseiten, Anwendungen etc."
+msgstr "Übersetzen von Blogposts, Wikiseiten, Anwendungen etc."
 
 #: translation:135
 msgid "Join in the development of OpenMandriva Lx"
@@ -580,7 +596,7 @@ msgstr "Schließt euch der Entwicklung von OpenMandriva Lx an"
 
 #: translation:136
 msgid "Cooker is the development branch of OpenMandriva Lx"
-msgstr ""
+msgstr "Cooker ist der Entwicklungszweig von OpenMandriva Lx"
 
 #: translation:137
 msgid "Artwork"
@@ -588,7 +604,7 @@ msgstr "Artwork"
 
 #: translation:138
 msgid "Use your talent to create new artwork for OpenMandriva Lx"
-msgstr ""
+msgstr "Nutzt euer Talent um neues Artwork für OpenMandriva Lx zu erstellen"
 
 #: translation:139
 msgid "Mailing list"
@@ -596,7 +612,7 @@ msgstr "Mailingliste"
 
 #: translation:140
 msgid "Join the discussion list of OpenMandriva"
-msgstr ""
+msgstr "Die Diskussionsmailingliste von OpenMandriva abonnieren"
 
 #: translation:141
 msgid "Report Bug"
@@ -604,15 +620,15 @@ msgstr "Bug melden"
 
 #: translation:142
 msgid "Search, report and fix bugs (issues?) in OpenMandriva Lx"
-msgstr ""
+msgstr "Durchsuchen, melden und beheben von Bugs in OpenMandriva Lx"
 
 #: translation:143
 msgid "Join in the IRC channel"
-msgstr ""
+msgstr "Den IRC-Kanal betreten"
 
 #: translation:144
 msgid "openmandriva-cooker is OpenMandriva's main IRC channel"
-msgstr ""
+msgstr "openmandriva-cooker ist OpenMandrivas Haupt IRC-Kanal"
 
 #: translation:145
 msgid "Donation"
@@ -623,6 +639,8 @@ msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
 msgstr ""
+"Ihr könnt uns eure Zuwendung durch Beitragen von Zeit oder Geld "
+"an OpenMandriva Lx zeigen"
 
 #: translation:147
 msgid "Do not start oma-welcome on login"
@@ -653,14 +671,16 @@ msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
+"Diese Software wird unter der GNU General Public License version 2 "
+"(GPLv2) lizensiert."
 
 #: translation:158
 msgid "It uses python-qt4-webkit, web.py, and bigbashview."
-msgstr ""
+msgstr "Es verwendet python-qt-webkit, web.py und bigbashview."
 
 #: translation:159
 msgid "For bugs, suggestions and improvements, please head to "
-msgstr ""
+msgstr "Bezüglich Bugs, Vorschläge und Verbesserungen, geht bitte zu "
 
 #: translation:162
 msgid "You are using"
@@ -680,7 +700,7 @@ msgstr "KVPNc"
 
 #: translation:167
 msgid "KDE frontend to various VPN clients"
-msgstr ""
+msgstr "KDE-Oberfläche für verschiedene VPN-Clients"
 
 #: translation:168
 msgid "0ad"
@@ -688,7 +708,7 @@ msgstr "0ad"
 
 #: translation:169
 msgid "Cross-platform RTS Game of Ancient Warfare​"
-msgstr ""
+msgstr "Cross-Plattform Echtzeitspiel antiker Kriegsführung."
 
 #: translation:170
 msgid "MegaGlest"
@@ -696,7 +716,7 @@ msgstr "MegaGlest"
 
 #: translation:171
 msgid "Open Source 3d real time strategy game"
-msgstr ""
+msgstr "Open Source 3D Echtzeit-Strategiespiel"
 
 #: translation:172
 msgid "Wesnoth"
@@ -704,7 +724,7 @@ msgstr "Wesnoth"
 
 #: translation:173
 msgid "Fantasy turn-based strategy game"
-msgstr ""
+msgstr "Rundenbasiertes Fantasy-Strategiespiel"
 
 #: translation:174
 msgid "FligtGear"
@@ -712,7 +732,7 @@ msgstr "FlightGear"
 
 #: translation:175
 msgid "FlightGear Flight Simulator for Linux"
-msgstr ""
+msgstr "FlightGear Flugsimulator für Linux"
 
 #: translation:176
 msgid "TORCS"
@@ -724,13 +744,15 @@ msgstr "The Open Racing Car Simulator"
 
 #: translation:178
 msgid "SuperTux"
-msgstr ""
+msgstr "SuperTux"
 
 #: translation:179
 msgid ""
 "SuperTux is a classic 2D jump'n run sidescroller game in a similar style "
 "like the original SuperMario games."
 msgstr ""
+"SuperTux ist ein klassiches 2D Jump'n Run Spiel ähnlich der "
+"SuperMario Spiele."
 
 #: translation:180
 msgid "Warzone 2100"
@@ -738,7 +760,7 @@ msgstr "Warzone 2100"
 
 #: translation:181
 msgid "Postnuclear War realtime strategy games"
-msgstr ""
+msgstr "Echtzeit Strategiespiel in einem postnuklearen Szenario"
 
 #: translation:182
 msgid "Filezilla"
@@ -772,7 +794,7 @@ msgstr ""
 
 #: translation:190
 msgid "New Features and Major Changes"
-msgstr ""
+msgstr "Neue Funktionen und große Veränderungen"
 
 #: translation:191
 msgid ""
@@ -936,7 +958,7 @@ msgstr "RPM Paketierung"
 
 #: translation:222
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
-msgstr ""
+msgstr "RPM Paketbau Suite, inkl. rpmbuild, rpmlint etc."
 
 #: translation:223
 msgid "Gambas IDE"
