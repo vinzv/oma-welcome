@@ -21,10 +21,10 @@ cat << EOF
 		<script src="js/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
 		<style>
-		@font-face {
-		  font-family: "GoodTimes";
-		  src: url(css/font/good-times.ttf) format("truetype");
-		}
+			@font-face {
+				font-family: "GoodTimes";
+				src: url(css/font/good-times.ttf) format("truetype");
+			}
 		</style>
 	</head>
 <body>
@@ -65,28 +65,28 @@ EOF
 if [ $autostart -eq 1 ]; then
 
 cat << EOF
-		<div class="nostartauto">
+	<div class="nostartauto">
 		<span>
-		 <input type="checkbox" value="./apps/nostart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+			 <input type="checkbox" value="./apps/nostart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
 		 $nostarwithoma </span>
-	<div>
+	</div>
 EOF
 
 else
 
 cat << EOF
-		<div class="nostartauto">
+	<div class="nostartauto">
 		<span>
-		 <input type="checkbox" value="./apps/makestart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
-		 $makestartwithoma </span>
-	<div>
+			 <input type="checkbox" value="./apps/makestart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+			 $makestartwithoma </span>
+	</div>
 EOF
 
 fi
 
 cat << EOF
 	<div id="rodape">
-	  <a href="news.sh.htm" class="button">$next</a>
+		<a href="news.sh.htm" class="button">$next</a>
 	</div>
 </body>
 </html>
