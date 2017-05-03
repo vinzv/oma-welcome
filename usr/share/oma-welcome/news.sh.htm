@@ -57,7 +57,8 @@ cat << EOF
 					<ul>
 						<li><a>Kernel</a></li>
 						<li><a>KDE Plasma $(plasmashell --version| cut -d " " -f 2)</a></li>
-						<li><a>LibreOffice 5.2</a></li>
+						<li><a>LibreOffice 5.3</a></li>
+						<li><a>$omccnew</a></li>
 						<li><a>$controlcenter</a></li>
 						<li><a>EFI Boot</a></li>
 						<li><a>$freshpackages</a></li>
@@ -87,7 +88,7 @@ cat << EOF
 				</div>
 				<div class="sliderkit-panel">
 					<div class="sliderkit-news">
-						<h3 class="titlePage">LibreOffice 5.2</h3>
+						<h3 class="titlePage">LibreOffice 5.3</h3>
 						<div class="logo">
 							<img src="images/libreoffice.png"/>
 						 </div>
@@ -97,6 +98,17 @@ cat << EOF
 				<div class="sliderkit-panel">
 					<div class="sliderkit-news">
 						<h3 class="titlePage">OpenMandriva Control Center</h3>
+						<div class="logo">
+							<img src="images/om-ccnew.png"/>
+						 </div>
+						<p>
+						$omccnewdesc
+						</p>
+					</div>
+				</div>
+				<div class="sliderkit-panel">
+					<div class="sliderkit-news">
+						<h3 class="titlePage">Drakconf</h3>
 						<div class="logo">
 							<img src="images/drakconf.png"/>
 						 </div>
@@ -125,8 +137,8 @@ cat << EOF
 					<div class="sliderkit-news">
 						<h3 class="titlePage">ABF (Automated Build Farm)</h3>
 						<div class="logo">
-							<img src="images/abf.png"/>
-						</div>
+								<img src="images/abf.png"/>
+						 </div>
 						<p>
 						$abfdesc
 						</p>
@@ -137,7 +149,7 @@ cat << EOF
 	</div>
 
 	<div id="rodape">
-		<a href="conf.sh.htm" class="button">$next</a>
+	<a href="conf.sh.htm" class="button">$next</a>
 	</div>
 </body>
 
