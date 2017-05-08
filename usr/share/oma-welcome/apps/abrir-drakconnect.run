@@ -1,14 +1,8 @@
 #!/bin/bash
 #check the connection on openmandriva site
-if ! ping -c 3 www.openmandriva.org ; then
-    echo
-    kdialog --title $"OpenMandriva"  --msgbox  $" Configure your internet.";
-    drakconnect
-    echo
-  else
-    echo
-    kdialog --title $"OpenMandriva"  --msgbox  $" Internet Ok!.";
-    echo
+if ping -w2 www.openmandriva.org ; then
+	if ! kdialog --title $"OpenMandriva"  --yesno $"Your internet connection seems to be working already.\nDo you want to configure it anyway?"; then
+		exit 0
+	fi
 fi
-exit
-
+kde5-nm-connection-editor
