@@ -1,0 +1,11 @@
+#!/bin/bash
+if which qupzilla &>/dev/null; then 
+	kdialog --title $"OpenMandriva" --msgbox $"Qupzilla is already installed."
+else 
+	gurpmi qupzilla
+	if which qupzilla &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
