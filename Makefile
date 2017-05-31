@@ -1,5 +1,5 @@
 NAME=oma-welcome
-VERSION=2.0.9
+VERSION=2.0.10
 TRANSLATIONS=de en fr id it pt_BR pt_PT tr
 bindir=/usr/bin
 sysconfdir=/etc
