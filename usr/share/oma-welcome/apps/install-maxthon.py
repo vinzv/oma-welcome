@@ -2,11 +2,12 @@ import sys
 import os
 import gettext
 
-from PyQt4 import QtGui,QtCore
+from PyQt5.QtCore import QProcess
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QPushButton, QTextEdit
 
 gettext.install("om-welcome")
 
-class gui(QtGui.QMainWindow):
+class gui(QMainWindow):
     def __init__(self):
         super(gui, self).__init__()
         self.initUI()
@@ -24,16 +25,17 @@ class gui(QtGui.QMainWindow):
         self.process.start('urpmi --auto -v http://dl.maxthon.com/linux/rpm/' + arch +'/packages/maxthon-browser-stable-' + version + '.' + arch + '.rpm')
 
     def initUI(self):
-        layout = QtGui.QVBoxLayout()
-        self.runButton = QtGui.QPushButton( _('Click to Install') )
+        layout = QVBoxLayout()
+        self.runButton = QPushButton( _('Click to Install') )
         self.runButton.clicked.connect(self.callProgram)
 
-        self.output = QtGui.QTextEdit()
+        self.output = QTextEdit()
+        self.output.setReadOnly(1)
 
         layout.addWidget(self.output)
         layout.addWidget(self.runButton)
 
-        centralWidget = QtGui.QWidget()
+        centralWidget = QWidget()
         centralWidget.setLayout(layout)
         self.setCentralWidget(centralWidget)
 
@@ -50,7 +52,7 @@ class gui(QtGui.QMainWindow):
 
 #Function Main Start
 def main():
-    app = QtGui.QApplication(sys.argv)
+    app = QApplication(sys.argv)
     ui=gui()
     ui.show()
     sys.exit(app.exec_())
