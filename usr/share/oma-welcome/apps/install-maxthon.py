@@ -18,11 +18,10 @@ class gui(QtGui.QMainWindow):
         self.output.ensureCursorVisible()
 
     def callProgram(self):
-		arch = os.uname()[4]
-		version = '1.0.5.3-1'
-		
-		self.process.start('urpmi --auto -v http://dl.maxthon.com/linux/rpm/' + arch +'/packages/maxthon-browser-stable-' + version + '.' + arch + '.rpm')
-		
+        arch = os.uname()[4]
+        version = '1.0.5.3-1'
+        
+        self.process.start('urpmi --auto -v http://dl.maxthon.com/linux/rpm/' + arch +'/packages/maxthon-browser-stable-' + version + '.' + arch + '.rpm')
 
     def initUI(self):
         layout = QtGui.QVBoxLayout()
