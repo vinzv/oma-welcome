@@ -8,7 +8,13 @@ localedir=$(sharedir)/locale
 
 all:
 
-install:
+messages: usr/share/oma-welcome/translation
+	xgettext -d om-welcome -o usr/share/oma-welcome/om-welcome.pot -L Shell --from-code utf-8 usr/share/oma-welcome/translation
+	for i in $(TRANSLATIONS); do \
+		msgmerge -U po/$$i.po usr/share/oma-welcome/om-welcome.pot; \
+	done
+
+install: messages
 	mkdir -p $(DESTDIR)$(prefix)/$(bindir)
 	mkdir -p $(DESTDIR)$(prefix)/$(sysconfdir)/xdg/autostart
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
