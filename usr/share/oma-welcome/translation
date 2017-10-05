@@ -16,6 +16,7 @@ text=$"OpenMandriva Lx is an exciting free Desktop Operating System that aims to
 
 #translations of apps.sh.htm
 next=$"Next"
+previous=$"Previous"
 #menuappsconfig=$"Settings"
 menuapps=$"Applications"
 menuappsoffice=$"Office"
