@@ -208,6 +208,16 @@ z-index:200;
 padding:3px;
 }
 
+#lodape {
+position:fixed;
+bottom:8px;
+left:8px;
+border-radius:8px;
+font-size:0.85em;
+z-index:200;
+padding:3px;
+}
+
 .button {
 position:right;
 display:inline-block;
