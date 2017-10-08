@@ -1,0 +1,618 @@
+#: translation:8
+msgid "Hi"
+msgstr ""
+#: translation:9
+msgid "Welcome to OpenMandriva"
+msgstr ""
+#: translation:10
+msgid "Welcome"
+msgstr ""
+#: translation:11
+msgid "Features"
+msgstr ""
+#: translation:12
+msgid "Configure"
+msgstr ""
+#: translation:13
+msgid "Contribute"
+msgstr ""
+#: translation:14
+msgid "About"
+msgstr ""
+#: translation:15
+msgid "OpenMandriva Lx is an exciting free Desktop Operating System that aims to cater to and interest first time and advanced users alike. It has the breadth and depth of an advanced system, but is designed to be simple and straightforward in use. Lx comes from a 100% community-driven association that believes in the values of free software & collaboration and whose founding values are development, equality, co-operation, openness, freedom, group achievement, independence, and solidarity."
+msgstr ""
+#: translation:18
+msgid "Next"
+msgstr ""
+#: translation:19
+msgid "Previous"
+msgstr ""
+#: translation:21
+msgid "Applications"
+msgstr ""
+#: translation:22
+msgid "Office"
+msgstr ""
+#: translation:23
+msgid "Graphics"
+msgstr ""
+#: translation:24
+msgid "Multimedia"
+msgstr ""
+#: translation:25
+msgid "Utility"
+msgstr ""
+#: translation:26
+msgid "Games"
+msgstr ""
+#: translation:27
+msgid "Development"
+msgstr ""
+#: translation:28
+msgid "Internet"
+msgstr ""
+#: translation:29
+msgid "Click on the menus below to configure your"
+msgstr ""
+#: translation:30
+msgid "network drivers, software medium, video drivers, desktop theme, icons, printer drivers, remove unused packages etc."
+msgstr ""
+#: translation:31
+msgid "Install some extra applications to"
+msgstr ""
+#: translation:32
+msgid " - To install click the application icon"
+msgstr ""
+#: translation:33
+msgid "Add Media"
+msgstr ""
+#: translation:34
+msgid "After installing OpenMandriva Lx, you can configure repositories to install other applications and to keep the system updated"
+msgstr ""
+#: translation:35
+msgid "Update of"
+msgstr ""
+#: translation:36
+msgid "To get the latest bug fixes and enhancements for your system you should update it on daily basis. This will enhance the stability of the installation"
+msgstr ""
+#: translation:37
+msgid "Display and Monitor"
+msgstr ""
+#: translation:38
+msgid "Manage and configure monitor and display"
+msgstr ""
+#: translation:39
+msgid "Configure your printer"
+msgstr ""
+#: translation:40
+msgid "Configure your printer, add drivers for HP, EPSON, etc."
+msgstr ""
+#: translation:41
+msgid "Configure the system boot"
+msgstr ""
+#: translation:42
+msgid "During installation OpenMandriva Lx 3.0 detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
+msgstr ""
+#: translation:43
+msgid "Configure the network"
+msgstr ""
+#: translation:44
+msgid "All the necessary tools to change or settings your networks, such as configuring static IP, PPPoE, 3G, etc."
+msgstr ""
+#: translation:45
+msgid "OpenMandriva Control Center"
+msgstr ""
+#: translation:46
+msgid "All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
+msgstr ""
+#: translation:47
+msgid "Configure Desktop Icons"
+msgstr ""
+#: translation:48
+msgid "Change or configure your desktop icons or install your favorite icons"
+msgstr ""
+#: translation:49
+msgid "Remove Unused Packages"
+msgstr ""
+#: translation:50
+msgid "Remove unused packages such as unused localization and unused hardware packages"
+msgstr ""
+#: translation:53
+msgid "Gimp"
+msgstr ""
+#: translation:54
+msgid "Create and edit your images in a professional way with this powerful Open Source tool"
+msgstr ""
+#: translation:55
+msgid "Inkscape"
+msgstr ""
+#: translation:56
+msgid "A powerful, open source vector drawing tool, for illustrators and designers"
+msgstr ""
+#: translation:57
+msgid "Blender"
+msgstr ""
+#: translation:58
+msgid "Modeling software that offers a unique approach to the world of three dimensions"
+msgstr ""
+#: translation:59
+msgid "Scribus"
+msgstr ""
+#: translation:60
+msgid "Scribus is a desktop layout Open Source program for producing documents in PDF and Postscript"
+msgstr ""
+#: translation:61
+msgid "Tuxpaint"
+msgstr ""
+#: translation:62
+msgid "TuxPaint is a perfect mate to encourage children's creativity using simple tools, drawings on the computer"
+msgstr ""
+#: translation:63
+msgid "Install additional applications with rpmdrake"
+msgstr ""
+#: translation:64
+msgid "Find and install applications available in the repositories"
+msgstr ""
+#: translation:65
+msgid "Desktop Themes"
+msgstr ""
+#: translation:66
+msgid "Change or install your favorite KDE themes"
+msgstr ""
+#: translation:67
+msgid "Fotoxx"
+msgstr ""
+#: translation:68
+msgid "Edit image files from a digital camera. Includes color & contrast enhancement, red-eye removal, noise removal, HDR and panorama image compositing"
+msgstr ""
+#: translation:69
+msgid "Pixelize"
+msgstr ""
+#: translation:70
+msgid "Pixelize is a program that will use many scaled down images to try to duplicate, as closely as possible, another image"
+msgstr ""
+#: translation:71
+msgid "LibreCAD"
+msgstr ""
+#: translation:72
+msgid "LibreCAD is a Qt4 application to design 2D cad drawing based on the community edition of QCad"
+msgstr ""
+#: translation:75
+msgid "Codecs"
+msgstr ""
+#: translation:76
+msgid "Necessary codecs to run audio and video files in various formats. Some file formats are proprietary and restricted in some countries"
+msgstr ""
+#: translation:77
+msgid "Audacity"
+msgstr ""
+#: translation:78
+msgid "Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and Ogg/Vorbis"
+msgstr ""
+#: translation:79
+msgid "Kdenlive"
+msgstr ""
+#: translation:80
+msgid "Kdenlive is a non-linear video editor for KDE that relies on a separate renderer and supports multi-track editing"
+msgstr ""
+#: translation:81
+msgid "Devede"
+msgstr ""
+#: translation:82
+msgid "Create a DVD with your videos with this simple and feature-rich tool"
+msgstr ""
+#: translation:83
+msgid "Flash Player"
+msgstr ""
+#: translation:84
+msgid "Play games and flash videos on the internet, with this player from Adobe"
+msgstr ""
+#: translation:85
+msgid "Kaudiocreator"
+msgstr ""
+#: translation:86
+msgid "Backup your CDs using this KDE tool and avoid losing your songs to scratches"
+msgstr ""
+#: translation:87
+msgid "SMPlayer"
+msgstr ""
+#: translation:88
+msgid "SMPlayer is a graphical front-end for MPlayer, cross-platform and supports various audio/video formats"
+msgstr ""
+#: translation:89
+msgid "ROSA Media Player"
+msgstr ""
+#: translation:90
+msgid "Watch various video formats, IPTV and YouTube videos; capture video and audio from your desktop"
+msgstr ""
+#: translation:91
+msgid "Bino 3D Video Player"
+msgstr ""
+#: translation:92
+msgid "Bino is a stereoscopic 3D video player with multi-display support"
+msgstr ""
+#: translation:93
+msgid "QMMP Media Player"
+msgstr ""
+#: translation:94
+msgid "A QT based media player similar to Winamp"
+msgstr ""
+#: translation:97
+msgid "OpenJDK"
+msgstr ""
+#: translation:98
+msgid "Install and configure the OpenJDK to be used to access websites and services in Java"
+msgstr ""
+#: translation:99
+msgid "Steam"
+msgstr ""
+#: translation:100
+msgid "Launcher for the Valve's Steam game distribution service"
+msgstr ""
+#: translation:101
+msgid "Wine"
+msgstr ""
+#: translation:102
+msgid "Wine allows you to run many Microsoft Windows programs on Linux"
+msgstr ""
+#: translation:103
+msgid "Skype"
+msgstr ""
+#: translation:104
+msgid "By installing this package you will download and install Skype from skype.com. You must accept the Skype EULA before using it"
+msgstr ""
+#: translation:107
+msgid "Calibre"
+msgstr ""
+#: translation:108
+msgid "You can convert and manage your e-Books collection with Calibre"
+msgstr ""
+#: translation:109
+msgid "Unrar"
+msgstr ""
+#: translation:110
+msgid "Open and create RAR files with Ark, the default archive manager in OpenMandriva Lx"
+msgstr ""
+#: translation:111
+msgid "Dia"
+msgstr ""
+#: translation:112
+msgid "Dia is a program to draw structured diagrams"
+msgstr ""
+#: translation:113
+msgid "Calligra"
+msgstr ""
+#: translation:114
+msgid "Office applications for the K Desktop Environment"
+msgstr ""
+#: translation:115
+msgid "Semantik"
+msgstr ""
+#: translation:116
+msgid "A mindmapping and brainstorming tool"
+msgstr ""
+#: translation:117
+msgid "Kraft"
+msgstr ""
+#: translation:118
+msgid "Manage your office documents with Kraft"
+msgstr ""
+#: translation:119
+msgid "Zim"
+msgstr ""
+#: translation:120
+msgid "A free and open source desktop wiki and outliner​"
+msgstr ""
+#: translation:121
+msgid "Poedit"
+msgstr ""
+#: translation:122
+msgid "Poedit is cross-platform gettext catalogs (.po files) editor"
+msgstr ""
+#: translation:123
+msgid "Homebank"
+msgstr ""
+#: translation:124
+msgid "Free easy personal accounting for all​"
+msgstr ""
+#: translation:128
+msgid "How to contribute to OpenMandriva"
+msgstr ""
+#: translation:129
+msgid "So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways:"
+msgstr ""
+#: translation:130
+msgid "Manual"
+msgstr ""
+#: translation:131
+msgid "Help improve a simple step-by-step guide for installing and configuring OpenMandriva Lx"
+msgstr ""
+#: translation:132
+msgid "Forums"
+msgstr ""
+#: translation:133
+msgid "Become a member at our forums, answer questions and help others"
+msgstr ""
+#: translation:134
+msgid "Translating"
+msgstr ""
+#: translation:135
+msgid "Translate blog posts, wiki pages, applications and stuffs"
+msgstr ""
+#: translation:136
+msgid "Join in the development of OpenMandriva Lx"
+msgstr ""
+#: translation:137
+msgid "Cooker is the development branch of OpenMandriva Lx"
+msgstr ""
+#: translation:138
+msgid "Artwork"
+msgstr ""
+#: translation:139
+msgid "Use your talent to create new artwork for OpenMandriva Lx"
+msgstr ""
+#: translation:140
+msgid "Mailing list"
+msgstr ""
+#: translation:141
+msgid "Join the discussion list of OpenMandriva"
+msgstr ""
+#: translation:142
+msgid "Report Bug"
+msgstr ""
+#: translation:143
+msgid "Search, report and fix bugs (issues?) in OpenMandriva Lx"
+msgstr ""
+#: translation:144
+msgid "Join in the IRC channel"
+msgstr ""
+#: translation:145
+msgid "openmandriva-cooker is OpenMandriva's main IRC channel"
+msgstr ""
+#: translation:146
+msgid "Donation"
+msgstr ""
+#: translation:147
+msgid "You can give us your love and care by donating your time or money to OpenMandriva Lx"
+msgstr ""
+#: translation:148
+msgid "Do not start oma-welcome on login"
+msgstr ""
+#: translation:149
+msgid "Make oma-welcome start on login"
+msgstr ""
+#: translation:150
+msgid "Finish"
+msgstr ""
+#: translation:153
+msgid "are already installed"
+msgstr ""
+#: translation:154
+msgid "not installed"
+msgstr ""
+#: translation:157
+msgid "About this program"
+msgstr ""
+#: translation:158
+msgid "This software is licensed under the GNU General Public License version 2 (GPLv2)."
+msgstr ""
+#: translation:159
+msgid "It uses Qt5 WebEngine, and bigbashview."
+msgstr ""
+#: translation:160
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr ""
+#: translation:163
+msgid "You are using"
+msgstr ""
+#: translation:164
+msgid "with kernel"
+msgstr ""
+#: translation:165
+msgid "architecture"
+msgstr ""
+#: translation:167
+msgid "KVPNc"
+msgstr ""
+#: translation:168
+msgid "KDE frontend to various VPN clients"
+msgstr ""
+#: translation:169
+msgid "0ad"
+msgstr ""
+#: translation:170
+msgid "Cross-platform RTS Game of Ancient Warfare​"
+msgstr ""
+#: translation:171
+msgid "MegaGlest"
+msgstr ""
+#: translation:172
+msgid "Open Source 3d real time strategy game"
+msgstr ""
+#: translation:173
+msgid "Wesnoth"
+msgstr ""
+#: translation:174
+msgid "Fantasy turn-based strategy game"
+msgstr ""
+#: translation:175
+msgid "FlightGear"
+msgstr ""
+#: translation:176
+msgid "FlightGear Flight Simulator for Linux"
+msgstr ""
+#: translation:177
+msgid "TORCS"
+msgstr ""
+#: translation:178
+msgid "The Open Racing Car Simulator"
+msgstr ""
+#: translation:179
+msgid "SuperTux"
+msgstr ""
+#: translation:180
+msgid "SuperTux is a classic 2D jump'n run sidescroller game in a similar style like the original SuperMario games"
+msgstr ""
+#: translation:181
+msgid "Warzone 2100"
+msgstr ""
+#: translation:182
+msgid "Postnuclear War realtime strategy games"
+msgstr ""
+#: translation:183
+msgid "Filezilla"
+msgstr ""
+#: translation:184
+msgid "FileZilla is a powerful, free file management tool for FTP access to your Web site's server"
+msgstr ""
+#: translation:185
+msgid "Virtualbox"
+msgstr ""
+#: translation:186
+msgid "An easy virtualization software package for x86 and AMD64/Intel64-based computers"
+msgstr ""
+#: translation:187
+msgid "GRsync"
+msgstr ""
+#: translation:188
+msgid "Grsync is a GUI for rsync. While it can work with remote hosts, its focus is to synchronize local directories"
+msgstr ""
+#: translation:191
+msgid "New Features and Major Changes"
+msgstr ""
+#: translation:192
+msgid "This is the third major release, codenamed <span class='username'>Einsteinium</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for OpenMandriva Lx 3.0:"
+msgstr ""
+#: translation:193
+msgid "OM Control Center"
+msgstr ""
+#: translation:194
+msgid "Drakconf"
+msgstr ""
+#: translation:195
+msgid "Fresh Packages"
+msgstr ""
+#: translation:196
+msgid "Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), Clementine, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox, Systemd and Firewalld. Fot the technically adept we have provided systemtap a system performance analysis tool "
+msgstr ""
+#: translation:197
+msgid ""
+"Kernel 4.13 is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>\n"
+"<br/>\n"
+"<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
+msgstr ""
+#: translation:200
+msgid "KDE Plasma workspace $(plasmashell --version| cut -d \" \" -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(kf5-config --version|grep Frameworks|cut -d \":\" -f2). Frameworks 5 is the next generation of KDE libraries, modularized and optimized for easy integration in Qt applications."
+msgstr ""
+#: translation:201
+msgid "LibreOffice 5.3 is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+msgstr ""
+#: translation:202
+msgid "New OpenMandriva Control Center, currently in beta version, to help you configure your system."
+msgstr ""
+#: translation:203
+msgid ""
+"Also featured is our legacy Control Center. Drakconf is a set of tools to help you configure your system for: <br/>\n"
+"- Software Management<br/>\n"
+"- Hardware<br/>\n"
+"- Network, Internet & Sharing<br/>\n"
+"- Local Disks/Partition Manager<br/>\n"
+"- System Security<br/>"
+msgstr ""
+#: translation:209
+msgid "This release of OpenMandriva Lx incorporates working support for EFI booting. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' target="
+msgstr ""
+#: translation:210
+msgid "All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="
+msgstr ""
+#: translation:213
+msgid "C/C++ Compilers Suite "
+msgstr ""
+#: translation:214
+msgid "This is GNU Cross Compiler (GCC) package, including necessary tools for development like gcc-c++, make, autoconf etc."
+msgstr ""
+#: translation:215
+msgid "KDevelop"
+msgstr ""
+#: translation:216
+msgid "The KDevelop Integrated Development Environment providing a unified interface to programs like gdb, the C/C++ compiler, and make"
+msgstr ""
+#: translation:217
+msgid "Geany IDE"
+msgstr ""
+#: translation:218
+msgid "Geany is a small C editor using GTK2 with basic features of an integrated development environment"
+msgstr ""
+#: translation:219
+msgid "Eclipse IDE"
+msgstr ""
+#: translation:220
+msgid "Eclipse IDE contains a base workspace and an extensible plug-in system, mostly used by Java Developers"
+msgstr ""
+#: translation:221
+msgid "Qt-Creator"
+msgstr ""
+#: translation:222
+msgid "Qt Creator is a lightweight, cross-platform integrated development environment (IDE)"
+msgstr ""
+#: translation:223
+msgid "Qt-Designer"
+msgstr ""
+#: translation:224
+msgid "The Qt Designer is a visual design tool that makes designing and implementing user interfaces a lot easier"
+msgstr ""
+#: translation:225
+msgid "RPM Packaging"
+msgstr ""
+#: translation:226
+msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
+msgstr ""
+#: translation:227
+msgid "Gambas IDE"
+msgstr ""
+#: translation:228
+msgid "Gambas Almost BASIC, designed to build graphical applications programs using the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
+msgstr ""
+#: translation:231
+msgid "Chromium Browser"
+msgstr ""
+#: translation:232
+msgid "Chromium serves as a base for Google Chrome, an open-source browser project that aims to build a safer, faster, and more stable"
+msgstr ""
+#: translation:233
+msgid "Mozilla Thunderbird"
+msgstr ""
+#: translation:234
+msgid "Thunderbird is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier"
+msgstr ""
+#: translation:235
+msgid "Pidgin"
+msgstr ""
+#: translation:236
+msgid "Pidgin is a graphical, modular instant messaging client capable of using multiple networks at once"
+msgstr ""
+#: translation:237
+msgid "Choqok"
+msgstr ""
+#: translation:238
+msgid "Choqok is a Free/Open Source microblogging client for KDE which supports Twitter.com, Pump.io, and OpenDesktop.org services"
+msgstr ""
+#: translation:239
+msgid "XTreme Download Manager"
+msgstr ""
+#: translation:240
+msgid "Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, resume broken/dead downloads, etc."
+msgstr ""
+#: translation:241
+msgid "Qupzilla Browser"
+msgstr ""
+#: translation:242
+msgid "Cross-platform, fast, lightweight and ready to use web browser"
+msgstr ""
+#: translation:243
+msgid "Dropbox"
+msgstr ""
+#: translation:244
+msgid "Dropbox is a free service that lets you bring your photos, docs, and videos anywhere and share them easily"
+msgstr ""
