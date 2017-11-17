@@ -118,11 +118,11 @@ descsemantik=$"A mindmapping and brainstorming tool"
 titlekraft=$"Kraft"
 desckraft=$"Manage your office documents with Kraft"
 titlezim=$"Zim"
-desczim=$"A free and open source desktop wiki and outliner​"
+desczim=$"A free and open source desktop wiki and outliner."
 titlepoedit=$"Poedit"
 descpoedit=$"Poedit is cross-platform gettext catalogs (.po files) editor"
 titlehomebank=$"Homebank"
-deschomebank=$"Free easy personal accounting for all​"
+deschomebank=$"Free easy personal accounting for all."
 
 
 #translation of community.sh.htm
@@ -168,7 +168,7 @@ arch=$"architecture"
 titlekvpnc=$"KVPNc"
 descskvpnc=$"KDE frontend to various VPN clients"
 title0ad=$"0ad"
-desc0ad=$"Cross-platform RTS Game of Ancient Warfare​"
+desc0ad=$"Cross-platform RTS Game of Ancient Warfare."
 titlemegaglest=$"MegaGlest"
 descmegaglest=$"Open Source 3d real time strategy game"
 titlewesnoth=$"Wesnoth"
@@ -195,11 +195,11 @@ omccnew=$"OM Control Center"
 controlcenter=$"Drakconf"
 freshpackages=$"Fresh Packages"
 freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), Clementine, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox, Systemd and Firewalld. Fot the technically adept we have provided systemtap a system performance analysis tool "
-kerneldesc=$"Kernel $(uname -r | cut -d " " -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>
+kerneldesc=$"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>
 <br/>
 <b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
-kdedesc=$"KDE Plasma workspace $(plasmashell --version| cut -d " " -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(kf5-config --version|grep Frameworks|cut -d ":" -f2). Frameworks 5 is the next generation of KDE libraries, modularized and optimized for easy integration in Qt applications."
-libreofficedesc=$"LibreOffice $(libreoffice --version| cut -d " " -f 2) is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+kdedesc=$"KDE Plasma workspace $(plasmashell --version| cut -d ' ' -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(kf5-config --version|grep Frameworks|cut -d ":" -f2). Frameworks 5 is the next generation of KDE libraries, modularized and optimized for easy integration in Qt applications."
+libreofficedesc=$"LibreOffice $(libreoffice --version| cut -d ' ' -f 2) is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 omccnewdesc=$"New OpenMandriva Control Center, currently in beta version, to help you configure your system."
 drakconfdesc=$"Also featured is our legacy Control Center. Drakconf is a set of tools to help you configure your system for: <br/>
 - Software Management<br/>
