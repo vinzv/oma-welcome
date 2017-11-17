@@ -911,8 +911,8 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:213
 msgid ""
-"This is GNU Cross Compiler (GCC) package, including necessary tools for "
-"development like gcc-c++, make, autoconf etc."
+"This is LLVM/clang package, including necessary tools for "
+"development like LLVM/clang, GCC, make, autoconf etc."
 msgstr ""
 
 #: usr/share/oma-welcome/translation:214

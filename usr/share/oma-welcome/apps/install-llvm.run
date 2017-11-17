@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if which clang; then
+    kdialog --title $"OpenMandriva"  --msgbox  $" LLVM/clang is already installed.";
+else
+	gurpmi task-devel task-c-devel task-c++-devel clang llvm;
+	if which clang; then
+	    kdialog --title $"OpenMandriva"  --msgbox  $" LLVM/clang successfully installed.";
+	else
+	    kdialog --title $"OpenMandriva"  --msgbox  $" LLVM/clang not installed.";
+	fi
+    fi
+fi

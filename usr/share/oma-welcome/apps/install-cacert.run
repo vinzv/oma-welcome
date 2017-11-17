@@ -1,4 +1,2 @@
 #!/bin/bash
-xterm ./installapp/install-cacert.sh 
-
-
+xterm ./installapp/install-cacert.sh

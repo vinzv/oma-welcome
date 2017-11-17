@@ -988,11 +988,11 @@ msgstr "Suíte de Compiladores C/C++"
 
 #: usr/share/oma-welcome/translation:213
 msgid ""
-"This is GNU Cross Compiler (GCC) package, including necessary tools for "
-"development like gcc-c++, make, autoconf etc."
+"This is LLVM/clang package, including necessary tools for "
+"development like LLVM/clang, GCC, make, autoconf etc."
 msgstr ""
-"Este é o pacote do GNU Cross Compiler (GCC), incluíndo ferramentas "
-"necessárias para o desenvolvimento com gcc-c++, make, autoconf, etc."
+"Este é o pacote do LLVM/clang, incluíndo ferramentas "
+"necessárias para o desenvolvimento com LLVM/clang, GCC, make, autoconf, etc."
 
 #: usr/share/oma-welcome/translation:214
 msgid "KDevelop"

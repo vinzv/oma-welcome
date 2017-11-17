@@ -977,10 +977,10 @@ msgstr "C/C++ Derleyiciler Takımı"
 
 #: usr/share/oma-welcome/translation:213
 msgid ""
-"This is GNU Cross Compiler (GCC) package, including necessary tools for "
-"development like gcc-c++, make, autoconf etc."
+"This is LLVM/clang package, including necessary tools for "
+"development like LLVM/clang, GCC, make, autoconf etc."
 msgstr ""
-"Bu GNU Cross Compiler (GCC) derleyici paketidir. gcc-c++, make, autoconf vs. "
+"Bu LLVM/clan derleyici paketidir. LLVM/clan, GCC, make, autoconf vs. "
 "gibi gerekli araçları kapsar."
 
 #: usr/share/oma-welcome/translation:214

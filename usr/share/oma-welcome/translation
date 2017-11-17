@@ -210,8 +210,8 @@ efibootdesc=$"This release of OpenMandriva Lx incorporates working support for E
 abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="hidden" class='titlePage'>http://abf.openmandriva.org</a>"
 
 #Development.sh.htm
-titlegcc=$"C/C++ Compilers Suite "
-descgcc=$"This is GNU Cross Compiler (GCC) package, including necessary tools for development like gcc-c++, make, autoconf etc."
+titlellvm=$"C/C++ Compilers Suite "
+descllvm=$"This is LLVM/clang package, including necessary tools for development like LLVM/clang, GCC, make, autoconf etc."
 titlekdevelop=$"KDevelop"
 desckdevelop=$"The KDevelop Integrated Development Environment providing a unified interface to programs like gdb, the C/C++ compiler, and make"
 titlegeany=$"Geany IDE"

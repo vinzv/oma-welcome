@@ -24,5 +24,4 @@ elif [ "$(uname -m)" = "aarch64" ]; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Suporte repositorios 32bits á sistemas 64bits feito com sucesso";
 else
 	kdialog --title $"OpenMandriva"  --msgbox  $" 32bit repositories not needed";
-
 fi

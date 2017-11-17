@@ -530,7 +530,7 @@ msgstr ""
 msgid "C/C++ Compilers Suite "
 msgstr ""
 #: translation:214
-msgid "This is GNU Cross Compiler (GCC) package, including necessary tools for development like gcc-c++, make, autoconf etc."
+msgid "This is LLVM/clang package, including necessary tools for development like LLVM/clang, GCC, make, autoconf etc."
 msgstr ""
 #: translation:215
 msgid "KDevelop"
