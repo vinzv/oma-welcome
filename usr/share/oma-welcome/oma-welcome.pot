@@ -498,7 +498,7 @@ msgid "Some fresh packages included with this release include Krita (Digital Pai
 msgstr ""
 #: translation:197
 msgid ""
-"Kernel 4.13 is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>\n"
+"Kernel $(uname -r | cut -d \" \" -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>\n"
 "<br/>\n"
 "<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
 msgstr ""
@@ -506,7 +506,7 @@ msgstr ""
 msgid "KDE Plasma workspace $(plasmashell --version| cut -d \" \" -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(kf5-config --version|grep Frameworks|cut -d \":\" -f2). Frameworks 5 is the next generation of KDE libraries, modularized and optimized for easy integration in Qt applications."
 msgstr ""
 #: translation:201
-msgid "LibreOffice 5.3 is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+msgid "LibreOffice $(libreoffice --version| cut -d \" \" -f 2) is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 msgstr ""
 #: translation:202
 msgid "New OpenMandriva Control Center, currently in beta version, to help you configure your system."
