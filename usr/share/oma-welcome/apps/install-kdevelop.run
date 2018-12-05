@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which kdevelop4; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi kdevelop4; 
-		if which kdevelop4; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 not installed.";
-		fi
-	    else
-		gurpmi kdevelop4;
-		if which kdevelop4; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 not installed.";
-		fi
-	    fi
-    fi
+if which kdevelop4; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 is already installed."
+else 
+	kdesu -- dnf install --assumeyes kdevelop4
+	if which kdevelop4; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 not installed."
+	fi
+fi

@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which smplayer; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi smplayer; 
-		if which smplayer; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer not installed.";
-		fi
-	    else
-		gurpmi smplayer;
-		if which smplayer; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer not installed.";
-		fi
-	    fi
-    fi
+if which smplayer; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed."
+else 
+	kdesu -- dnf install --assumeyes smplayer
+	if which smplayer; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer not installed."
+	fi
+fi

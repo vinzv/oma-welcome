@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which qt-creator; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi qt-creator; 
-		if which qt-creator; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator not installed.";
-		fi
-	    else
-		gurpmi qt-creator;
-		if which qt-creator; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator not installed.";
-		fi
-	    fi
-    fi
+if which qt-creator; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator is already installed."
+else 
+	kdesu -- dnf install --assumeyes qt-creator
+	if which qt-creator; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator not installed."
+	fi
+fi

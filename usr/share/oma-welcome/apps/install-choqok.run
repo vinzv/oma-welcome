@@ -1,22 +1,12 @@
 #!/bin/bash
 
-
-    if which choqok; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Choqok is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi choqok; 
-		if which choqok; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok not installed.";
-		fi
-	    else
-		gurpmi choqok;
-		if which choqok; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok not installed.";
-		fi
-	    fi
-    fi
+if which choqok; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Choqok is already installed."
+else 
+	kdesu -- dnf install --assumeyes choqok
+	if which choqok; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok not installed."
+	fi
+fi

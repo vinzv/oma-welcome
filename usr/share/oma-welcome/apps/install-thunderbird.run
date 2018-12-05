@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which thunderbird; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi thunderbird; 
-		if which thunderbird; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird not installed.";
-		fi
-	    else
-		gurpmi thunderbird;
-		if which thunderbird; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird not installed.";
-		fi
-	    fi
-    fi
+if which thunderbird; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird is already installed."
+else
+	kdesu -- dnf install --assumeyes thunderbird;
+	if which thunderbird; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird not installed."
+	fi
+fi

@@ -1,4 +1,4 @@
 #!/bin/bash
 echo 'autostart=0' > ~/.oma-welcome;
 
-kdialog --title $"OpenMandriva"  --msgbox  $" The om-welcome will not initialize with the system";
+kdialog --title $"OpenMandriva"  --msgbox  $" The om-welcome will not initialize with the system"

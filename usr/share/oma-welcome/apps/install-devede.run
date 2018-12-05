@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which devede; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Devede is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi devede; 
-		if which devede; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Devede successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Devede not installed.";
-		fi
-	    else
-		gurpmi devede;
-		if which devede; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Devede successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Devede not installed.";
-		fi
-	    fi
-    fi
+if which devede; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Devede is already installed."
+else 
+	kdesu -- dnf install --assumeyes devede
+	if which devede; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Devede successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Devede not installed."
+	fi
+fi

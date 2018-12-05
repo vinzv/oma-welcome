@@ -1,20 +1,11 @@
 #!/bin/bash
-    if rpm -qa |grep "skype*"; then 
-	  kdialog --title $"OpenMandriva"  --msgbox  $" Skype is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi get-skype; 
-		if rpm -qa |grep "skype*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Skype successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $"Skype not installed.";
-		fi
-	    else
-		gurpmi get-skype;
-		if rpm -qa |grep "skype*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Skype successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $"Skype not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "skype*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Skype is already installed."
+else 
+	kdesu -- dnf install --assumeyes get-skype
+	if rpm -qa |grep "skype*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Skype successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $"Skype not installed."
+	fi
+fi

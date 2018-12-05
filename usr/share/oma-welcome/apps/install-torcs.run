@@ -1,21 +1,12 @@
 #!/bin/bash
 
-    if rpm -qa |grep "torcs*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" torcs is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi torcs; 
-		if rpm -qa |grep "torcs*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" torcs successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" torcs not installed.";
-		fi
-	    else
-		gurpmi torcs; 
-		if rpm -qa |grep "torcs*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" torcs successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" torcs not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "torcs*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" torcs is already installed."
+else 
+	kdesu -- dnf install --assumeyes torcs
+	if rpm -qa |grep "torcs*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" torcs successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" torcs not installed."
+	fi
+fi

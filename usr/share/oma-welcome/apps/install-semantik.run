@@ -1,21 +1,12 @@
 #!/bin/bash
 
-    if rpm -qa |grep "semantik*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Semantik is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi semantik; 
-		if rpm -qa |grep "semantik*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik not installed.";
-		fi
-	    else
-		gurpmi semantik;
-		if rpm -qa |grep "semantik*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "semantik*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Semantik is already installed."
+else 
+	kdesu -- dnf install --assumeyes semantik
+	if rpm -qa |grep "semantik*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik not installed."
+	fi
+fi

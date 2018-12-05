@@ -1,21 +1,11 @@
 #!/bin/bash
-
-    if rpm -qa |grep "dia-0.9*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Dia is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi dia; 
-		if rpm -qa |grep "dia-0.9*"; then
+if rpm -qa |grep "dia-0.9*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Dia is already installed.";
+else 
+	kdesu -- dnf install --assumeyes dia;
+	if rpm -qa |grep "dia-0.9*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Dia successfully installed.";
-		    else
+	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Dia not installed.";
-		fi
-	    else
-		gurpmi dia;
-		if rpm -qa |grep "dia-0.9*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Dia successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Dia not installed.";
-		fi
-	    fi
-    fi
+	fi
+fi

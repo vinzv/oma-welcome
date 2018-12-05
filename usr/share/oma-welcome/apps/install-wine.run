@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which wine; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Wine is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi wine winetricks cabextract; 
-		if which wine winetricks; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Wine successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Wine not installed.";
-		fi
-	    else
-		gurpmi wine winetricks cabextract;
-		if which wine; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Wine successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Wine not installed.";
-		fi
-	    fi
-    fi
+if which wine; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Wine is already installed."
+else 
+	kdesu -- dnf install --assumeyes wine winetricks cabextract
+	if which wine; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Wine successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Wine not installed."
+	fi
+fi

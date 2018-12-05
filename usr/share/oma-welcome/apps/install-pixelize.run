@@ -1,22 +1,12 @@
 #!/bin/bash
 
-
-    if which pixelize; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi pixelize; 
-		if which pixelize; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize not installed.";
-		fi
-	    else
-		gurpmi pixelize;
-		if which pixelize; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize not installed.";
-		fi
-	    fi
-    fi
+if which pixelize; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize is already installed."
+else
+	kdesu -- dnf install --assumeyes pixelize
+	if which pixelize; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize not installed."
+	fi
+fi

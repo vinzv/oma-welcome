@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which qt5-designer; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi qt5-designer; 
-		if which qt5-designer; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer not installed.";
-		fi
-	    else
-		gurpmi qt5-designer;
-		if which qt5-designer; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer not installed.";
-		fi
-	    fi
-    fi
+if which qt5-designer; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer is already installed."
+else 
+	kdesu -- dnf install --assumeyes qt5-designer
+	if which qt5-designer; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer not installed."
+	fi
+fi

@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which kfilebox; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi kfilebox; 
-		if which kfilebox; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) not installed.";
-		fi
-	    else
-		gurpmi kfilebox;
-		if which kfilebox; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) not installed.";
-		fi
-	    fi
-    fi
+if which kfilebox; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) is already installed."
+else 
+	kdesu -- dnf install --assumeyes kfilebox
+	if which kfilebox; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" KFilebox (Dropbox Gui for KDE) not installed."
+	fi
+fi

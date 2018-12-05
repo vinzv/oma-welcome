@@ -1,21 +1,12 @@
 #!/bin/bash
 
-    if rpm -qa |grep "scribus*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Scribus is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi scribus; 
-		if rpm -qa |grep "scribus*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Scribus successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $"Scribus not installed.";
-		fi
-	    else
-		gurpmi scribus;
-		if rpm -qa |grep "scribus*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Scribus successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $"Scribus not installed.";
-		fi
-	    fi
-    fi
+if rpm -q scribus; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Scribus is already installed."
+else 
+	kdesu -- dnf install --assumeyes scribus
+	if rpm -qa |grep "scribus*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Scribus successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $"Scribus not installed."
+	fi
+fi

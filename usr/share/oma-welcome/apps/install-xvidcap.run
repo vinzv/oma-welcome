@@ -1,20 +1,11 @@
 #!/bin/bash
-    if rpm -qa |grep "xvidcap*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi xvidcap; 
-		if which xvidcap; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap not installed.";
-		fi
-	    else
-		gurpmi xvidcap;
-		if which xvidcap; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "xvidcap*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap is already installed."
+else 
+	kdesu -- dnf install --assumeyes xvidcap
+	if which xvidcap; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap not installed."
+	fi
+fi

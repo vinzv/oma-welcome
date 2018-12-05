@@ -1,22 +1,20 @@
 #!/bin/bash
-
-
-    if which audacity; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Audacity is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi audacity; 
+if which audacity; then 
+	kdialog --title $"OpenMandriva" --msgbox $" Audacity is already installed.";
+else 
+	if [ "$(uname -m)" = "i686" ]; then
+		kdesu -- dnf install --assumeyes audacity
 		if which audacity; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Audacity successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Audacity not installed.";
+			kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."
+		else
+			kdialog --title $"OpenMandriva" --msgbox $" Audacity not installed."
 		fi
-	    else
-		gurpmi audacity;
+	else
+		kdesu -- dnf install --assumeyes audacity
 		if which audacity; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Audacity successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Audacity not installed.";
+			kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."
+		else
+			kdialog --title $"OpenMandriva" --msgbox $" Audacity not installed."
 		fi
-	    fi
-    fi
+	fi
+fi

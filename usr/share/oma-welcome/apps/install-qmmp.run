@@ -1,22 +1,12 @@
 #!/bin/bash
 
-
-    if which qmmp; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi qmmp; 
-		if which rosa-media-player; then
+if which qmmp; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed.";
+else 
+	kdesu -- dnf install --assumeyes qmmp;
+	if which qmmp; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP successfully installed.";
-		    else
+	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP not installed.";
-		fi
-	    else
-		gurpmi qmmp;
-		if which qmmp; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP not installed.";
-		fi
-	    fi
-    fi
+	fi
+fi

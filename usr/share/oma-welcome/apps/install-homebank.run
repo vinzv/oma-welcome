@@ -1,22 +1,12 @@
 #!/bin/bash
 
-
-    if which homebank; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Homebank is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi homebank; 
-		if which homebank; then
+if which homebank; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Homebank is already installed.";
+else 
+	kdesu -- dnf install --assumeyes homebank;
+	if which homebank; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank successfully installed.";
-		    else
+	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank not installed.";
-		fi
-	    else
-		gurpmi homebank;
-		if which homebank; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank not installed.";
-		fi
-	    fi
-    fi
+	fi
+fi

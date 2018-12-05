@@ -1,21 +1,12 @@
 #!/bin/bash
 
-    if rpm -qa |grep "kraft*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Kraft is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi kraft; 
-		if rpm -qa |grep "kraft*"; then
+if rpm -qa |grep "kraft*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Kraft is already installed.";
+else 
+	kdesu -- dnf install --assumeyes kraft;
+	if rpm -qa |grep "kraft*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft successfully installed.";
-		    else
+	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft not installed.";
-		fi
-	    else
-		gurpmi kraft;
-		if rpm -qa |grep "kraft*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft not installed.";
-		fi
-	    fi
-    fi
+	fi
+fi

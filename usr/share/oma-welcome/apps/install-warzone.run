@@ -1,21 +1,11 @@
 #!/bin/bash
-
-    if rpm -qa |grep "warzone2100*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi warzone2100; 
-		if rpm -qa |grep "warzone2100*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game not installed.";
-		fi
-	    else
-		gurpmi warzone2100; 
-		if rpm -qa |grep "warzone2100*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "warzone2100*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game is already installed."
+else 
+	kdesu -- dnf install --assumeyes warzone2100
+	if rpm -qa |grep "warzone2100*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game not installed."
+	fi
+fi

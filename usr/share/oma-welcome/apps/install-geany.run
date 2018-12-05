@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which geany; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi geany; 
-		if which geany; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE not installed.";
-		fi
-	    else
-		gurpmi geany;
-		if which geany; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE not installed.";
-		fi
-	    fi
-    fi
+if which geany; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed."
+else 
+	kdesu -- dnf install --assumeyes geany
+	if which geany; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE not installed."
+	fi
+fi

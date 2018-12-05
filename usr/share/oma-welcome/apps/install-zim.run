@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which zim; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi zim; 
-		if which zim; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor not installed.";
-		fi
-	    else
-		gurpmi zim;
-		if which zim; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor not installed.";
-		fi
-	    fi
-    fi
+if which zim; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor is already installed."
+else 
+	kdesu -- dnf install --assumeyes zim
+	if which zim; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor not installed."
+	fi
+fi

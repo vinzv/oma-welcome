@@ -1,22 +1,11 @@
 #!/bin/bash
-
-
-    if which virtualbox; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi virtualbox; 
-		if which virtualbox; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox not installed.";
-		fi
-	    else
-		gurpmi virtualbox;
-		if which virtualbox; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox not installed.";
-		fi
-	    fi
-    fi
+if which virtualbox; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox is already installed."
+else 
+	kdesu -- dnf install --assumeyes virtualbox
+	if which virtualbox; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox not installed."
+	fi
+fi

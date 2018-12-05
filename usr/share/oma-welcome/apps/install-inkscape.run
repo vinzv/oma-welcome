@@ -1,22 +1,12 @@
 #!/bin/bash
 
-
-    if rpm -qa |grep "inkscape*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi inkscape; 
-		if rpm -qa |grep "inkscape*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape not installed.";
-		fi
-	    else
-		gurpmi inkscape;
-		if rpm -qa |grep "inkscape*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "inkscape*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape is already installed."
+else 
+	kdesu -- dnf install --assumeyes inkscape
+	if rpm -qa |grep "inkscape*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape not installed."
+	fi
+fi

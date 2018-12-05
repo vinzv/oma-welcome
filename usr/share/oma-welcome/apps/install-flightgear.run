@@ -1,21 +1,11 @@
 #!/bin/bash
-
-    if rpm -qa |grep "flightgear*"; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" flightgear is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi flightgear; 
-		if rpm -qa |grep "flightgear*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear not installed.";
-		fi
-	    else
-		gurpmi flightgear; 
-		if rpm -qa |grep "flightgear*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear not installed.";
-		fi
-	    fi
-    fi
+if rpm -qa |grep "flightgear*"; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" flightgear is already installed."
+else 
+	kdesu -- dnf install --assumeyes flightgear
+	if rpm -qa |grep "flightgear*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear not installed."
+	fi
+fi

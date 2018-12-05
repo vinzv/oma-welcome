@@ -1,22 +1,12 @@
 #!/bin/bash
 
-
-    if which fotoxx; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx is already installed.";
-	else 
-	    if [ "$(uname -m)" = "i686" ]; then
-		gurpmi fotoxx; 
-		if which fotoxx; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx not installed.";
-		fi
-	    else
-		gurpmi fotoxx;
-		if which fotoxx; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx successfully installed.";
-		    else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx not installed.";
-		fi
-	    fi
-    fi
+if which fotoxx; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx is already installed."
+else 
+	kdesu -- dnf install --assumeyes fotoxx
+	if which fotoxx; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx not installed."
+	fi
+fi

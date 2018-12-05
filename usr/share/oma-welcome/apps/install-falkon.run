@@ -1,0 +1,11 @@
+#!/bin/bash
+if which falkon &>/dev/null; then 
+	kdialog --title $"OpenMandriva" --msgbox $"Falkon is already installed."
+else 
+	kdesu -- dnf install --assumeyes falkon
+	if which falkon &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
