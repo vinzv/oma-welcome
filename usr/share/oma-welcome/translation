@@ -190,11 +190,11 @@ descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its
 
 #News.sh.htm
 newfeature=$"New Features and Major Changes"
-releasepreambule=$"This is the third major release, codenamed <span class='username'>Einsteinium</span>, under the OpenMandriva Association! Over the course of the year past we've tried to evolve the way you use your desktop. Here are some of the things we've done for OpenMandriva Lx 3.0:"
+releasepreambule=$"This is the fourth major release, codenamed <span class='username'>Nitrogen</span>, under the OpenMandriva Association! Over the course of the year past we have tried to evolve the way you use your desktop. Here are some of the things we have done for OpenMandriva Lx 4.0:"
 omccnew=$"OM Control Center"
 controlcenter=$"Drakconf"
 freshpackages=$"Fresh Packages"
-freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), Clementine, Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox, Systemd and Firewalld. Fot the technically adept we have provided systemtap a system performance analysis tool "
+freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), Elisa Music Player, Plasma NetworkManager applet, KMail, VLC Player, Mozilla Firefox, Systemd and Firewalld. For the technically adept we have provided systemtap a system performance analysis tool "
 kerneldesc=$"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>
 <br/>
 <b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
@@ -239,7 +239,7 @@ titlechoqok=$"Choqok"
 descchoqok=$"Choqok is a Free/Open Source microblogging client for KDE which supports Twitter.com, Pump.io, and OpenDesktop.org services"
 titlexdman=$"XTreme Download Manager"
 descxdman=$"Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, resume broken/dead downloads, etc."
-titlequpzilla=$"Qupzilla Browser"
-descqupzilla=$"Cross-platform, fast, lightweight and ready to use web browser"
+titlefalkon=$"Falkon Browser"
+descfalkon=$"Cross-platform, fast, lightweight and ready to use web browser"
 titledropbox=$"Dropbox"
 descdropbox=$"Dropbox is a free service that lets you bring your photos, docs, and videos anywhere and share them easily"
