@@ -1,1 +1,1 @@
-kdesu dnf autoremove
+kdesu dnf --assumeyes autoremove
