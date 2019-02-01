@@ -196,7 +196,7 @@ releasepreambule=$"This is the fourth major release, codenamed <span class='user
 omccnew=$"OM Control Center"
 controlcenter=$"Drakconf"
 freshpackages=$"Fresh Packages"
-freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, KMail, Mozilla Firefox, Systemd and Firewalld. For the technically adept we have provided systemtap a system performance analysis tool "
+freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, KMail, Falkon browser, Mozilla Firefox, Systemd and Firewalld. For the technically adept we have provided systemtap a system performance analysis tool "
 kerneldesc=$"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>
 <br/>
 <b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
