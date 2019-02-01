@@ -1,1 +1,2 @@
-kcmshell5 desktoptheme
+#!/bin/sh
+exec kcmshell5 desktoptheme
