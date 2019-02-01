@@ -1,2 +1,2 @@
 #!/bin/sh
-kcmshell5 kcm_kscreen
+exec kcmshell5 kcm_kscreen
