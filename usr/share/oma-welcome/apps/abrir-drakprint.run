@@ -1,2 +1,2 @@
 #!/bin/sh
-exec kdesu kcmshell5 kcm_printer_manager
+exec kcmshell5 kcm_printer_manager
