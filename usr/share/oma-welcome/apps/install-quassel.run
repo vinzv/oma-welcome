@@ -1,0 +1,11 @@
+#!/bin/bash
+if which quassel &>/dev/null; then 
+	kdialog --title $"OpenMandriva" --msgbox $"Quassel is already installed."
+else 
+	kdesu -- dnf install --assumeyes quassel
+	if which quassel &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
