@@ -1,8 +1,6 @@
 om-welcome
 ===========
 
-version: 2.0
-
 This is the om-welcome - Welcome to OpenMandriva
 
 designed to introduce new users to the OpenMandriva distro and
