@@ -218,6 +218,12 @@ z-index:200;
 padding:3px;
 }
 
+#donate {
+position:fixed;
+bottom:8px;
+left:8px;
+}
+
 .button {
 position:right;
 display:inline-block;
