@@ -1,13 +1,13 @@
 #!/bin/bash
-if rpm -qa |grep "java-1.8.0-openjdk*"; then
+if rpm -qa |grep "java-12-openjdk*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK is already installed."
 else 
 	if [ "$(uname -m)" = "i686" ]; then
-		kdesu -- dnf install --assumeyes java-1.8.0-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so /usr/lib/mozilla/plugins/javaplugin_oji.so 
+		kdesu -- dnf install --assumeyes java-12-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so /usr/lib/mozilla/plugins/javaplugin_oji.so 
 	else
-		kdesu -- dnf install --assumeyes java-1.8.0-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so.x86_64 /usr/lib64/mozilla/plugins/javaplugin_oji.so
+		kdesu -- dnf install --assumeyes java-12-openjdk icedtea-web; ln -s /etc/alternatives/libjavaplugin.so.x86_64 /usr/lib64/mozilla/plugins/javaplugin_oji.so
 	fi
-	if rpm -qa |grep "java-1.8.0-openjdk*"; then
+	if rpm -qa |grep "java-12-openjdk*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK not installed."
