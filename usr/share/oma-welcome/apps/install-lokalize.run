@@ -1,0 +1,11 @@
+#!/bin/bash
+if which lokalize; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" Lokalize is already installed."
+else 
+	kdesu -- dnf install --assumeyes lokalize
+	if which lokalize; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Lokalize successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Lokalize not installed."
+	fi
+fi
