@@ -1,0 +1,11 @@
+#!/bin/bash
+if which om-repo-picker &>/dev/null; then 
+	kdialog --title $"OpenMandriva" --msgbox $"OpenMandriva repo-picker is already installed."
+else 
+	kdesu -- dnf install --assumeyes om-repo-picker
+	if which om-repo-picker &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
