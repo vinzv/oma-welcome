@@ -862,7 +862,7 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:200
 msgid "OM Control Center"
-msgstr "Centro di Controllo OpenMandriva"
+msgstr "OM Control Center"
 
 #: usr/share/oma-welcome/translation:201
 msgid "Drakconf"
