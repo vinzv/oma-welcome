@@ -194,7 +194,7 @@ msgstr "Modifica le tue connessioni di rete"
 
 #: usr/share/oma-welcome/translation:46
 msgid "OpenMandriva Control Center"
-msgstr "Centro di Controllo OpenMandriva"
+msgstr "OpenMandriva Control Center"
 
 #: usr/share/oma-welcome/translation:47
 msgid ""
