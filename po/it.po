@@ -856,7 +856,7 @@ msgid ""
 msgstr ""
 "Questo è il quarto rilascio sotto l'Associazione OpenMandriva, nome in codice"
 " <span class='username'>Nitrogen</"
-"span> Nel corso degli anni passati "
+"span>. Nel corso degli anni passati "
 "abbiamo cercato di far evolvere il modo di usare il vostro desktop. Ecco "
 "alcune delle cose che abbiamo fatto per OMLx 4.0:"
 
