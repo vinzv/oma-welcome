@@ -1,20 +1,21 @@
 #
 # Translators:
-# OpenMandrivaAssociation <i10n@openmandriva.org>, 2014
+# OpenMandrivaAssociation <i10n@openmandriva.org>, 2014.
+# Vinzenz Vietzke <vinz@vinzv.de>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenMandriva Linux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-17 21:10+0100\n"
-"PO-Revision-Date: 2014-09-26 08:49-0500\n"
-"Last-Translator: Maik Wagner <maiktapwagner@aol>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/openmandriva-"
-"linux/language/de/)\n"
+"PO-Revision-Date: 2019-06-23 23:48+0200\n"
+"Last-Translator: Vinzenz Vietzke <vinz@vinzv.de>\n"
+"Language-Team: German <>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: usr/share/oma-welcome/translation:9
 msgid "Hi"
@@ -54,6 +55,15 @@ msgid ""
 "founding values are development, equality, co-operation, openness, freedom, "
 "group achievement, independence, and solidarity."
 msgstr ""
+"OpenMandriva Lx ist ein aufregendes kostenloses Desktop-Betriebssystem, "
+"das darauf abzielt, sowohl Einsteiger als auch fortgeschrittene Anwender "
+"zu bedienen und zu interessieren. Es hat die Breite und Tiefe eines "
+"fortschrittlichen Systems, ist aber so konzipiert, dass es einfach und "
+"unkompliziert in der Anwendung ist. Lx kommt aus einer 100% "
+"gemeinschaftlich geführten Vereinigung, die an die Werte von Freier "
+"Software und Zusammenarbeit glaubt und deren Grundwerte "
+"Entwicklung, Gleichheit, Zusammenarbeit, Offenheit, Freiheit, "
+"Gruppenerfolg, Unabhängigkeit und Solidarität sind."
 
 #: usr/share/oma-welcome/translation:19
 msgid "Next"
@@ -61,7 +71,7 @@ msgstr "Weiter"
 
 #: usr/share/oma-welcome/translation:20
 msgid "Previous"
-msgstr ""
+msgstr "Zurück"
 
 #: usr/share/oma-welcome/translation:22
 msgid "Applications"
@@ -112,9 +122,8 @@ msgid "Install some extra applications to"
 msgstr "Installieren einiger extra Anwendungen um zu"
 
 #: usr/share/oma-welcome/translation:33
-#, fuzzy
 msgid " - To install click the application icon"
-msgstr "Um zu installieren, klicken Sie das Anwendungssymbol."
+msgstr " - Zur Installation klicken Sie auf das Anwendungssymbol"
 
 #: usr/share/oma-welcome/translation:34
 msgid "Add Media"
@@ -144,25 +153,26 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:38
 msgid "Display and Monitor"
-msgstr ""
+msgstr "Anzeige und Monitor"
 
 #: usr/share/oma-welcome/translation:39
 msgid "Manage and configure monitor and display"
-msgstr ""
+msgstr "Verwalten und Konfigurieren von Monitor und Anzeige"
 
 #: usr/share/oma-welcome/translation:40
 msgid "Configure your printer"
 msgstr "Konfiguration des Druckers"
 
 #: usr/share/oma-welcome/translation:41
-#, fuzzy
 msgid "Configure your printer, add drivers for HP, EPSON, etc."
-msgstr "Konfiguration des Druckers, Treiber für HP, EPSON etc. hinzufügen"
+msgstr ""
+"Konfigurieren Sie Ihren Drucker, fügen Sie Treiber für HP, EPSON etc. hinzu."
 
 #: usr/share/oma-welcome/translation:42
 msgid "Configure the system boot"
-msgstr "Konfiguration des Bootvorgangs"
+msgstr "Konfiguration des Systemstarts"
 
+# Original string seems defect
 #: usr/share/oma-welcome/translation:43
 #, fuzzy
 msgid ""
@@ -170,10 +180,10 @@ msgid ""
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
-"Während der Installation erkennt OpenMandriva Lx alle auf dem Rechner "
-"installierten Betriebssysteme, aber wenn die Bootreihenfolge geändert werden "
-"soll oder grub2 manuell repariert bzw. ein neues Betriebssystem hinzugefügt "
-"werden soll"
+"Während der Installation erkennt OpenMandriva Lx alle auf Ihrem Computer "
+"installierten Betriebssysteme, aber wenn Sie die Bootreihenfolge des Systems "
+"ändern oder grub2 manuell reparieren müssen oder später ein anderes "
+"Betriebssystem hinzufügen"
 
 #: usr/share/oma-welcome/translation:44
 msgid "Configure the network"
@@ -184,26 +194,33 @@ msgid ""
 "All the necessary tools to change or settings your networks, such as "
 "configuring static IP, PPPoE, 3G, etc."
 msgstr ""
+"Alle notwendigen Tools zum Ändern oder Einstellen Ihrer Netzwerke, wie z.B. "
+"Konfiguration von statischer IP, PPPoE, 3G etc."
 
 #: usr/share/oma-welcome/translation:46
 msgid "OpenMandriva Control Center"
-msgstr "OpenMandriva Control Center"
+msgstr "OpenMandriva Kontrollzentrum"
 
 #: usr/share/oma-welcome/translation:47
 msgid ""
 "All system tools and settings are available in drakconf, including System "
 "Settings, Network Sharing, Security, Disk Partitioning, and more"
 msgstr ""
+"Alle Systemwerkzeuge und -einstellungen sind in drakconf verfügbar,"
+" einschließlich "
+"Systemeinstellungen, Netzwerkfreigabe, Sicherheit, Festplattenpartitionierung"
+" und "
+"vieles mehr"
 
 #: usr/share/oma-welcome/translation:48
 msgid "Configure Desktop Icons"
-msgstr "Konfigurieren von Desktopicons"
+msgstr "Konfigurieren von Arbeitsflächensymbolen"
 
 #: usr/share/oma-welcome/translation:49
 msgid "Change or configure your desktop icons or install your favorite icons"
 msgstr ""
-"Wecheln oder Konfiguration von Desktop Icons oder Installation ihrer "
-"Lieblingsicons"
+"Ändern oder konfigurieren Sie Ihre Arbeitsflächensymbole oder installieren"
+" Sie Ihre Lieblingssymbole"
 
 #: usr/share/oma-welcome/translation:50
 msgid "Remove Unused Packages"
@@ -222,13 +239,12 @@ msgid "Gimp"
 msgstr "Gimp"
 
 #: usr/share/oma-welcome/translation:55
-#, fuzzy
 msgid ""
 "Create and edit your images in a professional way with this powerful Open "
 "Source tool"
 msgstr ""
-"Professionelles Vearbeiten und Editieren von Bildern mit diesem mächtigen "
-"Open Source Werkzeug."
+"Erstellen und bearbeiten Sie Ihre Bilder professionell mit diesem "
+"leistungsstarken Open Source Werkzeug"
 
 #: usr/share/oma-welcome/translation:56
 msgid "Inkscape"
@@ -250,8 +266,8 @@ msgid ""
 "Modeling software that offers a unique approach to the world of three "
 "dimensions"
 msgstr ""
-"Modellierungssoftware, die einen einzigartigen Ansatz für die Welt von 3D "
-"bietet"
+"Modellierungssoftware, die einen einzigartigen Zugang zur Welt des "
+"dreidimensionalen Designs bietet"
 
 #: usr/share/oma-welcome/translation:60
 msgid "Scribus"
@@ -262,30 +278,31 @@ msgid ""
 "Scribus is a desktop layout Open Source program for producing documents in "
 "PDF and Postscript"
 msgstr ""
-"Scribus ist ein Desktop-Layout Open Source Programm für die Produktion von "
+"Scribus ist ein quelloffenes Desktop-Layoutprogramm zur Erstellung von "
 "Dokumenten in PDF und Postscript"
 
 #: usr/share/oma-welcome/translation:62
 msgid "Tuxpaint"
 msgstr "Tuxpaint"
 
+# Tuxpaint vs. TuxPaint?
 #: usr/share/oma-welcome/translation:63
 msgid ""
 "TuxPaint is a perfect mate to encourage children's creativity using simple "
 "tools, drawings on the computer"
 msgstr ""
-"TuxPaint ist ein passendes Pendant um die Kreativität von Kindern zu "
-"beflügeln indem einfache Malwerkzeuge auf dem Rechner verwendet werden"
+"TuxPaint ist ein perfekter Begleiter um die Kreativität von Kindern mit "
+"einfachen Werkzeugen und Zeichnungen am Computer zu fördern"
 
 #: usr/share/oma-welcome/translation:64
 msgid "Install additional applications with rpmdrake"
 msgstr "Installation zusätzlicher Anwendungen mit rpmdrake"
 
 #: usr/share/oma-welcome/translation:65
-#, fuzzy
 msgid "Find and install applications available in the repositories"
 msgstr ""
-"Finden und Installieren von mehr als 20000 Anwendungen in den Softwarequellen"
+"Suchen und Installieren von Anwendungen, die in den Repositories verfügbar"
+" sind."
 
 #: usr/share/oma-welcome/translation:66
 msgid "Desktop Themes"
@@ -1026,6 +1043,8 @@ msgid ""
 "Pidgin is a graphical, modular instant messaging client capable of using "
 "multiple networks at once"
 msgstr ""
+"Pidgin ist ein grafischer, modularer Instant Messaging Client, der mehrere "
+"Netzwerke gleichzeitig nutzen kann"
 
 #: usr/share/oma-welcome/translation:238
 msgid "Choqok"
@@ -1036,6 +1055,8 @@ msgid ""
 "Choqok is a Free/Open Source microblogging client for KDE which supports "
 "Twitter.com, Pump.io, and OpenDesktop.org services"
 msgstr ""
+"Choqok ist ein Free/Open Source Microblogging-Client für KDE, der die "
+"Dienste Twitter.com, Pump.io und OpenDesktop.org unterstützt"
 
 #: usr/share/oma-welcome/translation:240
 msgid "XTreme Download Manager"
@@ -1053,7 +1074,7 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:242
 msgid "Qupzilla Browser"
-msgstr ""
+msgstr "Qupzilla Browser"
 
 #: usr/share/oma-welcome/translation:243
 #, fuzzy
