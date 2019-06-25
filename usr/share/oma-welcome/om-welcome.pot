@@ -158,7 +158,7 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:43
 msgid ""
-"During installation OpenMandriva Lx 3.0 detects all operating systems "
+"During installation OpenMandriva Lx detects all operating systems "
 "installed on your computer, but if you need to change the boot order of the "
 "system or repair grub2 manually or later add another operating system"
 msgstr ""
