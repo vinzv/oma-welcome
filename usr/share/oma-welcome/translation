@@ -238,7 +238,7 @@ descgambas=$"Gambas Almost BASIC, designed to build graphical applications progr
 
 #Internet.sh.htm
 titlechromium=$"Chromium Browser"
-descchromium=$"Chromium serves as a base for Google Chrome, an open-source browser project that aims to build a safer, faster, and more stable"
+descchromium=$"Chromium is an open-source project that aims to build a safer, faster, and more stable browser"
 titlethunderbird=$"Mozilla Thunderbird"
 descthunderbird=$"Thunderbird is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier"
 titlepidgin=$"Pidgin"
