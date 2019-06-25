@@ -952,8 +952,8 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:241
 msgid ""
-"Chromium serves as a base for Google Chrome, an open-source browser project "
-"that aims to build a safer, faster, and more stable"
+"Chromium is an open-source project that aims to build a safer, faster, and "
+"more stable browser"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:242
