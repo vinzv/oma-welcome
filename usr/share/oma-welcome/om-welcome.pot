@@ -152,14 +152,6 @@ msgstr ""
 msgid "Configure your printer, add drivers for HP, Epson, etc."
 msgstr ""
 
-#: usr/share/oma-welcome/translation:42
-msgid "obsolete-do not translate"
-msgstr ""
-
-#: usr/share/oma-welcome/translation:43
-msgid "obsolete-do not translate"
-msgstr ""
-
 #: usr/share/oma-welcome/translation:44
 msgid "Configure the network"
 msgstr ""
@@ -202,14 +194,6 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:53
 msgid "Change or install your favorite Plasma theme"
-msgstr ""
-
-#: usr/share/oma-welcome/translation:54
-msgid "obsolete"
-msgstr ""
-
-#: usr/share/oma-welcome/translation:55
-msgid "obsolete-do not translate"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:58
@@ -979,14 +963,6 @@ msgstr ""
 msgid ""
 "Choqok is a Free/Open Source microblogging client for KDE which supports "
 "Twitter.com, Pump.io, and OpenDesktop.org services"
-msgstr ""
-
-#: usr/share/oma-welcome/translation:248
-msgid "XTreme Download Manager"
-msgstr ""
-
-#: usr/share/oma-welcome/translation:249
-msgid "obsolete-do not translate"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:250
