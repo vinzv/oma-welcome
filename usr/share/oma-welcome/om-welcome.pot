@@ -149,18 +149,15 @@ msgid "Configure your printer"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:41
-msgid "Configure your printer, add drivers for HP, EPSON, etc."
+msgid "Configure your printer, add drivers for HP, Epson, etc."
 msgstr ""
 
 #: usr/share/oma-welcome/translation:42
-msgid "Configure the system boot"
+msgid "obsolete-do not translate"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:43
-msgid ""
-"During installation OpenMandriva Lx detects all operating systems "
-"installed on your computer, but if you need to change the boot order of the "
-"system or repair grub2 manually or later add another operating system"
+msgid "obsolete-do not translate"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:44
@@ -208,13 +205,11 @@ msgid "Change or install your favorite Plasma theme"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:54
-msgid "Remove Unused Packages"
+msgid "obsolete"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:55
-msgid ""
-"Remove unused packages such as unused localization and unused hardware "
-"packages"
+msgid "obsolete-do not translate"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:58
@@ -600,7 +595,7 @@ msgid "Join in the IRC channel"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:152
-msgid "openmandriva-cooker is OpenMandriva's main IRC channel"
+msgid "openmandriva-cooker is OpenMandriva main IRC channel"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:153
@@ -991,9 +986,7 @@ msgid "XTreme Download Manager"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:249
-msgid ""
-"Xtreme Download Manager is a powerful tool to increase download speed up-to "
-"500%, resume broken/dead downloads, etc."
+msgid "obsolete-do not translate"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:250
