@@ -39,8 +39,6 @@ titlexfdrake=$"Display and Monitor"
 descxfdrake=$"Manage and configure monitor and display"
 titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc."
-titleconfigboot=$"Configure the system boot"
-descconfigboot=$"During installation OpenMandriva Lx detects all operating systems installed on your computer, but if you need to change the boot order of the system or repair grub2 manually or later add another operating system"
 titleconfiglan=$"Configure the network"
 descconfiglan=$"Edit your network connections"
 titleomcc=$"OpenMandriva Control Center"
@@ -51,8 +49,6 @@ titlechangeicons=$"Desktop Icons"
 descchangeicons=$"Change or install your favorite icons theme";
 titlechangethemes=$"Desktop Themes"
 descchangethemes=$"Change or install your favorite Plasma theme"
-titleunusedpackage=$"Remove Unused Packages"
-descunusedpackage=$"Remove unused packages such as unused localization and unused hardware packages"
 
 #translations of apps-graphics.sh.htm
 titlegimg=$"Gimp"
