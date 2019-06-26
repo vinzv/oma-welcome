@@ -103,7 +103,7 @@ msgstr ""
 #: usr/share/oma-welcome/translation:31
 msgid ""
 "- Update your system, configure network, printer, desktop theme, icons. Or "
-"OpenMandriva Control Center for more"
+"go to OpenMandriva Control Center for more"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:32
