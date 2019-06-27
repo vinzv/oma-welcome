@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Michele Marongiu <michelemarongiu@gmail.com>, 2019
+# rugyada <rugyada@openmandriva.org>, 2019
 # OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
 # 
 #, fuzzy
