@@ -1,10 +1,10 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# om-welcome.
+# This file is distributed under the same license as the om-welcome package (GPL v3).
+# FIRST AUTHOR Luthfi Emka <panahbiru@gmail.com>\n, 2014.
 # 
 # Translators:
-# OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
+# jclvanier <jclvanier@gmail.com>, 2014
+# rjadot <rj@hodo.fr>, 2019
 # 
 #, fuzzy
 msgid ""
