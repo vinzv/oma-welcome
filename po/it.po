@@ -670,7 +670,7 @@ msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
 msgstr ""
-"Puoi donare il tuo amore e cura, contribuendo con tempo oppure denaro a "
+"Puoi donare il tuo amore e cura, contribuendo con tempo o denaro a "
 "OpenMandriva Lx"
 
 #: usr/share/oma-welcome/translation:155
