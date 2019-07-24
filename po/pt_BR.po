@@ -1,21 +1,25 @@
-#
+# om-welcome package.
+# 
+# This file is distributed under the same license as the om-welcome package (GPL v3).
+# FIRST AUTHOR Luthfi Emka <panahbiru@gmail.com>, 2014.
+# 
 # Translators:
-# Alisson Oliveira <linukiss@gmail.com>, 2014
-# Alisson Oliveira <linukiss@gmail.com>, 2014
-# Raul Liota da Rosa <raul.liota@gmail.com>, 2014
+# OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
+# Kaio Henrique <kaiohenrique660@gmail.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: oma-welcome\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-17 21:10+0100\n"
-"PO-Revision-Date: 2014-09-26 08:51-0500\n"
-"Last-Translator: Luthfi Emka <panahbiru@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/oma-"
-"welcome/language/pt_BR/)\n"
-"Language: pt_BR\n"
+"POT-Creation-Date: 2019-06-12 00:20+0000\n"
+"PO-Revision-Date: 2019-06-23 23:25+0000\n"
+"Last-Translator: Kaio Henrique <kaiohenrique660@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/openmandriva/teams/1818/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: usr/share/oma-welcome/translation:9
@@ -71,7 +75,7 @@ msgstr "Próxima"
 
 #: usr/share/oma-welcome/translation:20
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: usr/share/oma-welcome/translation:22
 msgid "Applications"
@@ -111,20 +115,23 @@ msgstr "Clique nos menus abaixo para configurar seu"
 
 #: usr/share/oma-welcome/translation:31
 msgid ""
-"network drivers, software medium, video drivers, desktop theme, icons, "
-"printer drivers, remove unused packages etc."
+"- Update your system, configure network, printer, desktop theme, icons. Or "
+"go to OpenMandriva Control Center for more"
 msgstr ""
-"drivers de rede, suporte de software, drivers de vídeo, tema desktop, "
-"ícones, drivers de impressora, remover pacotes não utilizados, etc."
+"- Atualize seu sistema, configure rede, impressora, tema da área de "
+"trabalho, ícones. Ou vá para o Centro de Controle OpenMandriva para mais"
 
 #: usr/share/oma-welcome/translation:32
 msgid "Install some extra applications to"
 msgstr "Instale alguns aplicativos extras para"
 
 #: usr/share/oma-welcome/translation:33
-#, fuzzy
-msgid " - To install click the application icon"
-msgstr "para instalar, clique no ícone do aplicativo."
+msgid ""
+" - To install click the application icon. You may need to enable the "
+"relevant repository"
+msgstr ""
+"- Para instalar, clique no ícone do aplicativo. Você pode precisar ativar o "
+"repositório equivalente"
 
 #: usr/share/oma-welcome/translation:34
 msgid "Add Media"
@@ -145,53 +152,36 @@ msgstr "Atualização de"
 #: usr/share/oma-welcome/translation:37
 msgid ""
 "To get the latest bug fixes and enhancements for your system you should "
-"update it on daily basis. This will enhance the stability of the installation"
+"update it on daily basis. This will enhance the stability of the "
+"installation"
 msgstr ""
-"Para obter as últimas correções de bugs e melhorias para o seu sistema, você "
-"deve atualizá-lo diariamente. Isso irá aumentar a estabilidade da instalação"
+"Para obter as últimas correções de bugs e melhorias para o seu sistema, você"
+" deve atualizá-lo diariamente. Isso irá aumentar a estabilidade da "
+"instalação"
 
 #: usr/share/oma-welcome/translation:38
 msgid "Display and Monitor"
-msgstr ""
+msgstr "Display e Monitor"
 
 #: usr/share/oma-welcome/translation:39
 msgid "Manage and configure monitor and display"
-msgstr ""
+msgstr "Gerenciar e configure o monitor e display"
 
 #: usr/share/oma-welcome/translation:40
 msgid "Configure your printer"
 msgstr "Configure sua impressora"
 
 #: usr/share/oma-welcome/translation:41
-#, fuzzy
-msgid "Configure your printer, add drivers for HP, EPSON, etc."
-msgstr "Configure sua impressora, adicione drivers para HP, EPSON, etc"
-
-#: usr/share/oma-welcome/translation:42
-msgid "Configure the system boot"
-msgstr "Configurar boot no sistema"
-
-#: usr/share/oma-welcome/translation:43
-#, fuzzy
-msgid ""
-"During installation OpenMandriva Lx 3.0 detects all operating systems "
-"installed on your computer, but if you need to change the boot order of the "
-"system or repair grub2 manually or later add another operating system"
-msgstr ""
-"Durante a instalação OpenMandriva Lx 2014.2 detecta todos os sistemas "
-"operacionais instalados no seu computador, mas se você precisa mudar a ordem "
-"de boot ou reparar o grub2 , manualmente ou adicionar outro sistema "
-"operacional"
+msgid "Configure your printer, add drivers for HP, Epson, etc."
+msgstr "Configure sua impressora, adicione drivers para HP, Epson, etc."
 
 #: usr/share/oma-welcome/translation:44
 msgid "Configure the network"
 msgstr "Configure sua rede"
 
 #: usr/share/oma-welcome/translation:45
-msgid ""
-"All the necessary tools to change or settings your networks, such as "
-"configuring static IP, PPPoE, 3G, etc."
-msgstr ""
+msgid "Edit your network connections"
+msgstr "Edite suas conexões de rede"
 
 #: usr/share/oma-welcome/translation:46
 msgid "OpenMandriva Control Center"
@@ -206,52 +196,61 @@ msgstr ""
 "drakconf, "
 
 #: usr/share/oma-welcome/translation:48
-msgid "Configure Desktop Icons"
-msgstr "Configure seu Desktop"
+msgid "Bug report tool"
+msgstr "Ferramenta de relatório de bugs"
 
 #: usr/share/oma-welcome/translation:49
-msgid "Change or configure your desktop icons or install your favorite icons"
-msgstr "Mudar ou configurar os icones do seu desktop"
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"O script de shell simples ajudará no processo de correção de bugs. O arquivo"
+" gerado deve ser anexado a qualquer relatório de erro"
 
 #: usr/share/oma-welcome/translation:50
-msgid "Remove Unused Packages"
-msgstr "Remova pacotes não utilizados"
+msgid "Desktop Icons"
+msgstr "Ícones desktop "
 
 #: usr/share/oma-welcome/translation:51
-msgid ""
-"Remove unused packages such as unused localization and unused hardware "
-"packages"
-msgstr ""
-"Remover pacotes não utilizados como localização não utilizada e os pacotes "
-"de hardware não utilizado"
+msgid "Change or install your favorite icons theme"
+msgstr "Alterar ou instalar o seu tema de ícones favoritos"
 
-#: usr/share/oma-welcome/translation:54
+#: usr/share/oma-welcome/translation:52
+msgid "Desktop Themes"
+msgstr "Temas para Desktop"
+
+#: usr/share/oma-welcome/translation:53
+msgid "Change or install your favorite Plasma theme"
+msgstr "Alterar ou instalar o seu tema de plasma favorito"
+
+#: usr/share/oma-welcome/translation:58
 msgid "Gimp"
 msgstr "Gimp"
 
-#: usr/share/oma-welcome/translation:55
-#, fuzzy
+#: usr/share/oma-welcome/translation:59
 msgid ""
 "Create and edit your images in a professional way with this powerful Open "
 "Source tool"
-msgstr "Criar e editar suas imagens nesta poderosa ferramenta Open Source"
+msgstr ""
+"Crie e edite suas imagens de forma profissional com esta poderosa ferramenta"
+" Open Source"
 
-#: usr/share/oma-welcome/translation:56
+#: usr/share/oma-welcome/translation:60
 msgid "Inkscape"
 msgstr "Inkscape"
 
-#: usr/share/oma-welcome/translation:57
+#: usr/share/oma-welcome/translation:61
 msgid ""
 "A powerful, open source vector drawing tool, for illustrators and designers"
 msgstr ""
 "Uma poderosa ferramenta de desenho de vetorial open source, para "
 "ilustradores e designers"
 
-#: usr/share/oma-welcome/translation:58
+#: usr/share/oma-welcome/translation:62
 msgid "Blender"
 msgstr "Blender"
 
-#: usr/share/oma-welcome/translation:59
+#: usr/share/oma-welcome/translation:63
 msgid ""
 "Modeling software that offers a unique approach to the world of three "
 "dimensions"
@@ -259,11 +258,11 @@ msgstr ""
 "Software de modelagem, que oferece uma abordagem única para o mundo de três "
 "dimensões"
 
-#: usr/share/oma-welcome/translation:60
+#: usr/share/oma-welcome/translation:64
 msgid "Scribus"
 msgstr "Scribus"
 
-#: usr/share/oma-welcome/translation:61
+#: usr/share/oma-welcome/translation:65
 msgid ""
 "Scribus is a desktop layout Open Source program for producing documents in "
 "PDF and Postscript"
@@ -271,11 +270,11 @@ msgstr ""
 "Scribus é um aplicativo Open Source para produção de documentos em PDF e "
 "Postscript"
 
-#: usr/share/oma-welcome/translation:62
+#: usr/share/oma-welcome/translation:66
 msgid "Tuxpaint"
 msgstr "Tuxpaint"
 
-#: usr/share/oma-welcome/translation:63
+#: usr/share/oma-welcome/translation:67
 msgid ""
 "TuxPaint is a perfect mate to encourage children's creativity using simple "
 "tools, drawings on the computer"
@@ -283,84 +282,70 @@ msgstr ""
 "TuxPaint é um companheiro perfeito para incentivar a criatividade das "
 "crianças utilizando ferramentas simples de desenhos no computador"
 
-#: usr/share/oma-welcome/translation:64
-msgid "Install additional applications with rpmdrake"
-msgstr "Instalar aplicativos adicionais com o rpmdrake"
-
-#: usr/share/oma-welcome/translation:65
-#, fuzzy
-msgid "Find and install applications available in the repositories"
-msgstr ""
-"Localizar e instalar mais de 20.000 aplicações disponíveis nos repositórios"
-
-#: usr/share/oma-welcome/translation:66
-msgid "Desktop Themes"
-msgstr "Temas para Desktop"
-
-#: usr/share/oma-welcome/translation:67
-msgid "Change or install your favorite KDE themes"
-msgstr "Altere ou instale seus tema KDE favorito"
-
 #: usr/share/oma-welcome/translation:68
+msgid "Install additional applications with dnfdragora"
+msgstr "Instalar aplicativos adicionais com o dnfdragora"
+
+#: usr/share/oma-welcome/translation:69
+msgid "Find and install applications available in the repositories"
+msgstr "Encontre e instale aplicativos disponíveis nos repositórios"
+
+#: usr/share/oma-welcome/translation:70
 msgid "Fotoxx"
 msgstr "Fotoxx"
 
-#: usr/share/oma-welcome/translation:69
-#, fuzzy
+#: usr/share/oma-welcome/translation:71
 msgid ""
 "Edit image files from a digital camera. Includes color & contrast "
 "enhancement, red-eye removal, noise removal, HDR and panorama image "
 "compositing"
 msgstr ""
-"Edite arquivos de imagem de uma câmera digital. Inclui aprimoramento de cor "
-"& contraste, remoção de olhos vermelhos, remoção de ruído, composição de "
-"imagem HDR e panorama."
+"Edite arquivos de imagem de uma câmera digital. Inclui aprimoramento de "
+"cores e contraste, remoção de olhos vermelhos, remoção de ruído, HDR e "
+"composição de imagem panorâmica"
 
-#: usr/share/oma-welcome/translation:70
+#: usr/share/oma-welcome/translation:72
 msgid "Pixelize"
 msgstr "Pixelize"
 
-#: usr/share/oma-welcome/translation:71
-#, fuzzy
+#: usr/share/oma-welcome/translation:73
 msgid ""
 "Pixelize is a program that will use many scaled down images to try to "
 "duplicate, as closely as possible, another image"
 msgstr ""
-"Pixelize é um programa que irá usar muitos reduzidas de imagens para tentar "
-"duplicar, tão perto quanto possível, uma outra imagem."
+"Pixelize é um programa que usará muitas imagens reduzidas para tentar "
+"duplicar, o mais próximo possível, de outra imagem"
 
-#: usr/share/oma-welcome/translation:72
+#: usr/share/oma-welcome/translation:74
 msgid "LibreCAD"
 msgstr "LibreCAD"
 
-#: usr/share/oma-welcome/translation:73
-#, fuzzy
+#: usr/share/oma-welcome/translation:75
 msgid ""
 "LibreCAD is a Qt4 application to design 2D cad drawing based on the "
 "community edition of QCad"
 msgstr ""
-"LibreCAD é uma aplicação de Qt4 de design cad 2D desenho baseado na edição "
-"de comunidade do QCad."
+"LibreCAD é um aplicativo Qt4 para projetar o desenho CAD 2D baseado na "
+"edição comunitária do QCad"
 
-#: usr/share/oma-welcome/translation:76
+#: usr/share/oma-welcome/translation:78
 msgid "Codecs"
 msgstr "Codecs"
 
-#: usr/share/oma-welcome/translation:77
-#, fuzzy
+#: usr/share/oma-welcome/translation:79
 msgid ""
 "Necessary codecs to run audio and video files in various formats. Some file "
 "formats are proprietary and restricted in some countries"
 msgstr ""
 "Codecs necessários para executar arquivos de áudio e vídeo em vários "
-"formatos. Alguns formatos de arquivo são proprietários e restrito em alguns "
-"países."
+"formatos. Alguns formatos de arquivo são proprietários e restritos em alguns"
+" países"
 
-#: usr/share/oma-welcome/translation:78
+#: usr/share/oma-welcome/translation:80
 msgid "Audacity"
 msgstr "Audacity"
 
-#: usr/share/oma-welcome/translation:79
+#: usr/share/oma-welcome/translation:81
 msgid ""
 "Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and "
 "Ogg/Vorbis"
@@ -368,11 +353,11 @@ msgstr ""
 "Editar, gravar e importar vários formatos de arquivo de som, tais como WAV, "
 "AIFF, MP3 e Ogg/Vorbis"
 
-#: usr/share/oma-welcome/translation:80
+#: usr/share/oma-welcome/translation:82
 msgid "Kdenlive"
 msgstr "Kdenlive"
 
-#: usr/share/oma-welcome/translation:81
+#: usr/share/oma-welcome/translation:83
 msgid ""
 "Kdenlive is a non-linear video editor for KDE that relies on a separate "
 "renderer and supports multi-track editing"
@@ -380,138 +365,155 @@ msgstr ""
 "Kdenlive é um editor de vídeo não-linear para KDE que se baseia em um "
 "processador separado e suporta edição multi-track"
 
-#: usr/share/oma-welcome/translation:82
+#: usr/share/oma-welcome/translation:84
 msgid "Devede"
 msgstr "Devede"
 
-#: usr/share/oma-welcome/translation:83
-#, fuzzy
+#: usr/share/oma-welcome/translation:85
 msgid "Create a DVD with your videos with this simple and feature-rich tool"
 msgstr ""
-"Criar um DVD com seus vídeos com esta ferramenta simples e cheia de recursos."
+"Crie um DVD com seus vídeos com esta ferramenta simples e rica em recursos"
 
-#: usr/share/oma-welcome/translation:84
+#: usr/share/oma-welcome/translation:86
 msgid "Flash Player"
 msgstr "Flash Player"
 
-#: usr/share/oma-welcome/translation:85
-#, fuzzy
+#: usr/share/oma-welcome/translation:87
 msgid ""
 "Play games and flash videos on the internet, with this player from Adobe"
-msgstr ""
-"Jogar jogos e ver vídeos em flash na internet, com este player da Adobe."
+msgstr "Jogue jogos e vídeos em flash na internet, com este player da Adobe"
 
-#: usr/share/oma-welcome/translation:86
+#: usr/share/oma-welcome/translation:88
 msgid "Kaudiocreator"
 msgstr "Kaudiocreator"
 
-#: usr/share/oma-welcome/translation:87
+#: usr/share/oma-welcome/translation:89
 msgid ""
 "Backup your CDs using this KDE tool and avoid losing your songs to scratches"
 msgstr ""
 "Faça backup de seus CDs usando esta ferramenta KDE e evitar a perda de suas "
 "canções"
 
-#: usr/share/oma-welcome/translation:88
+#: usr/share/oma-welcome/translation:90
 msgid "SMPlayer"
 msgstr "SMPlayer"
 
-#: usr/share/oma-welcome/translation:89
-#, fuzzy
+#: usr/share/oma-welcome/translation:91
 msgid ""
 "SMPlayer is a graphical front-end for MPlayer, cross-platform and supports "
 "various audio/video formats"
 msgstr ""
-"SMPlayer é um front-end para mplayer, multi-plataforma e com suporte a "
-"vários formatos de áudio e vídeo."
-
-#: usr/share/oma-welcome/translation:90
-msgid "ROSA Media Player"
-msgstr "Rosa Media Player"
-
-#: usr/share/oma-welcome/translation:91
-msgid ""
-"Watch various video formats, IPTV and YouTube videos; capture video and "
-"audio from your desktop"
-msgstr ""
-"Assistir vários formatos de vídeo, IPTV e YouTube vídeos; captura de vídeo e "
-"áudio de seu desktop"
+"O SMPlayer é um front-end gráfico para o MPlayer, multi-plataforma e suporta"
+" vários formatos de áudio / vídeo"
 
 #: usr/share/oma-welcome/translation:92
+msgid "Babe Media Player"
+msgstr "Babe Media Player"
+
+#: usr/share/oma-welcome/translation:93
+msgid ""
+"Handle your whole music collection by retreaving semantic information from "
+"the web"
+msgstr ""
+"Lidar com toda a sua coleção de músicas, retirando informações  da web"
+
+#: usr/share/oma-welcome/translation:94
 msgid "Bino 3D Video Player"
 msgstr "Bino 3D Vídeo Player"
 
-#: usr/share/oma-welcome/translation:93
-#, fuzzy
+#: usr/share/oma-welcome/translation:95
 msgid "Bino is a stereoscopic 3D video player with multi-display support"
 msgstr ""
-"Bino é um player de vídeo 3D estereoscópico com suporte a múltiplos monitor."
+"Bino é um reprodutor de vídeo 3D estereoscópico com suporte para vários "
+"monitores"
 
-#: usr/share/oma-welcome/translation:94
-#, fuzzy
+#: usr/share/oma-welcome/translation:96
 msgid "QMMP Media Player"
-msgstr "Rosa Media Player"
+msgstr "QMMP Media Player"
 
-#: usr/share/oma-welcome/translation:95
+#: usr/share/oma-welcome/translation:97
 msgid "A QT based media player similar to Winamp"
-msgstr ""
+msgstr "Um media player baseado em QT semelhante ao Winamp"
 
-#: usr/share/oma-welcome/translation:98
+#: usr/share/oma-welcome/translation:100
 msgid "OpenJDK"
 msgstr "OpenJDK"
 
-#: usr/share/oma-welcome/translation:99
+#: usr/share/oma-welcome/translation:101
 msgid ""
-"Install and configure the OpenJDK to be used to access websites and services "
-"in Java"
+"Install and configure the OpenJDK to be used to access websites and services"
+" in Java"
 msgstr ""
 "Instala e configura o OpenJDK para ser usado para acessar sites e serviços "
 "em Java"
 
-#: usr/share/oma-welcome/translation:100
+#: usr/share/oma-welcome/translation:102
 msgid "Steam"
 msgstr "Steam"
 
-#: usr/share/oma-welcome/translation:101
-#, fuzzy
+#: usr/share/oma-welcome/translation:103
 msgid "Launcher for the Valve's Steam game distribution service"
-msgstr "Lançador para serviço de distribuição de jogo de Steam da Valve"
+msgstr "Lançador do serviço de distribuição de jogos Steam da Valve"
 
-#: usr/share/oma-welcome/translation:102
+#: usr/share/oma-welcome/translation:104
 msgid "Wine"
 msgstr "Wine"
 
-#: usr/share/oma-welcome/translation:103
+#: usr/share/oma-welcome/translation:105
 msgid "Wine allows you to run many Microsoft Windows programs on Linux"
 msgstr ""
-"Wine permite que você executar muitos programas do Microsoft Windows no Linux"
+"Wine permite que você executar muitos programas do Microsoft Windows no "
+"Linux"
 
-#: usr/share/oma-welcome/translation:104
+#: usr/share/oma-welcome/translation:106
 msgid "Skype"
 msgstr "Skype"
 
-#: usr/share/oma-welcome/translation:105
+#: usr/share/oma-welcome/translation:107
 msgid ""
-"By installing this package you will download and install Skype from skype."
-"com. You must accept the Skype EULA before using it"
+"By installing this package you will download and install Skype from "
+"skype.com. You must accept the Skype EULA before using it"
 msgstr ""
-"Instalando este pacote você irá baixar e instalar o Skype do skype.com. Você "
-"deve aceitar o EULA do Skype antes de usá-lo"
+"Instalando este pacote você irá baixar e instalar o Skype do skype.com. Você"
+" deve aceitar o EULA do Skype antes de usá-lo"
 
 #: usr/share/oma-welcome/translation:108
+msgid "Skype online"
+msgstr "Skype online"
+
+#: usr/share/oma-welcome/translation:109
+msgid ""
+"By installing this package you will be able to use Skype online from "
+"skype.com"
+msgstr ""
+"Ao instalar este pacote, você poderá usar o Skype on-line no skype.com"
+
+#: usr/share/oma-welcome/translation:110
+msgid "OpenMandriva repo-picker"
+msgstr "Seletor de Repositório OpenMandriva"
+
+#: usr/share/oma-welcome/translation:111
+msgid ""
+"A tool to enable and disable repositories easily with just a few clicks"
+msgstr ""
+"Uma ferramenta para ativar e desativar repositórios facilmente com apenas "
+"alguns cliques"
+
+#: usr/share/oma-welcome/translation:114
 msgid "Calibre"
 msgstr "Calibre"
 
-#: usr/share/oma-welcome/translation:109
-#, fuzzy
+#: usr/share/oma-welcome/translation:115
 msgid "You can convert and manage your e-Books collection with Calibre"
-msgstr "Você pode converter e gerenciar sua coleção de e-books com Callibre"
+msgstr ""
+"Você pode converter e gerenciar sua coleção de livros eletrônicos com o "
+"Caliber"
 
-#: usr/share/oma-welcome/translation:110
+#: usr/share/oma-welcome/translation:116
 msgid "Unrar"
 msgstr "Unrar"
 
-#: usr/share/oma-welcome/translation:111
+#: usr/share/oma-welcome/translation:117
 msgid ""
 "Open and create RAR files with Ark, the default archive manager in "
 "OpenMandriva Lx"
@@ -519,85 +521,83 @@ msgstr ""
 "Abrir e criar arquivos RAR com a Ark, o gerenciador de arquivos compactados "
 "padrão em OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:112
+#: usr/share/oma-welcome/translation:118
 msgid "Dia"
 msgstr "Dia"
 
-#: usr/share/oma-welcome/translation:113
-#, fuzzy
+#: usr/share/oma-welcome/translation:119
 msgid "Dia is a program to draw structured diagrams"
-msgstr "Dia é um programa para desenho de estrutura de diagramas."
+msgstr "Dia é um programa para desenhar diagramas estruturados"
 
-#: usr/share/oma-welcome/translation:114
+#: usr/share/oma-welcome/translation:120
 msgid "Calligra"
 msgstr "Calligra"
 
-#: usr/share/oma-welcome/translation:115
-#, fuzzy
+#: usr/share/oma-welcome/translation:121
 msgid "Office applications for the K Desktop Environment"
-msgstr "Aplicativos de escritorios para KDE"
+msgstr "Aplicativos do Office para o K Desktop Environment"
 
-#: usr/share/oma-welcome/translation:116
+#: usr/share/oma-welcome/translation:122
 msgid "Semantik"
 msgstr "Semantik"
 
-#: usr/share/oma-welcome/translation:117
+#: usr/share/oma-welcome/translation:123
 msgid "A mindmapping and brainstorming tool"
 msgstr "Uma ferramenta de mapa mental e brainstorming"
 
-#: usr/share/oma-welcome/translation:118
+#: usr/share/oma-welcome/translation:124
 msgid "Kraft"
 msgstr "Kraft"
 
-#: usr/share/oma-welcome/translation:119
-#, fuzzy
+#: usr/share/oma-welcome/translation:125
 msgid "Manage your office documents with Kraft"
 msgstr "Gerencie seus documentos de escritório com o Kraft"
 
-#: usr/share/oma-welcome/translation:120
+#: usr/share/oma-welcome/translation:126
 msgid "Zim"
 msgstr "Zim"
 
-#: usr/share/oma-welcome/translation:121
-#, fuzzy
-msgid "A free and open source desktop wiki and outliner."
-msgstr "Um desktop wiki livre e Open Source"
+#: usr/share/oma-welcome/translation:127
+msgid "A free and open source desktop wiki and outliner"
+msgstr "Um wiki e um esboço de desktop de fonte aberta e gratuita"
 
-#: usr/share/oma-welcome/translation:122
-msgid "Poedit"
-msgstr "Poedit"
+#: usr/share/oma-welcome/translation:128
+msgid "Lokalize"
+msgstr "Lokalize"
 
-#: usr/share/oma-welcome/translation:123
-#, fuzzy
-msgid "Poedit is cross-platform gettext catalogs (.po files) editor"
-msgstr "Poedit é editor de catálogos ( arquivos .po) multiplataforma gettext "
+#: usr/share/oma-welcome/translation:129
+msgid ""
+"Lokalize is a computer-aided translation system that focuses on productivity"
+" and performance"
+msgstr ""
+"O Lokalize é um sistema de tradução assistido por computador que foca na "
+"produtividade e no desempenho"
 
-#: usr/share/oma-welcome/translation:124
+#: usr/share/oma-welcome/translation:130
 msgid "Homebank"
 msgstr "Homebank"
 
-#: usr/share/oma-welcome/translation:125
-#, fuzzy
-msgid "Free easy personal accounting for all."
-msgstr "Ferramenta de gerenciamento financeiro"
+#: usr/share/oma-welcome/translation:131
+msgid "Free easy personal accounting for all"
+msgstr "Contabilidade pessoal gratuita para todos"
 
-#: usr/share/oma-welcome/translation:129
+#: usr/share/oma-welcome/translation:135
 msgid "How to contribute to OpenMandriva"
 msgstr "Como contribuir com o OpenMandriva"
 
-#: usr/share/oma-welcome/translation:130
+#: usr/share/oma-welcome/translation:136
 msgid ""
-"So you really like OpenMandriva Lx and are eager to help? You can contribute "
-"in various ways:"
+"So you really like OpenMandriva Lx and are eager to help? You can contribute"
+" in various ways:"
 msgstr ""
 "Então, você realmente gosta dp OpenMandriva Lx e está ansiosos para ajudar? "
 "Você pode contribuir de várias maneiras:"
 
-#: usr/share/oma-welcome/translation:131
+#: usr/share/oma-welcome/translation:137
 msgid "Manual"
 msgstr "Manual"
 
-#: usr/share/oma-welcome/translation:132
+#: usr/share/oma-welcome/translation:138
 msgid ""
 "Help improve a simple step-by-step guide for installing and configuring "
 "OpenMandriva Lx"
@@ -605,69 +605,70 @@ msgstr ""
 "Ajude a melhorar um guia passo a passo simples para instalar e configurar o "
 "OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:133
+#: usr/share/oma-welcome/translation:139
 msgid "Forums"
 msgstr "Fóruns"
 
-#: usr/share/oma-welcome/translation:134
+#: usr/share/oma-welcome/translation:140
 msgid "Become a member at our forums, answer questions and help others"
 msgstr ""
 "Torne-se um membro em nossos fóruns, responder às perguntas e ajudar os "
 "outros"
 
-#: usr/share/oma-welcome/translation:135
+#: usr/share/oma-welcome/translation:141
 msgid "Translating"
 msgstr "Traduzindo"
 
-#: usr/share/oma-welcome/translation:136
+#: usr/share/oma-welcome/translation:142
 msgid "Translate blog posts, wiki pages, applications and stuffs"
 msgstr "Traduza blogs, páginas wikis, aplicativos e materiais"
 
-#: usr/share/oma-welcome/translation:137
+#: usr/share/oma-welcome/translation:143
 msgid "Join in the development of OpenMandriva Lx"
 msgstr "Junte-se no desenvolvimento de OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:138
+#: usr/share/oma-welcome/translation:144
 msgid "Cooker is the development branch of OpenMandriva Lx"
 msgstr "Cooker é o ramo de desenvolvimento de OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:139
+#: usr/share/oma-welcome/translation:145
 msgid "Artwork"
 msgstr "Artwork"
 
-#: usr/share/oma-welcome/translation:140
+#: usr/share/oma-welcome/translation:146
 msgid "Use your talent to create new artwork for OpenMandriva Lx"
 msgstr "Use seu talento para criar novas obras de arte para OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:141
+#: usr/share/oma-welcome/translation:147
 msgid "Mailing list"
 msgstr "Lista de discussão"
 
-#: usr/share/oma-welcome/translation:142
+#: usr/share/oma-welcome/translation:148
 msgid "Join the discussion list of OpenMandriva"
 msgstr "Junte-se a lista de discussão do OpenMandriva"
 
-#: usr/share/oma-welcome/translation:143
+#: usr/share/oma-welcome/translation:149
 msgid "Report Bug"
 msgstr "Relatório de Bug"
 
-#: usr/share/oma-welcome/translation:144
+#: usr/share/oma-welcome/translation:150
 msgid "Search, report and fix bugs (issues?) in OpenMandriva Lx"
-msgstr "Pesquisa, relatório e correção de bugs (problemas?) no OpenMandriva Lx"
+msgstr ""
+"Pesquisa, relatório e correção de bugs (problemas?) no OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:145
+#: usr/share/oma-welcome/translation:151
 msgid "Join in the IRC channel"
 msgstr "Junte-se no canal de IRC"
 
-#: usr/share/oma-welcome/translation:146
-msgid "openmandriva-cooker is OpenMandriva's main IRC channel"
-msgstr "openmandriva-cooker é o principal canal IRC do OpenMandriva"
+#: usr/share/oma-welcome/translation:152
+msgid "openmandriva-cooker is OpenMandriva main IRC channel"
+msgstr "openmandriva-cooker é o canal IRC principal do OpenMandriva"
 
-#: usr/share/oma-welcome/translation:147
+#: usr/share/oma-welcome/translation:153
 msgid "Donation"
 msgstr "Doação"
 
-#: usr/share/oma-welcome/translation:148
+#: usr/share/oma-welcome/translation:154
 msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
@@ -675,134 +676,139 @@ msgstr ""
 "Você pode nos dar seu amor e carinho por doar seu tempo ou dinheiro para "
 "OpenMandriva Lx"
 
-#: usr/share/oma-welcome/translation:149
+#: usr/share/oma-welcome/translation:155
 msgid "Do not start oma-welcome on login"
 msgstr "Não inicializar o  om-welcome automaticamente"
 
-#: usr/share/oma-welcome/translation:150
+#: usr/share/oma-welcome/translation:156
 msgid "Make oma-welcome start on login"
 msgstr "Fazer om-welcome iniciar automaticamente"
 
-#: usr/share/oma-welcome/translation:151
+#: usr/share/oma-welcome/translation:157
 msgid "Finish"
 msgstr "Finalizar"
 
-#: usr/share/oma-welcome/translation:154
+#: usr/share/oma-welcome/translation:160
 msgid "are already installed"
 msgstr "Já está instalado"
 
-#: usr/share/oma-welcome/translation:155
+#: usr/share/oma-welcome/translation:161
 msgid "not installed"
 msgstr "não instalado"
 
-#: usr/share/oma-welcome/translation:158
+#: usr/share/oma-welcome/translation:164
 msgid "About this program"
 msgstr "Sobre esse programa"
 
-#: usr/share/oma-welcome/translation:159
+#: usr/share/oma-welcome/translation:165
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
-"Este software é licenciado sob a GNU General Public License versão 2 (GPLv2)."
+"Este software é licenciado sob a GNU General Public License versão 2 "
+"(GPLv2)."
 
-#: usr/share/oma-welcome/translation:160
-#, fuzzy
-msgid "It uses Qt5 WebEngine, and bigbashview."
-msgstr "Ele utiliza python-qt4-webkit, web.py e bigbashview."
+#: usr/share/oma-welcome/translation:166
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Ele usa o Qt5 WebEngine e o htmlscript."
 
-#: usr/share/oma-welcome/translation:161
+#: usr/share/oma-welcome/translation:167
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Bugs, sugestões e melhorias, por favor acesse"
 
-#: usr/share/oma-welcome/translation:164
+#: usr/share/oma-welcome/translation:170
 msgid "You are using"
 msgstr "Você está usando"
 
-#: usr/share/oma-welcome/translation:165
+#: usr/share/oma-welcome/translation:171
 msgid "with kernel"
 msgstr "com o kernel"
 
-#: usr/share/oma-welcome/translation:166
+#: usr/share/oma-welcome/translation:172
 msgid "architecture"
 msgstr "Arquitetura"
 
-#: usr/share/oma-welcome/translation:168
+#: usr/share/oma-welcome/translation:174
 msgid "KVPNc"
 msgstr "KVpnc"
 
-#: usr/share/oma-welcome/translation:169
+#: usr/share/oma-welcome/translation:175
 msgid "KDE frontend to various VPN clients"
 msgstr "KDE frontend para vários clientes VPN"
 
-#: usr/share/oma-welcome/translation:170
+#: usr/share/oma-welcome/translation:176
 msgid "0ad"
 msgstr "0ad"
 
-#: usr/share/oma-welcome/translation:171
-#, fuzzy
-msgid "Cross-platform RTS Game of Ancient Warfare."
-msgstr "RTS game de guerra antiga multi-plataforma"
+#: usr/share/oma-welcome/translation:177
+msgid "Cross-platform RTS Game of Ancient Warfare"
+msgstr "Jogo RTS de Plataforma Cruzada de Guerra Antiga"
 
-#: usr/share/oma-welcome/translation:172
+#: usr/share/oma-welcome/translation:178
 msgid "MegaGlest"
 msgstr "Megaglest"
 
-#: usr/share/oma-welcome/translation:173
+#: usr/share/oma-welcome/translation:179
 msgid "Open Source 3d real time strategy game"
 msgstr "Open Source 3d jogo de estratégia em tempo real"
 
-#: usr/share/oma-welcome/translation:174
+#: usr/share/oma-welcome/translation:180
 msgid "Wesnoth"
 msgstr "Wesnoth"
 
-#: usr/share/oma-welcome/translation:175
+#: usr/share/oma-welcome/translation:181
 msgid "Fantasy turn-based strategy game"
 msgstr "Jogo de fantasia e estratégia baseado em turnos "
 
-#: usr/share/oma-welcome/translation:176
-#, fuzzy
+#: usr/share/oma-welcome/translation:182
 msgid "FlightGear"
-msgstr "FligtGear"
+msgstr "FlightGear"
 
-#: usr/share/oma-welcome/translation:177
+#: usr/share/oma-welcome/translation:183
 msgid "FlightGear Flight Simulator for Linux"
 msgstr "FlightGear Flight Simulator para Linux"
 
-#: usr/share/oma-welcome/translation:178
+#: usr/share/oma-welcome/translation:184
+msgid "Lutris"
+msgstr "Lutris"
+
+#: usr/share/oma-welcome/translation:185
+msgid "Install and play any video game easily"
+msgstr "Instale e jogue qualquer videogame facilmente"
+
+#: usr/share/oma-welcome/translation:186
 msgid "TORCS"
 msgstr "TORCS"
 
-#: usr/share/oma-welcome/translation:179
+#: usr/share/oma-welcome/translation:187
 msgid "The Open Racing Car Simulator"
 msgstr "Simulador Open Source de corrida de carro"
 
-#: usr/share/oma-welcome/translation:180
+#: usr/share/oma-welcome/translation:188
 msgid "SuperTux"
 msgstr "SuperTux"
 
-#: usr/share/oma-welcome/translation:181
-#, fuzzy
+#: usr/share/oma-welcome/translation:189
 msgid ""
 "SuperTux is a classic 2D jump'n run sidescroller game in a similar style "
 "like the original SuperMario games"
 msgstr ""
-"SuperTux é um jogo clássico 2D Jump  sidescroller, em um estilo similar, "
-"como os jogos originais do SuperMario."
+"SuperTux é um jogo de sidescroller clássico de 2D jump'n run em um estilo "
+"similar ao dos jogos SuperMario originais."
 
-#: usr/share/oma-welcome/translation:182
+#: usr/share/oma-welcome/translation:190
 msgid "Warzone 2100"
 msgstr "Warzone 2100"
 
-#: usr/share/oma-welcome/translation:183
+#: usr/share/oma-welcome/translation:191
 msgid "Postnuclear War realtime strategy games"
 msgstr "Jogo de estrategia em tempo real de guerra pós nuclear  "
 
-#: usr/share/oma-welcome/translation:184
+#: usr/share/oma-welcome/translation:192
 msgid "Filezilla"
 msgstr "Filezilla"
 
-#: usr/share/oma-welcome/translation:185
+#: usr/share/oma-welcome/translation:193
 msgid ""
 "FileZilla is a powerful, free file management tool for FTP access to your "
 "Web site's server"
@@ -810,193 +816,169 @@ msgstr ""
 "Filezilla é uma ferramenta de gerenciamento de arquivo poderoso, livre para "
 "acesso FTP para o servidor do seu site Web"
 
-#: usr/share/oma-welcome/translation:186
+#: usr/share/oma-welcome/translation:194
 msgid "Virtualbox"
 msgstr "Virtualbox"
 
-#: usr/share/oma-welcome/translation:187
-#, fuzzy
+#: usr/share/oma-welcome/translation:195
 msgid ""
 "An easy virtualization software package for x86 and AMD64/Intel64-based "
 "computers"
 msgstr ""
-"Um pacote de software de virtualização fácil para x86 e AMD64/Intel64 com "
-"base em computadores."
+"Um pacote de software de virtualização fácil para computadores baseados em "
+"x86 e AMD64 / Intel64"
 
-#: usr/share/oma-welcome/translation:188
+#: usr/share/oma-welcome/translation:196
 msgid "GRsync"
 msgstr "GRsync"
 
-#: usr/share/oma-welcome/translation:189
-#, fuzzy
+#: usr/share/oma-welcome/translation:197
 msgid ""
-"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is "
-"to synchronize local directories"
+"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is"
+" to synchronize local directories"
 msgstr ""
-"Grsync é um GUI para o rsync. Enquanto ele pode trabalhar com hosts remotos, "
-"seu foco é sincronizar diretórios locais."
+"Grsync é uma interface gráfica para o rsync. Embora possa trabalhar com "
+"hosts remotos, seu foco é sincronizar diretórios locais"
 
-#: usr/share/oma-welcome/translation:192
+#: usr/share/oma-welcome/translation:200
 msgid "New Features and Major Changes"
 msgstr "Novos recursos e maiores mudanças"
 
-#: usr/share/oma-welcome/translation:193
-#, fuzzy
+#: usr/share/oma-welcome/translation:201
 msgid ""
-"This is the third major release, codenamed <span "
-"class='username'>Einsteinium</span>, under the OpenMandriva Association! "
-"Over the course of the year past we've tried to evolve the way you use your "
-"desktop. Here are some of the things we've done for OpenMandriva Lx 3.0:"
+"This is the fourth major release, codenamed <span "
+"class='username'>Nitrogen</span>, under the OpenMandriva Association. Over "
+"the course of the year past we have tried to evolve the way you use your "
+"desktop. Here are some of the things we have done for OpenMandriva Lx 4.0:"
 msgstr ""
-"Este é o segundo lançamento, codinome <span class='username'>Phosphorus</"
-"span>, sob a associação de OpenMandriva! Ao longo do ano passado, nós "
-"tentamos evoluir da forma que você usa seu desktop. Aqui estão algumas das "
-"coisas que fizemos para 2014.2:"
+"Este é o quarto maior lançamento, codinome Nitrogen, sob a OpenMandriva "
+"Association. No decorrer do ano passado, tentamos evoluir a maneira como "
+"você usa sua área de trabalho. Aqui estão algumas das coisas que fizemos "
+"para o OpenMandriva Lx 4.0:"
 
-#: usr/share/oma-welcome/translation:194
-#, fuzzy
+#: usr/share/oma-welcome/translation:202
 msgid "OM Control Center"
-msgstr "Centro de Controle"
+msgstr "OM Centro de Controle"
 
-#: usr/share/oma-welcome/translation:195
+#: usr/share/oma-welcome/translation:203
 msgid "Drakconf"
-msgstr ""
+msgstr "Drakconf"
 
-#: usr/share/oma-welcome/translation:196
+#: usr/share/oma-welcome/translation:204
 msgid "Fresh Packages"
 msgstr "últimos pacotes"
 
-#: usr/share/oma-welcome/translation:197
-#, fuzzy
+#: usr/share/oma-welcome/translation:205
 msgid ""
 "Some fresh packages included with this release include Krita (Digital "
-"Painting), Kamoso (Webcam Viewer), Clementine, Plasma Media Center, Plasma "
-"NetworkManager applet, KMail, VLC Player, Mozilla Firefox, Systemd and "
-"Firewalld. Fot the technically adept we have provided systemtap a system "
+"Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, Plasma "
+"NetworkManager applet, KMail, Falkon browser, Mozilla Firefox, Systemd and "
+"Firewalld. For the technically adept we have provided systemtap a system "
 "performance analysis tool "
 msgstr ""
-"Alguns pacotes incluídos com este lançamento incluem Homerun (lançador de "
-"menu padrão), Krita (pintura digital), Kamoso (Webcam Viewer), Amarok, "
-"Plasma Media Center, Plasma NetworkManager applet, KMail, VLC Player, "
-"Mozilla Firefox 38, Systemd 208 e o novo Firewalld."
+"Alguns novos pacotes incluídos nesta versão incluem Krita (Pintura Digital),"
+" Kamoso (Visualizador de Webcam), SMPlayer, VLC Player, KBackup, "
+"miniaplicativo Plasma NetworkManager, KMail, navegador Falkon, Mozilla "
+"Firefox, Systemd e Firewalld. Para os técnicos, fornecemos uma ferramenta de"
+" análise de desempenho do sistema"
 
-#: usr/share/oma-welcome/translation:198
-#, fuzzy
+#: usr/share/oma-welcome/translation:206
 msgid ""
-"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. "
-"OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory "
-"management,  desktop system performance and responsiveness in mind. There "
-"are desktop server verions available each desighed with their respective end "
-"use on mind<br/>\n"
+"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each desighed with their respective end use on mind<br/>\n"
 "<br/>\n"
-"<b>What's New:</b> HT/SMT NICE is enabled by default for better "
-"responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), "
-"this improves the performance of foreground applications at the expense of "
-"backgound ones. Your desktop / gui / applications will remain fast even if "
-"you run folding@home, mprime, seti@home, etc. "
+"<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
 msgstr ""
-"OpenMandriva Lx possui um novo kernel chamado <span class='username'>NRJ</"
-"span> (pronuncia-se energy!). Com as configurações NRJ., o CPU e a RCU são "
-"configurados com preempção completa habilitado e no modo Boost, enquanto o "
-"modo <span class='username'>QL</span> adiciona os patchsets CK1 e BFQ que se "
-"combinam para proporcionar otimizações adicionais, incluindo melhor "
-"programação de carga da CPU(BFS) e melhorias no agendamento de E/S de disco "
-"(BFQ), melhorias no gerenciamento de memória está presente com a prestação "
-"de UKSM e TOI para melhor suspensão e a funcionalidade de hibernação, cada "
-"um projetado com desempenho de sistemas desktop. Por favor consulte  <a "
-"href='./apps/open-kernel-wiki.run' class='blue'>https://wiki.openmandriva."
-"org/en/Kernel</a> para obter mais informações"
+"Kernel $ (uname -r | cut -d '' -f 2) é a mais recente série disponível. O kernel OpenMandriva Lx possui o planejador de E / S de disco BFQ, gerenciamento de memória UKSM, desempenho do sistema desktop e capacidade de resposta em mente. Há versões de servidor de desktop disponíveis, cada uma com o seu uso final em mente\n"
+"\n"
+"O que há de novo: O HT / SMT NICE é habilitado por padrão para melhor capacidade de resposta e comportamento em tempo real em PCs com HT (Hyper-Threading), isso melhora o desempenho de aplicativos em primeiro plano em detrimento dos aplicativos em backgound. Sua área de trabalho / gui / aplicativos permanecerão rápidos mesmo se você executar o dobramento @ home, mprime, seti @ home, etc."
 
-#: usr/share/oma-welcome/translation:201
+#: usr/share/oma-welcome/translation:209
 msgid ""
 "KDE Plasma workspace $(plasmashell --version| cut -d ' ' -f 2) provides a "
-"clean, unified desktop for OpenMandriva Lx. It has all the tools required to "
-"be productive whilst providing a pleasant, functional environment. This "
+"clean, unified desktop for OpenMandriva Lx. It has all the tools required to"
+" be productive whilst providing a pleasant, functional environment. This "
 "release includes an updated KDE Frameworks $(kf5-config --version|grep "
 "Frameworks|cut -d "
 msgstr ""
+"A área de trabalho do KDE Plasma $ (plasmashell --version | cut -d '' -f 2) "
+"fornece uma área de trabalho limpa e unificada para o OpenMandriva Lx. Tem "
+"todas as ferramentas necessárias para ser produtivo, proporcionando um "
+"ambiente agradável e funcional. Esta versão inclui um KDE Frameworks $ "
+"atualizado (kf5-config --version | grep Frameworks | cut -d"
 
-#: usr/share/oma-welcome/translation:202
-#, fuzzy
+#: usr/share/oma-welcome/translation:210
 msgid ""
 "LibreOffice $(libreoffice --version| cut -d ' ' -f 2) is the newest "
 "available, Final (Stable) release series, which means you can rely on it to "
 "not crash and compromise your precious data. As usual, there are a lot of "
-"minor improvements, most of which are internal fixes that are not noticeable "
-"by regular users, but some are actually interesting"
+"minor improvements, most of which are internal fixes that are not noticeable"
+" by regular users, but some are actually interesting"
 msgstr ""
-"LibreOffice 5.1.1 é a versão mais recente disponível, final versão "
-"(estável), que significa que você pode confiar nele para não quebrar e "
-"comprometer seus dados preciosos. Como de costume, há uma série de pequenas "
-"melhorias, a maioria dos quais é correções internas que não são perceptíveis "
-"por usuários regulares, mas algumas são realmente interessantes"
+"O LibreOffice $ (libreoffice --version | cut -d '' -f 2) é a mais nova série"
+" de lançamentos Final (Stable) disponível, o que significa que você pode "
+"confiar nele para não travar e comprometer seus preciosos dados. Como de "
+"costume, há muitas pequenas melhorias, a maioria das quais são correções "
+"internas que não são notadas pelos usuários comuns, mas algumas são "
+"realmente interessantes"
 
-#: usr/share/oma-welcome/translation:203
+#: usr/share/oma-welcome/translation:211
 msgid ""
 "New OpenMandriva Control Center, currently in beta version, to help you "
-"configure your system."
+"configure your system"
 msgstr ""
+"Novo Centro de Controle do OpenMandriva , atualmente em versão beta, para "
+"ajudá-lo a configurar seu sistema"
 
-#: usr/share/oma-welcome/translation:204
-#, fuzzy
+#: usr/share/oma-welcome/translation:212
 msgid ""
-"Also featured is our legacy Control Center. Drakconf is a set of tools to "
-"help you configure your system for: <br/>\n"
+"Also featured is our legacy Control Center. Drakconf is a set of tools to help you configure your system for: <br/>\n"
 "- Software Management<br/>\n"
 "- Hardware<br/>\n"
 "- Network, Internet & Sharing<br/>\n"
 "- Local Disks/Partition Manager<br/>\n"
 "- System Security<br/>"
 msgstr ""
-"Também conte com o nosso legado Centro de Controle. OpenMandriva Control "
-"Center (aka drakconf) é um conjunto de ferramentas para lhe ajudar a "
-"configurar o seu sistema para:<br/>\n"
-"- Gerenciamento de Software<br/>\n"
-"- Hardware<br/>\n"
-"- Rede, Internet & Compartilhamento<br/>\n"
-"- Discos Locais/Gerenciamento de Partições<br/>\n"
-"- Segurança do Sistema<br/>\n"
-"- Controle dos Pais<br/>"
+"Também é destaque o nosso legado Control Center. O Drakconf é um conjunto de ferramentas para ajudá-lo a configurar seu sistema para:\n"
+"- Gerenciamento de Software\n"
+"- Hardware\n"
+"- Rede, Internet e Compartilhamento\n"
+"- Gerenciador de discos / partições locais\n"
+"- Sistema de segurança"
 
-#: usr/share/oma-welcome/translation:210
-#, fuzzy
+#: usr/share/oma-welcome/translation:218
 msgid ""
 "This release of OpenMandriva Lx incorporates working support for EFI "
 "booting. It should be possible to boot the live system on majority of "
 "machines. Please file bug reports at <a href='./apps/open-bugzilla.run' "
 "target="
 msgstr ""
-"Este é o primeiro lançamento de OpenMandriva Lx que incorpora suporte de "
-"trabalho para boot EFI. Nós só foram capazes de executar testes limitados "
-"sobre este recurso e gostaria de receber feedback sobre a experiência do "
-"usuário. É possível inicializar o sistema em liveDVD na maioria das "
-"máquinas. Por favor, reportar quaisquer bug no <a href='./apps/open-bugzilla."
-"run' class='blue'>issues.openmandriva.org</a>"
+"Esta versão do OpenMandriva Lx incorpora suporte funcional para "
+"inicialização via EFI. Deve ser possível inicializar o sistema ao vivo na "
+"maioria das máquinas. Por favor arquive relatórios de bugs em <a href = '. /"
+" Apps / open-bugzilla.run' target ="
 
-#: usr/share/oma-welcome/translation:211
-#, fuzzy
+#: usr/share/oma-welcome/translation:219
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
 "distributions that supports all things from managing the source code to "
 "creating ISO images. ABF is not just a hosting service for source code, but "
-"a system to build and publish packages. You can check, signup and contribute "
-"to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="
+"a system to build and publish packages. You can check, signup and contribute"
+" to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="
 msgstr ""
-"Todos os lançamentos do OpenMandriva são construídos usando uma avançada "
-"plataforma chamada ABF. ABF (Automated Build Farm, Fazenda de Criação "
-"Automatizada) é um ambiente distribuído para criação de distribuições que "
-"suporta todas as coisas desde gerenciamento de código fonte para criação de "
-"imagens ISO. ABF não é apenas um serviço de hospedagem para códigos fontes, "
-"mas um sistema para criação e publicação de pacotes. Você pode verificar, "
-"assinar e contribuir para o desenvolvimento ABF/OpenMandriva em <a href='./"
-"apps/open-abf.run' class='titlePage'>http://abf.io</a>"
+"Todas as versões do OpenMandriva são construídas usando uma plataforma "
+"avançada chamada ABF. O ABF (Automated Build Farm) é um ambiente distribuído"
+" para criar distribuições que suportam tudo, desde o gerenciamento do "
+"código-fonte até a criação de imagens ISO. O ABF não é apenas um serviço de "
+"hospedagem para o código-fonte, mas um sistema para criar e publicar "
+"pacotes. Você pode verificar, registrar e contribuir para o desenvolvimento "
+"ABF / OpenMandriva em <a href = '. / Apps / open-abf.run' target ="
 
-#: usr/share/oma-welcome/translation:214
+#: usr/share/oma-welcome/translation:222
 msgid "C/C++ Compilers Suite "
 msgstr "Suíte de Compiladores C/C++"
 
-#: usr/share/oma-welcome/translation:215
+#: usr/share/oma-welcome/translation:223
 msgid ""
 "This is LLVM/clang package, including necessary tools for development like "
 "LLVM/clang, GCC, make, autoconf etc."
@@ -1004,11 +986,11 @@ msgstr ""
 "Este é o pacote do LLVM/clang, incluíndo ferramentas necessárias para o "
 "desenvolvimento com LLVM/clang, GCC, make, autoconf, etc."
 
-#: usr/share/oma-welcome/translation:216
+#: usr/share/oma-welcome/translation:224
 msgid "KDevelop"
 msgstr "KDevelop"
 
-#: usr/share/oma-welcome/translation:217
+#: usr/share/oma-welcome/translation:225
 msgid ""
 "The KDevelop Integrated Development Environment providing a unified "
 "interface to programs like gdb, the C/C++ compiler, and make"
@@ -1016,24 +998,23 @@ msgstr ""
 "O Ambiente Integrado de Desenvolvimento KDevelop fornece uma interface "
 "unificada para programas como gdb, o compilador C/C++, e make"
 
-#: usr/share/oma-welcome/translation:218
+#: usr/share/oma-welcome/translation:226
 msgid "Geany IDE"
 msgstr "Geany IDE"
 
-#: usr/share/oma-welcome/translation:219
-#, fuzzy
+#: usr/share/oma-welcome/translation:227
 msgid ""
 "Geany is a small C editor using GTK2 with basic features of an integrated "
 "development environment"
 msgstr ""
-"Geany é um pequeno editor C usando GTK2 com recursos básicos de um ambiente "
-"de desenvolvimento integrado."
+"Geany é um pequeno editor C usando o GTK2 com recursos básicos de um "
+"ambiente de desenvolvimento integrado"
 
-#: usr/share/oma-welcome/translation:220
+#: usr/share/oma-welcome/translation:228
 msgid "Eclipse IDE"
 msgstr "Eclipse IDE"
 
-#: usr/share/oma-welcome/translation:221
+#: usr/share/oma-welcome/translation:229
 msgid ""
 "Eclipse IDE contains a base workspace and an extensible plug-in system, "
 "mostly used by Java Developers"
@@ -1041,11 +1022,11 @@ msgstr ""
 "Eclipse IDE contém um espaço de trabalho base e sistema extensível de plug-"
 "ins, muito utilizado por Desenvolvedores Java"
 
-#: usr/share/oma-welcome/translation:222
+#: usr/share/oma-welcome/translation:230
 msgid "Qt-Creator"
 msgstr "Qt-Creator"
 
-#: usr/share/oma-welcome/translation:223
+#: usr/share/oma-welcome/translation:231
 msgid ""
 "Qt Creator is a lightweight, cross-platform integrated development "
 "environment (IDE)"
@@ -1053,11 +1034,11 @@ msgstr ""
 "Qt Creator é um ambiente integrado de desenvolviment (IDE) leve e multi-"
 "plataforma"
 
-#: usr/share/oma-welcome/translation:224
+#: usr/share/oma-welcome/translation:232
 msgid "Qt-Designer"
 msgstr "Qt-Designer"
 
-#: usr/share/oma-welcome/translation:225
+#: usr/share/oma-welcome/translation:233
 msgid ""
 "The Qt Designer is a visual design tool that makes designing and "
 "implementing user interfaces a lot easier"
@@ -1065,44 +1046,44 @@ msgstr ""
 "O Qt Designer é uma ferramenta de design visual que cria desenhando e "
 "implementando interfaces de usuários muito facilmente"
 
-#: usr/share/oma-welcome/translation:226
+#: usr/share/oma-welcome/translation:234
 msgid "RPM Packaging"
 msgstr "RPM Packaging"
 
-#: usr/share/oma-welcome/translation:227
+#: usr/share/oma-welcome/translation:235
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
 msgstr "A suíte RPM Packagin incluí rpmbuild, rpmlint, etc."
 
-#: usr/share/oma-welcome/translation:228
+#: usr/share/oma-welcome/translation:236
 msgid "Gambas IDE"
 msgstr "Gambas IDE"
 
-#: usr/share/oma-welcome/translation:229
+#: usr/share/oma-welcome/translation:237
 msgid ""
-"Gambas Almost BASIC, designed to build graphical applications programs using "
-"the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
+"Gambas Almost BASIC, designed to build graphical applications programs using"
+" the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
 msgstr ""
 "Gambas Almost BASIC, desenhado para criar programas e aplicações gráficas "
 "usando o conjunto de ferramentas Qt/GTK+ com Visual Basic (TM) com fluxo de "
 "trabalho "
 
-#: usr/share/oma-welcome/translation:232
+#: usr/share/oma-welcome/translation:240
 msgid "Chromium Browser"
 msgstr "Chromium Browser"
 
-#: usr/share/oma-welcome/translation:233
+#: usr/share/oma-welcome/translation:241
 msgid ""
-"Chromium serves as a base for Google Chrome, an open-source browser project "
-"that aims to build a safer, faster, and more stable"
+"Chromium is an open-source project that aims to build a safer, faster, and "
+"more stable browser"
 msgstr ""
-"Chromium serve de base para o Google Chrome, um projeto open-source que tem "
-"objetivo de criar um browser seguro, rápido e muito estável "
+"O Chromium é um projeto de código aberto que visa criar um navegador mais "
+"seguro, mais rápido e mais estável"
 
-#: usr/share/oma-welcome/translation:234
+#: usr/share/oma-welcome/translation:242
 msgid "Mozilla Thunderbird"
 msgstr "Mozilla Thunderbird"
 
-#: usr/share/oma-welcome/translation:235
+#: usr/share/oma-welcome/translation:243
 msgid ""
 "Thunderbird is a full-featured email, RSS and newsgroup client that makes "
 "emailing safer, faster and easier"
@@ -1110,121 +1091,66 @@ msgstr ""
 "Thunderbird é um cliente de email, RSS e newsgroup cheio de recursos que "
 "cria emails seguros, rápidos e facilmente"
 
-#: usr/share/oma-welcome/translation:236
+#: usr/share/oma-welcome/translation:244
 msgid "Pidgin"
 msgstr "Pidgin"
 
-#: usr/share/oma-welcome/translation:237
-#, fuzzy
+#: usr/share/oma-welcome/translation:245
 msgid ""
 "Pidgin is a graphical, modular instant messaging client capable of using "
 "multiple networks at once"
 msgstr ""
-"Pidgin é um cliente de mensagens instantâneas gráfico e modular capaz de "
-"usar imediatamente múltiplos serviços de rede. "
+"O Pidgin é um cliente de mensagens instantâneas modular e gráfico capaz de "
+"usar várias redes de uma só vez."
 
-#: usr/share/oma-welcome/translation:238
+#: usr/share/oma-welcome/translation:246
 msgid "Choqok"
 msgstr "Choqok"
 
-#: usr/share/oma-welcome/translation:239
+#: usr/share/oma-welcome/translation:247
 msgid ""
 "Choqok is a Free/Open Source microblogging client for KDE which supports "
 "Twitter.com, Pump.io, and OpenDesktop.org services"
 msgstr ""
+"Choqok é um cliente de microblogging gratuito / aberto para o KDE que "
+"oferece suporte aos serviços Twitter.com, Pump.io e OpenDesktop.org"
 
-#: usr/share/oma-welcome/translation:240
-msgid "XTreme Download Manager"
-msgstr "XTreme Download Manager"
+#: usr/share/oma-welcome/translation:250
+msgid "Falkon Browser"
+msgstr "Falkon Browser"
 
-#: usr/share/oma-welcome/translation:241
-#, fuzzy
-msgid ""
-"Xtreme Download Manager is a powerful tool to increase download speed up-to "
-"500%, resume broken/dead downloads, etc."
-msgstr ""
-"XTreme Dowload Manager é uma ferramenta poderosa para aumentar a velocidade "
-"de download até 500%, retomar download quebrados/mortos, etc"
-
-#: usr/share/oma-welcome/translation:242
-msgid "Qupzilla Browser"
-msgstr ""
-
-#: usr/share/oma-welcome/translation:243
-#, fuzzy
+#: usr/share/oma-welcome/translation:251
 msgid "Cross-platform, fast, lightweight and ready to use web browser"
-msgstr ""
-"Navegador de internet, multi plataforma, rápido e pronto para uso com "
-"Adblock Plus habilitado por padrão"
+msgstr "Navegador multi plataforma , rápido, leve e pronto para usar"
 
-#: usr/share/oma-welcome/translation:244
+#: usr/share/oma-welcome/translation:252
+msgid "Firefox Browser"
+msgstr "Firefox Browser"
+
+#: usr/share/oma-welcome/translation:253
+msgid ""
+"The award-winning Web browser is now faster, more secure, and fully "
+"customizable to your online life"
+msgstr ""
+"O premiado navegador da Web agora está mais rápido, mais seguro e totalmente"
+" personalizável para sua vida on-line"
+
+#: usr/share/oma-welcome/translation:254
+msgid "Quassel"
+msgstr "Quassel"
+
+#: usr/share/oma-welcome/translation:255
+msgid "A modern cross-platform distributed IRC client"
+msgstr "Um cliente IRC distribuído de plataforma cruzada moderna"
+
+#: usr/share/oma-welcome/translation:256
 msgid "Dropbox"
 msgstr "Dropbox"
 
-#: usr/share/oma-welcome/translation:245
+#: usr/share/oma-welcome/translation:257
 msgid ""
 "Dropbox is a free service that lets you bring your photos, docs, and videos "
 "anywhere and share them easily"
 msgstr ""
 "Dropbox é um serviço gratuito que permite que você acesse suas fotos, "
 "documentos e vídeos em qualquer lugar e compartilhá-los facilmente"
-
-#~ msgid "Configure the video drivers"
-#~ msgstr "Configure o driver de vídeo"
-
-#~ msgid ""
-#~ "Configure your video card, install latest drivers, change resolution, "
-#~ "enable 3D hardware acceleration, etc"
-#~ msgstr ""
-#~ "Configure a sua placa de vídeo, instale os drivers mais recentes, altere "
-#~ "a resolução, habilitar aceleração de hardware 3D, etc"
-
-#~ msgid ""
-#~ "OpenMandriva Lx comes with support for various network drivers, but "
-#~ "depending on your network configuration it may be necessary to change "
-#~ "some settings, such as configuring static IP, PPPoE, 3G, etc"
-#~ msgstr ""
-#~ "OpenMandriva Lx vem com suporte a vários drivers de rede , mas dependendo "
-#~ "da sua configuração de rede pode ser necessário alterar algumas "
-#~ "configurações, como configurar IP estático, PPPoE, 3G, etc."
-
-#~ msgid "Miro Player"
-#~ msgstr "Miro Player"
-
-#~ msgid ""
-#~ "Miro is a popular, free, and open internet TV application. It brings "
-#~ "video channels from thousands of sources."
-#~ msgstr ""
-#~ "Miro é um popular, livre e open source aplicativos de TV pela internet. "
-#~ "Ele traz canais de vídeo de milhares  de fonte"
-
-#, fuzzy
-#~ msgid ""
-#~ "KDE 4.13.3 provides a clean, unified desktop for OpenMandriva Lx. It has "
-#~ "all the tools required to be productive whilst providing a pleasant, "
-#~ "functional environment. The KDE installation included in this release "
-#~ "features the Homerun launcher, attractive new artwork and plasma-"
-#~ "mediacenter!<br/>This release includes an updated Plasma Workspaces "
-#~ "4.13.3. Both releases contain only bugfixes and translation updates, "
-#~ "providing a safe and pleasant update for everyone. More than 20 recorded "
-#~ "bugfixes include improvements to Personal Information Management suite "
-#~ "Kontact, Umbrello UML Modeller, touch typing application KTouch, web "
-#~ "browser Konqueror, file manager Dolphin and others."
-#~ msgstr ""
-#~ "KDE 4.12.4 fornece um ambiente de trabalho limpo, unificado para "
-#~ "OpenMandriva Lx. Tem todas as ferramentas necessárias para ser produtivo, "
-#~ "proporcionando um ambiente agradável e funcional. A instalação do KDE "
-#~ "incluída nesta versão possui o lançador Homerun, atraente nova arte e "
-#~ "plasma-mediacenter! <br/>Esta versão inclui um atualizado espaços de "
-#~ "trabalho do Plasma 4.11.14. Ambos os lançamentos contêm apenas correções "
-#~ "de bugs e atualizações de tradução, proporcionando uma atualização segura "
-#~ "e agradável para todos. Mais de 20 correções de bugs registradas, incluem "
-#~ "melhorias para gerenciamento de informações pessoais suíte Kontact, "
-#~ "Umbrello UML Modeller, touch digitação aplicação KTouch, navegador web "
-#~ "Konqueror, Gerenciador de arquivos Dolphin e outros."
-
-#~ msgid "Choqok is microblogging client for KDE"
-#~ msgstr "Choqok é um cliente de microblogs para KDE"
-
-#~ msgid "Maxthon Browser"
-#~ msgstr "Maxthon Browser"
