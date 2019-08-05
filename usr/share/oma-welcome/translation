@@ -103,6 +103,8 @@ titleskype=$"Skype"
 descskype=$"By installing this package you will download and install Skype from skype.com. You must accept the Skype EULA before using it"
 titleskypeonline=$"Skype online"
 descskypeonline=$"By installing this package you will be able to use Skype online from skype.com"
+titletelegram=$"Telegram Desktop"
+desctelegram=$"Telegram is a messaging app with a focus on speed and security"
 titlerepopicker=$"OpenMandriva repo-picker"
 descrepopicker=$"A tool to enable and disable repositories easily with just a few clicks"
 
