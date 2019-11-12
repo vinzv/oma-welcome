@@ -846,10 +846,10 @@ msgid ""
 "the course of the year past we have tried to evolve the way you use your "
 "desktop. Here are some of the things we have done for OpenMandriva Lx 4.0:"
 msgstr ""
-"Questo è il quarto rilascio sotto l'Associazione OpenMandriva, nome in "
-"codice <span class='username'>Nitrogen</span>. Nel corso degli anni passati "
+"OpenMandriva Lx 4.1, nome in codice <span class="bold">$(lsb_release -c | cut -d":" -f2)</span>, "
+"è pubblicata da OpenMandriva Association. Nel corso degli anni passati "
 "abbiamo cercato di far evolvere il modo di usare il vostro desktop. Ecco "
-"alcune delle cose che abbiamo fatto per OMLx 4.0:"
+"alcune delle cose che abbiamo fatto per OMLx 4.1:"
 
 #: usr/share/oma-welcome/translation:202
 msgid "OM Control Center"
