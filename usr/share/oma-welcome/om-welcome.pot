@@ -752,10 +752,10 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:201
 msgid ""
-"This is the fourth major release, codenamed <span class='username'>Nitrogen</"
-"span>, under the OpenMandriva Association. Over the course of the year past "
+"OpenMandriva Lx 4.1, codename <span class="bold">$(lsb_release -c | cut -d":" -f2)</"
+"span>, is published by OpenMandriva Association. Over the course of the year past "
 "we have tried to evolve the way you use your desktop. Here are some of the "
-"things we have done for OpenMandriva Lx 4.0:"
+"things we have done for OpenMandriva Lx 4.1:"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:202
