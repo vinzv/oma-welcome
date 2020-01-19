@@ -215,6 +215,14 @@ drakconfdesc=$"Also featured is our legacy Control Center. Drakconf is a set of 
 - System Security<br/>"
 efibootdesc=$"This release of OpenMandriva Lx incorporates working support for EFI booting. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' target="hidden" class='blue'>issues.openmandriva.org</a>"
 abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="hidden" class='titlePage'>http://abf.openmandriva.org</a>"
+omfldesc=$"You can configure your desktop to look and feel similar to other systems you may be used to.<br/>
+Currently available:<br/>
+OpenMandriva default<br/>
+Plasma Breeze<br/>
+Plasma Breeze Dark<br/>
+Windows 10<br/>
+Windows 7<br/>
+macOS Mojave"
 
 #Development.sh.htm
 titlellvm=$"C/C++ Compilers Suite "
