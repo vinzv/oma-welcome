@@ -1,0 +1,74 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>Welcome to OpenMandriva</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+<body>
+
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="news.sh.htm">$menunews</a></li>
+			<li><a href="omfeat.sh.htm">$menuomfeat</a></li>
+			<li><a href="conf.sh.htm">$menuconfigure</a></li>
+			<li><a href="apps-office.sh.htm">$menuapps</a></li>
+			<li><a href="community.sh.htm">$menucontribute</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
+		</ul>
+	</nav>
+<!-- Home -->
+	<div class="wrapper">
+		<div id="container">
+				<p class="titlePage"> $descomfeat </p>
+				<p><br/></p>
+				<ul id="item-list">
+<!-- Startmodules -->
+ 			<li>
+				<p><a href=./apps/om-repo-picker.run><img src="images/repopicker.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/om-repo-picker.run>$titlerepopicker</a></span><br/>$descrepopicker</p>
+			</li>
+			<li>
+				<p><a href=./apps/om-feeling-like.run><img src="images/feeling-like.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/om-feeling-like.run>$titlefeellike</a></span><br/>$descfeellike</p>
+			</li>
+			<li>
+				<p><a href=./apps/om-update-config.run><img src="images/update-config.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/om-update-config.run>$titleupdconf</a></span><br/>$descupdconf</p>
+			</li>
+ 			<li>
+				<p><a class="title" target="hidden" href=./apps/abrir-om-cc.run><img src="images/om-cc.svg" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/abrir-om-cc.run>$titleomcc2</a></span><br/>$descomcc2</p>
+			</li>
+			<li>
+				<p><a class="title" target="hidden" href=./apps/om-bug-report.run><img src="images/bug2.svg" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/om-bug-report.run>$titleombugreport</a></span><br/>$descombugreport</p>
+			</li>
+				</ul>
+		</div>
+	</div>
+
+	<div id="lodape">
+		<a href="news.sh.htm" class="button">$previous</a>
+	</div>
+	<div id="rodape">
+		<a href="conf.sh.htm" class="button">$next</a>
+	</div>
+</body>
+</html>
+EOF
