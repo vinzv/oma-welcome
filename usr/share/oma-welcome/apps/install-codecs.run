@@ -2,11 +2,7 @@
 if rpm -qa |grep -e dvdcss; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Codecs are already installed.";
 else 
-	if uname -m |grep -q 64; then
-		kdesu -- dnf install --assumeyes lib64dvdcss2 gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-plugins-good lib64dvdread4 lib64a52dec0 faac flac lame lib64dv4 x264 lib64xvid4 lib64dca0 lib64dvdnav4
-	else
-		kdesu -- dnf install --assumeyes libdvdcss2 gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-plugins-good libdvdcss faac flac lame liba52dec0 libdv4 x264 libxvid4 libdca0 libdvdnav4 libdvdread4
-	fi
+	kdesu -- dnf install --assumeyes lib64dvdcss2 faac flac x264 lib64xvid4 lib64dca0 x265
 	if rpm -qa |grep "dvdcss*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed."
 	else
