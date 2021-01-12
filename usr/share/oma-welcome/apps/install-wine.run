@@ -2,7 +2,7 @@
 if which wine; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Wine is already installed."
 else 
-	kdesu -- dnf install --assumeyes wine winetricks cabextract
+	pkexec dnf --refresh install --assumeyes wine cabextract
 	if which wine; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Wine successfully installed."
 	else
