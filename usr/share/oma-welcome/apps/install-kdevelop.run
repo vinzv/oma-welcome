@@ -1,11 +1,11 @@
 #!/bin/bash
-if which kdevelop4; then 
-	kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 is already installed."
+if which kdevelop; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop is already installed."
 else 
-	kdesu -- dnf install --assumeyes kdevelop4
-	if which kdevelop4; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 successfully installed."
+	pkexec dnf install --assumeyes kdevelop
+	if which kdevelop; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop successfully installed."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop4 not installed."
+		kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop not installed."
 	fi
 fi

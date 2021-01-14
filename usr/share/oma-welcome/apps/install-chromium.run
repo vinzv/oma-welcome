@@ -1,9 +1,8 @@
 #!/bin/bash
-
 if which chromium-browser-stable; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed."
 else 
-	kdesu -- dnf install --assumeyes chromium-browser-stable
+	pkexec dnf install --assumeyes chromium-browser-stable
 	if which chromium-browser-stable; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser successfully installed."
 	else

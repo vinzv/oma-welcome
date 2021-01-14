@@ -2,7 +2,7 @@
 if which musescore &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"MuseScore is already installed."
 else 
-	kdesu -- dnf install --assumeyes musescore
+	pkexec dnf install --assumeyes musescore
 	if which musescore &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

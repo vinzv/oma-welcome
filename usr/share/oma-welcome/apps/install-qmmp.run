@@ -1,12 +1,13 @@
 #!/bin/bash
 
 if which qmmp; then 
-	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed.";
+	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed."
 else 
-	kdesu -- dnf install --assumeyes qmmp;
+	enable-repo unsupported
+	pkexec dnf install --assumeyes qmmp
 	if which qmmp; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP successfully installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP successfully installed."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP not installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP not installed."
 	fi
 fi

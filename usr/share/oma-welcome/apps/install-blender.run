@@ -2,19 +2,10 @@
 if rpm -qa |grep "blender*"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Blender is already installed."
 else 
-	if [ "$(uname -m)" = "i686" ]; then
-		kdesu -- dnf install --assumeyes blender
-		if which blender; then
-			kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed."
-		else
-			kdialog --title $"OpenMandriva"  --msgbox  $" Blender not installed."
-		fi
+	pkexec dnf install --assumeyes blender
+	if which blender; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed."
 	else
-		kdesu -- dnf install --assumeyes blender;
-		if which blender; then
-			kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed."
-		else
-			kdialog --title $"OpenMandriva"  --msgbox  $" Blender not installed."
-		fi
+		kdialog --title $"OpenMandriva"  --msgbox  $" Blender not installed."
 	fi
 fi

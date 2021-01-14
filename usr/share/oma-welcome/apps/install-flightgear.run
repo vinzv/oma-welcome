@@ -1,9 +1,10 @@
 #!/bin/bash
-if rpm -qa |grep "flightgear*"; then 
+if rpm -qa |grep "flightgear"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" flightgear is already installed."
 else 
-	kdesu -- dnf install --assumeyes flightgear
-	if rpm -qa |grep "flightgear*"; then
+	enable-repo unsupported
+	pkexec dnf install --assumeyes flightgear
+	if rpm -qa |grep "flightgear"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear not installed."

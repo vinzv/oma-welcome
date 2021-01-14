@@ -1,10 +1,11 @@
 #!/bin/bash
 
-if rpm -qa |grep "kraft*"; then 
+if rpm -q kraft; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Kraft is already installed.";
 else 
-	kdesu -- dnf install --assumeyes kraft;
-	if rpm -qa |grep "kraft*"; then
+	enable-repo unsupported
+	pkexec dnf install --assumeyes kraft
+	if rpm -q kraft; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft successfully installed.";
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft not installed.";

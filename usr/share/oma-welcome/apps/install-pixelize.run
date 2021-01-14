@@ -1,10 +1,10 @@
 #!/bin/bash
-
-if which pixelize; then 
+if which pixelize &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize is already installed."
 else
-	kdesu -- dnf install --assumeyes pixelize
-	if which pixelize; then
+	enable-repo unsupported
+	pkexec dnf install --assumeyes pixelize
+	if which pixelize &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize not installed."

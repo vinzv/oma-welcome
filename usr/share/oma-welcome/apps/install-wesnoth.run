@@ -2,7 +2,7 @@
 if rpm -q wesnoth; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth is already installed."
 else 
-	kdesu -- dnf install --assumeyes wesnoth
+	pkexec dnf install --assumeyes wesnoth
 	if rpm -q wesnoth; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth successfully installed."
 	else

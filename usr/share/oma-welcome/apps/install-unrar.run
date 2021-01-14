@@ -1,8 +1,9 @@
 #!/bin/bash
-if rpm -qa |grep "unrar*"; then 
+if rpm -q unrar; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Unrar is already installed."
 else 
-	kdesu -- dnf install --assumeyes unrar zip p7zip ncompress
+	enable-repo non-free
+	pkexec dnf install --assumeyes unrar zip p7zip ncompress
 	if which unrar; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Unrar successfully installed."
 	else

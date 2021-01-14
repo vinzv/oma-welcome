@@ -3,7 +3,7 @@
 if which homebank; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Homebank is already installed.";
 else 
-	kdesu -- dnf install --assumeyes homebank;
+	pkexec dnf install --assumeyes homebank
 	if which homebank; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank successfully installed.";
 	else

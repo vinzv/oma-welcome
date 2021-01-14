@@ -1,9 +1,9 @@
 #!/bin/bash
 
 if which kdenlive; then 
-      kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive is already installed."
+	kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive is already installed."
 else 
-	kdesu -- dnf install --assumeyes kdenlive;
+	pkexec dnf install --assumeyes kdenlive
 	if which kdenlive; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive successfully installed."
 	else

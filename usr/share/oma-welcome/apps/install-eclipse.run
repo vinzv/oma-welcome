@@ -3,10 +3,10 @@
 if which eclipse; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE is already installed."
 else 
-	kdesu -- dnf install --assumeyes eclipse-platform;
+	pkexec dnf install --assumeyes eclipse-platform
 	if which eclipse; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE successfully installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE successfully installed."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE not installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE not installed."
 	fi
 fi

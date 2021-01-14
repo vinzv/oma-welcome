@@ -1,9 +1,8 @@
 #!/bin/bash
-
 if which calligra; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite is already installed."
 else 
-	kdesu -- dnf install --assumeyes calligra
+	pkexec dnf install --assumeyes calligra
 	if which calligra; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite successfully installed."
 	else

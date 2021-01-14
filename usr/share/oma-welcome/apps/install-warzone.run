@@ -1,9 +1,9 @@
 #!/bin/bash
-if rpm -qa |grep "warzone2100*"; then 
+if rpm -q warzone2100 &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game is already installed."
 else 
-	kdesu -- dnf install --assumeyes warzone2100
-	if rpm -qa |grep "warzone2100*"; then
+	pkexec dnf install --assumeyes warzone2100
+	if rpm -q warzone2100 &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game not installed."

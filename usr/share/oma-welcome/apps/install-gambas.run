@@ -4,7 +4,8 @@
 if which gambas3; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE is already installed."
 else 
-	kdesu -- dnf install --assumeyes gambas3-ide
+	enable-repo unsupported
+	pkexec dnf install --assumeyes gambas3-ide
 	if which gambas3; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE successfully installed."
 	else

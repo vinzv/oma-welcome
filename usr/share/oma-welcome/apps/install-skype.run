@@ -1,9 +1,10 @@
 #!/bin/bash
-if rpm -qa |grep "skype*"; then 
+if rpm -q get-skypeforlinux; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Skype is already installed."
 else 
-	kdesu -- dnf install --assumeyes get-skype
-	if rpm -qa |grep "skype*"; then
+
+	pkexec dnf install --assumeyes get-skypeforlinux
+	if rpm -q get-skypeforlinux; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Skype successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $"Skype not installed."

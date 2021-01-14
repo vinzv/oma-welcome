@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if rpm -qa |grep "lutris*"; then 
+if rpm -q lutris; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" lutris is already installed."
 else 
-	kdesu -- dnf install --assumeyes lutris
-	if rpm -qa |grep "lutris*"; then
+	pkexec dnf install --assumeyes lutris
+	if rpm -q lutris; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" lutris successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" lutris not installed."

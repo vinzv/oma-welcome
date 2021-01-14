@@ -2,7 +2,7 @@
 if which smplayer; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed."
 else 
-	kdesu -- dnf install --assumeyes smplayer
+	pkexec dnf install --assumeyes smplayer
 	if which smplayer; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer successfully installed."
 	else

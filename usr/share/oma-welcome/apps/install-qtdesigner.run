@@ -2,7 +2,7 @@
 if which qt5-designer; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer is already installed."
 else 
-	kdesu -- dnf install --assumeyes qt5-designer
+	pkexec dnf install --assumeyes qt5-designer
 	if which qt5-designer; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer successfully installed."
 	else

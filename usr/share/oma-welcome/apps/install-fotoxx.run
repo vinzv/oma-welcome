@@ -3,7 +3,8 @@
 if which fotoxx; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx is already installed."
 else 
-	kdesu -- dnf install --assumeyes fotoxx
+	enable-repo unsupported
+	pkexec dnf install --assumeyes fotoxx
 	if which fotoxx; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Fotoxx successfully installed."
 	else

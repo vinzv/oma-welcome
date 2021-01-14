@@ -1,21 +1,11 @@
 #!/bin/bash
-
 if rpm -qa |grep "calibre*"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Calibre is already installed."
 else 
-	if [ "$(uname -m)" = "i686" ]; then
-		kdesu -- dnf install --assumeyes calibre
-		if rpm -qa |grep "calibre*"; then
-			kdialog --title $"OpenMandriva"  --msgbox  $" Calibre successfully installed."
-		else
-			kdialog --title $"OpenMandriva"  --msgbox  $" Calibre not installed."
-		fi
+	pkexec dnf install --assumeyes calibre
+	if rpm -q calibre; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Calibre successfully installed."
 	else
-		kdesu -- dnf install --assumeyes calibre
-		if rpm -qa |grep "calibre*"; then
-			kdialog --title $"OpenMandriva"  --msgbox  $" Calibre successfully installed."
-		else
-			kdialog --title $"OpenMandriva"  --msgbox  $" Calibre not installed."
-		fi
+		kdialog --title $"OpenMandriva"  --msgbox  $" Calibre not installed."
 	fi
 fi

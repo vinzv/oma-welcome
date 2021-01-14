@@ -1,10 +1,9 @@
 #!/bin/sh
-
-if which om-control-center; then
-exec om-control-center
+if which om-control-center &>/dev/null; then
+	exec om-control-center
 else 
-	kdesu -- dnf install --assumeyes om-control-center
-	if which om-control-center; then
+	pkexec dnf install --assumeyes om-control-center
+	if which om-control-center &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenMandriva Control Center successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenMandriva Control Center not installed."

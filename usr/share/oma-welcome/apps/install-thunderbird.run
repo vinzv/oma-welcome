@@ -2,7 +2,7 @@
 if which thunderbird; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird is already installed."
 else
-	kdesu -- dnf install --assumeyes thunderbird;
+	pkexec dnf install --assumeyes thunderbird
 	if which thunderbird; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird successfully installed."
 	else

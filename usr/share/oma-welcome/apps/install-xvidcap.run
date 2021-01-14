@@ -2,7 +2,8 @@
 if rpm -qa |grep "xvidcap*"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap is already installed."
 else 
-	kdesu -- dnf install --assumeyes xvidcap
+	enable-repo unsupported
+	pkexec dnf install --assumeyes xvidcap
 	if which xvidcap; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed."
 	else

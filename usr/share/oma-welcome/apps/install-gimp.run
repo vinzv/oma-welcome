@@ -3,7 +3,7 @@
 if rpm -qa |grep "^gimp"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gimp is already installed."
 else 
-	kdesu -- dnf install --assumeyes gimp
+	pkexec dnf install --assumeyes gimp
 	if rpm -qa |grep "^gimp"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp successfully installed."
 	else

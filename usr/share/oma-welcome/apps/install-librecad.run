@@ -1,10 +1,10 @@
 #!/bin/bash
-
-if which librecad; then 
+if which librecad &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD is already installed."
 else 
-	kdesu -- dnf install --assumeyes librecad
-	if which librecad; then
+	enable-repo unsupported
+	pkexec dnf install --assumeyes librecad
+	if which librecad &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD not installed."

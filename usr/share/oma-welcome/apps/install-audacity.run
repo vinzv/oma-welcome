@@ -2,19 +2,10 @@
 if which audacity; then 
 	kdialog --title $"OpenMandriva" --msgbox $" Audacity is already installed.";
 else 
-	if [ "$(uname -m)" = "i686" ]; then
-		kdesu -- dnf install --assumeyes audacity
-		if which audacity; then
-			kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."
-		else
-			kdialog --title $"OpenMandriva" --msgbox $" Audacity not installed."
-		fi
+	pkexec dnf install --assumeyes audacity
+	if which audacity; then
+		kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."
 	else
-		kdesu -- dnf install --assumeyes audacity
-		if which audacity; then
-			kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."
-		else
-			kdialog --title $"OpenMandriva" --msgbox $" Audacity not installed."
-		fi
+		kdialog --title $"OpenMandriva" --msgbox $" Audacity not installed."
 	fi
 fi

@@ -1,10 +1,10 @@
 #!/bin/bash
-
-if rpm -qa |grep "megaglest*"; then 
+if rpm -q megaglest &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" megaglest is already installed."
 else 
-	kdesu -- dnf install --assumeyes megaglest
-	if rpm -qa |grep "megaglest*"; then
+	enable-repo unsupported
+	pkexec dnf install --assumeyes megaglest
+	if rpm -q megaglest &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" megaglest successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" megaglest not installed."

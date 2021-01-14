@@ -2,7 +2,7 @@
 if which qt-creator; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator is already installed."
 else 
-	kdesu -- dnf install --assumeyes qt-creator
+	pkexec dnf install --assumeyes qt-creator
 	if which qt-creator; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator successfully installed."
 	else

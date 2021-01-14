@@ -3,7 +3,8 @@
 if which grsync; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" GRsync is already installed."
 else 
-	kdesu -- dnf install --assumeyes grsync
+	enable-repo unsupported
+	pkexec dnf install --assumeyes grsync
 	if which grsync; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync successfully installed."
 	else

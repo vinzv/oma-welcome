@@ -1,1 +1,2 @@
-kcmshell4 screensaver
+#!/bin/sh
+exec kcmshell5 screenlocker

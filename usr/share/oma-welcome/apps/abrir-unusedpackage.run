@@ -1,1 +1,2 @@
-kdesu dnf --assumeyes autoremove
+#!/bin/sh
+pkexec dnf --assumeyes autoremove

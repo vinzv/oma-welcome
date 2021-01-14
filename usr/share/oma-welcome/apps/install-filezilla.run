@@ -3,7 +3,7 @@
 if which filezilla; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla is already installed."
 else 
-	kdesu -- dnf install --assumeyes filezilla
+	pkexec dnf install --assumeyes filezilla
 	if which filezilla; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla successfully installed."
 	else

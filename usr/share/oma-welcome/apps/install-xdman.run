@@ -2,7 +2,8 @@
 if which xdman; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager is already installed."
 else
-	kdesu -- dnf install --assumeyes xdman
+	enable-repo unsupported
+	pkexec dnf install --assumeyes xdman
 	if which xdman; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager successfully installed."
 	else

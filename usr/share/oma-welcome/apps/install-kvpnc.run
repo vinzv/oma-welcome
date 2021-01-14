@@ -1,12 +1,13 @@
 #!/bin/bash
 
-if rpm -qa |grep "kvpnc*"; then 
-	kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc is already installed.";
+if rpm -q kvpnc; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc is already installed."
 else 
-	kdesu -- dnf install --assumeyes kvpnc; 
-	if rpm -qa |grep "kvpnc*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc successfully installed.";
+	enable-repo unsupported
+	pkexec dnf install --assumeyes kvpnc
+	if rpm -q kvpnc; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc successfully installed."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc not installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc not installed."
 	fi
 fi

@@ -1,9 +1,9 @@
 #!/bin/bash
-
 if rpm -qa |grep "steam*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Steam is already installed."
 else 
-	kdesu -- dnf install --assumeyes steam
+	enable-repo non-free
+	pkexec dnf install --assumeyes steam
 	if rpm -qa |grep "steam*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Steam successfully installed."
 	else

@@ -2,7 +2,8 @@
 if which devede; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Devede is already installed."
 else 
-	kdesu -- dnf install --assumeyes devede
+	enable-repo unsupported
+	pkexec dnf install --assumeyes devede
 	if which devede; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Devede successfully installed."
 	else

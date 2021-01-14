@@ -1,11 +1,12 @@
 #!/bin/bash
 if which kaudiocreator; then 
-	kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator is already installed.";
+	kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator is already installed."
 else 
-	kdesu -- dnf install --assumeyes kaudiocreator;
+	enable-repo unsupported
+	pkexec dnf install --assumeyes kaudiocreator
 	if which kaudiocreator; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator successfully installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator successfully installed."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator not installed.";
+		kdialog --title $"OpenMandriva"  --msgbox  $" Kaudiocreator not installed."
 	fi
 fi

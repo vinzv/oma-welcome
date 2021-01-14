@@ -1,21 +1,12 @@
 #!/bin/bash
-
 if rpm -qa |grep "flash*"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player is already installed."
 else
-	if [ "$(uname -m)" = "i686" ]; then
-		kdesu -- dnf install --assumeyes flash-player-plugin flash-player-plugin-kde
-		if which flash-player-properties; then
-			kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player successfully installed."
-		else
-			kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player not installed."
-		fi
+	enable-repo non-free
+	pkexec dnf install --assumeyes flash-player-plugin flash-player-plugin-kde
+	if which flash-player-properties; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player successfully installed."
 	else
-		kdesu -- dnf install --assumeyes flash-player-plugin flash-player-plugin-kde
-		if which flash-player-properties; then
-			kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player successfully installed."
-		else
-			kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player not installed."
-		fi
+		kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player not installed."
 	fi
 fi

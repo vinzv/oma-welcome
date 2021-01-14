@@ -2,7 +2,7 @@
 if which pidgin; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger is already installed."
 else
-	kdesu -- dnf install --assumeyes pidgin
+	pkexec dnf install --assumeyes pidgin
 	if which pidgin; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger successfully installed."
 	else

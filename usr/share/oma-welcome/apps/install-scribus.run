@@ -3,8 +3,8 @@
 if rpm -q scribus; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Scribus is already installed."
 else 
-	kdesu -- dnf install --assumeyes scribus
-	if rpm -qa |grep "scribus*"; then
+	pkexec dnf install --assumeyes scribus
+	if rpm -q scribus; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Scribus successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $"Scribus not installed."

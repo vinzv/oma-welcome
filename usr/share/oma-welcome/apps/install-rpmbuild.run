@@ -2,7 +2,7 @@
 if which rpm-build; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite is already installed."
 else 
-	kdesu -- dnf install --assumeyes rpm-build
+	pkexec dnf install --assumeyes rpm-build
 	if which rpmbuild; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite successfully installed."
 	else
