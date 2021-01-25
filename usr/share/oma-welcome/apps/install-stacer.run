@@ -2,6 +2,7 @@
 if which stacer &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"Stacer is already installed."
 else 
+	enable-repo unsupported
 	pkexec dnf install --assumeyes stacer
 	if which stacer &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
