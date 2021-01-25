@@ -1,4 +1,17 @@
 #!/bin/bash
 
-cd ; pkexec omv-bug-report.sh
-kdialog --title $"OpenMandriva"  --msgbox  $" omv-bug-report.log has been created in your home directory"
+cd
+if id |grep -q '\(wheel\)'; then
+	# At least in the default config, we can run sudo without password...
+	sudo omv-bug-report.sh
+else
+	kdesu omv-bug-report.sh
+fi
+
+if [ -e omv-bug-report.log.xz ]; then
+	kdialog --title $"OpenMandriva"  --msgbox  $"omv-bug-report.log.xz has been created in your home directory"
+elif [ -e omv-bug-report.log ]; then
+	kdialog --title $"OpenMandriva"  --msgbox  $" omv-bug-report.log has been created in your home directory"
+else
+	kdialog --title $"OpenMandriva"  --msgbox  $"omv-bug-report.log was not created. Is the omv-bug-report package installed?"
+fi
