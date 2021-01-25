@@ -1,11 +1,11 @@
 #!/bin/bash
-if which virtualbox; then 
-	kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox is already installed."
+if rpm -q virtualbox &>/dev/null; then
+	kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox is already installed."
 else 
 	pkexec dnf install --assumeyes virtualbox
-	if which virtualbox; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox successfully installed."
+	if rpm -q virtualbox &>/dev/null; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox successfully installed."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Oracle Virtualbox not installed."
+		kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox not installed."
 	fi
 fi
