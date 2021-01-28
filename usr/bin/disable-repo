@@ -1,5 +1,5 @@
 #!/bin/sh
-ARCH=$(dnf config-manager --dump-variables |grep '^arch =' |cut -d= -f2 |xargs echo)
+ARCH=$(rpm -q --qf '%{ARCH}' basesystem-minimal)
 BASEARCH=$(dnf config-manager --dump-variables |grep '^basearch =' |cut -d= -f2 |xargs echo)
 RELEASEVER=$(dnf config-manager --dump-variables |grep '^releasever =' |cut -d= -f2 |xargs echo)
 
