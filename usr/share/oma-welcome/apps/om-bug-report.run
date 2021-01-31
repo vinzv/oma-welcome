@@ -1,12 +1,7 @@
 #!/bin/bash
 
 cd
-if id |grep -q '\(wheel\)'; then
-	# At least in the default config, we can run sudo without password...
-	sudo omv-bug-report.sh
-else
-	kdesu omv-bug-report.sh
-fi
+pkexec omv-bug-report.sh -o ~/omv-bug-report.log
 
 if [ -e omv-bug-report.log.xz ]; then
 	kdialog --title $"OpenMandriva"  --msgbox  $"omv-bug-report.log.xz has been created in your home directory"
