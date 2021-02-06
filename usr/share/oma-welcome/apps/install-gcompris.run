@@ -1,0 +1,11 @@
+#!/bin/bash
+if which gcompris-qt &>/dev/null; then 
+	kdialog --title $"OpenMandriva" --msgbox $"GCompris is already installed."
+else 
+	pkexec dnf install --assumeyes gcompris-qt
+	if which gcompris-qt &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
