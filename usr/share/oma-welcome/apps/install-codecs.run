@@ -1,10 +1,10 @@
 #!/bin/bash
-if rpm -qa |grep -e dvdcss; then 
+if rpm -q x264 &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Codecs are already installed.";
 else 
 	enable-repo restricted
-	pkexec dnf install --assumeyes lib64dvdcss2 faac flac x264 lib64xvid4 lib64dca0 x265
-	if rpm -qa |grep "dvdcss*"; then
+	pkexec dnf install --assumeyes lib64dvdcss2 faac flac x264 lib64xvid4 lib64dca0 x265 qt-heif-image-plugin heifthumbnailer
+	if rpm -q x264 &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs not installed."
