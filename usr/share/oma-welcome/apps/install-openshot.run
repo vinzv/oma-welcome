@@ -1,0 +1,12 @@
+#!/bin/bash
+if which openshot-qt; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot is already installed."
+else 
+	enable-repo unsupported
+	pkexec dnf install --assumeyes openshot
+	if which openshot-qt; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot not installed."
+	fi
+fi
