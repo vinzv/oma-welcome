@@ -94,6 +94,8 @@ titlemusescore=$"MuseScore"
 descmusescore=$"Professional music notation software "
 titleobstudio=$"OBS Studio"
 descobstudio=$"Free and open source software for video recording and live streaming"
+titleopenshot=$"OpenShot"
+descopenshot=$"Free, open-source, non-linear video editing software"
 
 #translations of apps-utility.sh.htm
 titlestacer=$"Stacer"
