@@ -3,8 +3,8 @@
 cd
 pkexec omv-bug-report.sh -o ~/omv-bug-report.log
 
-if [ -e omv-bug-report.log.xz ]; then
-	kdialog --title $"OpenMandriva"  --msgbox  $"omv-bug-report.log.xz has been created in your home directory"
+if [ -e omv-bug-report.log.zst ]; then
+	kdialog --title $"OpenMandriva"  --msgbox  $"omv-bug-report.log.zst has been created in your home directory"
 elif [ -e omv-bug-report.log ]; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" omv-bug-report.log has been created in your home directory"
 else
