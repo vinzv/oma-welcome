@@ -1,0 +1,12 @@
+#!/bin/bash
+if which handbrake; then 
+	kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake is already installed."
+else 
+	enable-repo restricted
+	pkexec dnf install --assumeyes handbrake
+	if which handbrake; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake not installed."
+	fi
+fi
