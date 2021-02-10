@@ -255,6 +255,8 @@ titlerpmbuild=$"RPM Packaging"
 descrpmbuild=$"RPM Packaging suite, including rpmbuild, rpmlint, etc."
 titlegambas=$"Gambas IDE"
 descgambas=$"Gambas Almost BASIC, designed to build graphical applications programs using the Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
+titlegclangk=$"Clang kernel"
+descgclangk=$"Install clang kernel"
 
 #Internet.sh.htm
 titlechromium=$"Chromium Browser"
