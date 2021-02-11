@@ -3,7 +3,7 @@ if rpm -q kernel-release-desktop-clang &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $"The Clang kernel is already installed."
 else 
 	pkexec dnf install --assumeyes kernel-release-desktop-clang
-	if which calligra; then
+	if rpm -q kernel-release-desktop-clang &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $"The Clang kernel was installed successfully."
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $"The Clang kernel could not be installed."
