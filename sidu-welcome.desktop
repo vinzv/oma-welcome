@@ -1,0 +1,18 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+GenericName=Welcome to Siduction
+Name=Welcome to Siduction
+Name[pl]=Witaj w Siduction
+Name[de]=Willkommen bei Siduction
+Name[es]=Bienvenido a Siduction
+Name[fr]=Bienvenue à Siduction
+Name[it]=Benvenuti a Siduction
+Name[pt]=Bem-vindo ao Siduction
+Name[ru]=Добро пожаловать на сайт Siduction
+Exec=/usr/bin/sidu-welcome-launcher
+X-KDE-StartupNotify=true
+X-KDE-HasTempFileOption=true
+Icon=openmandriva
+Type=Application
+Terminal=false
+Categories=Utility;Qt;KDE;
