@@ -100,6 +100,8 @@ titlehandbrake=$"HandBrake"
 deschandbrake=$"Free and open source video transcoder"
 
 #translations of apps-utility.sh.htm
+titlednfdrake=$"DnfDrake"
+descdnfdrake=$"Install DnfDrake frontend for DNF package manager. Find and install applications with DnfDrake, and much more"
 titlestacer=$"Stacer"
 descstacer=$"Open-source system optimizer and monitoring tool that helps the users to manage their operating system"
 titledupe=$"dupeGuru"
