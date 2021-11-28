@@ -223,8 +223,8 @@ msgstr ""
 "paketleri kaldır"
 
 #: usr/share/oma-welcome/translation:54
-msgid "Gimp"
-msgstr "Gimp"
+msgid "GIMP"
+msgstr "GIMP"
 
 #: usr/share/oma-welcome/translation:55
 #, fuzzy
