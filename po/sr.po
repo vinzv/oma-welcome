@@ -221,7 +221,7 @@ msgid "Change or install your favorite Plasma theme"
 msgstr "Измени или инсталирај своју омиљену Плазма тему"
 
 #: usr/share/oma-welcome/translation:58
-msgid "Gimp"
+msgid "GIMP"
 msgstr "Гимп"
 
 #: usr/share/oma-welcome/translation:59
