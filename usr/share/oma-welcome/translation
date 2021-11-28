@@ -52,7 +52,7 @@ titlechangethemes=$"Desktop Themes"
 descchangethemes=$"Change or install your favorite Plasma theme"
 
 #translations of apps-graphics.sh.htm
-titlegimg=$"Gimp"
+titlegimg=$"GIMP"
 descgimp=$"Create and edit your images in a professional way with this powerful Open Source tool"
 titleinkscape=$"Inkscape"
 descinkscape=$"A powerful, open source vector drawing tool, for illustrators and designers"
