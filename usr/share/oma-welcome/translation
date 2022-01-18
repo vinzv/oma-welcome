@@ -28,7 +28,7 @@ menuappsutility=$"Utility"
 menuappsgaming=$"Games"
 menuappsdevelopment=$"Development"
 menuappsinternet=$"Internet"
-cabecalho01=$"Click on the menus below to configure your"
+cabecalho01=$"Click on the menus below to configure your OpenMandriva Lx"
 cabecalho02=$"- Update your system, configure network, printer, desktop theme, icons. Or go to OpenMandriva Control Center for more"
 cabecalho03=$"Install some extra applications to"
 cabecalho04=$" - To install click the application icon. Please wait until the process is done, it may take a while."
@@ -212,7 +212,7 @@ descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its
 
 #News.sh.htm
 newfeature=$"New Features and Major Changes"
-releasepreambule=$"<span>$(lsb_release -d | cut -d":" -f2)</span>, codename <span class="bold">$(lsb_release -c | cut -d":" -f2)</span>, is published by OpenMandriva Association. Over the course of the year past we have tried to evolve the way you use your desktop. Here are some of the things we have done for <span>$(lsb_release -d | cut -d":" -f2)</span>:"
+releasepreambule=$"OpenMandriva Lx is published by OpenMandriva Association. Over the course of the year past we have tried to evolve the way you use your desktop. Here are some of the things we have done for this release:"
 omccnew=$"OM Control Center"
 controlcenter=$"Drakconf"
 freshpackages=$"Fresh Packages"
