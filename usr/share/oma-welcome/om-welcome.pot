@@ -197,7 +197,7 @@ msgid "Change or install your favorite Plasma theme"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:58
-msgid "Gimp"
+msgid "GIMP"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:59
