@@ -69,7 +69,7 @@ descfotoxx=$"Edit image files from a digital camera. Includes color & contrast e
 titlepixelize=$"Pixelize"
 descpixelize=$"Pixelize is a program that will use many scaled down images to try to duplicate, as closely as possible, another image"
 titlelibrecad=$"LibreCAD"
-desclibrecad=$"LibreCAD is a Qt4 application to design 2D cad drawing based on the community edition of QCad"
+desclibrecad=$"LibreCAD is a Qt5 application to design 2D cad drawing based on the community edition of QCad"
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
