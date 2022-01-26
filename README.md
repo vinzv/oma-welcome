@@ -39,7 +39,7 @@ where "-s 870x520" indicates the default window size in pixels (Width x Height).
 You can also use "-i /usr/share/icons/openmandriva.svg" to set the
 application window's icon.
 
-#####translations
+##### Translations
 * inside the folder ```usr/share/om-welcome/ ```
 * there is a file called translation, all texts om-welcome are it is from it that will 
 * generate the translation files
@@ -48,10 +48,10 @@ application window's icon.
 
 with the command
 ```sh
-bash --dump-po-strings translation > oma-welcome.pot
+bash --dump-po-strings translation > om-welcome.pot
 ```
 
-oma-welcome.pot is the translation file.
+om-welcome.pot is the translation file.
 
 the bigbashview uses html, css and js to create the layout, if you want to make any changes or improvements
 just edit the files with the format. sh.htm, and style.css that is inside the css folder.
