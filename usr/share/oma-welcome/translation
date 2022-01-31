@@ -24,6 +24,8 @@ menuapps=$"Applications"
 menuappsoffice=$"Office"
 menuappsgraphics=$"Graphics"
 menuappsmultimedia=$"Multimedia"
+menuappsedu=$"Educational"
+menuappskids=$"Kids"
 menuappsutility=$"Utility"
 menuappsgaming=$"Games"
 menuappsdevelopment=$"Development"
@@ -69,7 +71,7 @@ descfotoxx=$"Edit image files from a digital camera. Includes color & contrast e
 titlepixelize=$"Pixelize"
 descpixelize=$"Pixelize is a program that will use many scaled down images to try to duplicate, as closely as possible, another image"
 titlelibrecad=$"LibreCAD"
-desclibrecad=$"LibreCAD is a Qt5 application to design 2D cad drawing based on the community edition of QCad"
+desclibrecad=$"LibreCAD is a Qt application to design 2D cad drawing based on the community edition of QCad"
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
@@ -139,6 +141,17 @@ desclokalize=$"Lokalize is a computer-aided translation system that focuses on p
 titlehomebank=$"Homebank"
 deschomebank=$"Free easy personal accounting for all"
 
+#translations of apps-edu.sh.htm
+titlestellarium=$"Stellarium"
+descstellarium=$"Stellarium renders 3D photo-realistic skies in real time"
+titlekalzium=$"Kalzium"
+desckalzium=$"A periodic table of the elements"
+
+#translations of apps-kids.sh.htm
+titlescratch=$"Scratch"
+descscratch=$"A programming language for young people to create digital stories, games, and animations"
+titlegcompris=$"GCompris"
+descgcompris=$"Educational software suite for children aged 2 to 10"
 
 #translation of community.sh.htm
 titlecommunity=$"How to contribute to OpenMandriva"
@@ -164,8 +177,8 @@ descinvolved=$"How to contribute to OpenMandriva. If you have time, we welcome y
 titledonation=$"Donation"
 descdonation=$"You can give us your love and care by donating your time or money to OpenMandriva Lx"
 descrn=$"Click here to be sure you read the latest Release Notes and Errata"
-nostarwithoma=$"Do not start oma-welcome on login"
-makestartwithoma=$"Make oma-welcome start on login"
+nostarwithoma=$"Do not start om-welcome on login"
+makestartwithoma=$"Make om-welcome start on login"
 endapp=$"Finish"
 
 #translation of install-scribus
@@ -201,8 +214,6 @@ titlesupertux=$"SuperTux"
 descsupertux=$"SuperTux is a classic 2D jump'n run sidescroller game in a similar style like the original SuperMario games"
 titlewarzone=$"Warzone 2100"
 descwarzone=$"Postnuclear War realtime strategy games"
-titlegcompris=$"GCompris"
-descgcompris=$"Educational software suite for children aged 2 to 10"
 titlefilezilla=$"Filezilla"
 descfilezilla=$"FileZilla is a powerful, free file management tool for FTP access to your Web site's server"
 titlevirtualbox=$"Virtualbox"
