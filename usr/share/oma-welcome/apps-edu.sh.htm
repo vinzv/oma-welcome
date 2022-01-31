@@ -1,0 +1,92 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>Welcome to OpenMandriva</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+<body>
+EOF
+cat << EOF
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="news.sh.htm">$menunews</a></li>
+			<li><a href="omfeat.sh.htm">$menuomfeat</a></li>
+			<li><a href="conf.sh.htm">$menuconfigure</a></li>
+			<li><a href="apps-office.sh.htm">$menuapps</a></li>
+			<li><a href="community.sh.htm">$menucontribute</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
+		</ul>
+	</nav>
+
+<!-- Home -->
+	<div class="wrapper">
+		<div id="container">
+		<p class="titlePage">$cabecalho03  $cabecalho04</p>
+		<div id='cssmenu'>
+		    <ul>
+			 <li><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li>
+			 <li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
+			 <li><a href='apps-internet.sh.htm'><span>$menuappsinternet</span></a></li>
+			 <li><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
+			 <li><a href='apps-development.sh.htm'><span>$menuappsdevelopment</span></a></li>
+			 <li><a href='apps-utility.sh.htm'><span>$menuappsutility</span></a></li>
+			 <li class='active'><a href='apps-edu.sh.htm'><span>$menuappsedu</span></a></li>
+			 <li><a href='apps-kids.sh.htm'><span>$menuappskids</span></a></li>
+			 <li><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
+		    </ul>
+		    <br/>
+		</div>
+		<ul id="item-list">
+			<li>
+				<p><a class="title" target="hidden" href=./apps/install-stellarium.run><img src="images/stellarium.png" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/install-stellarium.run>$titlestellarium</a></span><br/>$descstellarium</p>
+			</li>
+			<li>
+				<p><a class="title" target="hidden" href=./apps/install-kalzium.run><img src="images/kalzium.svg" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/install-kalzium.run>$titlekalzium</a></span><br/>$desckalzium</p>
+			</li>
+<!--
+				<p><a class="title" target="hidden" href=./apps/install-filezilla.run><img src="images/filezilla.svg" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/install-filezilla.run>$titlefilezilla</a></span><br/>$descfilezilla</p>
+			</li>
+			<li>
+				<p><a class="title" target="hidden" href=./apps/install-virtualbox.run><img src="images/virtualbox.svg" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/install-virtualbox.run>$titlevirtualbox</a></span><br/>$descvirtualbox</p>
+			</li>
+			<li>
+				<p><a class="title" target="hidden" href=./apps/install-grsync.run><img src="images/grsync.png" class="alignleft"/></a>
+				<span><a class="title" target="hidden" href=./apps/install-grsync.run>$titlegrsync</a></span><br/>$descgrsync</p>
+			</li>
+			<li>
+				<a class="title" target="hidden" href=./apps/install-wine.run><img src="images/wine.svg" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-wine.run>$titlewine</a></span><br/>$descwine</br></p>
+			</li>
+			<li>
+				<a class="title" target="hidden" href="./apps/install-unrar.run"><img src="images/unrar.png" class="alignleft"/>
+				<span><a class="title" target="hidden" href="./apps/install-unrar.run">$titleunrar </a></span><br/>$descunrar</p>
+			</li>
+-->
+		</ul>
+	</div>
+	<div id="rodape">
+	<a href="community.sh.htm" class="button">$next</a>
+	</div>
+</body>
+</html>
+EOF
