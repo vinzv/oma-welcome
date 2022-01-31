@@ -2,6 +2,7 @@
 if which geany; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes geany
 	if which geany; then

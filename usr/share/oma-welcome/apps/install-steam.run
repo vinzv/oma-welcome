@@ -2,6 +2,7 @@
 if rpm -qa |grep "steam*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Steam is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo non-free
 	pkexec dnf install --assumeyes steam
 	if rpm -qa |grep "steam*"; then

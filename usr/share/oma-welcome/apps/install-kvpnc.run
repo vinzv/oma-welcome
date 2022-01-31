@@ -3,6 +3,7 @@
 if rpm -q kvpnc; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes kvpnc
 	if rpm -q kvpnc; then

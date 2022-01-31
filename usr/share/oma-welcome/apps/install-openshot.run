@@ -2,6 +2,7 @@
 if which openshot-qt; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes openshot
 	if which openshot-qt; then

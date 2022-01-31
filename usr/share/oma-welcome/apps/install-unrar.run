@@ -2,6 +2,7 @@
 if rpm -q unrar; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Unrar is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo non-free
 	pkexec dnf install --assumeyes unrar zip p7zip ncompress
 	if which unrar; then

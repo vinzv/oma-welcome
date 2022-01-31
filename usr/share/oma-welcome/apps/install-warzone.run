@@ -2,6 +2,7 @@
 if rpm -q warzone2100 &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes warzone2100
 	if rpm -q warzone2100 &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game successfully installed."

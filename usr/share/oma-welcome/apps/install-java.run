@@ -2,6 +2,7 @@
 if rpm -q --whatprovides jdk-current; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes jdk-current
 	if rpm -q --whatprovides jdk-current; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed."

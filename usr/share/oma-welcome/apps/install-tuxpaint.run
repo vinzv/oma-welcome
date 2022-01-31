@@ -2,6 +2,7 @@
 if rpm -q tuxpaint; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes tuxpaint
 	if rpm -q tuxpaint; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint successfully installed."

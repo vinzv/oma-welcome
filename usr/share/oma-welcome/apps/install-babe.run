@@ -2,6 +2,7 @@
 if which babe &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"babe is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes babe
 	if which babe &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

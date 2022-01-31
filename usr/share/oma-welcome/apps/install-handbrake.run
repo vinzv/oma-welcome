@@ -2,6 +2,7 @@
 if which handbrake; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo restricted
 	pkexec dnf install --assumeyes handbrake
 	if which handbrake; then

@@ -1,0 +1,13 @@
+#!/bin/bash
+if rpm -q scratch &>/dev/null; then
+	kdialog --title $"OpenMandriva"  --msgbox  $" Scratch is already installed."
+else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	enable-repo unsupported
+	pkexec dnf install --assumeyes scratch
+	if rpm -q scratch &>/dev/null; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Scratch successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Scratch not installed."
+	fi
+fi

@@ -1,0 +1,13 @@
+#!/bin/bash
+if rpm -q stellarium &>/dev/null; then
+	kdialog --title $"OpenMandriva"  --msgbox  $" Stellarium is already installed."
+else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	enable-repo unsupported
+	pkexec dnf install --assumeyes stellarium
+	if rpm -q stellarium &>/dev/null; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Stellarium successfully installed."
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Stellarium not installed."
+	fi
+fi

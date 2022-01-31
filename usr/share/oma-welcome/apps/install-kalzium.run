@@ -1,10 +1,10 @@
 #!/bin/bash
-if which gcompris-qt &>/dev/null; then 
-	kdialog --title $"OpenMandriva" --msgbox $"GCompris is already installed."
+if which kalzium &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Kalzium is already installed."
 else 
 kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
-	pkexec dnf install --assumeyes gcompris-qt
-	if which gcompris-qt &>/dev/null; then
+	pkexec dnf install --assumeyes kalzium
+	if which kalzium &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

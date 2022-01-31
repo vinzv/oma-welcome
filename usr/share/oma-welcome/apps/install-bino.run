@@ -2,11 +2,12 @@
 if which bino; then 
 	kdialog --title $"OpenMandriva" --msgbox $" Bino 3D Video Player is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes bino
 	if which bino; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Bino 3D Video Player not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi

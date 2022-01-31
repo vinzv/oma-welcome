@@ -1,7 +1,8 @@
 #!/bin/bash
 if which audacity; then 
 	kdialog --title $"OpenMandriva" --msgbox $" Audacity is already installed.";
-else 
+else
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes audacity
 	if which audacity; then
 		kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."

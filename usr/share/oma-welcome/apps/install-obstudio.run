@@ -2,6 +2,7 @@
 if which obs &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"OBS Studio is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo restricted
 	pkexec dnf install --assumeyes obs-studio
 	if which obs &>/dev/null; then

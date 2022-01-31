@@ -2,6 +2,7 @@
 if which chromium-browser-stable; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes chromium-browser-stable
 	if which chromium-browser-stable; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser successfully installed."

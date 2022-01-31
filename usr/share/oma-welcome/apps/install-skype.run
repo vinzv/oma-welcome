@@ -2,7 +2,7 @@
 if rpm -q get-skypeforlinux; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Skype is already installed."
 else 
-
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes get-skypeforlinux
 	if rpm -q get-skypeforlinux; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Skype successfully installed."

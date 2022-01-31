@@ -3,6 +3,7 @@
 if which qmmp; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes qmmp
 	if which qmmp; then

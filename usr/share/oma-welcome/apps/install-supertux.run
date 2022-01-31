@@ -2,6 +2,7 @@
 if rpm -q supertux &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Supertux is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	pkexec dnf install --assumeyes supertux
 	if rpm -q supertux &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Supertux successfully installed."

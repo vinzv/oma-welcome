@@ -2,6 +2,7 @@
 if rpm -qa |grep "flightgear"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" flightgear is already installed."
 else 
+kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes flightgear
 	if rpm -qa |grep "flightgear"; then
