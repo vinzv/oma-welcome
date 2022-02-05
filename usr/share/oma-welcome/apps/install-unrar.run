@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -q unrar; then 
+if rpm -q unrar; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Unrar is already installed."
 else
 	APP=$"Unrar"

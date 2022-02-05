@@ -1,7 +1,7 @@
 #!/bin/bash
-if rpm -q dia; then 
+if rpm -q dia; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Dia is already installed.";
-else 
+else
 	APP=$"Dia"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

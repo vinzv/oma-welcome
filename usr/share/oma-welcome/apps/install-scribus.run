@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if rpm -q scribus; then 
+if rpm -q scribus; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Scribus is already installed."
 else
 	APP=$"Scribus"

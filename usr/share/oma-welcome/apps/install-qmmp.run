@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if which qmmp; then 
+if which qmmp; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed."
-else 
+else
 	APP=$"QMMP"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

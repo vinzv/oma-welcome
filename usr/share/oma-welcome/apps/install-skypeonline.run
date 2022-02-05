@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -q skype; then 
+if rpm -q skype; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Skype is already installed."
 else
 	APP=$"Skype"

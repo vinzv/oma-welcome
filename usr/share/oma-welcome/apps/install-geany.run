@@ -1,7 +1,7 @@
 #!/bin/bash
-if which geany; then 
+if which geany; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed."
-else 
+else
 	APP=$"Geany IDE"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

@@ -1,7 +1,7 @@
 #!/bin/bash
-if which bino; then 
+if which bino; then
 	kdialog --title $"OpenMandriva" --msgbox $" Bino 3D Video Player is already installed."
-else 
+else
 	APP=$"Bino 3D Video Player"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

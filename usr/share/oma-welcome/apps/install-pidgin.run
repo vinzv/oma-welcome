@@ -1,5 +1,5 @@
 #!/bin/bash
-if which pidgin; then 
+if which pidgin; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger is already installed."
 else
 	APP=$"Pidgin Internet Messenger"

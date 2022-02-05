@@ -1,5 +1,5 @@
 #!/bin/bash
-if which musescore &>/dev/null; then 
+if which musescore &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"MuseScore is already installed."
 else
 	APP=$"MuseScore"

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if rpm -qa |grep "^gimp"; then 
+if rpm -qa |grep "^gimp"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gimp is already installed."
-else 
+else
 	APP=$"GIMP"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

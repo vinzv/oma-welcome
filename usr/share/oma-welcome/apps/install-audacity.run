@@ -1,5 +1,5 @@
 #!/bin/bash
-if which audacity; then 
+if which audacity; then
 	kdialog --title $"OpenMandriva" --msgbox $" Audacity is already installed.";
 else
 	APP=$"Audacity"

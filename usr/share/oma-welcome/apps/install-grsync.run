@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if which grsync; then 
+if which grsync; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" GRsync is already installed."
-else 
+else
 	APP=$"GRsync"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

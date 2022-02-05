@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if rpm -q inkscape; then 
+if rpm -q inkscape; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape is already installed."
-else 
+else
 	APP=$"Inkscape"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

@@ -1,5 +1,5 @@
 #!/bin/bash
-if which om-repo-picker &>/dev/null; then 
+if which om-repo-picker &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"OpenMandriva repo-picker is already installed."
 else
 	APP=$"OpenMandriva repo picker"

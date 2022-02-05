@@ -1,7 +1,7 @@
 #!/bin/bash
 if which calligra; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite is already installed."
-else 
+else
 	APP=$"Calligra"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

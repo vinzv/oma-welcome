@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -qa |grep "flash*"; then 
+if rpm -qa |grep "flash*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Adobe Flash Player is already installed."
 else
 	APP=$"Adobe Flash Player"

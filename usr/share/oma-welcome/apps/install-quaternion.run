@@ -1,5 +1,5 @@
 #!/bin/bash
-if which quaternion &>/dev/null; then 
+if which quaternion &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Quaternion is already installed."
 else
 	APP=$"Quaternion"

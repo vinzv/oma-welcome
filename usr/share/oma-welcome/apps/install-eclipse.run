@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if which eclipse; then 
+if which eclipse; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE is already installed."
-else 
+else
 	APP=$"Eclipse"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

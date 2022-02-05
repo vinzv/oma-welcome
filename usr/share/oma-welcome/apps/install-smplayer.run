@@ -1,5 +1,5 @@
 #!/bin/bash
-if which smplayer; then 
+if which smplayer; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed."
 else
 	APP=$"SMPlayer"

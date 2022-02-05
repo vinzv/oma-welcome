@@ -1,7 +1,7 @@
 #!/bin/bash
-if which obs &>/dev/null; then 
+if which obs &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"OBS Studio is already installed."
-else 
+else
 	APP=$"Open Broadcast Studio"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

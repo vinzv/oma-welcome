@@ -1,7 +1,7 @@
 #!/bin/bash
 if rpm -q --whatprovides jdk-current; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK is already installed."
-else 
+else
 	APP=$"OpenJDK"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

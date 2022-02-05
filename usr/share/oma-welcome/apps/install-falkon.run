@@ -1,7 +1,7 @@
 #!/bin/bash
-if which falkon &>/dev/null; then 
+if which falkon &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Falkon is already installed."
-else 
+else
 	APP=$"Falkon"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

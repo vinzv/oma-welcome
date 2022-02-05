@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-if which gambas3; then 
+if which gambas3; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE is already installed."
-else 
+else
 	APP=$"Gambas3 IDE"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

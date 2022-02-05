@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -q warzone2100 &>/dev/null; then 
+if rpm -q warzone2100 &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game is already installed."
 else
 	APP=$"Warzone 2100"

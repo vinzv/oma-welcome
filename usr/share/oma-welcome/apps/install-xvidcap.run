@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -qa |grep "xvidcap*"; then 
+if rpm -qa |grep "xvidcap*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap is already installed."
 else
 	APP=$"XVidCap"

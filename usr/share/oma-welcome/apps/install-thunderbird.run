@@ -1,5 +1,5 @@
 #!/bin/bash
-if which thunderbird; then 
+if which thunderbird; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird is already installed."
 else
 	APP=$"Thunderbird"

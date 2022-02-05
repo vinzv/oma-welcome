@@ -1,7 +1,7 @@
 #!/bin/bash
-if which babe &>/dev/null; then 
+if which babe &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"babe is already installed."
-else 
+else
 	APP=$"Babe"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

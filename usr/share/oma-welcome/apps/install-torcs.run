@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -q torcs; then 
+if rpm -q torcs; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" torcs is already installed."
 else
 	APP=$"Torcs"

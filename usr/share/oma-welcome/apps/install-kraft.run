@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if rpm -q kraft; then 
+if rpm -q kraft; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Kraft is already installed.";
-else 
+else
 	APP=$"Kraft"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

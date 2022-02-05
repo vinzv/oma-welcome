@@ -1,5 +1,5 @@
 #!/bin/bash
-if which quassel &>/dev/null; then 
+if which quassel &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Quassel is already installed."
 else
 	APP=$"Quassel"

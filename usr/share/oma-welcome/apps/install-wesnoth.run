@@ -1,5 +1,5 @@
 #!/bin/bash
-if rpm -q wesnoth; then 
+if rpm -q wesnoth; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth is already installed."
 else
 	APP=$"Wesnoth"

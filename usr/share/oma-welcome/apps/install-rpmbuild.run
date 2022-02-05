@@ -1,5 +1,5 @@
 #!/bin/bash
-if which rpm-build; then 
+if which rpm-build; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite is already installed."
 else
 	APP=$"RPM Packaging Suite"

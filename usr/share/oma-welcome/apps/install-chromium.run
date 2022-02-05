@@ -1,7 +1,7 @@
 #!/bin/bash
-if which chromium-browser-stable; then 
+if which chromium-browser-stable; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed."
-else 
+else
 	APP=$"Chromium"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

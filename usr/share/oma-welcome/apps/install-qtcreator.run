@@ -1,5 +1,5 @@
 #!/bin/bash
-if which qtcreator; then 
+if which qtcreator; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Qt-Creator is already installed."
 else
 	APP=$"Qt Creator"

@@ -1,7 +1,7 @@
 #!/bin/bash
-if which openshot-qt; then 
+if which openshot-qt; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot is already installed."
-else 
+else
 	APP=$"OpenShot"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if rpm -q kvpnc; then 
+if rpm -q kvpnc; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" kvpnc is already installed."
-else 
+else
 	APP=$"kvpnc"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false

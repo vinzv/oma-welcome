@@ -1,5 +1,5 @@
 #!/bin/bash
-if which xdman; then 
+if which xdman; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager is already installed."
 else
 	APP=$"XTreme Download Manager"
