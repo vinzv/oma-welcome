@@ -1,9 +1,12 @@
 #!/bin/bash
 if which rpm-build; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite is already installed."
-else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
-	pkexec dnf install --assumeyes rpm-build
+else
+	APP=$"RPM Packaging Suite"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes rpm-build packaging-tools
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which rpmbuild; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" RPM Packaging Suite successfully installed."
 	else

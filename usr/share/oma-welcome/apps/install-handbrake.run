@@ -2,9 +2,12 @@
 if which handbrake; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"HandBrake"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo restricted
 	pkexec dnf install --assumeyes handbrake
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which handbrake; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake successfully installed."
 	else

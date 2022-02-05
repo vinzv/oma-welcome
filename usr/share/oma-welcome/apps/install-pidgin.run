@@ -2,8 +2,11 @@
 if which pidgin; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger is already installed."
 else
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Pidgin Internet Messenger"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes pidgin
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which pidgin; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger successfully installed."
 	else

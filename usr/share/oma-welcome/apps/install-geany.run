@@ -2,9 +2,12 @@
 if which geany; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Geany IDE"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes geany
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which geany; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE successfully installed."
 	else

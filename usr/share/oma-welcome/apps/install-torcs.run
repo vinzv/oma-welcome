@@ -1,10 +1,13 @@
 #!/bin/bash
 if rpm -q torcs; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" torcs is already installed."
-else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+else
+	APP=$"Torcs"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes torcs
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q torcs; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" torcs successfully installed."
 	else

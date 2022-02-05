@@ -1,9 +1,12 @@
 #!/bin/bash
 if rpm -q virtualbox &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox is already installed."
-else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+else
+	APP=$"VirtualBox"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes virtualbox
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q virtualbox &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox successfully installed."
 	else

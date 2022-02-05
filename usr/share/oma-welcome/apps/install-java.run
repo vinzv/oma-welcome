@@ -2,8 +2,11 @@
 if rpm -q --whatprovides jdk-current; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"OpenJDK"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes jdk-current
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q --whatprovides jdk-current; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed."
 	else

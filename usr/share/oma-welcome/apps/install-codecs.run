@@ -2,9 +2,12 @@
 if rpm -q x264 &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Codecs are already installed.";
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Codecs"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo restricted
 	pkexec dnf install --assumeyes lib64dvdcss2 faac flac x264 lib64xvid4 lib64dca0 x265 qt-heif-image-plugin heifthumbnailer
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q x264 &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed."
 	else

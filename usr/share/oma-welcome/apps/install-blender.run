@@ -2,8 +2,11 @@
 if rpm -qa |grep "blender*"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Blender is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Blender"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes blender
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which blender; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed."
 	else

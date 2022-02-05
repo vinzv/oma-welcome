@@ -2,9 +2,12 @@
 if which bino; then 
 	kdialog --title $"OpenMandriva" --msgbox $" Bino 3D Video Player is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Bino 3D Video Player"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes bino
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which bino; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

@@ -2,9 +2,12 @@
 if rpm -qa |grep "flightgear"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" flightgear is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Flightgear"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes flightgear
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "flightgear"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear successfully installed."
 	else

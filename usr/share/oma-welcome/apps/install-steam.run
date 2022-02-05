@@ -1,10 +1,13 @@
 #!/bin/bash
 if rpm -qa |grep "steam*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Steam is already installed."
-else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+else
+	APP=$"Steam"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo non-free
 	pkexec dnf install --assumeyes steam
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "steam*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Steam successfully installed."
 	else

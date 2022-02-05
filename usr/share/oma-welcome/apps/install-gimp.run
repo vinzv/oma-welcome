@@ -3,8 +3,11 @@
 if rpm -qa |grep "^gimp"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gimp is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"GIMP"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes gimp
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "^gimp"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp successfully installed."
 	else

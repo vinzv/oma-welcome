@@ -3,9 +3,12 @@
 if which grsync; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" GRsync is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"GRsync"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes grsync
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which grsync; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync successfully installed."
 	else

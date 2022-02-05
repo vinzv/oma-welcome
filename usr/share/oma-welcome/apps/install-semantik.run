@@ -2,10 +2,13 @@
 
 if rpm -q semantik &>/dev/null; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Semantik is already installed."
-else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+else
+	APP=$"Semantik"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes semantik
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q semantik &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Semantik successfully installed."
 	else

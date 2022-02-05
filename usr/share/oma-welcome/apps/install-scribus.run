@@ -2,9 +2,12 @@
 
 if rpm -q scribus; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Scribus is already installed."
-else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+else
+	APP=$"Scribus"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes scribus
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q scribus; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Scribus successfully installed."
 	else

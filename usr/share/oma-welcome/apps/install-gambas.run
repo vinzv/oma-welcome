@@ -4,9 +4,12 @@
 if which gambas3; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Gambas3 IDE"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes gambas3-ide
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which gambas3; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE successfully installed."
 	else

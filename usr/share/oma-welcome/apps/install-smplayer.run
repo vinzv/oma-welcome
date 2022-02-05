@@ -1,8 +1,12 @@
 #!/bin/bash
 if which smplayer; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed."
-else 
+else
+	APP=$"SMPlayer"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes smplayer
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which smplayer; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer successfully installed."
 	else

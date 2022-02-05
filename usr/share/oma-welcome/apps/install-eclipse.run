@@ -3,8 +3,11 @@
 if which eclipse; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Eclipse"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes eclipse-platform
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which eclipse; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE successfully installed."
 	else

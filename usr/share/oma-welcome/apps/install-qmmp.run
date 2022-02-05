@@ -3,9 +3,12 @@
 if which qmmp; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"QMMP"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	enable-repo unsupported
 	pkexec dnf install --assumeyes qmmp
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which qmmp; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP successfully installed."
 	else

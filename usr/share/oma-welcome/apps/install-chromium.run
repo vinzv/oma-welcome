@@ -2,8 +2,11 @@
 if which chromium-browser-stable; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed."
 else 
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress, please wait until the process is done, it may take a while"
+	APP=$"Chromium"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes chromium-browser-stable
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which chromium-browser-stable; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser successfully installed."
 	else

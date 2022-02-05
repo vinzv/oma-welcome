@@ -2,7 +2,11 @@
 if rpm -qa |grep "^0ad*"; then 
 	kdialog --title $"OpenMandriva"  --msgbox  $" 0ad is already installed.";
 else
+	APP=$"0ad"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes 0ad
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "^0ad*"; then 
 		kdialog --title $"OpenMandriva"  --msgbox  $" 0ad successfully installed.";
 	else
