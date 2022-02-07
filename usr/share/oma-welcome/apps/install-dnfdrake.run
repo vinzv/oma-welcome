@@ -1,2 +1,1 @@
-#!/bin/bash
-exec sh /usr/share/oma-welcome/apps/install-dnfdrake.sh
+kdesu sh $PWD/apps/install-dnfdrake.sh
