@@ -1,0 +1,15 @@
+#!/bin/bash
+if which endless-sky &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"endless-sky is already installed."
+else
+	APP=$"Endless Sky"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes endless-sky
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which endless-sky &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
