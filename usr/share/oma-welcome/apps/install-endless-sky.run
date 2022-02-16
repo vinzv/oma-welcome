@@ -1,6 +1,6 @@
 #!/bin/bash
 if which endless-sky &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"endless-sky is already installed."
+	kdialog --title $"OpenMandriva" --msgbox $"Endless Sky is already installed."
 else
 	APP=$"Endless Sky"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
