@@ -45,7 +45,6 @@ descconfigprint=$"Configure your printer, add drivers for HP, Epson, etc."
 titleconfiglan=$"Configure the network"
 descconfiglan=$"Edit your network connections"
 titleomcc=$"OpenMandriva Control Center"
-descomcc=$"All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
 titleombugreport=$"Bug report tool"
 descombugreport=$"The simple shell script will help in bug fixing process. The file generated should be attached to any bugreport"
 titlechangeicons=$"Desktop Icons"
@@ -108,18 +107,16 @@ titlestacer=$"Stacer"
 descstacer=$"Open-source system optimizer and monitoring tool that helps the users to manage their operating system"
 titledupe=$"dupeGuru"
 descdupe=$"dupeGuru is a tool to find duplicate files on your computer"
-titlesteam=$"Steam"
-descsteam=$"Launcher for the Valve's Steam game distribution service"
 titlewine=$"Wine"
 descwine=$"Wine allows you to run many Microsoft Windows programs on Linux"
-titleskype=$"Skype"
-descskype=$"By installing this package you will download and install Skype from skype.com. You must accept the Skype EULA before using it"
-titleskypeonline=$"Skype online"
-descskypeonline=$"By installing this package you will be able to use Skype online from skype.com"
-titletelegram=$"Telegram Desktop"
-desctelegram=$"Telegram is a messaging app with a focus on speed and security"
 titlerepopicker=$"OpenMandriva repo-picker"
 descrepopicker=$"A tool to enable and disable repositories easily with just a few clicks"
+titlefilezilla=$"Filezilla"
+descfilezilla=$"FileZilla is a powerful, free file management tool for FTP access to your Web site's server"
+titlevirtualbox=$"Virtualbox"
+descvirtualbox=$"An easy virtualization software package for x86 and AMD64/Intel64-based computers"
+titlegrsync=$"GRsync"
+descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is to synchronize local directories"
 
 #translations of apps-office.sh.htm
 titlecalibre=$"Calibre"
@@ -152,50 +149,12 @@ titlescratch=$"Scratch"
 descscratch=$"A programming language for young people to create digital stories, games, and animations"
 titlegcompris=$"GCompris"
 descgcompris=$"Educational software suite for children aged 2 to 10"
+titlesupertuxkart=$"SuperTuxKart"
+descsupertuxkart=$"Improved version of TuxKart, a kart racing game featuring Tux and friends"
+titlepuzzlejigsaw=$"Puzzle jigsaw"
+descpuzzlejigsaw=$"Tiling puzzle that requires the assembly mosaiced pieces"
 
-#translation of community.sh.htm
-titlecommunity=$"How to contribute to OpenMandriva"
-desccommunity=$"So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways:"
-titlemanual=$"Manual"
-descmanual=$"Help improve a simple step-by-step guide for installing and configuring OpenMandriva Lx"
-titleforum=$"Forums"
-descforum=$"Become a member at our forums, answer questions and help others"
-titletranslation=$"Translating"
-desctranslation=$"Translate blog posts, wiki pages, applications and stuff"
-titlecooker=$"Join in the development of OpenMandriva Lx"
-desccooker=$"Cooker is the development branch of OpenMandriva Lx"
-titleartwork=$"Artwork"
-descartwork=$"Use your talent to create new artwork for OpenMandriva Lx"
-titlemainlisting=$"Mailing list"
-descmainlisting=$"Join the discussion list of OpenMandriva"
-titleqa=$"Report Bug"
-descqa=$"Search, report and fix bugs in OpenMandriva Lx"
-titleirc=$"Join in the IRC channel"
-descirc=$"openmandriva-cooker is OpenMandriva's main IRC channel"
-titleinvolved=$"Get involved"
-descinvolved=$"How to contribute to OpenMandriva. If you have time, we welcome your help in various areas"
-titledonation=$"Donation"
-descdonation=$"You can give us your love and care by donating your time or money to OpenMandriva Lx"
-descrn=$"Click here to be sure you read the latest Release Notes and Errata"
-nostarwithoma=$"Do not start om-welcome on login"
-makestartwithoma=$"Make om-welcome start on login"
-endapp=$"Finish"
-
-#translation of install-scribus
-installed=$"are already installed"
-noinstalled=$"not installed"
-
-#About.sh.htm
-about=$"About this program"
-license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
-dependency=$"It uses Qt5 WebEngine and htmlscript."
-bugs=$"For bugs, suggestions and improvements, please head to "
-
-#Additional
-you_are_using=$"You are using"
-with_kernel=$"with kernel"
-arch=$"architecture"
-
+#translations of apps-gaming.sh.htm
 titlekvpnc=$"KVPNc"
 descskvpnc=$"KDE frontend to various VPN clients"
 title0ad=$"0ad"
@@ -206,6 +165,8 @@ titlewesnoth=$"Wesnoth"
 descwesnoth=$"Fantasy turn-based strategy game"
 titleflightgear=$"FlightGear"
 descflightgear=$"FlightGear Flight Simulator for Linux"
+titlesteam=$"Steam"
+descsteam=$"Launcher for the Valve's Steam game distribution service"
 titlelutris=$"Lutris"
 desclutris=$"Install and play any video game easily"
 titletorcs=$"TORCS"
@@ -216,46 +177,12 @@ titlewarzone=$"Warzone 2100"
 descwarzone=$"Postnuclear War realtime strategy games"
 titlekpat=$"KPatience"
 desckpat=$"KPatience is a relaxing card sorting game"
-#
-titlefilezilla=$"Filezilla"
-descfilezilla=$"FileZilla is a powerful, free file management tool for FTP access to your Web site's server"
-titlevirtualbox=$"Virtualbox"
-descvirtualbox=$"An easy virtualization software package for x86 and AMD64/Intel64-based computers"
-titlegrsync=$"GRsync"
-descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is to synchronize local directories"
+titlekmahjongg=$"KMahjongg"
+desckmahjongg=$"Mahjongg Solitaire"
+titleendlesssky=$"Endless Sky"
+descendlesssky=$"Space exploration and combat game"
 
-#News.sh.htm
-newfeature=$"New Features and Major Changes"
-releasepreambule=$"OpenMandriva Lx is published by OpenMandriva Association. Over the course of the year past we have tried to evolve the way you use your desktop. Here are some of the things we have done for this release:"
-omccnew=$"OM Control Center"
-controlcenter=$"Drakconf"
-freshpackages=$"Fresh Packages"
-freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, KMail, Falkon browser, Mozilla Firefox, Systemd and Firewalld. For the technically adept we have provided systemtap a system performance analysis tool "
-kerneldesc=$"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each designed with their respective end use on mind<br/>
-<br/>
-<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
-kdedesc=$"KDE Plasma workspace $(plasmashell --version| cut -d ' ' -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' kio). Frameworks 5 is the next generation of KDE libraries, modularized and optimized for easy integration in Qt applications."
-libreofficedesc=$"LibreOffice $(libreoffice --version| cut -d ' ' -f 2) is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
-omccnewdesc=$"New OpenMandriva Control Center, currently in beta version, to help you configure your system"
-drakconfdesc=$"Also featured is our legacy Control Center. Drakconf is a set of tools to help you configure your system for: <br/>
-- Software Management<br/>
-- Hardware<br/>
-- Network, Internet & Sharing<br/>
-- Local Disks/Partition Manager<br/>
-- System Security<br/>"
-efibootdesc=$"This release of OpenMandriva Lx incorporates working support for EFI booting. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' target="hidden" class='blue'>issues.openmandriva.org</a>"
-abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="hidden" class='titlePage'>http://abf.openmandriva.org</a>"
-omfldesc=$"You can configure your desktop to look and feel similar to other systems you may be used to.<br/>
-Currently available:<br/>
-OpenMandriva default<br/>
-Plasma Breeze<br/>
-Plasma Breeze Dark<br/>
-Ubuntu<br/>
-Windows 10<br/>
-Windows 7<br/>
-macOS Mojave"
-
-#Development.sh.htm
+#translations of apps-development.sh.htm
 titlellvm=$"C/C++ Compilers Suite "
 descllvm=$"This is LLVM/clang package, including necessary tools for development like LLVM/clang, GCC, make, autoconf etc."
 titlekdevelop=$"KDevelop"
@@ -280,6 +207,12 @@ titlechromium=$"Chromium Browser"
 descchromium=$"Chromium is an open-source project that aims to build a safer, faster, and more stable browser"
 titlethunderbird=$"Mozilla Thunderbird"
 descthunderbird=$"Thunderbird is a full-featured email, RSS and newsgroup client that makes emailing safer, faster and easier"
+titleskype=$"Skype"
+descskype=$"By installing this package you will download and install Skype from skype.com. You must accept the Skype EULA before using it"
+titleskypeonline=$"Skype online"
+descskypeonline=$"By installing this package you will be able to use Skype online from skype.com"
+titletelegram=$"Telegram Desktop"
+desctelegram=$"Telegram is a messaging app with a focus on speed and security"
 titlepidgin=$"Pidgin"
 descpidgin=$"Pidgin is a graphical, modular instant messaging client capable of using multiple networks at once"
 titlechoqok=$"Choqok"
@@ -293,7 +226,76 @@ descquaternion=$"An IM client for the Matrix protocol"
 titledropbox=$"Dropbox"
 descdropbox=$"Dropbox is a free service that lets you bring your photos, docs, and videos anywhere and share them easily"
 
-#OMfeat.sh.htm
+#translation of install-scribus
+installed=$"are already installed"
+noinstalled=$"not installed"
+
+#translation of community.sh.htm
+titlecommunity=$"How to contribute to OpenMandriva"
+desccommunity=$"So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways:"
+titlemanual=$"Manual"
+descmanual=$"Help improve a simple step-by-step guide for installing and configuring OpenMandriva Lx"
+titleforum=$"Forums"
+descforum=$"Become a member at our forums, answer questions and help others"
+titletranslation=$"Translating"
+desctranslation=$"Translate blog posts, wiki pages, applications and stuff"
+titlecooker=$"Join in the development of OpenMandriva Lx"
+desccooker=$"Cooker is the development branch of OpenMandriva Lx"
+titleartwork=$"Artwork"
+descartwork=$"Use your talent to create new artwork for OpenMandriva Lx"
+titlemainlisting=$"Mailing list"
+descmainlisting=$"Join the discussion list of OpenMandriva"
+titleqa=$"Report Bug"
+descqa=$"Search, report and fix bugs in OpenMandriva Lx"
+titleirc=$"Join in the IRC channel"
+descirc=$"openmandriva-cooker is OpenMandriva main IRC channel"
+titleinvolved=$"Get involved"
+descinvolved=$"How to contribute to OpenMandriva. If you have time, we welcome your help in various areas"
+titledonation=$"Donation"
+descdonation=$"You can give us your love and care by donating your time or money to OpenMandriva Lx"
+descrn=$"Click here to be sure you read the latest Release Notes and Errata"
+nostarwithoma=$"Do not start om-welcome on login"
+makestartwithoma=$"Make om-welcome start on login"
+endapp=$"Finish"
+
+#About.sh.htm
+about=$"About this program"
+license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
+dependency=$"It uses Qt5 WebEngine and htmlscript."
+bugs=$"For bugs, suggestions and improvements, please head to "
+
+#Additional
+you_are_using=$"You are using"
+with_kernel=$"with kernel"
+arch=$"architecture"
+
+#News.sh.htm
+newfeature=$"New Features and Major Changes"
+releasepreambule=$"OpenMandriva Lx is published by OpenMandriva Association. Over the course of the year past we have tried to evolve the way you use your desktop. Here are some of the things we have done for this release:"
+omccnew=$"OM Control Center"
+controlcenter=$"Drakconf"
+freshpackages=$"Fresh Packages"
+freshpackagedesc=$"Some fresh packages included with this release include Krita (Digital Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, KMail, Falkon browser, Mozilla Firefox, Systemd and Firewalld. For the technically adept we have provided systemtap a system performance analysis tool "
+kerneldesc=$"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series. OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each designed with their respective end use on mind<br/>
+<br/>
+<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
+kdedesc=$"KDE Plasma workspace $(plasmashell --version| cut -d ' ' -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' kio). Frameworks 5 is the next generation of KDE libraries, modularized and optimized for easy integration in Qt applications."
+libreofficedesc=$"LibreOffice $(libreoffice --version| cut -d ' ' -f 2) is the newest available, Final (Stable) release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
+omccnewdesc=$"New OpenMandriva Control Center, currently in beta version, to help you configure your system"
+efibootdesc=$"This release of OpenMandriva Lx incorporates working support for EFI booting. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' target="hidden" class='blue'>issues.openmandriva.org</a>"
+abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="hidden" class='titlePage'>http://abf.openmandriva.org</a>"
+omfldesc=$"You can configure your desktop to look and feel similar to other systems you may be used to.<br/>
+Currently available:<br/>
+OpenMandriva default<br/>
+Plasma Breeze<br/>
+Plasma Breeze Dark<br/>
+Ubuntu<br/>
+Windows 10<br/>
+Windows 7<br/>
+macOS Mojave"
+
+
+#translations of omfeat.sh.htm
 descomfeat=$"OpenMandriva brand-name applications and features"
 titleupdconf=$"Update Configuration"
 descupdconf=$"Tool for configuring automatic updates"
