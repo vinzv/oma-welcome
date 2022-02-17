@@ -8,6 +8,8 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=om-welcome
 hi=$"Hi"
 title=$"Welcome to OpenMandriva"
+Name=$"OpenMandriva Welcome"
+#sections menu
 menuindex=$"Welcome"
 menunews=$"Features"
 menuomfeat=$"OM Features"
