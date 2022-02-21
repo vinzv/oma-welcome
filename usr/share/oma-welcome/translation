@@ -145,6 +145,24 @@ titlestellarium=$"Stellarium"
 descstellarium=$"Stellarium renders 3D photo-realistic skies in real time"
 titlekalzium=$"Kalzium"
 desckalzium=$"A periodic table of the elements"
+titleminuet=$"Minuet"
+descminuet=$"KDE music learning application"
+titleartikulate=$"Artikulate"
+descartikulate=$"A pronunciation trainer that aims at improving and perfecting the pronunciation skills"
+titlekgeography=$"KGeography"
+desckgeography=$"A geography learning program"
+titlekturtle=$"KTurtle"
+desckturtle=$"An educational programming environment for the KDE Desktop"
+titlerocs=$"Rocs"
+descrocs=$"Graph editor and programming environement"
+titlecantor=$"Cantor"
+desccantor=$"KDE interface for Mathematics and Scientific Computing"
+titlestep=$"Step"
+descstep=$"Interactive physical simulator"
+titlemarble=$"Marble"
+descmarble=$"Virtual globe and world atlas. Learn more about the Earth and other planets"
+titlekig=$"Kig"
+desckig=$"Interactive mathematics software for learning and teaching geometry"
 
 #translations of apps-kids.sh.htm
 titlescratch=$"Scratch"
@@ -155,6 +173,12 @@ titlesupertuxkart=$"SuperTuxKart"
 descsupertuxkart=$"Improved version of TuxKart, a kart racing game featuring Tux and friends"
 titlepuzzlejigsaw=$"Puzzle jigsaw"
 descpuzzlejigsaw=$"Tiling puzzle that requires the assembly mosaiced pieces"
+titlektuberling=$"Potato editor"
+descktuberling=$"Picture game for children. The only purpose is to  make the funniest faces you can"
+titleblinken=$"Blinken"
+descblinken=$"Follow the pattern of sounds and lights as long as you can"
+titleklettres=$"KLettres"
+descklettres=$"Language learning program"
 
 #translations of apps-gaming.sh.htm
 titlekvpnc=$"KVPNc"
@@ -185,6 +209,10 @@ titlekmahjongg=$"KMahjongg"
 desckmahjongg=$"Mahjongg Solitaire"
 titleendlesssky=$"Endless Sky"
 descendlesssky=$"Space exploration and combat game"
+titleetr=$"Extreme Tux Racer"
+descetr=$"The goal of the game is to slide down a snow and ice covered mountain as quickly as possible"
+titlekubrick=$"Kubrick"
+desckubrick=$"Game based on Rubik's Cube"
 
 #translations of apps-development.sh.htm
 titlellvm=$"C/C++ Compilers Suite "
@@ -206,7 +234,7 @@ descgambas=$"Gambas Almost BASIC, designed to build graphical applications progr
 titlegclangk=$"Clang kernel"
 descgclangk=$"Install a version of the kernel that has been built with the Clang compiler"
 
-#Internet.sh.htm
+#translations of apps-internet.sh.htm
 titlechromium=$"Chromium Browser"
 descchromium=$"Chromium is an open-source project that aims to build a safer, faster, and more stable browser"
 titlethunderbird=$"Mozilla Thunderbird"
@@ -233,6 +261,15 @@ descdropbox=$"Dropbox is a free service that lets you bring your photos, docs, a
 #translation of install-scribus
 installed=$"are already installed"
 noinstalled=$"not installed"
+
+#translations of omfeat.sh.htm
+descomfeat=$"OpenMandriva brand-name applications and features"
+titleupdconf=$"Update Configuration"
+descupdconf=$"Tool for configuring automatic updates"
+titlefeellike=$"Desktop Presets"
+descfeellike=$"Tool to customize the appearance of your OpenMandriva Plasma desktop to look and feel similar to other systems you may be used to"
+titleomcc2=$"Control Center"
+descomcc2=$"OpenMandriva Control Center helps you to configure your system"
 
 #translation of community.sh.htm
 titlecommunity=$"How to contribute to OpenMandriva"
@@ -262,7 +299,7 @@ nostarwithoma=$"Do not start om-welcome on login"
 makestartwithoma=$"Make om-welcome start on login"
 endapp=$"Finish"
 
-#About.sh.htm
+#translation of About.sh.htm
 about=$"About this program"
 license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
 dependency=$"It uses Qt5 WebEngine and htmlscript."
@@ -273,7 +310,7 @@ you_are_using=$"You are using"
 with_kernel=$"with kernel"
 arch=$"architecture"
 
-#News.sh.htm
+#translation of News.sh.htm
 newfeature=$"New Features and Major Changes"
 releasepreambule=$"OpenMandriva Lx is published by OpenMandriva Association. Over the course of the year past we have tried to evolve the way you use your desktop. Here are some of the things we have done for this release:"
 omccnew=$"OM Control Center"
@@ -298,12 +335,3 @@ Windows 10<br/>
 Windows 7<br/>
 macOS Mojave"
 
-
-#translations of omfeat.sh.htm
-descomfeat=$"OpenMandriva brand-name applications and features"
-titleupdconf=$"Update Configuration"
-descupdconf=$"Tool for configuring automatic updates"
-titlefeellike=$"Desktop Presets"
-descfeellike=$"Tool to customize the appearance of your OpenMandriva Plasma desktop to look and feel similar to other systems you may be used to"
-titleomcc2=$"Control Center"
-descomcc2=$"OpenMandriva Control Center helps you to configure your system"
