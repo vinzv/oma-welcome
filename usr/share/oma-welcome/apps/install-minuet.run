@@ -1,0 +1,15 @@
+#!/bin/bash
+if which minuet &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Minuet is already installed."
+else
+	APP=$"Minuet"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes minuet
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which minuet &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

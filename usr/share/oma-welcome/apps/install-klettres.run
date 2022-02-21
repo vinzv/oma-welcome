@@ -1,0 +1,15 @@
+#!/bin/bash
+if which klettres &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"KLettres is already installed."
+else
+	APP=$"KLettres"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes klettres
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which klettres &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

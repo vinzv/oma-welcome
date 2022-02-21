@@ -1,0 +1,15 @@
+#!/bin/bash
+if which kubrick &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Kubrick is already installed."
+else
+	APP=$"Kubrick"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes kubrick
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which kubrick &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

@@ -1,0 +1,15 @@
+#!/bin/bash
+if which rocs &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Rocs is already installed."
+else
+	APP=$"Rocs"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes rocs
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which rocs &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
