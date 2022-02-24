@@ -1,5 +1,5 @@
 #!/bin/bash
-source /usr/share/oma-welcome/translation
+source translation
 #Translation
 cat << EOF
 <html>
@@ -29,7 +29,7 @@ cat << EOF
 			<li><a href="news.sh.htm">$menunews</a></li>
 			<li><a href="omfeat.sh.htm">$menuomfeat</a></li>
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
-			<li><a href="apps.sh.htm">$menuapps</a></li>
+			<li class='active'><a href="apps.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
@@ -38,35 +38,67 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">
 		<div id="container">
-		<p class="titlePage">$cabecalho03 $(lsb_release -d |cut -d ":" -f2)</p>
-		<br/>
+		<p class="titlePage">$cabecalho03  $cabecalho04</p>
 		<div id='cssmenu'>
-			<ul>
-				<li><a href='apps.sh.htm'><span>$menuappsoffice</span></a></li>
-				 li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
-				<li><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
-				<li><a href='apps-utility.sh.htm'><span>$menuappsutility</span></a></li>
-				<li><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
-			</ul>
-		<br/>
+		    <ul>
+			 <li class='active'><a href='apps-office.sh.htm'><span>$menuappsoffice</span></a></li>
+			 <li><a href='apps-graphics.sh.htm'><span>$menuappsgraphics</span></a></li>
+			 <li><a href='apps-internet.sh.htm'><span>$menuappsinternet</span></a></li>
+			 <li><a href='apps-multimedia.sh.htm'><span>$menuappsmultimedia</span></a></li>
+			 <li><a href='apps-development.sh.htm'><span>$menuappsdevelopment</span></a></li>
+			 <li><a href='apps-utility.sh.htm'><span>$menuappsutility</span></a></li>
+			 <li><a href='apps-edu.sh.htm'><span>$menuappsedu</span></a></li>
+			 <li><a href='apps-kids.sh.htm'><span>$menuappskids</span></a></li>
+			 <li><a href='apps-gaming.sh.htm'><span>$menuappsgaming</span></a></li>
+		    </ul>
+		    <br/>
 		</div>
 		<ul id="item-list">
 			<li>
-				<p><a target="hidden" href=./apps/install-calibre.run><img src="images/calibre.png" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/install-calibre.run>Calibre </a></span><br/>
-				You can convert and manage your e-Book with Calibre.</p>
+				<a target="hidden" href=./apps/install-calibre.run><img src="images/calibre.png" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-calibre.run>$titlecalibre </a></span><br/>
+				$desccalibre</p>
 			</li>
 			<li>
-				<p><a target="hidden" href=./apps/install-dia.run><img src="images/dia.png" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/install-dia.run>Dia </a></span><br/>
-				Easy to create Diagram documents with Dia.</p>
+				<a target="hidden" href=./apps/install-dia.run><img src="images/dia.svg" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-dia.run>$titledia </a></span><br/>
+				$descdia</p>
 			</li>
 			<li>
-				<p><a target="hidden" href=./apps/install-gnucash.run><img src="images/gnucash.png" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/install-gnucash.run>GNUCash </a></span><br/>
-				Manage and tracks your finances with GNUCash.</p>
+				<a target="hidden" href=./apps/install-calligra.run><img src="images/calligra.png" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-calligra.run>$titlecalligra </a></span><br/>
+				$desccalligra</p>
+			</li>
+			<li>
+				<a target="hidden" href=./apps/install-semantik.run><img src="images/semantik.png" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-semantik.run>$titlesemantik </a></span><br/>
+				$descsemantik</p>
+			</li>
+			<li>
+				<a target="hidden" href=./apps/install-kraft.run><img src="images/kraft.png" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-kraft.run>$titlekraft </a></span><br/>
+				$desckraft</p>
+			</li>
+			<li>
+				<a target="hidden" href=./apps/install-zim.run><img src="images/zim.png" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-zim.run>$titlezim </a></span><br/>
+				$desczim</p>
+			</li>
+			<li>
+				<a target="hidden" href=./apps/install-lokalize.run><img src="images/lokalize.svg" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-lokalize.run>$titlelokalize </a></span><br/>
+				$desclokalize</p>
+			</li>
+			<li>
+				<a target="hidden" href=./apps/install-homebank.run><img src="images/homebank.svg" class="alignleft"/>
+				<span><a class="title" target="hidden" href=./apps/install-homebank.run>$titlehomebank </a></span><br/>
+				$deschomebank</p>
 			</li>
 		</ul>
+	</div>
+
+	<div id="lodape">
+		<a href="conf.sh.htm" class="button">$previous</a>
 	</div>
 	<div id="rodape">
 		<a href="community.sh.htm" class="button">$next</a>
