@@ -1,1 +1,6 @@
+#!/bin/sh
+if rpm -q dnfdrake &>/dev/null; then
+	exec dnfdrake.gambas
+else
 kdesu sh $PWD/apps/install-dnfdrake.sh
+fi
