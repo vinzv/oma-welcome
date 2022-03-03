@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes calibre
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q calibre; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Calibre successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Calibre not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
