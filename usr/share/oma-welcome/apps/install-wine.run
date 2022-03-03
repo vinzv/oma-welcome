@@ -8,8 +8,8 @@ else
 	pkexec dnf --refresh install --assumeyes wine cabextract
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which wine; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Wine successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Wine not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
