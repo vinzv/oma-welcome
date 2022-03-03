@@ -10,8 +10,8 @@ else
 	pkexec dnf install --assumeyes qmmp
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which qmmp; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" QMMP not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
