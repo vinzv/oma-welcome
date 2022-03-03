@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes dia
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q dia; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Dia successfully installed.";
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Dia not installed.";
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
