@@ -143,8 +143,8 @@ msgid ""
 " - To install click the application icon. Please wait until the process is "
 "done, it may take a while."
 msgstr ""
-" - Per installare clicca sull'icona dell'applicazione. Prego attendi finchè "
-"il processo termina, potrebbe occorrere un po' di tempo."
+" - Per installare clicca sull'icona dell'applicazione. Ecco una selezione di"
+" programmi che abbiamo scelto per te"
 
 #: usr/share/oma-welcome/translation:37
 msgid "Add Media"
