@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes unrar zip p7zip ncompress
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which unrar; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Unrar successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Unrar not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
