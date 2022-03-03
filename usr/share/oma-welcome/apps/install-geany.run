@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes geany
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which geany; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
