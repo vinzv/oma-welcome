@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes homebank
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which homebank; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank successfully installed.";
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Homebank not installed.";
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
