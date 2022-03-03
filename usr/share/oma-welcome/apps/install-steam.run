@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes steam
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "steam*"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Steam successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $"Steam not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
