@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes choqok
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which choqok; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Choqok not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
