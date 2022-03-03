@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes inkscape
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q inkscape; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Inkscape not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
