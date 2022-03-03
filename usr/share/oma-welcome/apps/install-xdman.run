@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes xdman
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which xdman; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" XTreme Download Manager not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
