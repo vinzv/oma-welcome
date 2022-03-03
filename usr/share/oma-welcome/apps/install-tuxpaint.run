@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes tuxpaint tuxpaint-stamps
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q tuxpaint; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
