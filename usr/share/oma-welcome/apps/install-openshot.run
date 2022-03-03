@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes openshot
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which openshot-qt; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
