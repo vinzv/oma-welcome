@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes eclipse-platform
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which eclipse; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Eclipse IDE not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
