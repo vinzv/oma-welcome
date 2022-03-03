@@ -10,8 +10,8 @@ else
 	pkexec dnf install --assumeyes kraft
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q kraft; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft successfully installed.";
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Kraft not installed.";
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
