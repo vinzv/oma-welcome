@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes pidgin
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which pidgin; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pidgin Internet Messenger not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
