@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes warzone2100
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q warzone2100 &>/dev/null; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Warzone 2100 game not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
