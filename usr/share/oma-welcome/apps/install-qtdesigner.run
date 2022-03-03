@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes qt5-designer
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which designer; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
