@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes filezilla
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which filezilla; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
