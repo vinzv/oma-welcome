@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes handbrake
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which handbrake; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
