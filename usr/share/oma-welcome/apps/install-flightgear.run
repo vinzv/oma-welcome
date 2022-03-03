@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes flightgear
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "flightgear"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" flightgear not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
