@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes wesnoth
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q wesnoth; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
