@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes get-skypeforlinux
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q get-skypeforlinux; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Skype successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $"Skype not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
