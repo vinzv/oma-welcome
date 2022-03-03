@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes calligra*
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which calligra; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
