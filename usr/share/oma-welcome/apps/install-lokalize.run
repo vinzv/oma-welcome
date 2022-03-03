@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes lokalize
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which lokalize &>/dev/null; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Lokalize successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Lokalize not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
