@@ -10,8 +10,8 @@ else
 	pkexec dnf install --assumeyes grsync
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which grsync; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" GRsync not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
