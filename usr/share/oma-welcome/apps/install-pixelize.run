@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes pixelize
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which pixelize &>/dev/null; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Pixelize not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
