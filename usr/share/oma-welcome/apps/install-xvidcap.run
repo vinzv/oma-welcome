@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes xvidcap
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which xvidcap; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Xvidcap not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
