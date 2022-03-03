@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes lutris
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q lutris; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" lutris successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" lutris not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
