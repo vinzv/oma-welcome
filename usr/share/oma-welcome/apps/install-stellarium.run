@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes stellarium
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q stellarium &>/dev/null; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Stellarium successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Stellarium not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
