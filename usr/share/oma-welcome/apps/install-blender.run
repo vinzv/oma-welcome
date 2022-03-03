@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes blender
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which blender; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Blender successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Blender not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
