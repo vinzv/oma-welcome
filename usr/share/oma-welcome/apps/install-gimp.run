@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes gimp
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -qa |grep "^gimp"; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Gimp not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
