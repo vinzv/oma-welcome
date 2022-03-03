@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes audacity
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which audacity; then
-		kdialog --title $"OpenMandriva" --msgbox $" Audacity successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva" --msgbox $" Audacity not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
