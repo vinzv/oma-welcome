@@ -8,8 +8,8 @@ else
 	pkexec dnf install --assumeyes virtualbox
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q virtualbox &>/dev/null; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" Virtualbox not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
