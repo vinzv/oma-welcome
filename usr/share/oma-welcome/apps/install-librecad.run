@@ -9,8 +9,8 @@ else
 	pkexec dnf install --assumeyes librecad
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which librecad &>/dev/null; then
-		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD successfully installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
-		kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD not installed."
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
 fi
