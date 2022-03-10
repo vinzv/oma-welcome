@@ -1040,8 +1040,8 @@ msgid ""
 "New OpenMandriva Control Center, currently in beta version, to help you "
 "configure your system"
 msgstr ""
-"Il nuovo Centro di Controllo OpenMandriva, attualmente in versione beta, per"
-" aiutarti a configurare il tuo sistema"
+"Il nuovo Centro di Controllo OpenMandriva, per aiutarti a configurare il tuo"
+" sistema"
 
 #: usr/share/oma-welcome/translation:237
 msgid ""
