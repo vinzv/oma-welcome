@@ -220,7 +220,7 @@ msgid ""
 "should be attached to any bugreport"
 msgstr ""
 "Ce script shell simple vous aidera dans le processus de correction des "
-"bogues. Le fichier généré doit être joint à tout rapport de bogue."
+"bogues. Le fichier généré doit être joint à tout rapport de bogue"
 
 #: usr/share/oma-welcome/translation:51
 msgid "Desktop Icons"
