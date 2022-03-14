@@ -1137,7 +1137,7 @@ msgid ""
 "LLVM/clang, GCC, make, autoconf etc."
 msgstr ""
 "C'est un paquet LLVM/clang, incluant les outils nécessaires au développement"
-" comme LLVM/clang, GCC, make, autoconf etc."
+" comme LLVM/clang, GCC, make, autoconf etc"
 
 #: usr/share/oma-welcome/translation:258
 msgid "KDevelop"
