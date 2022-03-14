@@ -157,7 +157,7 @@ msgid ""
 "other applications and to keep the system updated"
 msgstr ""
 "Après l'installation d'OpenMandiva Lx, vous pouvez configurer les dépôts "
-"pour installer d'autres applications et maintenir le système à jour."
+"pour installer d'autres applications et maintenir le système à jour"
 
 #: usr/share/oma-welcome/translation:39
 msgid "Update of"
