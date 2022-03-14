@@ -835,7 +835,7 @@ msgstr "Ce logiciel est sous licence publique générale GNU version 2 (GPLv2) "
 
 #: usr/share/oma-welcome/translation:191
 msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Il utilise Qt5 WebEngine et htmlscript."
+msgstr "Il utilise Qt5 WebEngine et htmlscript"
 
 #: usr/share/oma-welcome/translation:192
 msgid "For bugs, suggestions and improvements, please head to "
