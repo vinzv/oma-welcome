@@ -1006,7 +1006,7 @@ msgstr ""
 "(Digital Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, "
 "l'appliquette Plasma NetworkManager, KMail, le navigateur Falkon, Mozilla "
 "Firefox, Systemd et Firewalld. Pour les experts techniques, nous avons "
-"fourni systemtap un outil d'analyse de la performance du système. "
+"fourni systemtap un outil d'analyse de la performance du système"
 
 #: usr/share/oma-welcome/translation:231
 msgid ""
