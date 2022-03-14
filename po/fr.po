@@ -318,7 +318,7 @@ msgstr ""
 "Modifiez des fichiers d'images à partir d'un appareil photo numérique. "
 "Inclut l'amélioration des couleurs et du contraste, la suppression des yeux "
 "rouges, la suppression du bruit, le HDR et la composition d'images "
-"panoramiques."
+"panoramiques"
 
 #: usr/share/oma-welcome/translation:71
 msgid "Pixelize"
