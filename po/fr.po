@@ -1185,7 +1185,7 @@ msgid ""
 "environment (IDE)"
 msgstr ""
 "Qt Creator est un environnement de développement intégré (EDI) léger et "
-"multiplateforme."
+"multiplateforme"
 
 #: usr/share/oma-welcome/translation:266
 msgid "Qt-Designer"
