@@ -330,7 +330,7 @@ msgid ""
 "duplicate, as closely as possible, another image"
 msgstr ""
 "Pixelize est un programme qui utilisera de nombreuses images réduites pour "
-"essayer de dupliquer, aussi fidèlement que possible, une autre image."
+"essayer de dupliquer, aussi fidèlement que possible, une autre image"
 
 #: usr/share/oma-welcome/translation:73
 msgid "LibreCAD"
