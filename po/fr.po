@@ -1173,7 +1173,7 @@ msgid ""
 "mostly used by Java Developers"
 msgstr ""
 "L'EDI Eclipse contient un espace de travail de base et un système de "
-"greffons extensibles, principalement utilisés par les développeurs Java."
+"greffons extensibles, principalement utilisés par les développeurs Java"
 
 #: usr/share/oma-welcome/translation:264
 msgid "Qt-Creator"
