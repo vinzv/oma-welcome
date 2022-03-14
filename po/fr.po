@@ -367,7 +367,7 @@ msgid ""
 "Ogg/Vorbis"
 msgstr ""
 "Editez, enregistrez et importez de nombreux formats de fichiers audio, tels "
-"que WAV, AIFF, MP3 et Ogg/Vorbis."
+"que WAV, AIFF, MP3 et Ogg/Vorbis"
 
 #: usr/share/oma-welcome/translation:81
 msgid "Kdenlive"
