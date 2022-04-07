@@ -124,8 +124,7 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:36
 msgid ""
-" - To install click the application icon. Please wait until the process is "
-"done, it may take a while."
+" - Here is a selection we made for you"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:37
@@ -243,8 +242,7 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:64
 msgid ""
-"Scribus is a desktop layout Open Source program for producing documents in "
-"PDF and Postscript"
+"Desktop layout open source program for producing documents in PDF and Postscript"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:65
@@ -253,16 +251,15 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:66
 msgid ""
-"TuxPaint is a perfect mate to encourage children's creativity using simple "
-"tools, drawings on the computer"
+"Encourage children's creativity using simple tools, drawings on the computer"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:67
-msgid "Install additional applications with dnfdragora"
+msgid "Find additional applications with dnfdragora"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:68
-msgid "Find and install applications available in the repositories"
+msgid "Find applications available in the repositories"
 msgstr ""
 
 #: usr/share/oma-welcome/translation:69
