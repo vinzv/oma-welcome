@@ -321,7 +321,7 @@ msgid ""
 "Qt application to design 2D cad drawing based on the community edition of "
 "QCad"
 msgstr ""
-"LApplicazione Qt per progettare disegni cad 2D basata sull'edizione "
+"Applicazione Qt per progettare disegni cad 2D basata sull'edizione "
 "comunitaria di QCad"
 
 #: usr/share/oma-welcome/translation:78
@@ -756,7 +756,7 @@ msgstr "Puzzle di tessere che richiede l'assemblaggio di pezzi a mosaico"
 
 #: usr/share/oma-welcome/translation:176
 msgid "Potato editor"
-msgstr "Potato editor"
+msgstr "Uomo patata"
 
 #: usr/share/oma-welcome/translation:177
 msgid ""
@@ -772,7 +772,7 @@ msgstr "Blinken"
 
 #: usr/share/oma-welcome/translation:179
 msgid "Follow the pattern of sounds and lights as long as you can"
-msgstr "Replica i suoni e luci più a lungo che puoi"
+msgstr "Replica la sequenza di luci e suoni nel corretto ordine"
 
 #: usr/share/oma-welcome/translation:180
 msgid "KLettres"
@@ -877,7 +877,7 @@ msgstr "KPatience"
 
 #: usr/share/oma-welcome/translation:207
 msgid "A relaxing card sorting game"
-msgstr "Solitario con le carte"
+msgstr "Solitari con le carte"
 
 #: usr/share/oma-welcome/translation:208
 msgid "KMahjongg"
