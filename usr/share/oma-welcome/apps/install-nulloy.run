@@ -1,0 +1,15 @@
+#!/bin/bash
+if which nulloy &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"nulloy is already installed."
+else
+	APP=$"Nulloy"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes nulloy
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which nulloy &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
