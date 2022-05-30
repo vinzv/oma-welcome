@@ -1,5 +1,5 @@
 #!/bin/bash
-if which calligra; then
+if rpm -q calligra &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Calligra Office Suite is already installed."
 else
 	APP=$"Calligra"
@@ -7,7 +7,7 @@ else
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes calligra*
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
-	if which calligra; then
+	if rpm -q calligra &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
