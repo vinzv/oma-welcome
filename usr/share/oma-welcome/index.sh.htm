@@ -6,7 +6,15 @@ source ~/.oma-welcome
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=oma-welcome
 
-cat << EOF
+[ -z "$USER" ] && USER="$(id -nu)"
+REALNAME="$(getent passwd $USER |cut -d: -f5)"
+[ -z "$REALNAME" ] && REALNAME="$USER"
+
+sed \
+	-e "s|%1|<span class=\"username\">$REALNAME</span>|g" \
+	-e "s|%2|$(cat /etc/openmandriva-release)|g" \
+	-e "s|%3|$(uname -r)|g" \
+	<<EOF
 <html>
 <!--
 	Miniport 2.5 by HTML5 UP
@@ -48,15 +56,14 @@ cat << EOF
 		 <article class="articles">
 			<h1 class="titlePage"> $title </h1>
 			<br/>
-			<p>$hi<span class="username"> $USER</span>, </p>
+			<p>$hi</p>
 			<br/>
 			<p>$text</p>
 		 </article>
 		 <br/>
 		 <article class="articles">
 			<p>
-				$you_are_using $(cat /etc/openmandriva-release)
-				$with_kernel $(uname -r)
+				$you_are_using
 			</p>
 		 </article>
 	</div>

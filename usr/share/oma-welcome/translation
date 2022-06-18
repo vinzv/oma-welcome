@@ -6,7 +6,7 @@
 #Locale
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=om-welcome
-hi=$"Hi"
+hi=$"Hi %1!"
 title=$"Welcome to OpenMandriva"
 Name=$"OpenMandriva Welcome"
 #sections menu
@@ -308,9 +308,7 @@ dependency=$"It uses Qt5 WebEngine and htmlscript."
 bugs=$"For bugs, suggestions and improvements, please head to "
 
 #Additional
-you_are_using=$"You are using"
-with_kernel=$"with kernel"
-arch=$"architecture"
+you_are_using=$"You are using %2 with kernel %3."
 
 #translation of News.sh.htm
 newfeature=$"New Features and Major Changes"
