@@ -1,0 +1,15 @@
+#!/bin/bash
+if which nheko &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"nheko is already installed."
+else
+	APP=$"Nheko"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes nheko
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which nheko &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

@@ -1,0 +1,15 @@
+#!/bin/bash
+if which haruna &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"haruna is already installed."
+else
+	APP=$"Haruna"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes haruna
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which haruna &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
