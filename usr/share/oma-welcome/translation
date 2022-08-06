@@ -15,6 +15,7 @@ menunews=$"Features"
 menuomfeat=$"OM Features"
 menuconfigure=$"Configure"
 menucontribute=$"Contribute"
+menurepo=$"Repositories"
 menuabout=$"About"
 text=$"OpenMandriva Lx is an exciting free Desktop Operating System that aims to cater to and interest first time and advanced users alike. It has the breadth and depth of an advanced system, but is designed to be simple and straightforward in use. Lx comes from a 100% community-driven association that believes in the values of free software & collaboration and whose founding values are development, equality, co-operation, openness, freedom, group achievement, independence, and solidarity."
 
@@ -312,6 +313,13 @@ about=$"About this program"
 license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
 dependency=$"It uses Qt5 WebEngine and htmlscript."
 bugs=$"For bugs, suggestions and improvements, please head to "
+
+#translation of Repositories.sh.htm
+repomain=$"The Main repository contains the main packages that make up OpenMandriva Lx. It should always be enabled"
+repouns=$"Unsupported contains packages that are free, but not officially supported by OpenMandriva. While we will try to fix them if something breaks, this is a low priority. Enable Unsupported if you need them and don't mind an occasional crash"
+reporest=$"Restricted contains packages that are free, but encumbered by patents that may make them illegal to use or distribute in some countries. You are responsible for complying with your local laws"
+reponf=$"Non-free contains packages that are not free (as in Open Source). Even if we want to, we cannot fix problems in them. We can not read the code, or verify what the packages actually do. While there are no known side effects, they may contain spyware or malware. They may erase your storage. You are on your own"
+reponoelse=$"Please use only Software Repository Selector to enable/disable repositories"
 
 #Additional
 you_are_using=$"You are using %2 with kernel %3."
