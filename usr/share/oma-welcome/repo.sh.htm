@@ -28,8 +28,8 @@ cat << EOF
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
 			<li><a href="apps.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
-			<li><a href="repo.sh.htm">$menurepo</a></li>
-			<li class='active'><a href="about.sh.htm">$menuabout</a></li>
+			<li class='active'><a href="repo.sh.htm">$menurepo</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
 	</nav>
 <!-- Home -->
@@ -38,23 +38,50 @@ cat << EOF
 			<img src="images/oma-logo.png"/>
 		</div>
 		 <article class="articles">
-			<h1 class="titlePage"> $about $Name</h1>
+			<!-- <h1 class="titlePage"> $about $Name</h1> -->
+			<h1 class="titlePage">Repositories</h1>
 			<p class="blue">$requiretextversion</p>
-			<p class="titlePage">$license</p>
-			<p class="blue">$dependency</p>
-			<p class="blue">$bugs <a class="title" target="hidden" href=./apps/open-bugzilla.run>OpenMandriva Issue Traker</a></p>
-			<p class="blue">Fork and Contribute to $om_appsite <a class="title" target="hidden" href=./apps/open-appsite.run> om-welcome Github Repo</a></p>
+			<!-- <p class="titlePage">$license</p> -->
+			<div>
+			<p class="titlePage">Main</p>
+			<p>$repomain</p>
+			</div>
+			</br>
+			<div>
+			<p class="titlePage">Unsupported</p>
+			<p>$repouns</p>
+			</div>
+			</br>
+			<div>
+			<p class="titlePage">Restricted</p>
+			<p>$reporest</p>
+			</div>
+			</br>
+			<div>
+			<p class="titlePage">Non-free</p>
+			<p>$reponf</p>
+			</div>
+			</br>
+			<div id="container">
+			<p class="titlePage">Manage Repositories with OM Software Repository Selector</p>
+				<p><a href=./apps/om-repo-picker.run><img src="images/repopicker.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/om-repo-picker.run>$titlerepopicker</a></span><br/>$descrepopicker</p>
+			</div>
+			<div>
+			<p class="blue">$reponoelse</p>
+			</div>
+<!-- 		<p class="blue">$dependency</p>
 			<p class="blue">$requiretext</p>
-			<p class="blue">$requiretext</p>
+			<p class="blue">$requiretext</p> -->
 		</article>
 	</div>	
 
 	<div id="lodape">
-		<a href="repo.sh.htm" class="button">$previous</a>
+		<a href="community.sh.htm" class="button">$previous</a>
 	</div>
-	<!--div id="rodape">
-		<a href="execute close$" class="button">$endapp</a>
-	</div-->
+	<div id="rodape">
+		<a href="about.sh.htm" class="button">$next</a>
+	</div>
 </body>
 </html>
 EOF
