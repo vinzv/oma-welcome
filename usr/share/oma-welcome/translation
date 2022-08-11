@@ -130,7 +130,7 @@ descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its
 #translations of apps-office.sh.htm
 titlecalibre=$"Calibre"
 desccalibre=$"Convert and manage your e-Books collection"
-titleunrar=$"Unrar"
+titleunrar=$"Unar"
 descunrar=$"Open and create RAR files with Ark, the default archive manager in OpenMandriva Lx"
 titledia=$"Dia"
 descdia=$"Program to draw structured diagrams"
