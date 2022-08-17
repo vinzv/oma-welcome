@@ -153,7 +153,7 @@ msgstr ""
 msgid "GIMP"
 msgstr ""
 #: translation:60
-msgid "Create and edit your images in a professional way with this powerful Open Source tool"
+msgid "Create and edit your images in a professional way with this powerful open source tool"
 msgstr ""
 #: translation:61
 msgid "Inkscape"
@@ -285,19 +285,19 @@ msgstr ""
 msgid "OBS Studio"
 msgstr ""
 #: translation:106
-msgid "Free and open source software for video recording and live streaming"
+msgid "Software for video recording and live streaming free and open source"
 msgstr ""
 #: translation:107
 msgid "OpenShot"
 msgstr ""
 #: translation:108
-msgid "Free, open source, non-linear video editing software"
+msgid "Non-linear video editing software free and open source"
 msgstr ""
 #: translation:109
 msgid "HandBrake"
 msgstr ""
 #: translation:110
-msgid "Free and open source video transcoder"
+msgid "Video transcoder free and open source"
 msgstr ""
 #: translation:113
 msgid "DnfDrake"
@@ -354,7 +354,7 @@ msgstr ""
 msgid "Convert and manage your e-Books collection"
 msgstr ""
 #: translation:133
-msgid "Unrar"
+msgid "Unar"
 msgstr ""
 #: translation:134
 msgid "Open and create RAR files with Ark, the default archive manager in OpenMandriva Lx"
@@ -621,7 +621,7 @@ msgstr ""
 msgid "Geany IDE"
 msgstr ""
 #: translation:230
-msgid "Geany is a small C editor using GTK2 with basic features of an integrated development environment"
+msgid "A small C editor using GTK2 with basic features of an integrated development environment"
 msgstr ""
 #: translation:231
 msgid "Eclipse IDE"
@@ -768,7 +768,7 @@ msgstr ""
 msgid "Manual"
 msgstr ""
 #: translation:287
-msgid "Help improve a simple step-by-step guide for installing and configuring OpenMandriva Lx"
+msgid "Help writing simple step-by-step guides for installing and configuring OpenMandriva Lx"
 msgstr ""
 #: translation:288
 msgid "Forum"
