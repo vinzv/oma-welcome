@@ -144,7 +144,7 @@ msgstr ""
 
 #: translation:38
 msgid "Install some extra applications to OpenMandriva Lx"
-msgstr "Installa altre applicationi su OpenMandriva Lx"
+msgstr "Installa altre applicazioni su OpenMandriva Lx"
 
 #: translation:39
 msgid " - Here is a selection we made for you"
@@ -464,8 +464,8 @@ msgstr "OBS Studio"
 #: translation:106
 msgid "Free and open source software for video recording and live streaming"
 msgstr ""
-"Software gratuito e open source per la registrazione video e lo streaming "
-"dal vivo"
+"Software per la registrazione video e lo streaming dal vivo  gratuito e open"
+" source"
 
 #: translation:107
 msgid "OpenShot"
@@ -473,7 +473,7 @@ msgstr "OpenShot"
 
 #: translation:108
 msgid "Free, open source, non-linear video editing software"
-msgstr "Free, open source, non-lineare video editing software"
+msgstr "Software di video editing non-lineare gratuito e open source"
 
 #: translation:109
 msgid "HandBrake"
@@ -481,7 +481,7 @@ msgstr "HandBrake"
 
 #: translation:110
 msgid "Free and open source video transcoder"
-msgstr "Free e open source video transcoder"
+msgstr "Video transcoder gratuito e open source"
 
 #: translation:113
 msgid "DnfDrake"
@@ -577,7 +577,7 @@ msgstr "Converti ed organizza la tua collezione di e-book"
 
 #: translation:133
 msgid "Unrar"
-msgstr "Unrar"
+msgstr "Unar"
 
 #: translation:134
 msgid ""
@@ -976,8 +976,8 @@ msgid ""
 "Geany is a small C editor using GTK2 with basic features of an integrated "
 "development environment"
 msgstr ""
-"Geany è un piccolo editor di C che usa GTK2 con le caratteristiche di base "
-"di un ambiente di sviluppo integrato"
+"Piccolo editor di C che usa GTK2 con le caratteristiche di base di un "
+"ambiente di sviluppo integrato"
 
 #: translation:231
 msgid "Eclipse IDE"
@@ -1079,8 +1079,7 @@ msgstr "Telegram Desktop"
 
 #: translation:252
 msgid "Telegram is a messaging app with a focus on speed and security"
-msgstr ""
-"Telegram è un'app di messaggistica che si concentra su velocità e sicurezza"
+msgstr "App di messaggistica che si concentra su velocità e sicurezza"
 
 #: translation:253
 msgid "Pidgin"
@@ -1218,8 +1217,8 @@ msgid ""
 "Help improve a simple step-by-step guide for installing and configuring "
 "OpenMandriva Lx"
 msgstr ""
-"Contribuisci a migliorare una semplice guida passo-passo per l'installazione"
-" e la configurazione OpenMandriva Lx"
+"Contribuisci a scrivere semplici guide passo-passo per l'installazione e la "
+"configurazione OpenMandriva Lx"
 
 #: translation:288
 msgid "Forum"
@@ -1312,7 +1311,7 @@ msgstr "Non avviare om-welcome al login"
 
 #: translation:308
 msgid "Make om-welcome start on login"
-msgstr "Fare avviare om-welcome al login"
+msgstr "Avvia om-welcome al login"
 
 #: translation:309
 msgid "Finish"
