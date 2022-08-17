@@ -238,8 +238,8 @@ msgstr "GIMP"
 
 #: translation:60
 msgid ""
-"Create and edit your images in a professional way with this powerful Open "
-"Source tool"
+"Create and edit your images in a professional way with this powerful open "
+"source tool"
 msgstr ""
 "Crea e modifica le tue immagini in modo professionale con questo potente "
 "strumento open source"
@@ -462,26 +462,26 @@ msgid "OBS Studio"
 msgstr "OBS Studio"
 
 #: translation:106
-msgid "Free and open source software for video recording and live streaming"
+msgid "Software for video recording and live streaming free and open source"
 msgstr ""
-"Software gratuito e open source per la registrazione video e lo streaming "
-"dal vivo"
+"Software per la registrazione video e lo streaming dal vivo gratuito e open "
+"source"
 
 #: translation:107
 msgid "OpenShot"
 msgstr "OpenShot"
 
 #: translation:108
-msgid "Free, open source, non-linear video editing software"
-msgstr "Free, open source, non-lineare video editing software"
+msgid "Non-linear video editing software free and open source"
+msgstr "Software di video editing non-lineare gratuito e open source"
 
 #: translation:109
 msgid "HandBrake"
 msgstr "HandBrake"
 
 #: translation:110
-msgid "Free and open source video transcoder"
-msgstr "Free e open source video transcoder"
+msgid "Video transcoder free and open source"
+msgstr "Video transcoder gratuito e open source"
 
 #: translation:113
 msgid "DnfDrake"
@@ -576,8 +576,8 @@ msgid "Convert and manage your e-Books collection"
 msgstr "Converti ed organizza la tua collezione di e-book"
 
 #: translation:133
-msgid "Unrar"
-msgstr "Unrar"
+msgid "Unar"
+msgstr "Unar"
 
 #: translation:134
 msgid ""
@@ -973,11 +973,11 @@ msgstr "Geany IDE"
 
 #: translation:230
 msgid ""
-"Geany is a small C editor using GTK2 with basic features of an integrated "
-"development environment"
+"A small C editor using GTK2 with basic features of an integrated development"
+" environment"
 msgstr ""
-"Geany è un piccolo editor di C che usa GTK2 con le caratteristiche di base "
-"di un ambiente di sviluppo integrato"
+"Piccolo editor di C che usa GTK2 con le caratteristiche di base di un "
+"ambiente di sviluppo integrato"
 
 #: translation:231
 msgid "Eclipse IDE"
@@ -1215,11 +1215,11 @@ msgstr "Manuale"
 
 #: translation:287
 msgid ""
-"Help improve a simple step-by-step guide for installing and configuring "
+"Help writing simple step-by-step guides for installing and configuring "
 "OpenMandriva Lx"
 msgstr ""
-"Contribuisci a migliorare una semplice guida passo-passo per l'installazione"
-" e la configurazione OpenMandriva Lx"
+"Contribuisci a scrivere semplici guide passo-passo per l'installazione e la "
+"configurazione OpenMandriva Lx"
 
 #: translation:288
 msgid "Forum"
