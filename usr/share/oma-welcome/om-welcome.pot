@@ -807,10 +807,10 @@ msgstr ""
 msgid "Search, report and fix bugs in OpenMandriva Lx"
 msgstr ""
 #: translation:300
-msgid "Join in the IRC channel"
+msgid "Join the conversation"
 msgstr ""
 #: translation:301
-msgid "openmandriva-cooker is OpenMandriva main IRC channel"
+msgid "Discuss in real time with OpenMandriva team and other users"
 msgstr ""
 #: translation:302
 msgid "Get involved"
