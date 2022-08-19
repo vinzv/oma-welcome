@@ -1,2 +1,2 @@
 #!/bin/bash
-konversation --channel openmandriva-cooker
+xdg-open https://app.element.io/#/room/#openmandriva-space:matrix.org
