@@ -1271,12 +1271,12 @@ msgid "Search, report and fix bugs in OpenMandriva Lx"
 msgstr "Cerca, segnala e risolvi i bug in OpenMandriva Lx"
 
 #: translation:300
-msgid "Join in the IRC channel"
-msgstr "Unisciti al canale IRC"
+msgid "Join the conversation"
+msgstr "Unisciti alla conversazione"
 
 #: translation:301
-msgid "openmandriva-cooker is OpenMandriva main IRC channel"
-msgstr "openmandriva-cooker è il principale canale IRC di OpenMandriva"
+msgid "Discuss in real time with OpenMandriva team and other users"
+msgstr "Discuti in tempo reale con Il team di OpenMandriva e con altri utenti"
 
 #: translation:302
 msgid "Get involved"
