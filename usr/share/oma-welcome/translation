@@ -173,6 +173,8 @@ titlemarble=$"Marble"
 descmarble=$"Virtual globe and world atlas. Learn more about the Earth and other planets"
 titlekig=$"Kig"
 desckig=$"Interactive mathematics software for learning and teaching geometry"
+titlekstars=$"KStars"
+desckstars=$"Desktop Planetarium for KDE"
 
 #translations of apps-kids.sh.htm
 titlescratch=$"Scratch"
