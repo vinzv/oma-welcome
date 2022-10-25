@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: translation:311
 msgid "Click here to be sure you read the latest Release Notes and Errata"
-msgstr "Click here to be sure you read the latest Release Notes and Errata"
+msgstr "Fai click qui per leggere le ultime Note di Rilascio e Errata"
 
 #: translation:312
 msgid "Do not start om-welcome on login"
