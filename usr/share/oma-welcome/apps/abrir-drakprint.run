@@ -1,2 +1,17 @@
 #!/bin/sh
-exec kcmshell5 kcm_printer_manager
+if rpm -q cups &>/dev/null; then
+	exec kcmshell5 kcm_printer_manager
+else
+	APP=$"Task printing-scanning"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes task-printing task-printing-scanning print-manager system-config-printer
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q cups &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+
+exit 0
