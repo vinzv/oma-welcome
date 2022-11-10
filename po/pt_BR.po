@@ -1369,8 +1369,8 @@ msgid ""
 "The Main repository contains the main packages that make up OpenMandriva Lx."
 " It should always be enabled"
 msgstr ""
-"O repositório principal - main - contém os pacotes que fazem o OpenMandriva "
-"Lx. Deve sempre estar habilitado."
+"O repositório principal - Main - contém os principais pacotes que integram o"
+" OpenMandriva Lx. Deve estar sempre ativo."
 
 #: translation:324
 msgid ""
