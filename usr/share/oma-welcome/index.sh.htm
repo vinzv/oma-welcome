@@ -12,8 +12,8 @@ REALNAME="$(getent passwd $USER |cut -d: -f5)"
 
 sed \
 	-e "s|%1|<span class=\"username\">$REALNAME</span>|g" \
-	-e "s|%2|$(cat /etc/openmandriva-release)|g" \
-	-e "s|%3|$(uname -r)|g" \
+	-e "s|%2|$(lsb_release -d | cut -d":" -f2) $(lsb_release -c | cut -d":" -f2)|g" \
+	-e "s|%3|$(uname -r | cut -d"-" -f1) $(uname -r | cut -d"-" -f2)|g" \
 	<<EOF
 <html>
 <!--
