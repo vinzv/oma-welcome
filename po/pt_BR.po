@@ -195,7 +195,7 @@ msgstr "Display e Monitor"
 
 #: translation:48
 msgid "Manage and configure monitor and display"
-msgstr "Gerenciar e configure o monitor e display"
+msgstr "Gerenciar e configurar o monitor e display"
 
 #: translation:49
 msgid "Configure your printer"
