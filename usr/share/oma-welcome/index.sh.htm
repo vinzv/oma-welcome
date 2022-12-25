@@ -1,6 +1,7 @@
 #!/bin/bash
 source translation
 source ~/.oma-welcome
+source /etc/os-release
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -12,7 +13,7 @@ REALNAME="$(getent passwd $USER |cut -d: -f5)"
 
 sed \
 	-e "s|%1|<span class=\"username\">$REALNAME</span>|g" \
-	-e "s|%2|$(lsb_release -d | cut -d":" -f2) $(lsb_release -c | cut -d":" -f2)|g" \
+	-e "s|%2|${NAME} ${VERSION}|g" \
 	-e "s|%3|$(uname -r | cut -d"-" -f1) $(uname -r | cut -d"-" -f2)|g" \
 	<<EOF
 <html>

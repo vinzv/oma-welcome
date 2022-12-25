@@ -53,7 +53,7 @@ bash --dump-po-strings translation > om-welcome.pot
 
 om-welcome.pot is the translation file.
 
-the bigbashview uses html, css and js to create the layout, if you want to make any changes or improvements
+htmlscript uses html, css and js to create the layout, if you want to make any changes or improvements,
 just edit the files with the format. sh.htm, and style.css that is inside the css folder.
 files with the. scripts are run that will be read as if they were running through the terminal.
 
@@ -64,5 +64,5 @@ $(command to be executed)
 
 example: 
 ```
-     $(lsb_release -d | cut -d":" -f2) #shows the name of the Linux distribution
+     $(cat /etc/os-release | cut -d"=" -f2) #shows the name of the Linux distribution
 ```      
