@@ -315,7 +315,7 @@ msgstr "Fotoxx"
 
 #: translation:75
 msgid "Edit image files from a digital camera"
-msgstr "Edite arquivos de imagens de uma câmera digital"
+msgstr "Editar ficheiros de imagens de uma câmara digital"
 
 #: translation:76
 msgid "Pixelize"
