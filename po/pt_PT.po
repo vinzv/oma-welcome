@@ -34,7 +34,7 @@ msgstr "Bem-vindo ao OpenMandriva"
 
 #: translation:11
 msgid "OpenMandriva Welcome"
-msgstr "OpenMandriva Boas-Vindas "
+msgstr " Bem-vindo do OpenMandriva"
 
 #: translation:13
 msgid "Welcome"
@@ -46,7 +46,7 @@ msgstr "Funcionalidades"
 
 #: translation:15
 msgid "OM Features"
-msgstr "Funcionalidade OM"
+msgstr "Funcionalidades do OM"
 
 #: translation:16
 msgid "Configure"
