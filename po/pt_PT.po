@@ -307,7 +307,7 @@ msgstr "Encontrar aplicações adicionais com dnfdragora"
 
 #: translation:73
 msgid "Find applications available in the repositories"
-msgstr "Encontre aplicativos disponíveis nos repositórios"
+msgstr "Encontrar aplicações disponíveis nos repositórios"
 
 #: translation:74
 msgid "Fotoxx"
