@@ -191,6 +191,8 @@ titleblinken=$"Blinken"
 descblinken=$"Follow the pattern of sounds and lights as long as you can"
 titleklettres=$"KLettres"
 descklettres=$"Language learning program"
+titletuxpusher=$"TuxPusher"
+desctuxpusher=$"A Tux themed 3D coin pusher game"
 
 #translations of apps-gaming.sh.htm
 titlekvpnc=$"KVPNc"

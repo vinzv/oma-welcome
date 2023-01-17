@@ -1,0 +1,15 @@
+#!/bin/bash
+if which tuxpusher &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"TuxPusher is already installed."
+else
+	APP=$"TuxPusher"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes tuxpusher
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which tuxpusher &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
