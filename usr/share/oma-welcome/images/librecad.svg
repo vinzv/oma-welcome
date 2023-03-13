@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64.0px"
+   height="64.0px"
+   viewBox="0 0 64.0 64.0"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="librecad.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#f9f9f9"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4.7572176"
+     inkscape:cx="51.500692"
+     inkscape:cy="52.972141"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       originx="0"
+       originy="0" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid366" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       fill="#8ed900"
+       d="m 3,3.0000001 h 7.04004 V 10.041059 H 3 Z"
+       id="path4"
+       style="stroke-width:0.579994" />
+    <path
+       fill="#8ed900"
+       d="m 3,53.958941 h 7.04004 V 61 H 3 Z"
+       id="path6"
+       style="stroke-width:0.579994" />
+    <path
+       fill="#8ed900"
+       d="M 53.9588,3.0000001 H 61 v 7.0410589 h -7.0412 z"
+       id="path8"
+       style="stroke-width:0.579994" />
+    <path
+       fill="#8ed900"
+       d="M 53.9588,53.958941 H 61 V 61 h -7.0412 z"
+       id="path10"
+       style="stroke-width:0.579994" />
+    <path
+       d="M 32,3.0185597 C 15.98388,3.0185597 3,15.98362 3,31.99942 3,48.0158 15.98388,60.99884 32,60.99884 48.01612,60.99884 61,48.0158 61,31.99942 61,15.98362 48.01612,3.0185597 32,3.0185597 Z m 0,6.9598612 c 12.17246,0 22.04,9.8493621 22.04,22.0209991 0,12.172217 -9.86754,22.058119 -22.04,22.058119 -12.17188,0 -22.04,-9.885902 -22.04,-22.058119 C 9.96,19.827783 19.82812,9.9784209 32,9.9784209 Z"
+       fill="#8ed900"
+       id="path12"
+       style="stroke-width:0.579994" />
+    <path
+       fill="#4d4d4d"
+       d="M 61,35.47935 H 16.92 v 3.479931 H 3 V 25.039559 H 16.92 V 28.51949 H 61 Z"
+       id="path14"
+       style="stroke-width:0.579994" />
+  </g>
+</svg>
