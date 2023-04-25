@@ -1335,7 +1335,7 @@ msgstr ""
 
 #: translation:312
 msgid "Do not start om-welcome on login"
-msgstr "Älä näytä tätä kirjautumisen yhteydessä"
+msgstr "Älä näytä tätä enään kirjautumisen jälkeen"
 
 #: translation:313
 msgid "Make om-welcome start on login"
