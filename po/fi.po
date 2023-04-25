@@ -538,9 +538,7 @@ msgstr "OpenMandriva repo-picker"
 #: translation:125
 msgid ""
 "The tool to enable and disable repositories easily with just a few clicks"
-msgstr ""
-"Työkalu, jolla arkistot otetaan ja poistetaan käytöstä helposti muutamalla "
-"painalluksella"
+msgstr "Työkalu, jolla arkistot otetaan ja poistetaan helposti käytöstä"
 
 #: translation:126
 msgid "Filezilla"
