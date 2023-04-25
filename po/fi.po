@@ -1429,9 +1429,9 @@ msgid ""
 " the year past we have tried to evolve the way you use your desktop. Here "
 "are some of the things we have done for this release:"
 msgstr ""
-"OpenMandriva Lx:n julkaisee OpenMandriva Association. Kuluneen vuoden aikana"
-" olemme yrittäneet kehittää erilaisia tapoja käyttää työpöytää. Tässä "
-"joitain asioita, joita olemme tehneet tälle julkaisulle:"
+"OpenMandriva Lx on OpenMandriva Associationin julkaisema. Kuluneen vuoden "
+"aikana olemme kehittäneet erilaisia tapoja käyttää tietokonetta. Alla "
+"joitain asioita, joita olemme tehneet tähän julkaisuun:"
 
 #: translation:335
 msgid "OM Control Center"
