@@ -1258,7 +1258,7 @@ msgstr "Kääntäminen"
 
 #: translation:296
 msgid "Translate blog posts, wiki pages, applications and stuff"
-msgstr "Käännä blogitekstejä, wikisivuja ja sovelluksia omalle kielelle"
+msgstr "Käännä blogia, wikiä ja sovelluksia omalle kielelle"
 
 #: translation:297
 msgid "Join in the development of OpenMandriva Lx"
