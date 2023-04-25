@@ -1320,8 +1320,8 @@ msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
 msgstr ""
-"Voit osoittaa OpenMandriva Lx:lle huolenpitosi lahjoittamalla sinun aikaasi "
-"tai rahoittamalla meitä"
+"Voit osoittaa huolenpitosi lahjoittamalla sinun aikaasi tai rahoittamalla "
+"meitä"
 
 #: translation:311
 msgid "Click here to be sure you read the latest Release Notes and Errata"
