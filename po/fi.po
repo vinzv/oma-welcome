@@ -156,8 +156,8 @@ msgid ""
 "After installing OpenMandriva Lx, you can configure repositories to install "
 "other applications and to keep the system updated"
 msgstr ""
-"OpenMandriva Lx:n asennuksen jälkeen voit määrittää arkistot asentamaan "
-"lisää ohjelmia ja pitämään järjestelmän ajan tasalla"
+"OpenMandriva Lx asennuksen jälkeen voit määrittää arkistot laajentamaan "
+"lisää ohjelmien saatavuutta ja pitämään järjestelmä ajan tasalla"
 
 #: translation:42
 msgid "Update of"
