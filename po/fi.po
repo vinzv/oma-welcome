@@ -1265,7 +1265,7 @@ msgstr "Liity OpenMandriva Lx kehittäjiin"
 
 #: translation:298
 msgid "Cooker is the development branch of OpenMandriva Lx"
-msgstr "Cooker on OpenMandriva Lx:n kehityshaara"
+msgstr "Cooker on OpenMandriva Lx kehityshaara"
 
 #: translation:299
 msgid "Artwork"
