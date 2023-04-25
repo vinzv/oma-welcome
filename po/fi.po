@@ -511,8 +511,8 @@ msgid ""
 "Open-source system optimizer and monitoring tool that helps the users to "
 "manage their operating system"
 msgstr ""
-"Järjestelmän optimointi ja seurantatyökalu, joka auttaa käyttää hallitsemaan"
-" tietokonettaan"
+"Järjestelmän optimointi ja seurantatyökalu, auttaa käyttää hallitsemaan "
+"tietokonettaan"
 
 #: translation:120
 msgid "dupeGuru"
