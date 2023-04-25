@@ -1221,7 +1221,7 @@ msgstr "OpenMandriva ohjauspaneeli auttaa tekemään järjestelmään muutoksia"
 
 #: translation:289
 msgid "How to contribute to OpenMandriva"
-msgstr "Kuinka OpenMandrivaan voi osallistua "
+msgstr "Kuinka voit osallistua OpenMandrivaan"
 
 #: translation:290
 msgid ""
