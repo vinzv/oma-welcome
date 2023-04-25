@@ -1240,8 +1240,7 @@ msgid ""
 "Help writing simple step-by-step guides for installing and configuring "
 "OpenMandriva Lx"
 msgstr ""
-"Auta ohjeiden kirjoittamisessa OpenMandriva Lx:n asentamiseen ja "
-"määritykseen"
+"Auta ohjeiden kirjoittamisessa OpenMandriva Lx asennukseen ja määritykseen"
 
 #: translation:293
 msgid "Forum"
