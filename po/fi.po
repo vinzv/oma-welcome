@@ -1261,7 +1261,7 @@ msgstr "Käännä blogia, wikiä ja sovelluksia omalle kielelle"
 
 #: translation:297
 msgid "Join in the development of OpenMandriva Lx"
-msgstr "Liity OpenMandriva Lx:n kehittämiseen"
+msgstr "Liity OpenMandriva Lx kehittäjiin"
 
 #: translation:298
 msgid "Cooker is the development branch of OpenMandriva Lx"
