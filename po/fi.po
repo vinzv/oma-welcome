@@ -1504,10 +1504,9 @@ msgid ""
 "machines. Please file bug reports at <a href='./apps/open-bugzilla.run' "
 "target="
 msgstr ""
-"Tämä OpenMandriva Lx:n julkaisu sisältää toimivan tuen EFI-käynnistykseen. "
-"Live-tilaan käynnistäminen usb-medialta pitäisi olla mahdollista useimmissa "
-"koneissa. Tee vikailmoitukset osoitteessa <a href='./apps/open-bugzilla.run'"
-" target="
+"Tämä OpenMandriva Lx julkaisu sisältää toimivan tuen EFI:lle. Käynnistäminen"
+" usb-medialta Live-tilaan pitäisi olla mahdollista useimmissa tietokoneissa."
+" Tee vikailmoitukset <a href='./apps/open-bugzilla.run' target="
 
 #: translation:346
 msgid ""
