@@ -141,7 +141,7 @@ msgstr ""
 
 #: translation:38
 msgid "Install some extra applications to OpenMandriva Lx"
-msgstr "Asenna lisäohjelmia OpenMandriva Lx käyttöjärjestelmään"
+msgstr "Asenna joitakin lisäohjelmia OpenMandriva Lx järjestelmään"
 
 #: translation:39
 msgid " - Here is a selection we made for you"
