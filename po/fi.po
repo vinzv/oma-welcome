@@ -1289,7 +1289,7 @@ msgstr "Ilmoita virheestä"
 
 #: translation:304
 msgid "Search, report and fix bugs in OpenMandriva Lx"
-msgstr "Etsi, ilmoita ja korjaa virheitä OpenMandriva Lx:ssä"
+msgstr "Etsi, ilmoita ja korjaa virheitä OpenMandriva Lx parantamiseksi"
 
 #: translation:305
 msgid "Join the conversation"
