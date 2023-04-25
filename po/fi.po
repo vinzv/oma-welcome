@@ -1298,7 +1298,7 @@ msgstr "Liity keskusteluun"
 #: translation:306
 msgid "Discuss in real time with OpenMandriva team and other users"
 msgstr ""
-"Keskustele reaaliajassa OpenMandriva-tiimin ja muiden käyttäjien kanssa"
+"Keskustele reaaliajassa tiimin ja OpenMandrivan muiden käyttäjien kanssa"
 
 #: translation:307
 msgid "Get involved"
