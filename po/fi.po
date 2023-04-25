@@ -1309,8 +1309,7 @@ msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
 msgstr ""
-"Kuinka osallistua OpenMandrivaan? Jos sinulla on aikaa, otamme mielellämme "
-"apuasi eri aloilta"
+"Jos sinulla on aikaa OpenMandrivalle, otamme mielellämme apuasi eri aloilta"
 
 #: translation:309
 msgid "Donation"
