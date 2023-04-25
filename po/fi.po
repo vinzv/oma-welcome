@@ -1219,8 +1219,7 @@ msgstr "Ohjauspaneeli"
 
 #: translation:286
 msgid "OpenMandriva Control Center helps you to configure your system"
-msgstr ""
-"OpenMandriva ohjauspaneeli auttaa sinua tekemään muutoksia järjestelmään"
+msgstr "OpenMandriva ohjauspaneeli auttaa tekemään järjestelmään muutoksia"
 
 #: translation:289
 msgid "How to contribute to OpenMandriva"
