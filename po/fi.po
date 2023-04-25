@@ -1435,7 +1435,7 @@ msgstr ""
 
 #: translation:335
 msgid "OM Control Center"
-msgstr "OpenMandriva ohjauspaneeli"
+msgstr "OM Control Center"
 
 #: translation:337
 msgid "Fresh Packages"
