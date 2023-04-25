@@ -74,10 +74,10 @@ msgstr ""
 "OpenMandriva Lx on jännittävä ja ilmainen käyttöjärjestelmä. Tarkoituksena "
 "on herättää kiinnostus uusille sekä jo pidemmälle ehtineille käyttäjille. "
 "Järjestelmässä on laajasti mahdollisuuksia, mutta se on suunniteltu "
-"yksinkertaiseksi ja suoraviivaiseksi käyttää. Lx tulee 100% yhteisön "
-"tuotannosta, joka uskoo vapaiden ohjelmistojen ja yhteistyön arvoihin. "
-"Perusarvot ovat kehitys, tasa-arvo, yhteistyö, avoimuus, vapaus, "
-"ryhmäsaavutukset, riippumattomuus ja solidaarisuus."
+"yksinkertaiseksi ja suoraviivaiseksi. Lx on 100% yhteisön tuottama, joka "
+"uskoo vapaiden ohjelmistojen ja yhteistyön arvoihin. Perusarvot ovat "
+"kehitys, tasa-arvo, yhteistyö, avoimuus, vapaus, ryhmäsaavutukset, "
+"riippumattomuus ja solidaarisuus."
 
 #: translation:23
 msgid "Next"
@@ -1331,8 +1331,7 @@ msgstr ""
 #: translation:311
 msgid "Click here to be sure you read the latest Release Notes and Errata"
 msgstr ""
-"Paina tätä varmistaaksesi, että olet lukenut uusimmat julkaisutiedot ja "
-"virheilmoitukset"
+"Varmista, että olet lukenut uusimmat julkaisutiedot ja virheilmoitukset"
 
 #: translation:312
 msgid "Do not start om-welcome on login"
