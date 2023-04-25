@@ -1498,8 +1498,8 @@ msgstr ""
 #: translation:344
 msgid "New OpenMandriva Control Center, to help you configure your system"
 msgstr ""
-"Uusi OpenMandriva ohjauspaneeli, jonka avulla voit määrittää järjestelmän "
-"asetuksia nopeasti ja helposti ilman suurempaa osaamista"
+"OpenMandrivan uusi ohjauspaneeli, jonka avulla voit määrittää järjestelmän "
+"asetuksia helposti ilman suurempaa osaamista"
 
 #: translation:345
 msgid ""
