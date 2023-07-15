@@ -149,6 +149,8 @@ titlelokalize=$"Lokalize"
 desclokalize=$"Computer-aided translation system that focuses on productivity and performance"
 titlehomebank=$"Homebank"
 deschomebank=$"Free easy personal accounting for all"
+titlearianna=$"Arianna"
+descarianna=$"Ebook reader and library management app"
 
 #translations of apps-edu.sh.htm
 titlestellarium=$"Stellarium"
