@@ -1,0 +1,15 @@
+#!/bin/bash
+if which vlc &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"VLC is already installed."
+else
+	APP=$"VLC"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes vlc
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which vlc &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
