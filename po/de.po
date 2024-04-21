@@ -640,7 +640,7 @@ msgstr "Kraft"
 
 #: translation:145
 msgid "Manage your office documents with Kraft"
-msgstr "Verwalte deine Office-Dokumente mit Kraft"
+msgstr "Verwalten Sie Ihre Office-Dokumente mit Kraft"
 
 #: translation:146
 msgid "Zim"
