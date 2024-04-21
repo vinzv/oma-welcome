@@ -369,7 +369,7 @@ msgid ""
 "Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and "
 "Ogg/Vorbis"
 msgstr ""
-"Bearbeiten, aufnehmen und importieren von vielen Audiodateiformaten wie WAV,"
+"Bearbeiten, aufnehmen und importieren von vielen Sounddateiformaten wie WAV,"
 " AIFF, MP3 and Ogg/Vorbis"
 
 #: translation:86
