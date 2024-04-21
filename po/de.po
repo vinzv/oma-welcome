@@ -357,8 +357,8 @@ msgid ""
 "formats are proprietary and restricted in some countries"
 msgstr ""
 "Notwendige Codecs um Audio- und Videodateien in verschiedenen Formaten "
-"abzuspielen. Einige Formate sind proprietär und in manchen Ländern nicht "
-"gestattet"
+"abzuspielen. Einige Formate sind proprietär und in einigen Ländern "
+"eingeschränkt"
 
 #: translation:84
 msgid "Audacity"
