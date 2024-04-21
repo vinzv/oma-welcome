@@ -450,8 +450,8 @@ msgid ""
 "Handle your whole music collection by retreaving semantic information from "
 "the web"
 msgstr ""
-"Verwalte deine gesamte Musiksammlung, indem du semantische Informationen aus"
-" dem Web abrufst"
+"Handhaben Sie Ihre gesamte Musiksammlung, indem Sie semantische "
+"Informationen aus dem Internet wiederverwerten"
 
 #: translation:102
 msgid "Bino 3D Video Player"
