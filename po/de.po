@@ -455,7 +455,7 @@ msgstr ""
 
 #: translation:102
 msgid "Bino 3D Video Player"
-msgstr "Bino 3D Video Player"
+msgstr "Bino 3D Videoplayer"
 
 #: translation:103
 msgid "Stereoscopic 3D video player with multi-display support"
