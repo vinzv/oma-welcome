@@ -1498,7 +1498,7 @@ msgid ""
 msgstr ""
 "Der Kernel $(uname -r | cut -d ' ' -f 2) ist die neueste verfügbare Serie. Der OpenMandriva Lx-Kernel verfügt über einen BFQ-Disk-I/O-Scheduler, UKSM-Speicherverwaltung, Desktop-Systemleistung und Reaktionsfähigkeit im Sinne. Es sind Desktop-Server-Versionen verfügbar, Es sind Desktop-Server-Versionen erhältlich, jeweils mit Blick auf ihren jeweiligen Verwendungszweck konzipiert.<br/>\n"
 "<br/>\n"
-"<b>"
+"<b>Was ist neu:</b>HT/SMT NICE ist standardmäßig aktiviert, um die Reaktionsfähigkeit und das Echtzeitverhalten auf PCs mit HT (Hyper-Threading) zu verbessern, was die Leistung von Anwendungen im Vordergrund auf Kosten der Anwendungen im Hintergrund verbessert. Ihr Desktop / GUI / Anwendungen bleiben schnell, auch wenn Sie folding@home, mprime, seti@home, etc. ausführen. "
 
 #: translation:344
 msgid ""
