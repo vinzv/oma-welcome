@@ -1496,7 +1496,7 @@ msgid ""
 "<br/>\n"
 "<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
 msgstr ""
-"Der Kernel $(uname -r | cut -d ' ' -f 2) ist die neueste verfügbare Serie. Der OpenMandriva Lx-Kernel verfügt über einen BFQ-Disk-I/O-Scheduler, UKSM-Speicherverwaltung, Desktop-Systemleistung und Reaktionsfähigkeit im Sinne. Es sind Desktop-Server-Versionen verfügbar, Es sind Desktop-Server-Versionen erhältlich, die für den jeweiligen Verwendungszweck konzipiert sind.<br/>\n"
+"Der Kernel $(uname -r | cut -d ' ' -f 2) ist die neueste verfügbare Serie. Der OpenMandriva Lx-Kernel verfügt über einen BFQ-Disk-I/O-Scheduler, UKSM-Speicherverwaltung, Desktop-Systemleistung und Reaktionsfähigkeit im Sinne. Es sind Desktop-Server-Versionen verfügbar, Es sind Desktop-Server-Versionen erhältlich, jeweilig konzipiert mit deren Verwendungszweck im Auge.<br/>\n"
 "<br/>\n"
 "<b>"
 
