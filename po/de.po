@@ -1116,8 +1116,8 @@ msgid ""
 "By installing this package you will be able to use Skype online from "
 "skype.com"
 msgstr ""
-"Mit der Installation dieses Pakets kannst du Skype online von skype.com aus "
-"nutzen"
+"Durch die Installation dieses Pakets können Sie Skype online von skype.com "
+"aus verwenden"
 
 #: translation:258
 msgid "Telegram Desktop"
