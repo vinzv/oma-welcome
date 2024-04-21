@@ -1103,7 +1103,7 @@ msgid ""
 "By installing this package you will download and install Skype from "
 "skype.com. You must accept the Skype EULA before using it"
 msgstr ""
-"Wenn Sie dieses Paket installieren, laden Sie Skype von skype.com herunter "
+"Durch die Installation dieses Pakets laden Sie Skype von skype.com herunter "
 "und installieren es. Sie müssen die EULA von Skype akzeptieren, bevor Sie es"
 " verwenden können"
 
