@@ -1355,8 +1355,8 @@ msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
 msgstr ""
-"Du kannst uns deine Liebe und Unterstützung schenken, indem du deine Zeit "
-"oder Geld OpenMandriva Lx zur Verfügung stellst"
+"Sie können uns Ihre Liebe und Fürsorge schenken, indem Sie Ihre Zeit oder "
+"Ihr Geld an OpenMandriva Lx spenden"
 
 #: translation:313
 msgid "Click here to be sure you read the latest Release Notes and Errata"
