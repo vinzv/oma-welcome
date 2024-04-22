@@ -98,7 +98,7 @@ msgstr "Anwendungen"
 
 #: translation:27
 msgid "Office"
-msgstr "Büro"
+msgstr "Office"
 
 #: translation:28
 msgid "Graphics"
