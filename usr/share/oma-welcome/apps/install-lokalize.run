@@ -5,7 +5,11 @@ else
 	APP=$"Lokalize"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
-	pkexec dnf install --assumeyes lokalize
+	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
+		pkexec dnf install --assumeyes lokalize
+	else
+		pkexec dnf install --assumeyes plasma6-lokalize
+	fi
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which lokalize &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

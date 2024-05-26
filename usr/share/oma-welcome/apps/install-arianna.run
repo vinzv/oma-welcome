@@ -5,7 +5,11 @@ else
 	APP=$"Arianna"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
-	pkexec dnf install --assumeyes arianna
+	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
+		pkexec dnf install --assumeyes arianna
+	else
+		pkexec dnf install --assumeyes plasma6-arianna
+	fi
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which arianna &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
