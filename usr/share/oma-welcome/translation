@@ -80,7 +80,7 @@ desclibrecad=$"Qt application to design 2D cad drawing based on the community ed
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
-desccodecs=$"Necessary codecs to run audio and video files in various formats. Some file formats are proprietary and restricted in some countries"
+desccodecs=$"Necessary codecs to run audio and video files. Some file formats are proprietary and restricted in some countries"
 titleaudacity=$"Audacity"
 descaudacity=$"Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and Ogg/Vorbis"
 titlekdenlive=$"Kdenlive"
@@ -228,7 +228,7 @@ desckmahjongg=$"Mahjongg Solitaire"
 titleendlesssky=$"Endless Sky"
 descendlesssky=$"Space exploration and combat game"
 titleetr=$"Extreme Tux Racer"
-descetr=$"The goal of the game is to slide down a snow and ice covered mountain as quickly as possible"
+descetr=$"Slide down a snow and ice covered mountain as quickly as possible"
 titlekubrick=$"Kubrick"
 desckubrick=$"Game based on Rubik's Cube"
 
