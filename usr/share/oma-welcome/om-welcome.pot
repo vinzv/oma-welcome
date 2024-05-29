@@ -921,7 +921,7 @@ msgid ""
 "<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc. "
 msgstr ""
 #: translation:348
-msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' kio). The KDE Frameworks are add-on libraries for coding applications with Qt."
+msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2) provides a clean, unified desktop for OpenMandriva Lx. It has all the tools required to be productive whilst providing a pleasant, functional environment. This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' kf6-kio). The KDE Frameworks are add-on libraries for coding applications with Qt."
 msgstr ""
 #: translation:349
 msgid "LibreOffice $(libreoffice --version | cut -d ' ' -f 2) is the newest available stable release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
