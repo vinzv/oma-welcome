@@ -1493,7 +1493,7 @@ msgstr "OM-Kontrollzentrum"
 
 #: translation:343
 msgid "Fresh Packages"
-msgstr "Pakete auffrischen"
+msgstr "Frische Pakete"
 
 #: translation:344
 msgid ""
