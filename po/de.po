@@ -1532,8 +1532,8 @@ msgstr ""
 "verfügt über alle erforderlichen Tools, um produktiv zu sein und bietet "
 "gleichzeitig eine angenehme, funktionale Umgebung. Dieses Release enthält "
 "ein aktualisiertes KDE-Frameworks $(rpm -q --qf '%{VERSION}' kf6-kio). Die "
-"KDE Frameworks sind Zusatzbibliotheken für die Programmierung von "
-"Anwendungen mit Qt."
+"KDE Frameworks sind Add-on-Bibliotheken für das Coding von Anwendungen mit "
+"Qt."
 
 #: translation:349
 msgid ""
