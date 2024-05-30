@@ -1531,9 +1531,9 @@ msgstr ""
 "bietet einen sauberen, vereinheitlichten Desktop für OpenMandriva Lx. Er "
 "verfügt über alle erforderlichen Tools, um produktiv zu sein und bietet "
 "gleichzeitig eine angenehme, funktionale Umgebung. Dieses Release enthält "
-"aktualisierte KDE-Frameworks $(rpm -q --qf '%{VERSION}' kf6-kio). Die KDE "
-"Frameworks sind Zusatzbibliotheken für die Programmierung von Anwendungen "
-"mit Qt."
+"ein aktualisiertes KDE-Frameworks $(rpm -q --qf '%{VERSION}' kf6-kio). Die "
+"KDE Frameworks sind Zusatzbibliotheken für die Programmierung von "
+"Anwendungen mit Qt."
 
 #: translation:349
 msgid ""
