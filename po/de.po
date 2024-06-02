@@ -144,7 +144,7 @@ msgid ""
 "go to OpenMandriva Control Center for more"
 msgstr ""
 "- Aktualisieren Sie Ihr System, konfigurieren Sie Netzwerk, Drucker, "
-"Desktop-Theme und Icons. Oder gehen Sie zum OpenMandriva-Kontollzentrum für "
+"Desktop-Theme, Icons. Oder gehen Sie zum OpenMandriva-Kontollzentrum für "
 "mehr"
 
 #: translation:38
