@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if rpm -q kernel-desktop-gcc &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $"The GCC kernel is already installed."
 else
 	APP=$"GCC Kernel"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes kernel-desktop-gcc
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if rpm -q kernel-desktop-gcc &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $"The GCC kernel was installed successfully."
 	else

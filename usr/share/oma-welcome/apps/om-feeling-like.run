@@ -1,12 +1,12 @@
 #!/bin/sh
+. /usr/share/htmlscript/helpers
 if rpm -q om-feeling-like &>/dev/null; then
 	exec om-feeling-like-ui
 else
 	APP=$"Desktop Presets"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes om-feeling-like
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if rpm -q om-feeling-like &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

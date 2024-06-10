@@ -1,16 +1,16 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which kpat &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"KPatience is already installed."
 else
 	APP=$"KPatience"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes kpat
 	else
 		pkexec dnf install --assumeyes plasma6-kpat
 	fi
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which kpat &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

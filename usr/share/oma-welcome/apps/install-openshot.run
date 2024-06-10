@@ -1,13 +1,13 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which openshot-qt; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenShot is already installed."
 else
 	APP=$"OpenShot"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes openshot
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which openshot-qt; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

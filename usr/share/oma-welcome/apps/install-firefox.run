@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which firefox &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Firefox is already installed."
 else
 	APP=$"Firefox"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes firefox
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which firefox &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

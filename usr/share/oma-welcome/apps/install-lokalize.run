@@ -1,16 +1,16 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which lokalize &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Lokalize is already installed."
 else
 	APP=$"Lokalize"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes lokalize
 	else
 		pkexec dnf install --assumeyes plasma6-lokalize
 	fi
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which lokalize &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

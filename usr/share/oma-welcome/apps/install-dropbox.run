@@ -1,13 +1,13 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if rpm -qa |grep "nautilus-dropbox*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" nautilus-dropbox (Dropbox extension) is already installed."
 else
 	APP=$"Nautilus Dropbox extension"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo non-free
 	pkexec dnf install --assumeyes nautilus-dropbox
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if rpm -qa |grep "nautilus-dropbox*"; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" nautilus-dropbox (Dropbox extension) successfully installed."
 	else

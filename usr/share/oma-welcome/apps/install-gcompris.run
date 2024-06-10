@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which gcompris-qt &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"GCompris is already installed."
 else
 	APP=$"GCompris Qt"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes gcompris-qt
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which gcompris-qt &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

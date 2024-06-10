@@ -1,14 +1,14 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 
 if which qmmp; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" QMMP is already installed."
 else
 	APP=$"QMMP"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes qmmp
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which qmmp; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

@@ -1,2 +1,2 @@
 #!/bin/sh
-exec kcmshell5 icons
+kcmshell icons

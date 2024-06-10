@@ -1,16 +1,16 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which kturtle &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"KTurtle is already installed."
 else
 	APP=$"KTurtle"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes kturtle
 	else
 		pkexec dnf install --assumeyes plasma6-kturtle
 	fi
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which kturtle &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

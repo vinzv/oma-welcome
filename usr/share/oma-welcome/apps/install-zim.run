@@ -1,13 +1,13 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which zim; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Zim Wiki Editor is already installed."
 else
 	APP=$"Zim Wiki Editor"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes zim
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which zim; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

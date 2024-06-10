@@ -5,4 +5,4 @@ if ping -w2 www.openmandriva.org &>/dev/null; then
 		exit 0
 	fi
 fi
-exec kcmshell5 kcm_networkmanagement
+kcmshell kcm_networkmanagement

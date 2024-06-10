@@ -1,13 +1,13 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which stacer &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Stacer is already installed."
 else
 	APP=$"Stacer"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes stacer
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which stacer &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

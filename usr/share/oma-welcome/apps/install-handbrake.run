@@ -1,13 +1,13 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which handbrake; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" HandBrake is already installed."
 else
 	APP=$"HandBrake"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo restricted
 	pkexec dnf install --assumeyes handbrake
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which handbrake; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

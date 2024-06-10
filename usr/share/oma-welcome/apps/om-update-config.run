@@ -1,12 +1,12 @@
 #!/bin/sh
+. /usr/share/htmlscript/helpers
 if rpm -q om-update-config &>/dev/null; then
 	exec om-update-config-ui
 else
 	APP=$"Update Configuration"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes om-update-config
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if rpm -q om-update-config &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

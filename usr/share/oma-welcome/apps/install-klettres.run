@@ -1,16 +1,16 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which klettres &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"KLettres is already installed."
 else
 	APP=$"KLettres"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes klettres
 	else
 		pkexec dnf install --assumeyes plasma6-klettres
 	fi
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which klettres &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

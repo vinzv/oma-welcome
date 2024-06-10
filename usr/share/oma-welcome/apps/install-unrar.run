@@ -1,13 +1,13 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if rpm -q unar; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Unar is already installed."
 else
 	APP=$"Unar"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo non-free
 	pkexec dnf install --assumeyes unar zip p7zip ncompress
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which unar; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

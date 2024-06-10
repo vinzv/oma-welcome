@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if rpm -q --whatprovides jdk-current; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK is already installed."
 else
 	APP=$"OpenJDK"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes jdk-current
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if rpm -q --whatprovides jdk-current; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed."
 	else

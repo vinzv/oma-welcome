@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which clang &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" LLVM/clang is already installed."
 else
 	APP=$"LLVM and Clang"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes task-devel task-c-devel task-c++-devel clang llvm
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which clang &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" LLVM/clang successfully installed."
 	else

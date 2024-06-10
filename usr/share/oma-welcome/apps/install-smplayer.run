@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which smplayer; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" SMPlayer is already installed."
 else
 	APP=$"SMPlayer"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes smplayer
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which smplayer; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

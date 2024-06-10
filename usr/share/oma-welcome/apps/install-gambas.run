@@ -1,15 +1,15 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 
 
 if which gambas3; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE is already installed."
 else
 	APP=$"Gambas3 IDE"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	enable-repo unsupported
 	pkexec dnf install --assumeyes gambas3-ide
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which gambas3; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gambas3 IDE successfully installed."
 	else

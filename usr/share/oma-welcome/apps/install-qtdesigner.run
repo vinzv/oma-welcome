@@ -1,12 +1,12 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which designer; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer is already installed."
 else
 	APP=$"Qt Designer"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes qt5-designer
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog --close
 	if which designer; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
