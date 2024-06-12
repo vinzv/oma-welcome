@@ -876,7 +876,7 @@ msgstr ""
 msgid "This software is licensed under the GNU General Public License version 2 (GPLv2)."
 msgstr ""
 #: translation:325
-msgid "It uses Qt5 WebEngine and htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr ""
 #: translation:326
 msgid "For bugs, suggestions and improvements, please head to "

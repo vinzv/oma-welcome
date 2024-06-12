@@ -1324,7 +1324,7 @@ msgstr "Bu yazılım GNU Genel Kamu Lisansı sürüm 2 (GPLv2) ile lisanslanmı�
 
 #: usr/share/oma-welcome/translation:307
 #, fuzzy
-msgid "It uses Qt5 WebEngine and htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr "python-qt4-webkit, web.py, ve bigbashview kullanıyor."
 
 #: usr/share/oma-welcome/translation:308

@@ -826,8 +826,8 @@ msgstr ""
 "(GPLv2)"
 
 #: usr/share/oma-welcome/translation:191
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Usa Qt5 WebEngine e htmlscript"
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "Usa Qt6 WebEngine e htmlscript"
 
 #: usr/share/oma-welcome/translation:192
 msgid "For bugs, suggestions and improvements, please head to "

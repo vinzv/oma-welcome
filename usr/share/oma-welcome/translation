@@ -322,7 +322,7 @@ endapp=$"Finish"
 #translation of About.sh.htm
 about=$"About this program"
 license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
-dependency=$"It uses Qt5 WebEngine and htmlscript."
+dependency=$"It uses Qt6 WebEngine and htmlscript."
 bugs=$"For bugs, suggestions and improvements, please head to "
 
 #translation of Repositories.sh.htm

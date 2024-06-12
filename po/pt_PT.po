@@ -1368,8 +1368,8 @@ msgstr ""
 "(GPLv2)."
 
 #: translation:321
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "It uses Qt5 WebEngine and htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "It uses Qt6 WebEngine and htmlscript."
 
 #: translation:322
 msgid "For bugs, suggestions and improvements, please head to "

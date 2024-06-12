@@ -1325,7 +1325,7 @@ msgstr ""
 
 #: usr/share/oma-welcome/translation:307
 #, fuzzy
-msgid "It uses Qt5 WebEngine and htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr "Menggunakan python-qt4-webkit, web.py, dan bigbashview."
 
 #: usr/share/oma-welcome/translation:308

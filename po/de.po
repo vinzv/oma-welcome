@@ -1407,8 +1407,8 @@ msgstr ""
 "lizensiert."
 
 #: translation:325
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Es verwendet Qt5 WebEngine und htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "Es verwendet Qt6 WebEngine und htmlscript."
 
 #: translation:326
 msgid "For bugs, suggestions and improvements, please head to "
