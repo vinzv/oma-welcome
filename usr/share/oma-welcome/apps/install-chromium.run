@@ -1,13 +1,13 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which chromium-browser-stable; then
+if which chromium; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed."
 else
 	APP=$"Chromium"
 	ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes chromium-browser-stable
+	pkexec dnf install --assumeyes chromium
 	ProgressDialog --close
-	if which chromium-browser-stable; then
+	if which chromium; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
