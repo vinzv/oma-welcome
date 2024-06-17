@@ -1361,7 +1361,7 @@ msgstr ""
 
 #: translation:325
 msgid "It uses Qt6 WebEngine and htmlscript."
-msgstr "Käytämme tekniikoita Qt6 WebEngine ja htmlscript."
+msgstr "Käytämme Qt6 WebEngineä ja htmlscriptiä."
 
 #: translation:326
 msgid "For bugs, suggestions and improvements, please head to "
