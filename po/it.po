@@ -4,23 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# OpenMandrivaAssociation <i10n@openmandriva.org>, 2022
+# Michele Marongiu <michelemarongiu@gmail.com>, 2019
+# OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
 # rugyada, 2024
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-28 02:37+0200\n"
-"PO-Revision-Date: 2024-05-29 20:25+0000\n"
+"POT-Creation-Date: 2022-08-07 02:37+0200\n"
+"PO-Revision-Date: 2019-06-23 23:25+0000\n"
 "Last-Translator: rugyada, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/openmandriva/teams/1818/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: translation:9
 msgid "Hi %1!"
@@ -1375,7 +1376,7 @@ msgstr ""
 
 #: translation:325
 msgid "It uses Qt6 WebEngine and htmlscript."
-msgstr "Usa Qt6 WebEngine e htmlscript"
+msgstr "Usa Qt6 WebEngine e htmlscript."
 
 #: translation:326
 msgid "For bugs, suggestions and improvements, please head to "
