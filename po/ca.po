@@ -37,7 +37,7 @@ msgstr "Benvinguda d'OpenMandriva"
 
 #: translation:13
 msgid "Welcome"
-msgstr "Benvingut/da"
+msgstr "Benvinguda"
 
 #: translation:14
 msgid "Features"
